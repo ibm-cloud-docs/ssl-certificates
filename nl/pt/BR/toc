@@ -1,0 +1,30 @@
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="ssl-certificates" audience="compute" href=“/docs/infrastructure/ssl-certificates/index.html”}
+Certificados SSL
+
+    {: .navgroup id="learn"}
+    index.md
+    ssl-certificates.md
+    planning-ahead-ssl.md
+    intro-ssl.md
+    {: .navgroup-end}
+
+    {: .navgroup id="howto"}
+    access-ssl-orders-screen.md
+    import-ssl-certificate.md
+    install-ssl-certificate-plesk-9.md
+    access-ssl-certificates-screen.md
+    renew-ssl-certificate.md
+    download-ssl-certificate-details.md
+    view-and-update-ssl-certificate.md
+    request-ssl-certificate-fulfillment-email.md
+    manage-ssl-certificates.md
+    delete-ssl-certificate.md
+    activate-or-deactivate-pptp-vpn-access-user.md
+    {: .navgroup-end}
+
+    {: .navgroup id="help"}
+    ssl-certificates-faqs.md
+    {: .navgroup-end}
