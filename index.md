@@ -1,7 +1,7 @@
 ---
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-11-30"
+  years: 2014, 2018
+lastupdated: "2018-02-21"
 ---
 
 {:shortdesc: .shortdesc}
@@ -24,7 +24,7 @@ For more information, see [Planning for SSL certificates](planning-ahead-ssl.htm
 
 ## Ordering SSL certificates
 
-1. Access the [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window} using your unique credentials.
+1. Access the [{{site.data.keyword.slportal_full}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window} using your unique credentials.
 2. Select **Security > SSL certificates >** to access the SSL certificates screen.
 3. You must select the type and duration of certificate, submit the text of the CSR, fill out some additional details, and then confirm payment.
 
