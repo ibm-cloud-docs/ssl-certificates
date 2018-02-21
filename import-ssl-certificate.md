@@ -1,7 +1,7 @@
 ---
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-11-28"
+  years: 2014, 2018
+lastupdated: "2018-02-21"
 ---
 
 {:shortdesc: .shortdesc}
@@ -9,9 +9,7 @@ lastupdated: "2017-11-28"
 
 # Importing SSL certificates
 
-## Overview
-
-After an SSL certificate is issued for a website, it can be imported into the {{site.data.keyword.slportal_full}}. By importing SSL certificates into the {{site.data.keyword.slportal}}, the certificates can be applied to products and services that might require them, such as Load Balancer's [SSL Offloading](configure-ssl-offloading-load-balancer.html){:new_window}. By default, SSL certificates issued by {{site.data.keyword.BluSoftlayer_full}} are not imported into the list, as they are intended to be manipulated by the recipient only. Therefore, any SSL certificate to be used with a {{site.data.keyword.BluSoftlayer_notm}} product or service must be manually imported by an authorized user on the account. Follow the steps below to import an SSL certificate to the {{site.data.keyword.slportal}}.
+After an SSL certificate is issued for a website, it can be imported into the {{site.data.keyword.slportal_full}}. By importing SSL certificates into the {{site.data.keyword.slportal}}, the certificates can be applied to products and services that might require them, such as Load Balancer's [SSL Offloading](/docs/infrastructure/local-load-balancer/configure-ssl-offloading-load-balancer.html){:new_window}. By default, SSL certificates issued by {{site.data.keyword.BluSoftlayer_full}} are not imported into the list, as they are intended to be manipulated by the recipient only. Therefore, any SSL certificate to be used with a {{site.data.keyword.BluSoftlayer_notm}} product or service must be manually imported by an authorized user on the account. Follow the steps below to import an SSL certificate to the {{site.data.keyword.slportal}}.
 
 ## Importing SSL certificates
 
