@@ -24,12 +24,12 @@ For more information, see [Planning for SSL certificates](planning-ahead-ssl.htm
 
 ## Ordering SSL certificates
 
-1. Access the [{{site.data.keyword.slportal_full}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window} using your unique credentials.
+1. Access the [{{site.data.keyword.slportal_full}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window} by using your unique credentials.
 2. Select **Security > SSL certificates >** to access the SSL certificates screen.
-3. You must select the type and duration of certificate, submit the text of the CSR, fill out some additional details, and then confirm payment.
+3. You must select the type and duration of certificate, submit the text of the CSR, enter some additional details, and then confirm payment.
 
 ## Installing and testing
-Once the ordering and validating process is complete, you receive an email from the certificate authority which includes your certificate, as well as, any necessary intermediate certificates.  The method for installation of these will depend on the software you are using but the end result should be the same.  You should, when done, be able to visit <http://host.yourdomain.com> and see your content while also seeing the SSL padlock that browsers use to denote an encrypted session.  If you get a warning, then there are steps that you must take.
+After the ordering and validating process is complete, you receive an email from the certificate authority that includes your certificate, as well as any necessary intermediate certificates. The method for installation depends on the software you are using but the result should be the same. You should, when done, be able to go to <http://host.yourdomain.com> and see your content while also seeing the SSL padlock that browsers use to denote an encrypted session. If you get a warning, then there are steps that you must take.
 
 ## Next Steps
 
