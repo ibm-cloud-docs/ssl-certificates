@@ -1,7 +1,7 @@
 ---
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-11-17"
+  years: 2014, 2018
+lastupdated: "2018-02-21"
 ---
 
 {:shortdesc: .shortdesc}
@@ -47,7 +47,7 @@ There is a limit of one certificate per socket. A socket is an IP address and po
 
 Virtual hosting is the method by which you can host 20, 30, 100 websites on one IP address. This works because modern browsers pass a field called the host reader as part of their request. This field looks like “Host: web1.mydomain.com” and tells the web server which site you are trying to access. In the case of HTTPS (HTTP over SSL), the web server has to select the SSL certificate to send to the client prior to seeing the host header, which is why a given socket can only have one certificate.
 
-You can assign each SSL-enabled website to its own socket. You can do this by varying the IP address or varying the port. Keep in mind if you change the port from 443/tcp, users will be required to include the port number in their URL like https://web1.mydomain.com:444.
+You can assign each SSL-enabled website to its own socket. You can do this by varying the IP address or varying the port. Keep in mind if you change the port from 443/tcp, users are required to include the port number in their URL like https://web1.mydomain.com:444.
 
 ## Generate the CSR
 
