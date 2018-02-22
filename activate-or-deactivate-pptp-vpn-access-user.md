@@ -1,7 +1,7 @@
 ---
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-11-16"
+  years: 2014, 2018
+lastupdated: "2018-02-22"
 ---
 
 {:shortdesc: .shortdesc}
@@ -9,11 +9,7 @@ lastupdated: "2017-11-16"
 
 # Activating or deactivating PPTP VPN access
 
-## Overview
-
-PPTP VPN allows users to form a secure tunnel to the {{site.data.keyword.BluSoftlayer_full}} private network using specialized client software running on their desktop or dedicated device.  PPTP access is designed for customers who need to connect an entire office or cannot use the SSL VPN solution. Each customer is allotted one PPTP connection with additional connections available but requesting support to enable unlimited PPTP access, which is available at no additional charge. To activate or deactivate PPTP VPN access for a user, complete the following steps.
-
-## Activating or Deactivating PPTP VPN access
+PPTP VPN allows users to form a secure tunnel to the {{site.data.keyword.BluSoftlayer_full}} private network by using specialized client software that runs on their desktop or dedicated device. PPTP access is designed for customers who need to connect an entire office or cannot use the SSL VPN solution. Each customer is allotted one PPTP connection with additional connections available but requesting support to enable unlimited PPTP access, which is available at no additional charge. To activate or deactivate PPTP VPN access for a user, complete the following steps.
 
 1. Access the [{{site.data.keyword.slportal_full}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window} by using your unique credentials as an administrator.
 2. Locate the user whose access you'd like to modify and view the **VPN access** column to view their current access level.
@@ -27,4 +23,4 @@ PPTP VPN allows users to form a secure tunnel to the {{site.data.keyword.BluSoft
 {: caption="Table 1. Edit VPN access options" caption-side="top"}   
 5. Click **Save** to save your changes.
 
-   **Note:** PPTP access must be activated in order for a user to connect using PPTP.
+   **Note:** PPTP access must be activated in order for a user to connect by using PPTP.
