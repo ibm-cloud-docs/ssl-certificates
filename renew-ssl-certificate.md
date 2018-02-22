@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2014, 2018
-lastupdated: "2018-02-21"
+lastupdated: "2018-02-22"
 ---
 
 {:shortdesc: .shortdesc}
@@ -9,7 +9,7 @@ lastupdated: "2018-02-21"
 
 # Renewing SSL certificates
 
-After an SSL certificate has been ordered through {{site.data.keyword.BluSoftlayer_full}}, it can be renewed at any time. During the renewal process, {{site.data.keyword.BluSoftlayer_notm}} acts as the facilitator between the customer (you) and the certificate Authority, and does not see or control any part of the renewal process that involves the details of the SSL certificate. SSL certificates are renewed under the same terms in which they were ordered, so no changes to the Renewal Details (certificate Type and Authority, Validity Month, Server Platform, etc.) can be made. Certificates can be renewed before or after they have expired; however, to maintain the validity of the SSL certificate, renew the certificate before its expiration date. Follow the steps below to renew an SSL certificate.
+After an SSL certificate is ordered through {{site.data.keyword.BluSoftlayer_full}}, it can be renewed at any time. During the renewal process, {{site.data.keyword.BluSoftlayer_notm}} acts as the facilitator between the customer (you) and the certificate Authority, and does not see or control any part of the renewal process that involves the details of the SSL certificate. SSL certificates are renewed under the same terms in which they were ordered, so no changes to the Renewal Details (certificate Type and Authority, Validity Month, Server Platform, and so on) can be made. Certificates can be renewed before or after they expire; however, to maintain the validity of the SSL certificate, renew the certificate before its expiration date. Complete the following steps to renew an SSL certificate.
 
 ## Renewing an SSL certificate
 
@@ -23,4 +23,4 @@ After an SSL certificate has been ordered through {{site.data.keyword.BluSoftlay
 
 ## Next Steps
 
-After requesting an SSL certificate's renewal, {{site.data.keyword.BluSoftlayer_notm}} forwards the request to the certificate Authority in order to complete the website verification required for renewal. Upon renewal of the certificate, the new expiration date will appear in the Expires field.
+After requesting an SSL certificate's renewal, {{site.data.keyword.BluSoftlayer_notm}} forwards the request to the certificate authority in order to complete the website verification required for renewal. Upon renewal of the certificate, the new expiration date appears in the Expires field.
