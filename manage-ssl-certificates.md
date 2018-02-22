@@ -1,7 +1,7 @@
 ---
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-11-28"
+  years: 2014, 2018
+lastupdated: "2018-02-22"
 ---
 
 {:shortdesc: .shortdesc}
@@ -16,11 +16,11 @@ lastupdated: "2017-11-28"
 
 You are presented with a list of your current certificates, along with information regarding their status.
 
-You may search, download parts of a certificate or a PEM formatted version, or review the expiration of your certificates. You can also view how many services are currently utilizing each certificate. This lets you know if action must be taken when a certificate is nearing expiration.
+You can search, download parts of a certificate or a PEM formatted version, or review the expiration of your certificates. You can also view how many services are currently using each certificate. This lets you know whether action must be taken when a certificate is nearing expiration.
 
 ## Adding a certificate
 
-When you are ready to add a certificate, select "Add Certificate" in the sub-navigation menu or within the Certificate List title. You are only required to supply the certificate and its private key. However, not providing an intermediate certificate when your issuer provides one can result in a broken certificate chain and improper validation for end users or associated services.
+When you are ready to add a certificate, select "Add Certificate" in the subnavigation menu or within the Certificate List title. You are only required to supply the certificate and its private key. However, not providing an intermediate certificate when your issuer provides one can result in a broken certificate chain and improper validation for users or associated services.
 
 Note: Private keys that require a passphrase cannot be stored.
 
@@ -30,22 +30,17 @@ Once added, the following fields are derived from your certificates directly:
 * Organization Name
 * Validity Period
 
-
-That's it!
-
 ## Editing a certificate
 
-Activating the triangle to the left of a certificate will reveal the certificate parts in their entirety. This also allows the certificate parts to be edited. A note may be added, and when necessary the certificate may be removed. Also listed is a list of services that are currently utilizing the certificate.
+Activating the triangle to the left of a certificate reveals the certificate parts in their entirety. This also allows the certificate parts to be edited. A note can be added, and when necessary the certificate can be removed. Also listed is a list of services that are currently using the certificate.
 
+**Note**: Only certificates that are not associated with services can have their "private key," "certificate," or "intermediate certificate" parts updated.  The certificate also cannot be removed.
 
-
-Important Note: Only certificates that are not associated with services may have their "private key," "certificate," or "intermediate certificate" parts updated.  The certificate can also not be removed.
-
-You may modify the note at any time.
+You can modify the note at any time.
 
 ## Removing a certificate
 
-In order to remove a certificate, simply follow the steps to edit it and select the "Confirm certificate removal" checkbox and save.
+To remove a certificate, follow the steps to edit it and select "Confirm certificate removal" and save.
 
 ### API
 
