@@ -44,4 +44,4 @@ To remove a certificate, follow the steps to edit it and select "Confirm certifi
 
 ### API
 
-The ability to add, remove, edit, and search your certificates is also available through the SLAPI sldn.softlayer.com. Some examples have been provided in the following SLDN article, sldn.softlayer.com/article/SSL-Management-my-SLAPI-Its-more-likely-you-think.
+For an example of editing certificates using the API, see [SSL Management ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://sldn.softlayer.com/article/ssl-management){: new_window}. 
