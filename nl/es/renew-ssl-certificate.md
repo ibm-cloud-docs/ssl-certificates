@@ -1,7 +1,7 @@
 ---
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-11-28"
+  years: 2014, 2018
+lastupdated: "2018-02-22"
 ---
 
 {:shortdesc: .shortdesc}
@@ -9,13 +9,11 @@ lastupdated: "2017-11-28"
 
 # Renovación de certificados SSL
 
-## Visión general
-
-Una vez que se ha solicitado un certificado SSL mediante {{site.data.keyword.BluSoftlayer_full}}, puede renovarse en cualquier momento. Durante el proceso de renovación, {{site.data.keyword.BluSoftlayer_notm}} actúa como facilitador entre el cliente (usted) y la autoridad de certificado y no ve ni controla ninguna parte del proceso de renovación que implica los detalles del certificado SSL. Los certificados SSL se renuevan bajo los mismos términos en los que se solicitaron, por lo que no deben hacerse cambios en los Detalles de renovación (tipo y autoridad de certificado, mes de validez, plataforma de servicio, etc.). Los certificados deben renovarse antes o después de que hayan caducado; sin embargo, para mantener la validez del certificado SSL, renueve el certificado antes de su fecha de caducidad. Lleve a cabo los pasos siguientes para renovar un certificado SSL.
+Una vez que se ha solicitado un certificado SSL mediante {{site.data.keyword.BluSoftlayer_full}}, puede renovarse en cualquier momento. Durante el proceso de renovación, {{site.data.keyword.BluSoftlayer_notm}} actúa como facilitador entre el cliente (usted) y la autoridad de certificado y no ve ni controla ninguna parte del proceso de renovación que implica los detalles del certificado SSL. Los certificados SSL se renuevan bajo los mismos términos en los que se solicitaron, por lo que no deben hacerse cambios en los Detalles de renovación (tipo y autoridad de certificado, mes de validez, plataforma de servicio, etc.) Los certificados pueden renovarse antes o después de que hayan caducado; sin embargo, para mantener la validez del certificado SSL, renuévelo antes de su fecha de caducidad. Lleve a cabo los pasos siguientes para renovar un certificado SSL.
 
 ## Renovación de un certificado SSL
 
-1. Acceda a [{{site.data.keyword.slportal_full}} ![icono de enlace externo](../../icons/launch-glyph.svg "icono de enlace externo")](https://control.softlayer.com/){: new_window} mediante sus credenciales únicas.
+1. Acceda al [{{site.data.keyword.slportal_full}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/){: new_window} utilizando sus credenciales exclusivas.
 2. En el menú **Seguridad**, seleccione **SSL > Pedidos**.
 3. Pulse el enlace **Renovar** en la columna **Renovar** del certificado SSL deseado.
 
@@ -25,4 +23,4 @@ Una vez que se ha solicitado un certificado SSL mediante {{site.data.keyword.Blu
 
 ## Pasos siguientes
 
-Tras solicitar la renovación de un certificado SSL, {{site.data.keyword.BluSoftlayer_notm}} reenvía la solicitud a la autoridad de certificado para finalizar la verificación del sitio web requerida para la renovación. Una vez que se renueva el certificado, la nueva fecha de caducidad aparecerá en el campo Caduca.
+Tras solicitar la renovación de un certificado SSL, {{site.data.keyword.BluSoftlayer_notm}} reenvía la solicitud a la autoridad de certificado para finalizar la verificación del sitio web requerida para la renovación. Una vez que se renueva el certificado, en el campo Caduca aparece la nueva fecha de caducidad.

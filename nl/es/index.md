@@ -1,7 +1,7 @@
 ---
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-11-30"
+  years: 2014, 2018
+lastupdated: "2018-02-21"
 ---
 
 {:shortdesc: .shortdesc}
@@ -24,12 +24,12 @@ Para obtener más información, consulte [Planificación para certificados SSL](
 
 ## Solicitud de certificados SSL
 
-1. Acceda a [{{site.data.keyword.slportal}} ![icono de enlace externo](../../icons/launch-glyph.svg "icono de enlace externo")](https://control.softlayer.com/){: new_window} mediante sus credenciales únicas.
+1. Acceda al [{{site.data.keyword.slportal_full}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/){: new_window} utilizando sus credenciales exclusivas.
 2. Seleccione **Seguridad > certificados SSL >** para acceder a la pantalla de certificados SSL.
-3. Debe seleccionar el tipo de certificado y su duración, enviar el texto del CSR, rellenar algunos detalles adicionales y confirmar el pago.
+3. Debe seleccionar el tipo de certificado y su duración, enviar el texto del CSR, especificar algunos detalles adicionales y confirmar el pago.
 
 ## Instalación y pruebas
-Una vez que se complete el proceso de solicitud y validación, recibirá un correo electrónico de la autoridad de certificado que incluye su certificado, así como cualquier certificado intermedio necesario. Su método de instalación dependerá del software que utilice, pero el resultado final debería ser el mismo. Cuando finalice, debería poder visitar <http://host.yourdomain.com> y ver tanto su contenido como el candado SSL que los navegadores utilizan para indicar que la sesión está cifrada. Si recibe una advertencia, debe llevar a cabo algunos pasos.
+Una vez completado el proceso de solicitud y validación, recibirá un correo electrónico de la autoridad de certificado que incluye su certificado, así como cualquier certificado intermedio necesario. El método de instalación depende del software que utilice, pero el resultado final debería ser el mismo. Cuando finalice, debería poder navegar a <http://host.yourdomain.com> y ver tanto su contenido como el candado SSL que los navegadores utilizan para indicar que la sesión está cifrada. Si recibe una advertencia, debe llevar a cabo algunos pasos.
 
 ## Pasos siguientes
 

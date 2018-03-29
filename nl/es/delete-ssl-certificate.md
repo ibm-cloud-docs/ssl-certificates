@@ -1,7 +1,7 @@
 ---
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-11-17"
+  years: 2014, 2018
+lastupdated: "2018-02-22"
 ---
 
 {:shortdesc: .shortdesc}
@@ -9,15 +9,11 @@ lastupdated: "2017-11-17"
 
 # Supresión de certificados SSL
 
-## Visión general
-
 Una vez que se importan los detalles del certificado SSL en el {{site.data.keyword.slportal_full}}, este puede suprimirse en cualquier momento para evitar que los datos se guarden en {{site.data.keyword.slportal}}.
 
 Para suprimir un certificado SSL, lleve a cabo los pasos siguientes.
 
-## Supresión de un certificado SSL
-
-1. Acceda a [{{site.data.keyword.slportal}} ![icono de enlace externo](../../icons/launch-glyph.svg "icono de enlace externo")](https://control.softlayer.com/){: new_window} mediante sus credenciales únicas.
+1. Acceda al [{{site.data.keyword.slportal}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/){: new_window} utilizando sus credenciales exclusivas.
 2. En el menú **Seguridad**, seleccione **SSL > Certificados**.
 3. En el menú **Acciones**, seleccione **Suprimir** para el certificado SSL deseado.
 
@@ -26,7 +22,7 @@ Para suprimir un certificado SSL, lleve a cabo los pasos siguientes.
 
 ## Pasos siguientes
 
-Tras suprimir un certificado SSL, todos los servicios relacionados con el certificado ya no utilizarán su información. El certificado ya no aparece en la pantalla de certificados SSL en {{site.data.keyword.slportal}}.
+Tras suprimir un certificado SSL, todos los servicios relacionados con el certificado ya no utilizan su información. El certificado ya no aparece en la pantalla de certificados SSL en {{site.data.keyword.slportal}}.
 
 Se recomienda que actualice todos los servicios que previamente utilizaban el certificado asociándolos con un certificado SSL válido asociado con la cuenta.
 

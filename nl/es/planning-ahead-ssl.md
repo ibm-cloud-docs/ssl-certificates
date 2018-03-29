@@ -1,7 +1,7 @@
 ---
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-11-17"
+  years: 2014, 2018
+lastupdated: "2018-02-21"
 ---
 
 {:shortdesc: .shortdesc}
@@ -47,7 +47,7 @@ Hay un límite de un certificado por socket. Un socket es una dirección IP y un
 
 El alojamiento virtual es el método mediante el cual puede alojar 20, 30, 100 sitios web en una dirección IP. Funciona porque los navegadores modernos pasan un campo llamado lector de host como parte de su solicitud. Este campo tiene el aspecto “Host: web1.mydomain.com” e informa al servidor web sobre el sitio al cual intenta acceder. En el caso de HTTPS (HTTP sobre SSL), el servidor web debe seleccionar el certificado SSL para enviar al cliente antes de ver la cabecera de host, motivo por el cual un socket solo puede tener un certificado.
 
-Puede asignar cada sitio web habilitado para SSL a su propio socket. Puede hacerlo cambiando la dirección IP o el puerto. Recuerde que, si cambia el puerto de 443/tcp, se requerirá a los usuarios que incluyan el número de puerto en su URL como https://web1.mydomain.com:444.
+Puede asignar cada sitio web habilitado para SSL a su propio socket. Puede hacerlo cambiando la dirección IP o el puerto. Recuerde que, si cambia el puerto de 443/tcp, los usuarios tienen que incluir el número de puerto en su URL como https://web1.mydomain.com:444.
 
 ## Genere el CSR
 
