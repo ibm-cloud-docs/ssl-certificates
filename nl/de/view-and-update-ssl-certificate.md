@@ -1,7 +1,7 @@
 ---
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-11-17"
+  years: 2014, 2018
+lastupdated: "2018-02-22"
 ---
 
 {:shortdesc: .shortdesc}
@@ -9,7 +9,7 @@ lastupdated: "2017-11-17"
 
 # SSL-Zertifikate anzeigen und aktualisieren
 
-Nachdem ein SSL-Zertifikat in die Anzeige mit den SSL-Zertifikaten importiert wurde, können Sie diese jederzeit anzeigen und aktualisieren. Aktualisierungen ähneln dem [Importprozess](import-ssl-certificate.html), da alle Details, die aktualisiert werden, genau dem ursprünglichen Zertifikat entsprechen müssen, einschließlich Leerzeichen und Zeilenumbrüche.
+Nach dem Importieren eines SSL-Zertifikats in die Anzeige mit SSL-Zertifikaten können Sie diese jederzeit anzeigen und aktualisieren. Aktualisierungen ähneln dem [Importprozess](import-ssl-certificate.html), da alle Details, die aktualisiert werden, genau dem ursprünglichen Zertifikat entsprechen müssen, einschließlich Leerzeichen und Zeilenumbrüche.
 
 Führen Sie die folgenden Schritte aus, um ein SSL-Zertifikat anzuzeigen und zu aktualisieren.
 

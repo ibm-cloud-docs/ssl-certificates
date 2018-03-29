@@ -1,7 +1,7 @@
 ---
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-11-17"
+  years: 2014, 2018
+lastupdated: "2018-02-22"
 ---
 
 {:shortdesc: .shortdesc}
@@ -9,13 +9,9 @@ lastupdated: "2017-11-17"
 
 # SSL-Zertifikate löschen
 
-## Übersicht
-
 Nachdem die Details eines SSL-Zertifikats in das {{site.data.keyword.slportal_full}} importiert wurden, kann es jederzeit gelöscht werden, um alle gespeicherten Daten aus dem {{site.data.keyword.slportal}} zu entfernen.
 
 Führen Sie die nachfolgenden Schritte aus, um ein SSL-Zertifikat zu löschen.
-
-## SSL-Zertifikat löschen
 
 1. Greifen Sie mit Ihren eindeutigen Berechtigungsnachweisen auf das [{{site.data.keyword.slportal}} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://control.softlayer.com/){: new_window} zu.
 2. Wählen Sie im Menü **Sicherheit** die Option **SSL > Zertifikate** aus.

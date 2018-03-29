@@ -1,7 +1,7 @@
 ---
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-11-28"
+  years: 2014, 2018
+lastupdated: "2018-02-22"
 ---
 
 {:shortdesc: .shortdesc}
@@ -16,11 +16,11 @@ lastupdated: "2017-11-28"
 
 Es werden eine Liste der aktuellen Zertifikate sowie entsprechende Statusinformationen angezeigt.
 
-Sie können ein Zertifikat durchsuchen, Teile oder eine PEM-formatierte Version des Zertifikats herunterladen oder das Ablaufdatum für die Zertifikate überprüfen. Außerdem können Sie sehen, wie viele Services die einzelnen Zertifikate momentan verwenden. Dies zeigt Ihnen, welche Maßnahme ergriffen werden muss, wenn ein Zertifikat fast abgelaufen ist.
+Sie können ein Zertifikat durchsuchen, Teile oder eine PEM-formatierte Version des Zertifikats herunterladen oder das Ablaufdatum für die Zertifikate überprüfen. Außerdem können Sie sehen, wie viele Services die einzelnen Zertifikate momentan verwenden. Dies zeigt Ihnen, ob Maßnahmen ergriffen werden müssen, wenn ein Zertifikat fast abgelaufen ist.
 
 ## Zertifikat hinzufügen
 
-Wenn Sie ein Zertifikat hinzufügen möchten, wählen Sie im Untermenü des Navigationsbereich oder im Zertifikatslistentitel die Option zum Hinzufügen eines Zertifikats aus. Sie müssen nur das Zertifikat und den entsprechenden privaten Schlüssel angeben. Wenn Ihr Aussteller ein Zwischenzertifikat bereitstellt und Sie dieses nicht angeben, kann dies jedoch zu einer unterbrochenen Zertifikatskette und fehlerhaften Validierung für Endbenutzer oder zugehörige Services führen.
+Wenn Sie ein Zertifikat hinzufügen möchten, wählen Sie im Untermenü des Navigationsbereich oder im Zertifikatslistentitel die Option zum Hinzufügen eines Zertifikats aus. Sie müssen nur das Zertifikat und den entsprechenden privaten Schlüssel angeben. Wenn Ihr Aussteller ein Zwischenzertifikat bereitstellt und Sie dieses nicht angeben, kann dies jedoch zu einer unterbrochenen Zertifikatskette und fehlerhaften Validierung für Benutzer oder zugehörige Services führen.
 
 Hinweis: Private Schlüssel, für die eine Kennphrase erforderlich ist, können nicht gespeichert werden.
 
@@ -30,23 +30,18 @@ Sobald sie hinzugefügt wurden, werden die folgenden Felder direkt aus den Zerti
 * Name der Organisation
 * Gültigkeitszeitraum
 
-
-Geschafft!
-
 ## Zertifikat bearbeiten
 
 Durch das Aktivieren des Dreiecks links neben einem Zertifikat werden die Bestandteile des Zertifikats in ihrer Gesamtheit sichtbar gemacht. Außerdem können dann die Bestandteile bearbeitet werden. Es kann außerdem eine Anmerkung hinzugefügt werden und bei Bedarf kann das Zertifikat entfernt werden. Zudem wird eine Liste der Services angezeigt, die das Zertifikat momentan verwenden.
 
-
-
-Wichtiger Hinweis: Der private Schlüssel, das Zertifikat oder das Zwischenzertifikat als Bestandteile von Zertifikaten können nur für Zertifikate aktualisiert werden, die keinem Service zugeordnet sind. Das Zertifikat kann auch nicht entfernt werden.
+**Hinweis**: Der private Schlüssel, das Zertifikat oder das Zwischenzertifikat als Bestandteile von Zertifikaten können nur für Zertifikate aktualisiert werden, die keinem Service zugeordnet sind. Darüber hinaus kann das Zertifikat nicht entfernt werden.
 
 Sie können die Anmerkung jederzeit ändern.
 
 ## Zertifikat entfernen
 
-Um ein Zertifikat zu entfernen, befolgen Sie die Schritte zum Bearbeiten des Zertifikats, aktivieren Sie das Kontrollkästchen zum Bestätigen der Zertifikatsentfernung und speichern Sie die Änderung.
+Um ein Zertifikat zu entfernen, befolgen Sie die Schritte zum Bearbeiten des Zertifikats, wählen Sie "Bestätigen der Zertifikatsentfernung" aus und speichern Sie die Änderung.
 
 ### API
 
-Sie können Zertifikate auch über die SLAPI 'sldn.softlayer.com' hinzufügen, entfernen, bearbeiten und durchsuchen. Einige Beispiele dazu finden Sie im folgenden SLDN-Artikel: sldn.softlayer.com/article/SSL-Management-my-SLAPI-Its-more-likely-you-think.
+Ein Beispiel für die Bearbeitung von Zertifikaten mithilfe der API finden Sie in [SSL-Verwaltung ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](http://sldn.softlayer.com/article/ssl-management){: new_window}. 

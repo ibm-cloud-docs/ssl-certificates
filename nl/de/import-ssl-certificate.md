@@ -1,7 +1,7 @@
 ---
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-11-28"
+  years: 2014, 2018
+lastupdated: "2018-02-22"
 ---
 
 {:shortdesc: .shortdesc}
@@ -9,9 +9,7 @@ lastupdated: "2017-11-28"
 
 # SSL-Zertifikate importieren
 
-## Übersicht
-
-Nachdem ein SSL-Zertifikat für eine Website ausgestellt wurde, kann es in das {{site.data.keyword.slportal_full}} importiert werden. Durch den Import von SSL-Zertifikaten in das {{site.data.keyword.slportal}} können diese Zertifikate auf Produkte und Services angewendet werden, für die solche Zertifikate erforderlich sind, beispielsweise die [SSL-Auslagerung](configure-ssl-offloading-load-balancer.html){:new_window} der Lastausgleichsfunktion. Standardmäßig werden von {{site.data.keyword.BluSoftlayer_full}} ausgestellte SSL-Zertifikate nicht in die Liste importiert, da sie nur vom Empfänger selbst bearbeitet werden sollen. Daher müssen SSL-Zertifikate, die mit einem {{site.data.keyword.BluSoftlayer_notm}}-Produkt oder -Service verwendet werden sollen, manuell durch einen berechtigten Benutzer für das Konto importiert werden. Führen Sie die nachfolgenden Schritte aus, um ein SSL-Zertifikat in das {{site.data.keyword.slportal}} zu importieren.
+Nachdem ein SSL-Zertifikat für eine Website ausgestellt wurde, kann es in das {{site.data.keyword.slportal_full}} importiert werden. Durch den Import von SSL-Zertifikaten in das {{site.data.keyword.slportal}} können diese Zertifikate auf Produkte und Services angewendet werden, für die solche Zertifikate erforderlich sind, beispielsweise die [SSL-Auslagerung](/docs/infrastructure/local-load-balancer/configure-ssl-offloading-load-balancer.html){:new_window} der Lastausgleichsfunktion. Standardmäßig werden von {{site.data.keyword.BluSoftlayer_full}} ausgestellte SSL-Zertifikate nicht in die Liste importiert, da sie nur vom Empfänger selbst bearbeitet werden sollen. Daher müssen SSL-Zertifikate, die mit einem {{site.data.keyword.BluSoftlayer_notm}}-Produkt oder -Service verwendet werden sollen, manuell durch einen berechtigten Benutzer für das Konto importiert werden. Führen Sie die nachfolgenden Schritte aus, um ein SSL-Zertifikat in das {{site.data.keyword.slportal}} zu importieren.
 
 ## SSL-Zertifikate importieren
 

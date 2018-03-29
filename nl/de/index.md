@@ -1,7 +1,7 @@
 ---
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-11-30"
+  years: 2014, 2018
+lastupdated: "2018-02-21"
 ---
 
 {:shortdesc: .shortdesc}
@@ -24,12 +24,12 @@ Weitere Informationen finden Sie in [Planung für SSL-Zertifikate](planning-ahea
 
 ## SSL-Zertifikate bestellen
 
-1. Greifen Sie mit Ihren eindeutigen Berechtigungsnachweisen auf das [{{site.data.keyword.slportal}} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://control.softlayer.com/){: new_window} zu.
+1. Greifen Sie mit Ihren eindeutigen Berechtigungsnachweisen auf das [{{site.data.keyword.slportal_full}} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://control.softlayer.com/){: new_window} zu.
 2. Wählen Sie **Sicherheit > SSL-Zertifikate >** aus, um auf die Anzeige mit den SSL-Zertifikaten zuzugreifen.
-3. Sie müssen den Typ und die Gültigkeitsdauer des Zertifikats auswählen, den Text der Zertifikatssignieranforderung abschicken, einige zusätzliche Details angeben und dann die Zahlung bestätigen.
+3. Sie müssen den Typ und die Gültigkeitsdauer des Zertifikats auswählen, den Text der Zertifikatssignieranforderung abschicken, einige zusätzliche Details eingeben und dann die Zahlung bestätigen.
 
 ## Installation und Test
-Sobald der Bestell- und Validierungsprozess abgeschlossen ist, erhalten Sie von der Zertifizierungsstelle eine E-Mail mit Ihrem Zertifikat und bei Bedarf allen erforderlichen Zwischenzertifikaten. Die Installationsmethode für diese Zwischenzertifikate hängt zwar von der von Ihnen verwendeten Software ab, das Endergebnis sollte aber in allen Fällen gleich sein. Wenn Sie den Vorgang abgeschlossen haben, sollten Sie <http://host.yourdomain.com> besuchen und Ihre Inhalte sowie das SSL-Schloss sehen können, mit dem in Browsern eine verschlüsselte Sitzung angezeigt wird. Wird eine Warnung angezeigt, gibt es bestimmte Schritte, die Sie ausführen müssen.
+Nachdem der Bestell- und Validierungsprozess abgeschlossen ist, erhalten Sie von der Zertifizierungsstelle eine E-Mail mit Ihrem Zertifikat und bei Bedarf allen erforderlichen Zwischenzertifikaten. Die Installationsmethode ist zwar von der von Ihnen verwendeten Software abhängig, das Ergebnis sollte aber in allen Fällen gleich sein. Wenn Sie den Vorgang abgeschlossen haben, sollten Sie <http://host.yourdomain.com> aufrufen und Ihre Inhalte sowie das SSL-Schloss sehen können, mit dem in Browsern eine verschlüsselte Sitzung angezeigt wird. Wird eine Warnung angezeigt, gibt es bestimmte Schritte, die Sie ausführen müssen.
 
 ## Nächste Schritte
 

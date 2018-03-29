@@ -1,15 +1,13 @@
 ---
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-11-28"
+  years: 2014, 2018
+lastupdated: "2018-02-22"
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # Auf SSL-Bestellungen zugreifen
-
-## Übersicht
 
 Die Anzeige mit den SSL-Bestellungen enthält eine Liste aller SSL-Zertifikate, die über {{site.data.keyword.BluSoftlayer_full}} bestellt wurden, als eine Art Verlaufsprotokoll für das Konto. Zu den in dieser Anzeige aufgeführten Details zählen der allgemeine Name des SSL-Zertifikats, der Zertifikatstyp und das Ablaufdatum. Über diese Anzeige können Sie das Zertifikat verlängern oder die E-Mail zur Auftragserfüllung erneut anfordern. Im {{site.data.keyword.slportal_full}} gespeicherte Zertifikate, die nicht über {{site.data.keyword.BluSoftlayer_notm}} bestellt wurden, sind in dieser Anzeige nicht verfügbar. Führen Sie die folgenden Schritte aus, um auf die Anzeige mit den SSL-Bestellungen zuzugreifen.
 
