@@ -1,7 +1,7 @@
 ---
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-11-28"
+  years: 2014, 2018
+lastupdated: "2018-02-22"
 ---
 
 {:shortdesc: .shortdesc}
@@ -9,49 +9,35 @@ lastupdated: "2017-11-28"
 
 # Importer des certificats SSL
 
-## Aperçu
-
 Une fois qu'un certificat SSL est émis pour un site web, il peut être importé dans
-le portail {{site.data.keyword.slportal_full}}.
-En important des certificats SSL dans le portail {{site.data.keyword.slportal}}, vous pouvez
+le portail {{site.data.keyword.slportal_full}}. En important des certificats SSL dans le portail {{site.data.keyword.slportal}}, vous pouvez
 les appliquer aux produits et services qui peuvent en avoir besoin, tels que la fonction
-de [déchargement SSL](configure-ssl-offloading-load-balancer.html){:new_window} des équilibreurs de charge.
-Par défaut, les certificats SSL émis par {{site.data.keyword.BluSoftlayer_full}} ne sont pas importés
-dans la liste, car seul leur destinataire est censé les manipuler.
-Par conséquent, tout certificat SSL destiné à être utilisé avec un produit
-ou service {{site.data.keyword.BluSoftlayer_notm}} doit être importé manuellement
-par un utilisateur autorisé du compte.
-Suivez les étapes ci-dessous pour importer un certificat SSL dans le portail {{site.data.keyword.slportal}}.
+de [déchargement SSL](/docs/infrastructure/local-load-balancer/configure-ssl-offloading-load-balancer.html){:new_window} des équilibreurs de charge. Par défaut, les certificats SSL émis par {{site.data.keyword.BluSoftlayer_full}} ne sont pas importés dans la liste, car seul leur destinataire est censé les manipuler.
+Par conséquent, tout certificat SSL destiné à être utilisé avec un produit ou service {{site.data.keyword.BluSoftlayer_notm}} doit être importé manuellement par un utilisateur autorisé du compte.
+Pour importer un certificat SSL dans le portail {{site.data.keyword.slportal}}, procédez comme indiqué ci-après. 
 
 ## Importer des certificats SSL
 
 1. Accédez au portail [{{site.data.keyword.slportal_full}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://control.softlayer.com/){: new_window} en utilisant vos données d'identification uniques.
 2. Dans le menu **Sécurité**, sélectionnez **SSL > Certificats**.
 3. Cliquez sur le lien **Importer le certificat SSL** en haut de l'écran.
-
 4. Entrez les **détails du certificat SSL** dans les zones prévues à cet effet et cliquez sur **Importer**.
 
-
-   **Remarque :** les détails que vous entrez dans la fenêtre **Importer le certificat SSL** doivent reproduire fidèlement
-(espaces et sauts de ligne compris) les données qui vous ont été communiquées par l'autorité de certification.
+   **Remarque :** les détails que vous entrez dans la fenêtre **Importer le certificat SSL** doivent reproduire fidèlement (espaces et sauts de ligne compris) les données qui vous ont été communiquées par l'autorité de certification.
 Dans le cas contraire, une erreur se produira.
-
 
 | Zone de texte | Entrée |
 | -------- | ----- |
 |Certificat |Détails du certificat SSL fournis par l'autorité de certification. Il s'agit généralement d'un bloc de texte alphanumérique.|
 |Clé privée | Détails de la clé privée du certificat SSL fournis par l'autorité de certification. Il s'agit généralement d'un bloc de texte alphanumérique.|
 |Certificat intermédiaire | Détails du certificat intermédiaire fournis par l'autorité de certification. Les certificats intermédiaires ne sont pas requis. Cependant, si les informations sont disponibles pour le certificat SSL, elles doivent être entrées.|
-|Demande de signature de certificat | Détails de la demande de signature de certificat (CSR) fournis par l'autorité de certification. Ces détails ne sont pas requis, mais ils doivent être fournis s'ils font partie du certificat. **Remarque :** La demande de signature de certificat ne doit être changée en aucune manière. Une clé publique peut être incluse avec la demande. Elle ne doit pas être remplacée par la clé privée.|
+| Demande de signature de certificat | Détails de la demande de signature de certificat (CSR) fournis par l'autorité de certification. Ces détails ne sont pas requis, mais ils doivent être fournis s'ils font partie du certificat. **Remarque :** La demande de signature de certificat ne doit être changée en aucune manière. Une clé publique peut être incluse avec la demande. Elle ne doit pas être remplacée par la clé privée.|
 |Remarques | Toutes notes concernant le certificat SSL qui peuvent être utiles aux autres utilisateurs.
 
 
 ## Etapes suivantes
 
-Une fois importé sur le portail {{site.data.keyword.slportal}}, le certificat SSL est stocké et
-demeure visible dans l'écran Certificats SSL jusqu'à ce qu'il soit [supprimé manuellement](delete-ssl-certificate.html).
-Il sera proposé dans la liste des certificats SSL disponibles et utilisables, pour tous les produits
-ou services nécessitant un tel certificat.
-Vous pouvez le [mettre à jour](view-and-update-ssl-certificate.html) et, à tout moment, les détails le concernant
-peuvent être [téléchargés en toute sécurité](download-ssl-certificate-details.html).
+Une fois importé sur le portail {{site.data.keyword.slportal}}, le certificat SSL est stocké et demeure visible dans l'écran Certificats SSL jusqu'à ce qu'il soit [supprimé manuellement](delete-ssl-certificate.html).
+Il sera proposé dans la liste des certificats SSL disponibles et utilisables, pour tous les produits ou services nécessitant un tel certificat.
+Vous pouvez le [mettre à jour](view-and-update-ssl-certificate.html) et les détails le concernant peuvent être, à tout moment, [téléchargés en toute sécurité](download-ssl-certificate-details.html).
 
