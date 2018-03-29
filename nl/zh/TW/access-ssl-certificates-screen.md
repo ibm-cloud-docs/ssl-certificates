@@ -1,7 +1,7 @@
 ---
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-11-16"
+  years: 2014, 2018
+lastupdated: "2018-02-21"
 ---
 
 {:shortdesc: .shortdesc}
@@ -9,9 +9,7 @@ lastupdated: "2017-11-16"
 
 # 存取 SSL 憑證
 
-## 概觀
-
-在 {{site.data.keyword.slportal_full}} 內，您可以管理並追蹤已從 {{site.data.keyword.BluSoftlayer_full}} 和其他第三方公司訂購的 [SSL 憑證 ](what-ssl-certificate.html){:new_window}。需要 SSL 憑證來啟用部分產品的特性，最常見的就是[負載平衡器](../load-balancing/load-balancing.html){:new_window}，其資料必須儲存在 {{site.data.keyword.slportal}} 內，才能啟用那些特性。所有與 SSL 憑證的互動（包括匯入、編輯和匯出）都是在 {{site.data.keyword.slportal}} 內的 SSL 憑證畫面執行。請完成下列步驟來存取 SSL 憑證畫面。
+在 {{site.data.keyword.slportal_full}} 內，您可以管理並追蹤已從 {{site.data.keyword.BluSoftlayer_full}} 和其他第三方公司訂購的 SSL 憑證。需要 SSL 憑證來啟用部分產品的特性，最常見的就是[負載平衡器](/docs/infrastructure/local-load-balancer/about.html){:new_window}，其資料必須儲存在 {{site.data.keyword.slportal}} 內，才能啟用那些特性。所有與 SSL 憑證的互動（包括匯入、編輯和匯出）都是在 {{site.data.keyword.slportal}} 內的 SSL 憑證畫面執行。請完成下列步驟來存取 SSL 憑證畫面。
 
 ## 存取 SSL 憑證畫面
 

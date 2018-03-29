@@ -1,7 +1,7 @@
 ---
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-11-16"
+  years: 2014, 2018
+lastupdated: "2018-02-22"
 ---
 
 {:shortdesc: .shortdesc}
@@ -9,11 +9,7 @@ lastupdated: "2017-11-16"
 
 # 啟動或取消啟動 PPTP VPN 存取
 
-## 概觀
-
 PPTP VPN 可讓使用者利用在桌上型電腦或專用裝置上執行的特殊化用戶端軟體，來形成與 {{site.data.keyword.BluSoftlayer_full}} 專用網路的安全通道。PPTP 存取是針對需要連接整個辦公室或無法使用 SSL VPN 解決方案的客戶而設計的。每一位客戶會分配到一條 PPTP 連線，並且可以使用額外的連線，但需要要求支援才能啟用無限制的 PPTP 存取（不需另外付費）。若要啟動或取消啟動使用者的 PPTP VPN 存取，請完成下列步驟。
-
-## 啟動或取消啟動 PPTP VPN 存取
 
 1. 使用您的唯一認證，以管理者的身分存取 [{{site.data.keyword.slportal_full}} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://control.softlayer.com/){: new_window}。
 2. 找到您要修改存取的使用者，並檢視 **VPN 存取**直欄，以檢視其現行存取層次。
