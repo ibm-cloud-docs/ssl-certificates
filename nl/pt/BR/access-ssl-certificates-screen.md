@@ -1,5 +1,7 @@
 ---
-copyright: years: 1994, 2017 lastupdated: "2017-11-16"
+copyright:
+  years: 2014, 2018
+lastupdated: "2018-02-21"
 ---
 
 {:shortdesc: .shortdesc}
@@ -7,9 +9,8 @@ copyright: years: 1994, 2017 lastupdated: "2017-11-16"
 
 # Acessando certificados SSL
 
-## Visão geral
-
-No {{site.data.keyword.slportal_full}}, é possível gerenciar e controlar [Certificados SSL ](what-ssl-certificate.html){:new_window} que foram pedidos do {{site.data.keyword.BluSoftlayer_full}} e de outras empresas de terceiros. Os certificados SSL são necessários para ativar recursos em alguns produtos, mais popularmente os [Balanceadores de carga](../load-balancing/load-balancing.html){:new_window} e seus dados devem ser armazenados dentro do {{site.data.keyword.slportal}} para ativar esses recursos. Todas as interações com certificados SSL, incluindo a importação, a edição e a exportação, são executadas na tela de certificados SSL no {{site.data.keyword.slportal}}. Conclua as etapas a seguir para acessar a tela de certificados SSL.
+No {{site.data.keyword.slportal_full}}, é possível gerenciar e controlar certificados SSL que foram pedidos pelo
+{{site.data.keyword.BluSoftlayer_full}} e por outras empresas de terceiros. Os certificados SSL são necessários para ativar recursos em alguns produtos, mais popularmente os [Balanceadores de carga](/docs/infrastructure/local-load-balancer/about.html){:new_window} e seus dados devem ser armazenados dentro do {{site.data.keyword.slportal}} para ativar esses recursos. Todas as interações com certificados SSL, incluindo a importação, a edição e a exportação, são executadas na tela de certificados SSL no {{site.data.keyword.slportal}}. Conclua as etapas a seguir para acessar a tela de certificados SSL.
 
 ## Acessando a tela de certificados SSL
 

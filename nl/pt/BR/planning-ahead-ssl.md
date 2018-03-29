@@ -1,5 +1,7 @@
 ---
-copyright: years: 1994, 2017 lastupdated: "2017-11-17"
+copyright:
+  years: 2014, 2018
+lastupdated: "2018-02-21"
 ---
 
 {:shortdesc: .shortdesc}
@@ -27,11 +29,11 @@ Para um grupo maior e mais diversificado, usar um certificado SSL de uma fonte p
 
 Depois de decidir onde obter o seu certificado, reveja as seguintes opções para os tipos de certificados e sua disponibilidade correspondente, duração da chave e duração.
 
-|              Tipos de Certificado       |  Disponibilidade                     |  Comprimento da chave   |  Duração                   |
+|              Tipos de Certificado          |  Disponibilidade                     |  Comprimento da chave                |  Duração                  |
 | --------------------------------------- | --------------------------------- | -------------------------- | -------------------------- |
-|Validação de domínio (DV)                | Disponível rapidamente                | 1024 bits ou 2048 bits       | 1 ou 2 anos             |
-|validação de organização (OV)            | 2 a 3 dias ou até uma semana          | 1024 bits ou 2048 bits       | 1 ou 2 anos             |
-|Validação estendida (EV)                 | 2 a 3 dias ou até uma semana          | Somente 2048 bits            | 1 ou 2 anos             |
+|Validação de domínio (DV)                   | Disponível rapidamente                 | 1024 bits ou 2048 bits       | 1 ou 2 anos             |
+|validação de organização (OV)             | 2 a 3 dias ou até uma semana          | 1024 bits ou 2048 bits       | 1 ou 2 anos             |
+|Validação estendida (EV)                 | 2 a 3 dias ou até uma semana          | Somente 2048 bits              | 1 ou 2 anos             |
 {: caption="Tabela 1. Tipos de certificado" caption-side="top"}   
 
 
@@ -45,7 +47,9 @@ Há um limite de um certificado por soquete. Um soquete é um endereço IP e uma
 
 Hospedagem virtual é o método pelo qual você pode hospedar 20, 30, 100 websites em um endereço IP. Isso funciona porque os navegadores modernos passam um campo chamado leitor de host como parte de sua solicitação. Esse campo se parece com “Host: web1.mydomain.com” e informa ao servidor da web qual site você está tentando acessar. No caso de HTTPS (HTTP sobre SSL), o servidor da web deve selecionar o certificado SSL para enviar ao cliente antes de ver o cabeçalho do host, razão pela qual um determinado soquete só pode ter um certificado.
 
-É possível designar cada website designado a SSL para seu próprio soquete. É possível fazer isso variando o endereço IP ou a porta. Mantenha em mente que se você mudar a porta de 443/tcp, os usuários precisarão incluir o número da porta em sua URL, como https://web1.mydomain.com:444.
+É possível designar cada website designado a SSL para seu próprio soquete. É possível fazer isso variando o endereço IP ou a porta. 
+Lembre-se de que se você mudar a porta de 443/tcp, os usuários deverão incluir o número da porta em sua
+URL como https://web1.mydomain.com:444.
 
 ## Gere o CSR
 

@@ -1,5 +1,7 @@
 ---
-copyright: years: 1994, 2017 lastupdated: "2017-11-28"
+copyright:
+  years: 2014, 2018
+lastupdated: "2018-02-22"
 ---
 
 {:shortdesc: .shortdesc}
@@ -7,15 +9,16 @@ copyright: years: 1994, 2017 lastupdated: "2017-11-28"
 
 # Acessando pedidos SSL
 
-## Visão geral
-
-A tela Pedidos SSL contém uma listagem de todos os certificados SSL pedidos por meio do {{site.data.keyword.BluSoftlayer_full}} para o histórico da conta. Os detalhes incluídos nessa tela incluem nome comum do certificado SSL, tipo de certificado e data de expiração. Nessa tela, é possível renovar o certificado ou reenviar o e-mail de preenchimento. Quaisquer certificados SSL armazenados no {{site.data.keyword.slportal_full}} que não foram pedidos pelo {{site.data.keyword.BluSoftlayer_notm}} não estão disponíveis nessa tela. Conclua as etapas a seguir para acessar a tela de Pedidos SSL.
+A tela Pedidos SSL contém uma listagem de todos os certificados SSL que são pedidos por meio do
+{{site.data.keyword.BluSoftlayer_full}} para o histórico da conta. Os detalhes nessa tela incluem o nome comum do certificado SSL, o tipo de certificado e a data de expiração. Nessa tela, é possível renovar o certificado ou reenviar o e-mail de preenchimento. 
+Os certificados SSL armazenados no {{site.data.keyword.slportal_full}} que não foram pedidos por meio do {{site.data.keyword.BluSoftlayer_notm}} não estarão disponíveis nessa tela. Conclua as etapas a seguir para acessar a tela de Pedidos SSL.
 
 ## Acessando a tela de Pedidos SSL
 
 1. Acesse o [{{site.data.keyword.slportal_full}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://control.softlayer.com/){: new_window} usando suas credenciais exclusivas.
 2. No menu **Segurança**, selecione **SSL > Pedidos**.
 
-## O que acontece em seguida
+## Próximas Etapas
 
-Depois de acessar a tela de pedidos SSL, todos os certificados SSL pedidos por meio do {{site.data.keyword.BluSoftlayer_notm}} são listados. Os certificados são exibidos por data de expiração, do mais antigo ao mais novo, o que significa que os certificados que já expiraram serão exibidos primeiro, por padrão. Nessa tela, é possível [renovar certificados SSL](renew-ssl-certificate.html) e [solicitar que o e-mail de preenchimento seja reenviado](request-ssl-certificate-fulfillment-email.html).
+Depois de acessar a tela de pedidos SSL, todos os certificados SSL pedidos por meio do {{site.data.keyword.BluSoftlayer_notm}} são listados. 
+Os certificados são exibidos por data de expiração, do mais antigo ao mais novo, o que significa que os que já expiraram são exibidos primeiro, por padrão. Nessa tela, é possível [renovar certificados SSL](renew-ssl-certificate.html) e [solicitar que o e-mail de cumprimento seja reenviado](request-ssl-certificate-fulfillment-email.html).

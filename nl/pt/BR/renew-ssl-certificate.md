@@ -1,5 +1,7 @@
 ---
-copyright: years: 1994, 2017 lastupdated: "2017-11-28"
+copyright:
+  years: 2014, 2018
+lastupdated: "2018-02-22"
 ---
 
 {:shortdesc: .shortdesc}
@@ -7,9 +9,12 @@ copyright: years: 1994, 2017 lastupdated: "2017-11-28"
 
 # Renovando certificados SSL
 
-## Visão geral
-
-Após um certificado SSL ter sido ordenado por meio do {{site.data.keyword.BluSoftlayer_full}}, ele poderá ser renovado a qualquer momento. Durante o processo de renovação, o {{site.data.keyword.BluSoftlayer_notm}} age como facilitador entre o cliente (você) e a Autoridade de certificação e não vê ou controla qualquer parte do processo de renovação que envolve os detalhes do certificado SSL. Certificados SSL são renovados sob os mesmos termos em que foram pedidos, então nenhuma mudança nos Detalhes de Renovação (Tipo e Autoridade de certificado, Mês de validade, Plataforma do servidor etc.) pode ser feita. Os certificados podem ser renovados antes ou depois de terem expirados; no entanto, para manter a validade do certificado SSL, renove o certificado antes da data de expiração. Siga as etapas abaixo para renovar um certificado SSL.
+Após o pedido de um certificado SSL por meio do {{site.data.keyword.BluSoftlayer_full}}, ele pode ser
+renovado a qualquer momento. Durante o processo de renovação, o {{site.data.keyword.BluSoftlayer_notm}} age como facilitador entre o cliente (você) e a Autoridade de certificação e não vê ou controla qualquer parte do processo de renovação que envolve os detalhes do certificado SSL. 
+Certificados SSL são renovados sob os mesmos termos em que foram pedidos, assim, nenhuma mudança nos detalhes de renovação (tipo
+e autoridade de certificado, mês de validade, plataforma do servidor e assim por diante) pode ser feita. Os certificados podem ser
+renovados antes ou depois de expirarem; no entanto, para manter a validade do certificado SSL, renove o certificado antes da
+data de expiração. Conclua as etapas a seguir para renovar um certificado SSL.
 
 ## Renovando um certificado SSL
 
@@ -23,4 +28,6 @@ Após um certificado SSL ter sido ordenado por meio do {{site.data.keyword.BluSo
 
 ## Próximas Etapas
 
-Após solicitar a renovação de um certificado SSL, o {{site.data.keyword.BluSoftlayer_notm}} encaminha a solicitação para a autoridade de certificação para concluir a verificação de website necessária para renovação. Após a renovação do certificado, a nova data de expiração aparecerá no campo Expira.
+Depois de solicitar a renovação de um certificado SSL, o {{site.data.keyword.BluSoftlayer_notm}} encaminha
+a solicitação para a autoridade de certificação para concluir a verificação de website necessária para a renovação. Após a renovação
+do certificado, a nova data de expiração aparece no campo Expira.
