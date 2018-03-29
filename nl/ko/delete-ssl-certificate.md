@@ -1,7 +1,7 @@
 ---
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-11-17"
+  years: 2014, 2018
+lastupdated: "2018-02-22"
 ---
 
 {:shortdesc: .shortdesc}
@@ -9,13 +9,9 @@ lastupdated: "2017-11-17"
 
 # SSL 인증서 삭제
 
-## 개요
-
 SSL 인증서 세부사항을 {{site.data.keyword.slportal_full}}에 가져오고 나면 {{site.data.keyword.slportal}}에 저장된 모든 데이터를 제거하기 위해 언제든 해당 세부사항을 삭제할 수 있습니다.
 
 SSL 인증서를 삭제하려면 다음 단계를 완료하십시오.
-
-## SSL 인증서 삭제
 
 1. 고유 신임 정보를 사용하여 [{{site.data.keyword.slportal}} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://control.softlayer.com/){: new_window}에 액세스하십시오.
 2. **보안** 메뉴에서 **SSL > 인증서**를 선택하십시오.

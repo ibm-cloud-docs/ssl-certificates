@@ -14,7 +14,6 @@ SSL 인증서
     {: .navgroup id="howto"}
     access-ssl-orders-screen.md
     import-ssl-certificate.md
-    install-ssl-certificate-plesk-9.md
     access-ssl-certificates-screen.md
     renew-ssl-certificate.md
     download-ssl-certificate-details.md

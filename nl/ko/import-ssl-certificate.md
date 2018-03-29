@@ -1,7 +1,7 @@
 ---
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-11-28"
+  years: 2014, 2018
+lastupdated: "2018-02-22"
 ---
 
 {:shortdesc: .shortdesc}
@@ -9,9 +9,7 @@ lastupdated: "2017-11-28"
 
 # SSL 인증서 가져오기
 
-## 개요
-
-웹 사이트의 SSL 인증서를 발생한 다음 {{site.data.keyword.slportal_full}}로 가져올 수 있습니다. SSL 인증서를 {{site.data.keyword.slportal}}에 가져와서 인증서가 필요한 제품과 서비스에 적용할 수 있습니다(예: 로드 밸런서의 [SSL 오프로딩](configure-ssl-offloading-load-balancer.html){:new_window}). 기본적으로 {{site.data.keyword.BluSoftlayer_full}}에서 발행한 SSL 인증서는 수신인만 조작할 수 있으므로 목록에 가져오지 않습니다. 따라서 {{site.data.keyword.BluSoftlayer_notm}} 제품 또는 서비스와 함께 사용할 SSL 인증서는 계정에 대해 인증된 사용자가 수동으로 가져와야 합니다. 아래 단계를 따라 SSL 인증서를 {{site.data.keyword.slportal}}에 가져오십시오.
+웹 사이트의 SSL 인증서를 발생한 다음 {{site.data.keyword.slportal_full}}로 가져올 수 있습니다. SSL 인증서를 {{site.data.keyword.slportal}}에 가져와서 인증서가 필요한 제품과 서비스에 적용할 수 있습니다(예: 로드 밸런서의 [SSL 오프로딩](/docs/infrastructure/local-load-balancer/configure-ssl-offloading-load-balancer.html){:new_window}). 기본적으로 {{site.data.keyword.BluSoftlayer_full}}에서 발행한 SSL 인증서는 수신인만 조작할 수 있으므로 목록에 가져오지 않습니다. 따라서 {{site.data.keyword.BluSoftlayer_notm}} 제품 또는 서비스와 함께 사용할 SSL 인증서는 계정에 대해 인증된 사용자가 수동으로 가져와야 합니다. 다음 단계를 완료하여 SSL 인증서를 {{site.data.keyword.slportal}}에 가져오십시오.
 
 ## SSL 인증서 가져오기
 
@@ -27,7 +25,7 @@ lastupdated: "2017-11-28"
 |인증서 |인증 기관에서 제공한 SSL 인증서 세부사항입니다. 일반적으로 텍스트의 영숫자 블록입니다.|
 |개인 키 | 인증 기관에서 제공한 인증서의 개인 키 세부사항입니다. 일반적으로 텍스트의 영숫자 블록입니다.|
 |중간 인증서 | 인증 기관에서 제공한 중간 인증서 세부사항입니다. 중간 인증서는 필수가 아니지만, SSL 인증서의 정보를 사용할 수 있으면 입력해야 합니다.|
-| 인증서 서명 요청 | 인증 기관에서 제공한 인증서 서명 요청(CSR)입니다. CSR 세부사항은 필수가 아니지만 인증서의 일부인 경우 제공해야 합니다. **참고:** 어떤 식으로든 CSR을 변경하지 마십시오. 공개 키는 CSR에 포함될 수 있으며 개인 키로 바꾸지 않아야 합니다.|
+| 인증서 서명 요청 | 인증 기관에서 제공한 인증서 서명 요청(CSR)입니다. CSR 세부사항은 필수가 아니지만 인증서의 파트인 경우 제공해야 합니다. **참고:** 어떤 식으로든 CSR을 변경하지 마십시오. 공개 키는 CSR에 포함될 수 있으며 개인 키로 바꾸지 않아야 합니다.|
 |참고 | 다른 사용자에게 유용할 수 있는 SSL 인증서와 관련된 참고사항입니다.
 
 
