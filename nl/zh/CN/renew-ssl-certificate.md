@@ -1,7 +1,7 @@
 ---
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-11-28"
+  years: 2014, 2018
+lastupdated: "2018-02-22"
 ---
 
 {:shortdesc: .shortdesc}
@@ -9,9 +9,7 @@ lastupdated: "2017-11-28"
 
 # 续订 SSL 证书
 
-## 概述
-
-通过 {{site.data.keyword.BluSoftlayer_full}} 订购 SSL 证书后，可随时续订该证书。在续订过程中，{{site.data.keyword.BluSoftlayer_notm}} 充当客户（您）和认证中心之间的协作者，并且不会查看或控制涉及 SSL 证书详细信息的任何续订过程部分。SSL 证书根据其订购的相同条款进行续订，因此不会更改续订详细信息（证书类型和认证中心、有效期、服务器平台等）。可以在到期之前或之后续订证书，但是，要维护 SSL 证书的有效性，请在到期日期之前续订证书。请遵循以下步骤以续订 SSL 证书。
+通过 {{site.data.keyword.BluSoftlayer_full}} 订购 SSL 证书后，可随时续订该证书。在续订过程中，{{site.data.keyword.BluSoftlayer_notm}} 充当客户（您）和认证中心之间的协作者，并且不会查看或控制涉及 SSL 证书详细信息的任何续订过程部分。SSL 证书根据其订购的相同条款进行续订，因此不能更改续订详细信息（证书类型和认证中心、有效月份、服务器平台等）。可以在到期之前或之后续订证书；但是，要维护 SSL 证书的有效性，请在到期日期之前续订证书。请完成以下步骤以续订 SSL 证书。
 
 ## 续订 SSL 证书
 
@@ -25,4 +23,4 @@ lastupdated: "2017-11-28"
 
 ## 后续步骤
 
-在请求 SSL 证书续订后，{{site.data.keyword.BluSoftlayer_notm}} 会将请求转发给认证中心，以完成续订所需的 Web 站点验证。在续订证书时，新的到期日期将显示在“到期”字段中。
+在请求 SSL 证书续订后，{{site.data.keyword.BluSoftlayer_notm}} 会将请求转发给认证中心，以便完成续订所需的 Web 站点验证。在续订证书时，新的到期日期将显示在“到期”字段中。

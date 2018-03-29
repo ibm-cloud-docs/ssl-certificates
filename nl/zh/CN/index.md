@@ -1,7 +1,7 @@
 ---
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-11-30"
+  years: 2014, 2018
+lastupdated: "2018-02-21"
 ---
 
 {:shortdesc: .shortdesc}
@@ -24,12 +24,12 @@ lastupdated: "2017-11-30"
 
 ## 订购 SSL 证书
 
-1. 使用唯一凭证访问 [{{site.data.keyword.slportal}} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://control.softlayer.com/){: new_window}。
+1. 使用您的唯一凭证访问 [{{site.data.keyword.slportal_full}} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://control.softlayer.com/){: new_window}。
 2. 选择**安全性 > SSL 证书 >**以访问 SSL 证书屏幕。
-3. 必须选择证书的类型和持续时间、提交 CSR 的文本、填写一些其他详细信息，然后确认付款。
+3. 必须选择证书的类型和持续时间，提交 CSR 的文本，输入其他一些详细信息，然后确认付款。
 
 ## 安装和测试
-完成订购和验证过程后，您会收到来自认证中心的电子邮件，其中包含您的证书以及任何必要的中间证书。安装这些证书方法将取决于您使用的软件，但最终结果应该是相同的。完成后，您应该能够访问 <http://host.yourdomain.com> 并可查看您的内容，同时还可以查看浏览器用于表示加密会话的 SSL 挂锁。如果收到警告，那么必须执行一些其他步骤。
+完成订购和验证过程后，您会收到来自认证中心的电子邮件，其中包含您的证书以及任何必要的中间证书。安装方法取决于您使用的软件，但结果应该是相同的。完成后，您应该能够转至 <http://host.yourdomain.com> 来查看您的内容，同时还可以查看浏览器用于表示加密会话的 SSL 挂锁。如果收到警告，那么必须执行一些其他步骤。
 
 ## 后续步骤
 
