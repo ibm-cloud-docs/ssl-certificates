@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2014, 2018
-lastupdated: "2018-02-22"
+lastupdated: "2018-03-01"
 ---
 
 {:shortdesc: .shortdesc}
@@ -20,7 +20,7 @@ You can search, download parts of a certificate or a PEM formatted version, or r
 
 ## Adding a certificate
 
-When you are ready to add a certificate, select "Add Certificate" in the subnavigation menu or within the Certificate List title. You are only required to supply the certificate and its private key. However, not providing an intermediate certificate when your issuer provides one can result in a broken certificate chain and improper validation for users or associated services.
+When you are ready to add a certificate, select **Add Certificate** in the subnavigation menu or within the Certificate List title. You are only required to supply the certificate and its private key. However, not providing an intermediate certificate when your issuer provides one can result in a broken certificate chain and improper validation for users or associated services.
 
 Note: Private keys that require a passphrase cannot be stored.
 

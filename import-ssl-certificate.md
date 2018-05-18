@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2014, 2018
-lastupdated: "2018-02-22"
+lastupdated: "2018-05-17"
 ---
 
 {:shortdesc: .shortdesc}
@@ -15,19 +15,19 @@ After an SSL certificate is issued for a website, it can be imported into the {{
 
 1. Access the [{{site.data.keyword.slportal_full}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window} by using your unique credentials.
 2. From the **Security** menu, select **SSL > Certificates**.
-3. Click the **Import SSL certificate** link at the top of the screen.
+3. Click **Import SSL certificate**.
 4. Enter the **SSL certificate details** in the applicable fields and click **Import.**
 
    **Note:** Details that are entered in the **Import SSL certificate** window must be entered exactly as provided by the certificate authority, including spacing and line breaks. If not, an error occurs.
 
-| Text Box | Entry |
-| -------- | ----- |
-|Certificate |SSL certificate details, provided by the certificate authority. This is generally an alpha-numeric block of   text.|
-|Private Key | Private Key details for the certificate, provided by the certificate authority. This is generally an alpha-  numeric block of text.|
-|Intermediate Certificate | Intermediate certificate details, provided by the certificate authority. Intermediate certificates are not required, however, if the information is available for the SSL certificate, it should be entered.|
-| Certificate Signing Request | Certificate Signing Request (CSR) details, provided by the certificate authority. CSR details are not required, but should be provided if they are part of the certificate. **Note:** Do not change the CSR in any way. A public key can be included with the CSR and should not be replaced by the Private Key.|
-|Notes | Any notes regarding the SSL certificate that might be helpful to other users.
-
+| SSL certificate details     | Description |
+| --------------------------- | ----------- |
+|Certificate                  | SSL certificate details, provided by the certificate authority. This is generally an alpha-numeric block of text.|
+|Private Key                  | Private Key details for the certificate, provided by the certificate authority. This is generally an alpha-numeric block of text.|
+|Intermediate Certificate     | Intermediate certificate details, provided by the certificate authority. Intermediate certificates are not required, however, if the information is available for the SSL certificate, it should be entered.|
+|Certificate Signing Request  | Certificate Signing Request (CSR) details, provided by the certificate authority. CSR details are not required, but should be provided if they are part of the certificate. **Note:** Do not change the CSR in any way. A public key can be included with the CSR and should not be replaced by the Private Key.|
+|Notes                        | Any notes regarding the SSL certificate that might be helpful to other users.|
+{: caption="Table 1. SSL certificate details" caption-side="top"}
 
 ## Next Steps
 

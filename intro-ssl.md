@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2014, 2018
-lastupdated: "2018-02-21"
+lastupdated: "2018-05-17"
 ---
 
 {:shortdesc: .shortdesc}
@@ -15,7 +15,7 @@ The SSL certificate contains the server’s public key, dates for which the cert
 
 ## SSL terminology
 
-SSL certificates have unique terminology. You might encounter the following terms while working with SSL certificates.
+SSL certificates have unique terminology. You might encounter the following terms while working with SSL certificates:
 
 **Bit size:** Encryption keys are measured by their size in bits. For example, 512 bit, 1024 bit, 2048 bit. Generally, a longer key is going to be safer but slower to use. Currently, the minimum size for the keys that are used in SSL certificates is 1024 bit, though the Extended Validation certificates require 2048 bit.
 

@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2014, 2018
-lastupdated: "2018-02-22"
+lastupdated: "2018-05-17"
 ---
 
 {:shortdesc: .shortdesc}
@@ -19,14 +19,16 @@ To view and update an SSL certificate, complete the following steps.
 3. Update the **SSL certificate details** in the applicable text boxes.
 
    **Note:** Details that are entered in the **Import SSL certificate** window must be entered exactly as provided by the certificate authority, including spacing and line breaks. If not, an error occurs.
+   
+| SSL certificate details     | Description |
+| --------------------------- | ----------- |
+|Certificate                  | SSL certificate details, provided by the certificate authority. This is generally an alpha-numeric block of text.|
+|Private Key                  | Private Key details for the certificate, provided by the certificate authority. This is generally an alpha-numeric block of text.|
+|Intermediate Certificate     | Intermediate certificate details, provided by the certificate authority. Intermediate certificates are not required, however, if the information is available for the SSL certificate, it should be entered.|
+|Certificate Signing Request  | Certificate Signing Request (CSR) details, provided by the certificate authority. CSR details are not required, but should be provided if they are part of the certificate. **Note:** Do not change the CSR in any way. A public key can be included with the CSR and should not be replaced by the Private Key.|
+|Notes                        | Any notes regarding the SSL certificate that might be helpful to other users.|
+{: caption="Table 1. SSL certificate details" caption-side="top"}
 
-| Text Box | Entry |
-| -------- | ----- |
-|Certificate |SSL certificate details, provided by the certificate authority. This is generally an alpha-numeric block of text.|
-|Private Key | Private Key details for the certificate, provided by the certificate authority. This is generally an alpha-numeric block of text.|
-|Intermediate Certificate | Intermediate certificate details, provided by the certificate authority. Intermediate certificates are not required, however, if the information is available for the SSL certificate, it should be entered.|
-| Certificate Signing Request | Certificate Signing Request (CSR) details, provided by the certificate authority. CSR details are not required, but should be provided if they are part of the certificate. **Note:** Do not change the CSR in any way. A public key can be included with the CSR and should not be replaced by the Private Key.|
-|Notes | Any notes regarding the SSL certificate that might be helpful to other users.
 Click **Update** to update the SSL certificate or click **Cancel** to cancel the action.
 
 ## Next Steps

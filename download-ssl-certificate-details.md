@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2014, 2018
-lastupdated: "2018-02-22"
+lastupdated: "2018-05-17"
 ---
 
 {:shortdesc: .shortdesc}
@@ -15,7 +15,14 @@ To download details for the SSL certificate, complete the following steps.
 
 1. Access the [{{site.data.keyword.slportal_full}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window} by using your unique credentials.
 2. From the **Security** menu, select **SSL > Certificates**.
-3. From the **Actions** menu, select the preferred **Download Option** for the certificate. Refer to the following table for more information:<br /> <br /><table border="1"><tr><th>Download Option</th><th>Downloaded Information</th></tr><tr><td>Download certificate</td><td>Downloads only the certificate portion, and does not include the Private Key, Intermediate certificate, certificate Signing Request or Notes details.</td></tr><tr><td>Download Key</td><td>Downloads only the Private Key, and does not include the certificate, Intermediate certificate, certificate Signing Request or Notes details.</td></tr><tr><td>Download PEM</td><td>Downloads all details that are associated with the SSL certificate, including the certificate, Private Key, Intermediate certificate, certificate Signing Request and Notes.</td></tr></table>
+3. From the **Actions** menu, select the preferred **Download Option** for the certificate. Refer to the following table for more information:
+
+| Download option      | Download information |
+| -------------------- | -------------------- |
+| Download certificate | Downloads only the certificate portion, and does not include the Private Key, Intermediate certificate, certificate Signing Request, or Notes details. |
+| Download Key         | Downloads only the Private Key, and does not include the certificate, Intermediate certificate, certificate Signing Request, or Notes details. |
+| Download PEM         | Downloads all details that are associated with the SSL certificate, including the certificate, Private Key, Intermediate certificate, certificate Signing Request, and Notes. |
+{: caption="Table 1. Download options" caption-side="top"}
 
 ## Next Steps
 
