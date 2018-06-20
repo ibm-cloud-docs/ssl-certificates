@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2014, 2018
-lastupdated: "2018-05-17"
+lastupdated: "2018-06-20"
 ---
 
 {:shortdesc: .shortdesc}
@@ -10,8 +10,6 @@ lastupdated: "2018-05-17"
 # Importing SSL certificates
 
 After an SSL certificate is issued for a website, it can be imported into the {{site.data.keyword.slportal_full}}. By importing SSL certificates into the {{site.data.keyword.slportal}}, the certificates can be applied to products and services that might require them, such as Load Balancer's [SSL Offloading](/docs/infrastructure/local-load-balancer/configure-ssl-offloading-load-balancer.html){:new_window}. By default, SSL certificates that are issued by {{site.data.keyword.BluSoftlayer_full}} are not imported into the list, as they are intended to be manipulated by the recipient only. Therefore, any SSL certificate to be used with an {{site.data.keyword.BluSoftlayer_notm}} product or service must be manually imported by an authorized user on the account. Complete the following steps to import an SSL certificate to the {{site.data.keyword.slportal}}.
-
-## Importing SSL certificates
 
 1. Access the [{{site.data.keyword.slportal_full}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: new_window} by using your unique credentials.
 2. From the **Security** menu, select **SSL > Certificates**.
