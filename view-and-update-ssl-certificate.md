@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2014, 2018
-lastupdated: "2018-05-17"
+lastupdated: "2018-08-15"
 ---
 
 {:shortdesc: .shortdesc}
@@ -19,7 +19,7 @@ To view and update an SSL certificate, complete the following steps.
 3. Update the **SSL certificate details** in the applicable text boxes.
 
    **Note:** Details that are entered in the **Import SSL certificate** window must be entered exactly as provided by the certificate authority, including spacing and line breaks. If not, an error occurs.
-   
+
 | SSL certificate details     | Description |
 | --------------------------- | ----------- |
 |Certificate                  | SSL certificate details, provided by the certificate authority. This is generally an alpha-numeric block of text.|

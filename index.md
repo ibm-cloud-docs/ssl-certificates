@@ -1,13 +1,13 @@
 ---
 copyright:
   years: 2014, 2018
-lastupdated: "2018-02-21"
+lastupdated: "2018-08-15"
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
-# Getting started with SSL certificates  
+# Getting started tutorial  
 
 
 ## Before you begin
