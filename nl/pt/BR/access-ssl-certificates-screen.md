@@ -10,7 +10,7 @@ lastupdated: "2018-02-21"
 # Acessando certificados SSL
 
 No {{site.data.keyword.slportal_full}}, é possível gerenciar e controlar certificados SSL que foram pedidos pelo
-{{site.data.keyword.BluSoftlayer_full}} e por outras empresas de terceiros. Os certificados SSL são necessários para ativar recursos em alguns produtos, mais popularmente os [Balanceadores de carga](/docs/infrastructure/local-load-balancer/about.html){:new_window} e seus dados devem ser armazenados dentro do {{site.data.keyword.slportal}} para ativar esses recursos. Todas as interações com certificados SSL, incluindo a importação, a edição e a exportação, são executadas na tela de certificados SSL no {{site.data.keyword.slportal}}. Conclua as etapas a seguir para acessar a tela de certificados SSL.
+{{site.data.keyword.BluSoftlayer_full}} e por outras empresas de terceiros. Os certificados SSL são necessários para ativar recursos em alguns produtos, mais popularmente os [Load Balancers](/docs/infrastructure/local-load-balancer/about.html){:new_window} e seus dados devem ser armazenados dentro do {{site.data.keyword.slportal}} para ativar esses recursos. Todas as interações com certificados SSL, incluindo a importação, a edição e a exportação, são executadas na tela de certificados SSL no {{site.data.keyword.slportal}}. Conclua as etapas a seguir para acessar a tela de certificados SSL.
 
 ## Acessando a tela de certificados SSL
 

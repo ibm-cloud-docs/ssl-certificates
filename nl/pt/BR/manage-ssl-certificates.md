@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2014, 2018
-lastupdated: "2018-02-22"
+lastupdated: "2018-03-01"
 ---
 
 {:shortdesc: .shortdesc}
@@ -22,8 +22,7 @@ ação deve ser tomada quando um certificado está se aproximando da expiração
 
 ## Incluindo um certificado
 
-Quando estiver pronto para incluir um certificado, selecione "Incluir certificado" no menu de subnavegação ou no título da
-Lista de certificados. Você só precisa fornecer o certificado e sua chave privada. No entanto, não fornecer um certificado
+Quando estiver pronto para incluir um certificado, selecione **Incluir certificado** no menu de subnavegação ou no título da Lista de certificados. Você só precisa fornecer o certificado e sua chave privada. No entanto, não fornecer um certificado
 intermediário quando o seu emissor fornece um pode resultar em uma cadeia de certificados quebrada e uma validação incorreta para
 usuários ou serviços associados.
 
@@ -37,11 +36,10 @@ Depois de incluído, os campos a seguir são derivados dos seus certificados dir
 
 ## Editando um certificado
 
-Ativar o triângulo à esquerda de um certificado revelará as partes do certificado em sua totalidade. Isso também permite que as partes do certificado sejam editadas. 
-Uma nota pode ser incluída e, quando necessário, o certificado pode ser removido. Também listada há uma lista de serviços que estão atualmente usando o certificado.
+Ativar o triângulo à esquerda de um certificado revelará as partes do certificado em sua totalidade. Isso também permite que as partes do certificado sejam editadas. Uma nota pode ser incluída e, quando necessário, o certificado pode ser removido. Também listada há uma lista de serviços que estão atualmente usando o certificado.
 
 **Nota**: somente certificados que não estão associados a serviços podem ter as partes "chave
-privada", "certificado" ou "certificado intermediário" atualizadas. O certificado também não pode ser removido.
+privada", "certificado" ou "certificado intermediário" atualizadas.  O certificado também não pode ser removido.
 
 É possível modificar a nota em qualquer momento.
 

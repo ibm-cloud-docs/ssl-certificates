@@ -1,8 +1,8 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="ssl-certificates" audience="compute" href=“/docs/infrastructure/ssl-certificates/index.html”}
-Certificados SSL
+{: .toc subcollection="ssl-certificates" audience="compute" arm="3662780" href=“/docs/infrastructure/ssl-certificates/index.html”}
+SSL Certificates
 
     {: .navgroup id="learn"}
     index.md
