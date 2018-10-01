@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2014, 2018
-lastupdated: "2018-02-22"
+lastupdated: "2018-03-01"
 ---
 
 {:shortdesc: .shortdesc}
@@ -34,7 +34,7 @@ Sobald sie hinzugefügt wurden, werden die folgenden Felder direkt aus den Zerti
 
 Durch das Aktivieren des Dreiecks links neben einem Zertifikat werden die Bestandteile des Zertifikats in ihrer Gesamtheit sichtbar gemacht. Außerdem können dann die Bestandteile bearbeitet werden. Es kann außerdem eine Anmerkung hinzugefügt werden und bei Bedarf kann das Zertifikat entfernt werden. Zudem wird eine Liste der Services angezeigt, die das Zertifikat momentan verwenden.
 
-**Hinweis**: Der private Schlüssel, das Zertifikat oder das Zwischenzertifikat als Bestandteile von Zertifikaten können nur für Zertifikate aktualisiert werden, die keinem Service zugeordnet sind. Darüber hinaus kann das Zertifikat nicht entfernt werden.
+**Hinweis**: Der private Schlüssel, das Zertifikat oder das Zwischenzertifikat als Bestandteile von Zertifikaten können nur für Zertifikate aktualisiert werden, die keinem Service zugeordnet sind.  Darüber hinaus kann das Zertifikat nicht entfernt werden.
 
 Sie können die Anmerkung jederzeit ändern.
 

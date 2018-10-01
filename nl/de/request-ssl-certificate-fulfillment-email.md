@@ -16,7 +16,7 @@ Nach dem Bestellen eines neuen SSL-Zertifikats über {{site.data.keyword.BluSoft
 1. Greifen Sie mit Ihren eindeutigen Berechtigungsnachweisen auf das [{{site.data.keyword.slportal_full}} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://control.softlayer.com/){: new_window} zu.
 2. Wählen Sie im Menü **Sicherheit** die Option **SSL > Bestellungen** aus.
 3. Klicken Sie in der Spalte **E-Mail** des gewünschten SSL-Zertifikats auf den Link zum **Senden**.<br/>**Hinweis:** Es wird ein Popup-Fenster angezeigt, in dem Sie die Anforderung bestätigen können. Dieses Fenster enthält die E-Mail-Adresse für den Domänenadministrator, der beim Anfordern des SSL-Zertifikats angegeben wurde.
-4. Klicken Sie auf **E-Mail erneut senden**, um die Auswahl zu bestätigen und eine zusätzliche Auftragserfüllungs-E-Mail von der Zertifizierungsstelle anzufordern. Sie können auch auf **Abbrechen** klicken, um die Aktion abzubrechen.
+4. Klicken Sie auf **E-Mail erneut senden**, um die Auswahl zu bestätigen und eine zusätzliche Auftragserfüllungs-E-Mail von der Zertifizierungsstelle anzufordern.  Sie können auch auf **Abbrechen** klicken, um die Aktion abzubrechen.
 
 ## Nächste Schritte
 
