@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2014, 2018
-lastupdated: "2018-02-21"
+lastupdated: "2018-05-16"
 ---
 
 {:shortdesc: .shortdesc}
@@ -19,4 +19,4 @@ lastupdated: "2018-02-21"
 
 在 {{site.data.keyword.slportal_full}} 中，通过 {{site.data.keyword.BluSoftlayer_notm}} 订购的所有 SSL 证书可以从“SSL 订单”屏幕中进行管理。此屏幕将跟踪所有订单，包括证书的通用名称、证书类型和到期日期，但不包含任何特定于证书的详细信息，例如证书本身或专用密钥。在此屏幕中，当前和到期的 SSL 证书可以根据其预先存在的条款续订，并且如果已丢失 SSL 证书详细信息，那么可能会请求订单履行电子邮件以接收 SSL 证书详细信息。从“SSL 订单”屏幕发出的所有请求都将路由到 SSL 证书的相应认证中心，这将根据需要满足请求。由于 {{site.data.keyword.BluSoftlayer_notm}} 未包含 SSL 证书详细信息，因此 {{site.data.keyword.cloud_notm}} 无法提供有关证书的任何其他信息。
 
-除了管理通过 {{site.data.keyword.BluSoftlayer_notm}} 订购的 SSL 证书之外，您还可以将 SSL 证书数据导入到 {{site.data.keyword.slportal}} 中，以将该数据与各种产品和服务配合使用。所有通过已导入 SSL 证书进行的交互都在 {{site.data.keyword.slportal}} 中的 SSL 证书屏幕上发生。您可以手动导入、编辑和导出此屏幕上存在的 SSL 证书详细信息。此外，可以随时删除 SSL 证书。与“SSL 订单”屏幕一样，{{site.data.keyword.BluSoftlayer_notm}} 不会控制、跟踪或记录此信息，因为它被视为客户所拥有的最机密的信息之一。用户设置后，存储在此屏幕上的 SSL 证书详细信息将仅与帐户的产品或服务一起使用。
+除了管理通过 {{site.data.keyword.BluSoftlayer_notm}} 订购的 SSL 证书之外，您还可以将 SSL 证书数据导入到 {{site.data.keyword.slportal}} 中，以将该数据与各种产品和服务配合使用。所有通过已导入 SSL 证书进行的交互都在 {{site.data.keyword.slportal}} 中的 SSL 证书屏幕上发生。您可以手动导入、编辑和导出此屏幕上存在的 SSL 证书详细信息。此外，可以随时删除 SSL 证书。与“SSL 订单”屏幕一样，{{site.data.keyword.BluSoftlayer_notm}} 不会控制、跟踪或记录此信息，因为它被视为客户所拥有的最机密的信息之一。用户设置后，存储在此屏幕上的 SSL 证书详细信息仅与帐户的产品或服务一起使用。

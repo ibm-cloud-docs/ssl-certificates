@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2014, 2018
-lastupdated: "2018-02-22"
+lastupdated: "2018-05-17"
 ---
 
 {:shortdesc: .shortdesc}
@@ -18,7 +18,7 @@ lastupdated: "2018-02-22"
 3. 单击所需 SSL 证书的**续订**列中的**续订**链接。
 
    **注：**此时将显示一个弹出框，用于完成请求。  
-   * 确定所有更新和 CSR 详细信息都正确：<br /><br /><table border="1"><tr><th>如果...</th><th>那么...</th></tr><tr><td>所有续订和 CSR 详细信息都正确</td><td>继续下一步。</td></tr><tr><td>续订详细信息不正确</td><td><ul><li>单击<strong>购买新 SSL 证书</strong>链接以重定向到采购屏幕。<br /><blockquote><strong>注：</strong>由于无法更改续订详细信息（包括证书类型、认证中心和核准电子邮件），因此更新 Web 站点 SSL 证书详细信息的唯一方法是订购一个新证书。</blockquote></li><li>使用 SSL 证书的所需信息完成“订单”页面上的屏幕。使用此过程无需执行其他操作。</li></ul></td></tr><tr><td>CSR 详细信息不正确</td><td><ul><li>单击**更改 CSR** 按钮。</li><li>在 **CSR** 文本框中输入**新 CSR 详细信息**。</li><li>单击**复原 CSR** 按钮。</li></ul></td></tr></table>
+   * 确定所有更新和 CSR 详细信息都正确：<br /><br /><table border="1"><caption>表 1. 续订和 CSR 详细信息</caption><tr><th>如果...</th><th>那么...</th></tr><tr><td>所有续订和 CSR 详细信息都正确</td><td>继续下一步。</td></tr><tr><td>续订详细信息不正确</td><td><ul><li>单击<strong>购买新 SSL 证书</strong>链接以重定向到采购屏幕。<br /><blockquote><strong>注：</strong>由于无法更改续订详细信息（包括证书类型、认证中心和核准电子邮件），因此更新 Web 站点 SSL 证书详细信息的唯一方法是订购一个新证书。</blockquote></li><li>使用 SSL 证书的所需信息完成“订单”页面上的屏幕。使用此过程无需执行其他操作。</li></ul></td></tr><tr><td>CSR 详细信息不正确</td><td><ul><li>单击**更改 CSR** 按钮。</li><li>在 **CSR** 文本框中输入**新 CSR 详细信息**。</li><li>单击**复原 CSR** 按钮。</li></ul></td></tr></table>
 4. 单击**续订**按钮以续订 SSL 证书，或单击**取消**以取消操作。
 
 ## 后续步骤

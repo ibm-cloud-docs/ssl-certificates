@@ -1,13 +1,13 @@
 ---
 copyright:
   years: 2014, 2018
-lastupdated: "2018-02-21"
+lastupdated: "2018-08-15"
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
-# SSL 证书入门  
+# 入门教程  
 
 
 ## 开始之前
