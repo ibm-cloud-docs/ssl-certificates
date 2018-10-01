@@ -1,13 +1,13 @@
 ---
 copyright:
   years: 2014, 2018
-lastupdated: "2018-02-21"
+lastupdated: "2018-08-15"
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
-# 開始使用 SSL 憑證  
+# 入門指導教學  
 
 
 ## 開始之前

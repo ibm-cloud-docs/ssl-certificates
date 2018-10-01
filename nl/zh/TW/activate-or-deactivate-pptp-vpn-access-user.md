@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2014, 2018
-lastupdated: "2018-02-22"
+lastupdated: "2018-05-17"
 ---
 
 {:shortdesc: .shortdesc}
@@ -18,9 +18,9 @@ PPTP VPN 可讓使用者利用在桌上型電腦或專用裝置上執行的特�
 
 |欄位名稱|選項|
 | -----------| ------------ |
-| VPN 類型| 無、SSL、PPTP 或兩者（SSL 和 PPTP）|
-|子網路存取| 自動或手動|           
-{: caption="表 1. 編輯 VPN 存取選項" caption-side="top"}   
+|VPN 類型|無、SSL、PPTP 或兩者（SSL 和 PPTP）|
+|子網路存取|自動或手動|           
+{: caption="表 1. VPN 及子網路詳細資料" caption-side="top"}   
 5. 按一下**儲存**，以儲存您的變更。
 
    **附註：**必須啟動 PPTP 存取，使用者才能使用 PPTP 進行連接。
