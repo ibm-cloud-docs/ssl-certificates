@@ -16,7 +16,7 @@ Tras solicitar un nuevo certificado SSL mediante {{site.data.keyword.BluSoftlaye
 1. Acceda al [{{site.data.keyword.slportal_full}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/){: new_window} utilizando sus credenciales exclusivas.
 2. En el menú **Seguridad**, seleccione **SSL > Pedidos**.
 3. Pulse el enlace **Enviar** en la columna **Correo electrónico** del certificado SSL que desea.<br/>**Nota:** aparece una ventana emergente para confirmar la solicitud. Esta ventana contiene la dirección de correo electrónico del Administrador de dominios proporcionado cuando se solicitó el certificado SSL.
-4. Pulse en **Reenviar correo electrónico** para confirmar la selección y solicitar un correo electrónico de tramitación adicional de la autoridad de certificado. Pulse **Cancelar** para cancelar la acción.
+4. Pulse en **Reenviar correo electrónico** para confirmar la selección y solicitar un correo electrónico de tramitación adicional de la autoridad de certificado.  Pulse **Cancelar** para cancelar la acción.
 
 ## Pasos siguientes
 

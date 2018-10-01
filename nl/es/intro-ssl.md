@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2014, 2018
-lastupdated: "2018-02-21"
+lastupdated: "2018-05-17"
 ---
 
 {:shortdesc: .shortdesc}
@@ -15,7 +15,7 @@ El certificado SSL contiene la clave pública del servidor, fechas en las cuales
 
 ## Terminología SSL
 
-Las certificaciones SSL tienen una terminología única. Al trabajar con certificados SSL, puede encontrarse los términos siguientes.
+Las certificaciones SSL tienen una terminología única. Al trabajar con certificados SSL, puede encontrarse los términos siguientes:
 
 **Tamaño de los bits:** las claves de cifrado se miden por su tamaño en bits. Por ejemplo 512 bits, 1024 bits, 2048 bits. Generalmente, una clave larga será más segura pero más lenta de utilizar. En este momento, el tamaño mínimo de las claves que se utilizan en certificados SSL es de 1024 bits, aunque los certificados de validación ampliada requieren 2048 bits.
 
@@ -45,7 +45,7 @@ En este ejemplo, el certificado de servidor lo firma el certificado intermedio, 
 
 Los certificados de Validación de dominio (DV) son baratos y están disponibles rápidamente. La validación que realiza la autoridad de certificación se limita a enviar un correo electrónico a una dirección de correo electrónico concreta en el dominio en cuestión y a obtener una respuesta positiva. Los certificados de Validación de organización (OV) y la Validación ampliada (EV) tardan dos días (a veces más), cuestan más y suponen más comprobaciones por parte de la autoridad de certificación. Los certificados de EV se codifican de manera que los navegadores los reconocen como EV y muestran una barra verde como parte de la barra de direcciones. 
 
-Los certificados SSL, igual que otros servicios de {{site.data.keyword.cloud_notm}}, se pueden gestionar a través de {{site.data.keyword.slportal}}.  Vaya al menú **Seguridad** y seleccione la opción **Certificados SSL** para solicitar y gestionar certificados.  
+Los certificados SSL, igual que otros servicios de {{site.data.keyword.cloud_notm}}, se pueden gestionar a través de {{site.data.keyword.slportal}}. Vaya al menú **Seguridad** y seleccione la opción **Certificados SSL** para solicitar y gestionar certificados.  
 
 **Nota:** los certificados SSL solicitados mediante {{site.data.keyword.cloud_notm}} no tienen que utilizarse en un servidor {{site.data.keyword.BluSoftlayer_notm}}. Además, los certificados solicitados en otro lugar se pueden utilizar en los servidores que se alojan aquí.
 

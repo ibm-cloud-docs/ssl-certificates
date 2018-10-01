@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2014, 2018
-lastupdated: "2018-02-22"
+lastupdated: "2018-08-15"
 ---
 
 {:shortdesc: .shortdesc}
@@ -20,15 +20,16 @@ Para ver y actualizar un certificado SSL, lleve a cabo los pasos siguientes.
 
    **Nota:** Los detalles que se introducen en la ventana **Importar certificado SSL** deben introducirse exactamente tal como los proporciona la autoridad de certificado, incluidos los espacios y los saltos de líneas. De lo contrario, se produce un error.
 
-| Recuadro de texto | Entrada |
-| -------- | ----- |
-|Certificado |Detalles de certificado SSL, proporcionados por la autoridad de certificado. Generalmente, se trata de un bloque de texto alfanumérico.|
-|Clave privada | Detalles de Clave privada del certificado, proporcionados por la autoridad de certificado. Generalmente, se trata de un bloque de texto alfanumérico.|
-|Certificado intermedio | Detalles de certificado intermedio, proporcionados por la autoridad de certificado. Los certificados intermedios no son necesarios. Sin embargo, si la información está disponible para el certificado SSL, debe introducirse..|
-| Solicitud de firma de certificado | Detalles de Solicitud de firma de certificado (CSR), proporcionados por la autoridad de certificado. No son necesarios los detalles de CSR, pero deben proporcionarse si son parte del certificado. **Nota:** no modifique el CSR de ninguna forma. Puede incluirse una clave pública con el CSR y no debería reemplazarse por la Clave privada.|
-|Notas | Cualquier nota relacionada con el certificado SSL que pueda ser útil para otros usuarios.Pulse **Actualizar** para actualizar el certificado SSL o bien en **Cancelar** para cancelar la acción.
+| Detalles del certificado SSL     | Descripción |
+| --------------------------- | ----------- |
+|Certificado                  | Detalles de certificado SSL, proporcionados por la autoridad de certificado. Generalmente, se trata de un bloque de texto alfanumérico.|
+|Clave privada                  | Detalles de Clave privada del certificado, proporcionados por la autoridad de certificado. Generalmente, se trata de un bloque de texto alfanumérico.|
+|Certificado intermedio     | Detalles de certificado intermedio, proporcionados por la autoridad de certificado. Los certificados intermedios no son necesarios. Sin embargo, si la información está disponible para el certificado SSL, debe introducirse..|
+|Solicitud de firma de certificado  | Detalles de Solicitud de firma de certificado (CSR), proporcionados por la autoridad de certificado. No son necesarios los detalles de CSR, pero deben proporcionarse si son parte del certificado. **Nota:** no modifique el CSR de ninguna forma. Puede incluirse una clave pública con el CSR y no debería reemplazarse por la Clave privada.|
+|Notas                        | Cualquier nota relacionada con el certificado SSL que pueda ser útil para otros usuarios.|
+{: caption="Tabla 1. Detalles del certificado SSL" caption-side="top"}
 
-
+Pulse **Actualizar** para actualizar el certificado SSL o bien en **Cancelar** para cancelar la acción.
 
 ## Pasos siguientes
 

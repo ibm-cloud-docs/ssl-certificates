@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2014, 2018
-lastupdated: "2018-02-22"
+lastupdated: "2018-03-01"
 ---
 
 {:shortdesc: .shortdesc}
@@ -20,7 +20,7 @@ Puede buscar, descargar y descargar partes de un certificado o una versión PEM 
 
 ## Cómo añadir un certificado
 
-Cuando esté listo para añadir un certificado, seleccione "Añadir certificado" en el menú de subnavegación o en el título Lista de certificados. Solo se le requiere que proporcione el certificado y clave privada de este. Sin embargo, no proporcionar un certificado intermedio si su emisor lo proporciona conlleva romper la cadena de certificado y una validación inadecuada de los usuarios o los servicios asociados.
+Cuando esté listo para añadir un certificado, seleccione **Añadir certificado** en el menú de subnavegación o en el título Lista de certificados. Solo se le requiere que proporcione el certificado y clave privada de este. Sin embargo, no proporcionar un certificado intermedio si su emisor lo proporciona conlleva romper la cadena de certificado y una validación inadecuada de los usuarios o los servicios asociados.
 
 Nota: no se pueden almacenar las claves privadas que requieren una contraseña.
 
@@ -34,7 +34,7 @@ Una vez añadido, los campos siguientes se derivan directamente de sus certifica
 
 Al activar el triángulo de la izquierda de un certificado se abren todas sus partes. Esto permite editar las partes del certificado. Puede añadirse una nota y, cuando sea necesario, puede eliminarse el certificado. También hay una lista de los servicios que actualmente utilizan el certificado.
 
-**Nota**: Solo se pueden tener actualizadas las partes "clave privada", "certificado" o "certificado intermedio" de los certificados que no están asociados con los servicios. El certificado tampoco puede eliminarse.
+**Nota**: Solo se pueden tener actualizadas las partes "clave privada", "certificado" o "certificado intermedio" de los certificados que no están asociados con los servicios.  El certificado tampoco puede eliminarse.
 
 Puede modificar la nota en cualquier momento.
 

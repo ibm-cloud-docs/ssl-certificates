@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2014, 2018
-lastupdated: "2018-02-22"
+lastupdated: "2018-05-17"
 ---
 
 {:shortdesc: .shortdesc}
@@ -15,7 +15,14 @@ Para descargar los detalles del certificado SSL, lleve a cabo los pasos siguient
 
 1. Acceda al [{{site.data.keyword.slportal_full}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/){: new_window} utilizando sus credenciales exclusivas.
 2. En el menú **Seguridad**, seleccione **SSL > Certificados**.
-3. En el menú **Acciones**, seleccione la **Opción de descarga** preferida para el certificado. Consulte la tabla siguiente para obtener más información:<br /> <br /><table border="1"><tr><th>Opción de descarga</th><th>Información descargada</th></tr><tr><td>Descargar certificado</td><td>Solo descarga la parte del certificado y no incluye la clave privada, el certificado intermedio, la solicitud de firma de certificado ni los detalles de las notas.</td></tr><tr><td>Descargar clave</td><td>Solo descarga la clave privada y no incluye el certificado, el certificado intermedio, la solicitud de firma de certificado ni los detalles de las notas.</td></tr><tr><td>Descargar PEM</td><td>Descarga todos los detalles asociados con el certificado SSL, incluido el certificado, la clave privada, el certificado intermedio, la solicitud de firma de certificado y las notas.</td></tr></table>
+3. En el menú **Acciones**, seleccione la **Opción de descarga** preferida para el certificado. Consulte la tabla siguiente para obtener más información:
+
+| Opción de descarga      | Información de descarga |
+| -------------------- | -------------------- |
+| Descargar certificado | Solo descarga la parte del certificado y no incluye la clave privada, el certificado intermedio, la solicitud de firma de certificado ni los detalles de las notas. |
+| Descargar clave         | Solo descarga la clave privada y no incluye el certificado, el certificado intermedio, la solicitud de firma de certificado ni los detalles de las notas. |
+| Descargar PEM         | Descarga todos los detalles asociados con el certificado SSL, incluido el certificado, la clave privada, el certificado intermedio, la solicitud de firma de certificado y las notas. |
+{: caption="Tabla 1. Opciones de descarga" caption-side="top"}
 
 ## Pasos siguientes
 
