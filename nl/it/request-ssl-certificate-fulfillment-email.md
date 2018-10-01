@@ -15,7 +15,7 @@ Dopo l'ordinazione di un nuovo certificato SSL tramite {{site.data.keyword.BluSo
 
 1. Accedi alla [{{site.data.keyword.slportal_full}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://control.softlayer.com/){: new_window} utilizzando credenziali univoche.
 2. Dal menu **Sicurezza** seleziona **SSL > Ordini**.
-3. Fai clic sul **Send** collegamento nella colonna **Email** per il certificato SSL che desideri.<br/>**Nota:** viene visualizzata una finestra a comparsa per confermare la richiesta. Questa finestra contiene l'indirizzo email dell'amministratore del dominio fornito quando il certificato SSL è stato richiesto.
+3. Fai clic sul collegamento **Invia** nella colonna **Email** per il certificato SSL che desideri.<br/>**Nota:** viene visualizzata una finestra a comparsa per confermare la richiesta. Questa finestra contiene l'indirizzo email dell'amministratore del dominio fornito quando il certificato SSL è stato richiesto.
 4. Fai clic su **Invia nuovamente email** per confermare la selezione e richiedere un'ulteriore email di adempimento ordine dall'autorità di certificazione.  Oppure fai clic su **Annulla** per annullare l'azione.
 
 ## Passi successivi

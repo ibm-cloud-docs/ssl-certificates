@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2014, 2018
-lastupdated: "2018-02-22"
+lastupdated: "2018-03-01"
 ---
 
 {:shortdesc: .shortdesc}
@@ -20,7 +20,7 @@ Puoi cercare, scaricare parti di un certificato o una versione formattata PEM, o
 
 ## Aggiunta di un certificato
 
-Quando sei pronto ad aggiungere un certificato, seleziona "Aggiungi certificato" nel menu di navigazione secondario o nel titolo dell'elenco del certificato. Ti viene solo richiesto di fornire il certificato e la sua chiave privata. Tuttavia, non fornendo un certificato intermedio quando il tuo emittente ne fornisce uno, può causare una catena di certificati rotta e una convalida impropria per gli utenti o i servizi associati.
+Quando sei pronto ad aggiungere un certificato, seleziona **Aggiungi certificato** nel menu di navigazione secondario o nel titolo dell'elenco del certificato. Ti viene solo richiesto di fornire il certificato e la sua chiave privata. Tuttavia, non fornendo un certificato intermedio quando il tuo emittente ne fornisce uno, può causare una catena di certificati rotta e una convalida impropria per gli utenti o i servizi associati.
 
 Nota: le chiavi private che richiedono una passphrase non possono essere memorizzate.
 

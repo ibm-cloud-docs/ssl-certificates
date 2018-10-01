@@ -26,4 +26,4 @@ Dopo l'eliminazione di un certificato SSL, tutti i servizi che sono collegati al
 
 Si consiglia di aggiornare tutti i servizi che in precedenza utilizzavano il certificato eliminato per essere associati ad un certificato SSL valido che sia associato all'account.
 
-**Nota:** in ogni momento il certificato SSL può essere nuovamente aggiunto a {{site.data.keyword.slportal}} utilizzanod il processo [importa](import-ssl-certificate.html).
+**Nota:** in ogni momento il certificato SSL può essere nuovamente aggiunto a {{site.data.keyword.slportal}} utilizzando il processo [importa](import-ssl-certificate.html).

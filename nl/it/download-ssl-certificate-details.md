@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2014, 2018
-lastupdated: "2018-02-22"
+lastupdated: "2018-05-17"
 ---
 
 {:shortdesc: .shortdesc}
@@ -15,7 +15,14 @@ Per scaricare i dettagli per il certificato SSL, completa la seguente procedura.
 
 1. Accedi alla [{{site.data.keyword.slportal_full}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://control.softlayer.com/){: new_window} utilizzando credenziali univoche.
 2. Dal menu **Sicurezza** seleziona **SSL > Certificati**.
-3. Dal menu **Azioni** seleziona le **Opzioni di scaricamento** preferite per il certificato. Consulta la seguente tabella per ulteriori informazioni:<br /> <br /><table border="1"><tr><th>Opzioni di scaricamento</th><th>Informazioni sullo scaricamento</th></tr><tr><td>Scarica certificato</td><td>Scarica solo la parte del certificato e non include la chiave privata, il certificato intermedio, la richiesta firma certificato o i dettagli delle note.</td></tr><tr><td>Scarica chiave</td><td>Scarica solo la chiave privata e non include il certificato, il certificato intermedio, la richiesta firma certificato (CSR) o i dettagli delle note.</td></tr><tr><td>Scarica PEM</td><td>Scarica tutti i dettagli che sono associati al certificato SSL, incluso il certificato, la chiave privata, il certificato intermedio, la richiesta firma certificato (CSR) e le note.</td></tr></table>
+3. Dal menu **Azioni** seleziona le **Opzioni di scaricamento** preferite per il certificato. Consulta la seguente tabella per ulteriori informazioni:
+
+| Opzioni di scaricamento | Informazioni di scaricamento |
+| -------------------- | -------------------- |
+| Scarica certificato | Scarica solo la parte del certificato e non include la chiave privata, il certificato intermedio, la richiesta firma certificato o i dettagli delle note.|
+| Scarica chiave         | Scarica solo la chiave privata e non include il certificato, il certificato intermedio, la richiesta firma certificato (CSR) o i dettagli delle note.|
+| Scarica PEM         | Scarica tutti i dettagli che sono associati al certificato SSL, incluso il certificato, la chiave privata, il certificato intermedio, la richiesta firma certificato (CSR) e le note.|
+{: caption="Tabella 1. Opzioni di scaricamento" caption-side="top"}
 
 ## Passi successivi
 

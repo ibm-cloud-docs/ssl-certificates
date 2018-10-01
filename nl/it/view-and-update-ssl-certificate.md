@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2014, 2018
-lastupdated: "2018-02-22"
+lastupdated: "2018-08-15"
 ---
 
 {:shortdesc: .shortdesc}
@@ -20,13 +20,15 @@ Per visualizzare e aggiornare un certificato SSL, completa la seguente procedura
 
    **Nota:** i dettagli che vengono immessi nella finestra **Importa certificato SSL** devono essere immessi esattamente come vengono forniti dall'autorità di certificazione, inclusi la spaziatura e le interruzioni di linea. Se ciò non accade si verifica un errore.
 
-| Casella di testo | Voce |
-| -------- | ----- |
-|Certificato |I dettagli del certificato SSL, forniti dall'autorità di certificazione. Generalmente sono blocchi di testo alfanumerici.|
-|Chiave privata | I dettagli della chiave privata del certificato, forniti dall'autorità di certificazione. Generalmente sono blocchi di testo alfanumerici.|
-|Certificato intermedio| I dettagli del certificato intermedio, forniti dall'autorità di certificazione. I certificati intermedi non sono necessari, tuttavia, se le informazioni sono disponibili per il certificato SSL, dovrebbero essere immessi.|
-| Richiesta di firma del certificato | I dettagli di CSR (Certificate Signing Request), forniti dall'autorità di certificazione. I dettagli CSR non sono necessari ma dovrebbero essere forniti se sono parte del certificato. **Nota:** non modificare il CSR in alcun modo. Una chiave pubblica può essere inclusa con il CSR e non deve essere sostituita dalla chiave privata.|
-|Note | Ogni nota riguardante il certificato SSL che potrebbe essere utile ad altri utenti.
+| Dettagli del certificato SSL | Descrizione |
+| --------------------------- | ----------- |
+|Certificato                  | I dettagli del certificato SSL, forniti dall'autorità di certificazione. Generalmente sono blocchi di testo alfanumerici.|
+|Chiave privata                  | I dettagli della chiave privata del certificato, forniti dall'autorità di certificazione. Generalmente sono blocchi di testo alfanumerici.|
+|Certificato intermedio     | I dettagli del certificato intermedio, forniti dall'autorità di certificazione. I certificati intermedi non sono necessari, tuttavia, se le informazioni sono disponibili per il certificato SSL, dovrebbero essere immessi.|
+|Richiesta di firma del certificato  | I dettagli di CSR (Certificate Signing Request), forniti dall'autorità di certificazione. I dettagli CSR non sono necessari ma dovrebbero essere forniti se sono parte del certificato. **Nota:** non modificare il CSR in alcun modo. Una chiave pubblica può essere inclusa con il CSR e non deve essere sostituita dalla chiave privata.|
+|Note                        | Ogni nota riguardante il certificato SSL che potrebbe essere utile ad altri utenti.|
+{: caption="Tabella 1. Dettagli del certificato SSL " caption-side="top"}
+
 Fai clic su **Aggiorna** per aggiornare il certificato SSL o fai clic su **Annulla** per annullare l'azione.
 
 ## Passi successivi

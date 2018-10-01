@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2014, 2018
-lastupdated: "2018-02-21"
+lastupdated: "2018-05-17"
 ---
 
 {:shortdesc: .shortdesc}
@@ -15,7 +15,7 @@ Il certificato SSL contiene la chiave pubblica del server, le date di validità 
 
 ## Terminologia SSL
 
-I certificati SSL hanno una terminologia univoca. Potresti incontrare i seguenti termini mentre lavori con i certificati SSL.
+I certificati SSL hanno una terminologia univoca. Potresti incontrare i seguenti termini mentre lavori con i certificati SSL:
 
 **Dimensione Bit:** le chiavi di crittografia vengono misurate in base alla loro dimensione in bit. Ad esempio, 512 bit, 1024 bit, 2048 bit. Generalmente una chiave più lunga sarà più lenta da utilizzare ma più sicura. Attualmente la dimensione minima per le chiavi che vengono utilizzate nei certificati SSL è 1024 bit, sebbene i certificati di convalida estesa richiedano 2048 bit.
 
@@ -25,7 +25,7 @@ I certificati SSL hanno una terminologia univoca. Potresti incontrare i seguenti
 
   \> Intermedio2 > cert. del server2
 
-In questo esempio, il certificato del server viene firmato dal certificato intermedio, che è a sua volta firmato dal certificato root. Il concatenamento in questo modo può rendere l'SSL più sicuro perché significa che il certificato root non viene utilizzato (ed esposto a rischio) così spesso. Se l'intermedio1 è stato compromesso, allora il certificato del server potrebbe essere in pericolo ma il certificato del server2 potrebbe andare bene perchè sono parti di catene differenti.
+In questo esempio, il certificato del server viene firmato dal certificato intermedio, che è a sua volta firmato dal certificato root. Il concatenamento in questo modo può rendere l'SSL più sicuro perché significa che il certificato root non viene utilizzato (ed esposto a rischio) così spesso. Se l'intermedio1 è stato compromesso, allora il certificato del server potrebbe essere in pericolo ma il certificato del server2 potrebbe andare bene perché sono parti di catene differenti.
 
 **CSR (Certificate Signing Request):** il CSR è un documento che si genera sul server e che contiene informazioni che l'autorità di certificazione utilizza per creare il certificato corrente.
 

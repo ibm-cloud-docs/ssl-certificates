@@ -16,7 +16,7 @@ I certificati SSL vengono emessi da un'autorità di certificazione di terze part
 
 ## Cos'è un certificato SSL?
 
-I certificati SSL sono abilitati da siti web come misura di sicurezza per proteggere l'utente. Sono generalmente utilizzati quando si devono trasmettere informazioni riservate a un sito web, come nome, indirizzo, numero di carta di credito e altri dati personali o gestiscono dati che richiedeno l'autenticazione (come in {{site.data.keyword.slportal}}). I certificati SSL sono richiesti dalla società che gestisce il sito web ma vengono emessi da una società attendibile di terze parti che garantisce la validità del sito. I siti web protetti sono preceduti da HTTPS nell'URL, invece dello standard HTTP.
+I certificati SSL sono abilitati da siti web come misura di sicurezza per proteggere l'utente. Sono generalmente utilizzati quando si devono trasmettere informazioni riservate a un sito web, come nome, indirizzo, numero di carta di credito e altri dati personali o gestiscono dati che richiedono l'autenticazione (come in {{site.data.keyword.slportal}}). I certificati SSL sono richiesti dalla società che gestisce il sito web ma vengono emessi da una società attendibile di terze parti che garantisce la validità del sito. I siti web protetti sono preceduti da HTTPS nell'URL, invece dello standard HTTP.
 
 ## Come posso ordinare un SSL SHA2?
 
