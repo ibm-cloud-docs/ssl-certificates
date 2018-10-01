@@ -1,58 +1,47 @@
 ---
 copyright:
   years: 2014, 2018
-lastupdated: "2018-02-22"
+lastupdated: "2018-03-01"
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
-# Gérer les certificats SSL
+# Gestione dei certificati SSL
 
-{{site.data.keyword.BluSoftlayer_full}} offre à présent un moyen de stocker
-les certificats dans son portail. Non seulement cela peut servir de référentiel pour la gestion de vos certificats, mais c'est aussi une nécessité en cas
-d'utilisation de services qui peuvent utiliser ou exiger des certificats.
+{{site.data.keyword.BluSoftlayer_full}} ora fornisce un modo per memorizzare i certificati nel portale. Non solo questo può servire come un repository per la gestione dei tuoi certificati, ma è anche necessario quando si utilizzano i servizi che possono utilizzare o richiedere certificati.
 
-1. Accédez au portail [{{site.data.keyword.slportal_full}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://control.softlayer.com/){: new_window} en utilisant vos données d'identification uniques.
-2. Dans le menu **Sécurité**, sélectionnez **SSL > Certificats > Gérer les certificats**.
+1. Accedi alla [{{site.data.keyword.slportal_full}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://control.softlayer.com/){: new_window} utilizzando credenziali univoche.
+2. Dal menu **Sicurezza**, seleziona **SSL > Certificati > Gestisci Certificati**.
 
-Une liste de vos certificats actuels vous est présentée accompagnée d'informations sur leur statut.
+Si presenta un elenco dei tuoi certificati correnti insieme alle informazioni riguardanti lo stato.
 
-Vous pouvez rechercher des certificats, les télécharger en partie ou en totalité sous forme de fichiers PEM ou passer en revue leur date d'expiration.
-Vous pouvez également voir combien de services utilisent actuellement chaque certificat.
-Vous savez ainsi si des mesures doivent être prises lorsqu'un certificat est proche de son expiration.
+Puoi cercare, scaricare parti di un certificato o una versione formattata PEM, oppure riesaminare la scadenza dei tuoi certificati. Puoi anche visualizzare quanti servizi stanno attualmente utilizzando ogni certificato. Questo ti consente di sapere se l'azione deve essere eseguita quando un certificato sta raggiungendo la scadenza.
 
+## Aggiunta di un certificato
 
-## Ajouter un certificat
+Quando sei pronto ad aggiungere un certificato, seleziona **Aggiungi certificato** nel menu di navigazione secondario o nel titolo dell'elenco del certificato. Ti viene solo richiesto di fornire il certificato e la sua chiave privata. Tuttavia, non fornendo un certificato intermedio quando il tuo emittente ne fornisce uno, può causare una catena di certificati rotta e una convalida impropria per gli utenti o i servizi associati.
 
-Lorsque vous êtes prêt à ajouter un certificat, sélectionnez l'option correspondante dans le sous-menu de navigation ou dans la liste de certificats.
-Vous n'êtes tenu de fournir que le certificat et sa clé privée. En revanche, le fait de ne pas fournir de certificat intermédiaire alors que l'émetteur en fournit un peut rompre la chaîne de certificats et rendre incorrecte la validation des utilisateurs ou des services associés.
+Nota: le chiavi private che richiedono una passphrase non possono essere memorizzate.
 
+Una volta aggiunti, i seguenti campi sono derivati direttamente dai tuoi certificati:
 
-Remarque : les clés privées dont l'accès est protégé par une phrase de passe ne peuvent pas être stockées.
+* Nome comune
+* Nome Organizzazione
+* Periodo di validità
 
-Une fois le ou les certificats ajoutés, les zones suivantes sont dérivées directement :
+## Modifica di un certificato
 
-* Nom commun
-* Nom de l'organisation
-* Période de validité
+Attivando il triangolo a sinistra di un certificato si rivelano le parti del certificato nella loro interezza. Ciò permette anche di modificare le parti del certificato. Una nota può essere aggiunta e, quando necessario, il certificato può essere rimosso. Viene anche elencata una lista di servizi che stanno attualmente utilizzando il certificato.
 
-## Editer un certificat
+**Nota**: solo i certificati che non sono associati ai servizi possono avere la loro "chiave privata", il "certificato", o le parti del "certificato intermedio" aggiornati.  Il certificato inoltre non può essere rimosso.
 
-Lorsque vous activez le triangle à gauche d'un certificat, ses différentes parties s'affichent entièrement.
-Cela vous permet aussi de les éditer. Vous pouvez ajouter une note au certificat et, en cas de nécessité, supprimer celui-ci.
-Les services qui utilisent actuellement le certificat sont également listés.
+Puoi modificare la nota in qualsiasi momento.
 
+## Rimozione di un certificato
 
-**Remarque** : la mise à jour des parties "clé privée", "certificat" et "certificat intermédiaire" n'est pas possible pour les certificats associés à des services. Il n'est pas non plus possible de supprimer ces certificats.
-
-La note jointe peut être modifiée à tout moment.
-
-
-## Supprimer un certificat
-
-Pour supprimer un certificat, procédez comme pour l'éditer et cochez simplement la case "Confirm certificate removal", puis sauvegardez.
+Per rimuovere un certificato, segui i passi per modificarlo, seleziona "Conferma rimozione certificato" e salva.
 
 ### API
 
-Pour un exemple d'édition de certificats à l'aide de l'API, voir [Gestion SSL![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](http://sldn.softlayer.com/article/ssl-management){: new_window}. 
+Per un esempio di modifica dei certificati utilizzando l'API, consulta [Gestione SSL ![Icona collegamento esterno](../../icons/launch-glyph.svg "Icona collegamento esterno")](http://sldn.softlayer.com/article/ssl-management){: new_window}. 

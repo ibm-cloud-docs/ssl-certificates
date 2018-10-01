@@ -1,32 +1,29 @@
 ---
 copyright:
   years: 2014, 2018
-lastupdated: "2018-02-22"
+lastupdated: "2018-05-17"
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
-# Télécharger les détails d'un certificat SSL
+# Dettagli sullo scaricamento del certificato SSL
 
-Une fois qu'un certificat SSL a été ajouté au portail {{site.data.keyword.slportal_full}}, ses détails peuvent être téléchargés à tout moment.
-Le téléchargement peut inclure le certificat seul, la clé seule ou le fichier PEM, qui comprend tous les détails disponibles sur le certificat SSL.
-Le téléchargement est sécurisé. Récupérer les détails par cette méthode est donc sans risque.
+Dopo che un certificato SSL viene aggiunto a {{site.data.keyword.slportal_full}}, i suoi dettagli possono essere scaricati in ogni momento. Gli scaricamenti possono includere il certificato, chiave o PEM, che include tutti i dettagli disponibili associati al certificato SSL. I dettagli del certificato SSL sono scaricati in sicurezza, quindi non ci sono rischi associati al recupero dei dettagli con questo metodo.
 
+Per scaricare i dettagli per il certificato SSL, completa la seguente procedura.
 
-Pour télécharger les détails d'un certificat SSL, effectuez les étapes suivantes.
+1. Accedi alla [{{site.data.keyword.slportal_full}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://control.softlayer.com/){: new_window} utilizzando credenziali univoche.
+2. Dal menu **Sicurezza** seleziona **SSL > Certificati**.
+3. Dal menu **Azioni** seleziona le **Opzioni di scaricamento** preferite per il certificato. Consulta la seguente tabella per ulteriori informazioni:
 
-1. Accédez au portail [{{site.data.keyword.slportal_full}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://control.softlayer.com/){: new_window} en utilisant vos données d'identification uniques.
-2. Dans le menu **Sécurité**, sélectionnez **SSL > Certificats**.
-3. Dans le menu **Actions**, sélectionnez l'**option de téléchargement** préférée pour le certificat.
-Pour plus d'informations, voir le tableau ci-dessous :<br /> <br /><table border="1"><tr><th>Option de téléchargement</th><th>Informations téléchargées</th></tr><tr><td>Télécharger le certificat</td><td>Limite le
-téléchargement à la partie certificat, en excluant la clé privée, le certificat intermédiaire, la demande de signature (CSR) et les Notes (ou Remarques).</td></tr><tr><td>Télécharger la clé</td><td>Limite le
-téléchargement à la clé privée, en excluant la partie certificat, le certificat intermédiaire, la demande de signature (CSR) et les Notes (ou Remarques).</td></tr><tr><td>Télécharger PEM</td><td>Télécharge tous les détails associés au certificat SSL, ce qui comprend la partie certificat, la clé privée, le certificat intermédiaire, la demande de signature (CSR) et les Notes (ou Remarques).
-</td></tr></table>
+| Opzioni di scaricamento | Informazioni di scaricamento |
+| -------------------- | -------------------- |
+| Scarica certificato | Scarica solo la parte del certificato e non include la chiave privata, il certificato intermedio, la richiesta firma certificato o i dettagli delle note.|
+| Scarica chiave         | Scarica solo la chiave privata e non include il certificato, il certificato intermedio, la richiesta firma certificato (CSR) o i dettagli delle note.|
+| Scarica PEM         | Scarica tutti i dettagli che sono associati al certificato SSL, incluso il certificato, la chiave privata, il certificato intermedio, la richiesta firma certificato (CSR) e le note.|
+{: caption="Tabella 1. Opzioni di scaricamento" caption-side="top"}
 
-## Etapes suivantes
+## Passi successivi
 
-Lorsque vous demandez à télécharger les détails d'un certificat SSL, les
-informations correspondantes sont automatiquement téléchargées dans le navigateur web. Sélectionnez le téléchargement pour ouvrir le fichier.
-Vous pouvez aussi sauvegarder le fichier sur votre poste de travail afin de pouvoir vous y référer ultérieurement. Vous pourrez à tout moment télécharger automatiquement les données de tout certificat présent sur l'écran Certificats SSL en répétant les étapes ci-dessus.
-
+Dopo la richiesta di scaricare i dettagli del certificato SSL, essi vengono automaticamente scaricati nel browser web. Seleziona lo scaricamento per aprire il file. Il file può anche essere salvato nella tua postazione di lavoro per il futuro; tuttavia, i dati di ogni certificato SSL presente nella schermata dei certificati SSL possono essere scaricati automaticamente in qualsiasi momento ripetendo i passi precedenti.

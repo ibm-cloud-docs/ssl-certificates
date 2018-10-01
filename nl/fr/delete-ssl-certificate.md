@@ -7,28 +7,23 @@ lastupdated: "2018-02-22"
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
-# Supprimer des certificats SSL
+# Eliminazione dei certificati SSL
 
-Lorsque les détails d'un certificat SSL ont été importés dans le portail {{site.data.keyword.slportal_full}}, il est possible de les supprimer à tout moment pour éviter que les données ne soient sauvegardées sur le portail {{site.data.keyword.slportal}}.
+Dopo che i dettagli di un certificato SSL vengono importati in {{site.data.keyword.slportal_full}}, può essere eliminato in qualsiasi momento per impedire a tutti i dati di essere salvati in {{site.data.keyword.slportal}}.
 
-Pour supprimer un certificat SSL, effectuez les étapes suivantes.
+Per eliminare un certificato SSL, completa la seguente procedura.
 
-1. Accédez au portail [{{site.data.keyword.slportal}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://control.softlayer.com/){: new_window} en utilisant vos données d'identification uniques.
-2. Dans le menu **Sécurité**, sélectionnez **SSL > Certificats**.
-3. Dans le menu **Actions**, sélectionnez l'option **Supprimer** pour le
-certificat voulu.
+1. Accedi alla [{{site.data.keyword.slportal}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://control.softlayer.com/){: new_window} utilizzando credenziali univoche.
+2. Dal menu **Sicurezza** seleziona **SSL > Certificati**.
+3. Dal menu **Azioni** seleziona **Elimina** per il certificato SSL desiderato.
 
-  **Remarque :** une fenêtre apparaît pour vous permettre de confirmer la suppression.
-4. Cliquez sur **Oui** pour supprimer le certificat SSL ou sur **Non** pour annuler l'opération.
+  **Nota:** appare una finestra per confermare l'eliminazione.
+4. Fai clic su **Sì** per eliminare il certificato SSL o fai clic su **No** per annullare l'azione.
 
-## Etapes suivantes
+## Passi successivi
 
-Une fois qu'un certificat SSL a été supprimé, tous les services qui y sont liés cessent d'utiliser ses informations.
-Le certificat n'certificat plus dans l'écran Certificats SSL du portail {{site.data.keyword.slportal}}.
+Dopo l'eliminazione di un certificato SSL, tutti i servizi che sono collegati al certificato non utilizzano più le sue informazioni. Il certificato non appare più nella schermata dei certificati SSL all'interno di {{site.data.keyword.slportal}}.
 
-Il est conseillé de mettre à jour tous les services qui utilisaient jusqu'à présent
-le certificat supprimé afin de les lier à un certificat SSL valide et qui soit associé au
-compte.
+Si consiglia di aggiornare tutti i servizi che in precedenza utilizzavano il certificato eliminato per essere associati ad un certificato SSL valido che sia associato all'account.
 
-**Remarque :** vous pouvez à tout moment ajouter à nouveau le certificat SSL au portail {{site.data.keyword.slportal}} en utilisant le processus d'[importation](import-ssl-certificate.html).
-
+**Nota:** in ogni momento il certificato SSL può essere nuovamente aggiunto a {{site.data.keyword.slportal}} utilizzando il processo [importa](import-ssl-certificate.html).

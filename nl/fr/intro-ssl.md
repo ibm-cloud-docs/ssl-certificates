@@ -1,83 +1,52 @@
 ---
 copyright:
   years: 2014, 2018
-lastupdated: "2018-02-21"
+lastupdated: "2018-05-17"
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
-# Introduction à la technologie SSL
+# Introduzione alla tecnologia SSL
 
-SSL (Secure Sockets Layer) est une technologie qui chiffre le trafic entre l'application client et le serveur d'applications. Ce chiffrement est réalisé avec un système de clé publique/clé privée utilisant un certificat SSL.
+Secure Sockets Layer (SSL) è una tecnologia che crittografa il traffico tra l'applicazione client e il server delle applicazioni. Questa crittografia viene eseguita utilizzando una chiave pubblica/chiave privata di sistema che utilizza un certificato SSL.
 
+Il certificato SSL contiene la chiave pubblica del server, le date di validità del certificato, un nome host per cui il certificato è valido e una firma dall'autorità di certificazione che lo ha emesso.
 
-Le certificat SSL contient la clé publique du serveur, les dates pour lesquelles le certificat est valide, un nom d'hôte pour lequel le certificat est valide et une signature de l'autorité de certification qui l'a émis.
+## Terminologia SSL
 
+I certificati SSL hanno una terminologia univoca. Potresti incontrare i seguenti termini mentre lavori con i certificati SSL:
 
-## Terminologie SSL
+**Dimensione Bit:** le chiavi di crittografia vengono misurate in base alla loro dimensione in bit. Ad esempio, 512 bit, 1024 bit, 2048 bit. Generalmente una chiave più lunga sarà più lenta da utilizzare ma più sicura. Attualmente la dimensione minima per le chiavi che vengono utilizzate nei certificati SSL è 1024 bit, sebbene i certificati di convalida estesa richiedano 2048 bit.
 
-Les certificats SSL ont une terminologie unique. Vous pourriez rencontrer les termes suivants lorsque vous travaillez avec des certificats SSL.
+**Catena di certificati:** i certificati SSL non vengono generalmente utilizzati da soli. Nella maggior parte delle implementazioni si ha a che fare con una catena di certificati. Ad esempio:
 
-**Taille en bits :** les clés de chiffrement sont mesurées par leur taille en bits. Par exemple, 512 bits, 1024 bits, 2048 bits.
-Généralement, une clé longue sera plus sûre, mais aussi plus lente à utiliser. Actuellement, la taille minimale des clés utilisées dans les certificats SSL est de 1024 bits, bien que les certificats à validation étendue requièrent une clé 2048 bits.
+  Root > intermedio1 > cert. del server
 
+  \> Intermedio2 > cert. del server2
 
-**Chaîne de certificats :** les certificats SSL sont rarement utilisés seuls. Dans la plupart des installations, vous traitez une chaîne de certificats. Par
-exemple :
+In questo esempio, il certificato del server viene firmato dal certificato intermedio, che è a sua volta firmato dal certificato root. Il concatenamento in questo modo può rendere l'SSL più sicuro perché significa che il certificato root non viene utilizzato (ed esposto a rischio) così spesso. Se l'intermedio1 è stato compromesso, allora il certificato del server potrebbe essere in pericolo ma il certificato del server2 potrebbe andare bene perché sono parti di catene differenti.
 
-  Racine > intermédiaire1 > cert serveur.
+**CSR (Certificate Signing Request):** il CSR è un documento che si genera sul server e che contiene informazioni che l'autorità di certificazione utilizza per creare il certificato corrente.
 
-  \> Intermédiaire2 > cert serveur2
+**Nome comune:** il nome comune (CN) è il nome host per cui il certificato è valido (ad esempio, www.domain.com).  
 
-Dans cet exemple, le certificat de votre serveur est signé par le certificat
-intermédiaire, qui à son tour est signé par le certificat racine. Chaîner les certificats de cette façon peut rendre SSL plus sûr, car cela signifie que le
-certificat racine n'est pas utilisé (et exposé aux risques) si souvent. Si intermédiaire1 était compromis, il y aurait un risque pour cert serveur, mais cert serveur2 serait sûr, car il ne fait pas partie de la même chaîne.
+*Nota:* www.domain.com, smtp.domain.com, e mail.domain.com sono tre nomi host differenti e lo stesso certificato SSL non è valido per tutti e tre (a meno che non si stia utilizzando un certificato jolly, ma attualmente {{site.data.keyword.cloud}} non lo offre).
 
+**Chiave Privata/Pubblica:** SSL utilizza una tecnica chiamata crittografia chiave pubblica. In questo formato di crittografia hai due chiavi: la pubblica e la privata. La chiave pubblica è distribuita in lungo e in largo. Nessuno vede la tua chiave privata. Chi vuole comunicare in modo sicuro con te crittografa la comunicazione attraverso la tua chiave pubblica. La crittografia chiave pubblica è basata sulla asserzione che i bit crittografati con una chiave pubblica specificata possono essere decodificati solo utilizzando la corrispondente chiave privata e viceversa.
 
-**Demande de signature de certificat :** également appelée demande CSR (Certificate Signing Request), il s'agit d'un document que vous générez sur le serveur et qui contient les informations que l'autorité de certification utilisera pour créer votre certificat proprement dit.
+**Certificato root:** i certificati root SSL sono certificati che si firmano da soli e vengono presentati al mondo dalle rispettive autorità di certificazione. I certificati root per le autorità di certificazione sono già installati nell'archivio certificati del tuo browser web. Questo consente al tuo browser di ritenere attendibili questi certificati e formare l'inizio della catena di attendibilità che porta alla fine al certificato che hai installato sul server.
 
+**Firma:** i certificati SSL hanno una firma digitale che è inserita dall'autorità di certificazione. Questa firma, quando è riconducibile ad un certificato root attendibile, conferma l'autenticità del certificato.
 
-**Nom commun :** parfois appelé nom usuel, le nom commun (CN, Common Name) est le nom d'hôte pour lequel le certificat est valide (par exemple, www.domaine.com).  
+## SSL nell'infrastruttura IBM Cloud
 
-*Remarque :* www.domaine.com, smtp.domaine.com et mail.domaine.com sont trois noms d'hôte totalement entièrement différents. Un même certificat SSL ne pourrait être valide pour les trois (excepté si vous utilisiez un certificat générique, mais ce type de certificat n'est pas proposé actuellement par {{site.data.keyword.cloud}}).
+{{site.data.keyword.BluSoftlayer_full}} rivende tre tipi di certificati SSL: convalida del dominio, convalida dell'organizzazione e convalida estesa. 
 
+I certificati di convalida del dominio (DV) sono economici e disponibili velocemente. La convalida che viene eseguita dall'autorità di certificazione è limitata a inviare un'email ad un indirizzo email specificato nel dominio in questione e ottenere una risposta positiva. I certificati di convalida dell'organizzazione (OV) e di convalida estesa (EV) impiegano un paio di giorni (a volte una settimana), costano di più e comportano controlli più approfonditi dall'autorità di certificazione. I certificati EV sono codificati in modo che i browser li riconoscono come EV e visualizzano una barra verde come parte della barra dell'indirizzo. 
 
-**Clé privée/clé publique :** SSL repose sur une technique appelée cryptographie à clé publique.
-Dans cette forme de cryptographie, vous avez
-deux clés : une clé publique et une clé privée. La clé publique est distribuée largement. En revanche, personne ne voit votre clé privée. Les personnes veulent communiquer en toute sécurité avec vous chiffrent leur communication avec votre clé publique.
-La cryptographie à clé publique est basée sur l'assertion selon laquelle les bits chiffrés avec une clé publique donnée ne peuvent être déchiffrés qu'en utilisant la clé privée correspondante et inversement.
+I certificati SSL, come altri servizi {{site.data.keyword.cloud_notm}}, possono essere gestiti tramite {{site.data.keyword.slportal}}. Vai al menu **Sicurezza** e seleziona l'opzione **Certificati SSL** per ordinare e gestire i certificati.  
 
+**Nota:** i certificati SSL ordinati tramite {{site.data.keyword.cloud_notm}} non devono essere utilizzati su un server {{site.data.keyword.BluSoftlayer_notm}}. Inoltre i certificati ordinati altrove possono essere utilizzati sui tuoi server che sono ospitati qui.
 
-**Certificat racine :** les certificats racine SSL sont des certificats signés par eux-mêmes et présentés au monde par leurs autorités de certification respectives.
-Les certificats racine des autorités de certification sont déjà installés dans le magasin de certificats de votre navigateur Web.
-Votre navigateur fait confiance à ces certificats, qui forment chacun le début d'une
-chaîne de confiance menant au certificat que vous installez sur votre serveur.
-
-**Signature :** les certificats SSL ont une signature numérique apposée par l'autorité de certification.
-C'est cette signature qui, tracée jusqu'au certificat racine de confiance, confirme
-l'authenticité du certificat.
-
-## SSL dans l'infrastructure IBM Cloud
-
-{{site.data.keyword.BluSoftlayer_full}} revend trois types de certificats SSL : validation du domaine,
-validation de l'organisation et validation étendue. 
-
-Les certificats à validation du domaine (DV, Domain Validation) sont à la fois peu coûteux et
-rapidement disponibles. La validation effectuée par l'autorité de certification se limite à l'envoi d'un e-mail à une adresse spécifiée sur le domaine concerné et à la réception d'une réponse positive.
-Les certificats à validation de l'organisation (OV, Organization Validation) et à validation étendue (EV, Extended Validation) s'obtiennent en quelques jours (parfois en une semaine), sont plus coûteux et entraînent des contrôles plus approfondis de la part de l'autorité de certification.
-Les certificats EV sont codés de telle manière que les navigateurs les reconnaissent comme tels et affichent une barre verte dans la barre d'adresse.
- 
-
-Les certificats SSL, comme les autres services {{site.data.keyword.cloud_notm}}, peuvent être
-gérés via le portail {{site.data.keyword.slportal}}. Accédez au menu **Sécurité** et sélectionnez l'option **Certificats SSL** pour commander et gérer vos certificats.
-  
-
-**Remarque :** les certificats SSL commandés via {{site.data.keyword.cloud_notm}} ne doivent pas nécessairement être utilisés sur un serveur {{site.data.keyword.BluSoftlayer_notm}}.
-Réciproquement, les certificats commandés ailleurs sont utilisables sur vos serveurs hébergés ici.
-
-
-Les certificats SSL améliorent la sécurité des transactions et donnent à vos utilisateurs un sentiment de sécurité.
-Parallèlement aux certificats SSL, la sécurité du démon (Daemon security), la sécurité
-physique, les pratiques de codage et la gestion des certificats se combinent pour former
-le profil de sécurité global de la solution.
+I certificati SSL migliorano la sicurezza delle transazioni e forniscono agli utenti un senso di sicurezza. Oltre ai certificati SSL la sicurezza daemon, la sicurezza fisica, le procedure di codifica e la gestione del certificato si combinano per creare un profilo di sicurezza globale della soluzione.

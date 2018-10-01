@@ -7,21 +7,15 @@ lastupdated: "2018-02-22"
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
-# Accéder aux commandes SSL
+# Accesso agli ordini SSL
 
-L'écran des commandes SSL contient la liste de tous les certificats SSL commandés via {{site.data.keyword.BluSoftlayer_full}} dans l'historique du compte.
-Les détails inclus dans cet écran comprennent le nom usuel du certificat SSL, son type et sa date d'expiration.
-A partir de cet écran,
-vous pouvez renouveler un certificat ou demander qu'on vous renvoie l'e-mail d'exécution. Les certificats SSL stockés sur le portail {{site.data.keyword.slportal_full}} qui n'ont pas été commandés par le biais de {{site.data.keyword.BluSoftlayer_notm}} ne sont pas disponibles sur cet écran.
-Effectuez les étapes suivantes pour accéder à l'écran des commandes SSL.
+La schermata degli ordini SSL contiene un elenco di tutti i certificati SSL che vengono ordinati attraverso {{site.data.keyword.BluSoftlayer_full}} per la cronologia dell'account. I dettagli che sono inclusi in questa schermata includono il nome comune del certificato SSL, il tipo di certificato e la data di scadenza. Da questa schermata puoi rinnovare il certificato o inviare di nuovo l'email di adempimento ordine. Ogni certificato SSL che è memorizzato in {{site.data.keyword.slportal_full}} che non è stato ordinato tramite {{site.data.keyword.BluSoftlayer_notm}} non è disponibile in questa schermata. Completa la seguente procedura per accedere alla schermata degli ordini SSL.
 
-## Accéder à l'écran des commandes SSL
+## Accesso alla schermata degli ordini SSL
 
-1. Accédez au portail [{{site.data.keyword.slportal_full}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://control.softlayer.com/){: new_window} en utilisant vos données d'identification uniques.
-2. Dans le menu **Sécurité**, sélectionnez **SSL > Commandes**.
+1. Accedi alla [{{site.data.keyword.slportal_full}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://control.softlayer.com/){: new_window} utilizzando credenziali univoche.
+2. Dal menu **Sicurezza** seleziona **SSL > Ordini**.
 
-## Etapes suivantes
+## Passi successivi
 
-Une fois sur l'écran des commandes SSL, vous pouvez voir tous les certificats SSL
-qui ont été commandés via {{site.data.keyword.BluSoftlayer_notm}}. Les certificats sont présentés par date d'expiration, du plus ancien au plus récent, ce qui signifie que, par défaut, ceux qui ont déjà expiré sont affichés en premier.
-A partir de cet écran, vous pouvez [renouveler des certificats SSL](renew-ssl-certificate.html) et [demander qu'on vous renvoie l'e-mail d'exécution](request-ssl-certificate-fulfillment-email.html).
+Dopo l'accesso alla schermata degli ordini SSL, tutti i certificati SSL ordinati tramite {{site.data.keyword.BluSoftlayer_notm}} sono elencati. I certificati vengono visualizzati a seconda della loro data di scadenza dal più vecchio al più recente, ossia i certificati che sono già scaduti vengono visualizzate prima, per impostazione predefinita. Da questa schermata, puoi [rinnovare i certificati SSL](renew-ssl-certificate.html) e [richiedere che l'email di adempimento ordine venga inviata di nuovo](request-ssl-certificate-fulfillment-email.html).

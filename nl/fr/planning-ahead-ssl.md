@@ -1,79 +1,57 @@
 ---
 copyright:
   years: 2014, 2018
-lastupdated: "2018-02-21"
+lastupdated: "2018-05-16"
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
-# Planification SSL
+# Pianificazione di SSL
 
-Pour démarrer avec SSL, il faut un peu de planification. Effectuez les opérations prérequises suivantes.
+L'introduzione a SSL richiede un po' di pianificazione. Completa i seguenti prerequisiti.
 
-1. Décidez où vous procurer le certificat
-2. Renseignez-vous sur les types de certificats, la longueur des clés et leur
-durée de validité
-3. Choisissez un nom commun (ou nom usuel)
-4. Découvrez la règle du socket
-5. Générez la demande de signature de certificat
+1. Decidi dove ottenere il certificato
+2. Informati sui tipi di certificati, la lunghezza della chiave e la durata
+3. Scegli un nome comune
+4. Informati sulle regole socket
+5. Genera il CSR
 
-## Décidez où vous procurer le certificat
+## Decidi dove ottenere il certificato
 
-Les certificats SSL peuvent être obtenus en interne dans votre organisation ou
-auprès d'une autorité de certification, comme Verisign, RapidSSL, Thawte ou autre.  
+I certificati SSL possono essere ottenuti internamente alla tua organizzazione o dall'autorità di certificazione (CA) come Verisign, RapidSSL, Thawte e altri.  
 
-Dans une architecture contrôlée, pour un petit groupe tel que les employés d'une société
-utilisant un site intranet, il est possible d'obtenir un certificat autosigné que chaque
-employé installe ensuite dans son navigateur. Vous pouvez également mettre en place votre propre autorité de certification locale afin
-de générer des certificats utilisables dans votre organisation.
+Per un piccolo gruppo in una architettura controllata, come degli impiegati che utilizzano un sito intranet, puoi acquisire un certificato autofirmato che ogni impiegato installa nel suo browser. Puoi anche impostare da solo un'autorità di certificazione (CA) locale per generare i certificati da usare nella tua organizzazione.
 
-Pour un plus grand groupe, plus diversifié, l'utilisation d'un certificat SSL issu
-d'une source standard permet un accès sans configuration spécialisée. Les navigateurs web modernes sont configurés pour faire confiance aux certificats SSL
-émis par les autorités de certification.
+Per un gruppo più grande e diverso, l'utilizzo di un certificato SSL da un'origine standard permette l'accesso senza una configurazione specializzata. I web browser moderni sono configurati per assicurare certificati SSL emessi dalle autorità di certificazione (CA).
 
-## Renseignez-vous sur les types de certificats, la longueur des clés et leur
-durée de validité
+## Informati sui tipi di certificati, la lunghezza della chiave e la durata
 
-Une fois que vous avez décidé où obtenir votre certificat, examinez les options
-suivantes concernant les types de certificats et leur disponibilité, leur longueur de clé
-et leur durée de validité.
+Dopo aver deciso dove ottenere il tuo certificato, riesamina le seguenti opzioni dei tipi di certificati e le loro corrispondenti disponibilità, lunghezza della chiave e durata.
 
-|              Types de certificats          |  Disponibilité                     |  Longueur de clé                |  Durée                  |
+|              Tipi di certificati          |  Disponibilità                     |  Lunghezza chiave                |  Durata                  |
 | --------------------------------------- | --------------------------------- | -------------------------- | -------------------------- |
-|Validation du domaine (DV)                   | Rapidement disponible                 | 1024 bits ou 2048 bits       | 1 ou 2 ans             |
-|Validation de l'organisation (OV)             | 2 à 3 jours, voire une semaine          | 1024 bits ou 2048 bits       | 1 ou 2 ans             |
-|Validation étendue (EV)                 | 2 à 3 jours, voire une semaine          | 2048 bits uniquement              | 1 ou 2 ans             |
-{: caption="Tableau 1. Types de certificats" caption-side="top"}   
+|Convalida dominio (DV)                   | Disponibile velocemente                 | 1024 bit o 2048 bit       | 1 o 2 anni             |
+|Convalida organizzazione (OV)             | 2-3 giorni o fino a una settimana          | 1024 bit o 2048 bit       | 1 o 2 anni             |
+|Convalida estesa (EV)                 | 2-3 giorni o fino a una settimana          | solo 2048 bit              | 1 o 2 anni             |
+{: caption="Tabella 1. Tipi di certificati" caption-side="top"}   
 
 
-## Choisissez un nom commun (ou nom usuel)
+## Scegli un nome comune
 
-Le nom commun utilisé dans le certificat est le nom d'hôte du site web. Le nom d'hôte et le nom commun du certificat doivent être identiques, sinon les navigateurs afficheront un avertissement. Si votre site est web1.mondomaine.com, alors faites-en votre nom commun. Si vous utilisez également images.mondomaine.com, vous devez soit utiliser
-un certificat générique (non disponible auprès de {{site.data.keyword.cloud}}), soit configurer plusieurs
-certificats. Si vous choisissez le mauvais nom commun, des mesures peuvent être prises pour
-corriger la commande de certificat ou pour révoquer le certificat obtenu et réémettre une demande avec
-le nom commun adéquat.  
+Il nome comune utilizzato nel certificato è il nome host per il sito web. Il nome host e il nome comune del certificato devono corrispondere altrimenti i browser emettono un'avvertenza. Se il tuo sito è web1.mydomain.com, utilizzalo come nome comune. Se utilizzi anche images.mydomain.com, hai bisogno o di un certificato jolly (che è disponibile in {{site.data.keyword.cloud}}) o di impostare più certificati. Se scegli un nome comune sbagliato, ci sono passi che possono essere intrapresi per sistemare un ordine di certificato o per revocare e immettere nuovamente il nome comune corretto.  
 
-## Découvrez la règle du socket
+## Informati sulle regole socket
 
-La limite est d'un certificat par socket. Un socket est la combinaison d'une adresse IP et d'un port, telle que 1.2.3.4:443. Comparée à l'exemple précédent, la combinaison 1.2.3.4:444 formerait un socket différent. Pour les applications telles que SMTP/POP3 ou FTP, cela n'a pas d'importance. Pour HTTP, en revanche, la notion de socket devient importante en raison de son rôle dans l'hébergement virtuel.
+I certificati SSL sono limitati a un certificato per socket. Un socket è un indirizzo IP e una combinazione di porta, come 1.2.3.4:443 (1.2.3.4:444 è un socket diverso). Per le applicazioni come SMTP/POP3 o FTP, la regola del socket non ha importanza. Tuttavia conta per l'HTTP a causa del suo coinvolgimento con l'hosting virtuale.
 
-L'hébergement virtuel est la méthode par laquelle il est possible d'héberger 20, 30 ou même 100 sites sur une même
-adresse IP. Il tire parti d'une caractéristique particulière des navigateurs modernes, qui est celle de passer dans leur demande une zone appelée en-tête d'hôte. Cette zone, qui se présente sensiblement sous la forme “Host: web1.mondomaine.com”, indique au serveur Web à quel site vous tentez d'accéder. Dans le cas de HTTPS (HTTP sur SSL), le serveur web doit sélectionner le certificat SSL
-à envoyer au client avant de voir l'en-tête d'hôte. C'est la raison pour laquelle un socket donné
-ne peut avoir qu'un seul certificat.
+L'host virtuale è il metodo per cui puoi ospitare 20, 30, 100 siti web in un indirizzo IP. L'hosting virtuale funziona perché i browser moderni superano un campo chiamato il lettore host come parte delle loro richieste. Questo campo assomiglia a “Host: web1.mydomain.com” e indica il server web del sito al quale stai cercando di accedere. Nel caso di HTTPS (HTTP over SSL), il server web deve selezionare il certificato SSL da inviare al client prima di vedere l'intestazione dell'host, che è il motivo per cui un socket può avere solo un certificato.
 
-Vous pouvez affecter chaque site web accessible sur SSL à son propre socket. Il suffit, pour cela, de faire varier l'adresse IP ou le numéro de port. Notez cependant que si vous utilisez un autre port que le port TCP standard 443, les utilisateurs devront inclure explicitement le numéro de port dans l'URL (par exemple, https://web1.mondomaine.com:444).
+Puoi assegnare ogni sito web abilitato SSL al proprio socket variando l'indirizzo IP o la porta. Tieni a mente che se modifichi la porta da 443/tcp, gli utenti devono includere il numero di porta nel loro URL, come https://web1.mydomain.com:444.
 
-## Générez la demande de signature de certificat
+## Genera il CSR
 
-Vous pouvez générer la demande de signature de certificat en utilisant un logiciel sur le serveur web. Pour les systèmes UNIX, utilisez le package OpenSSL. Pour Windows, un assistant est accessible à partir de l'onglet Sécurité du répertoire des
-propriétés du site web, dans Gestionnaire des services Internet (IIS). Si vous utilisez un panneau de contrôle,
-reportez-vous aux informations spécifiques de ce panneau.
+Puoi generare il CSR (Certificate Signing Request) utilizzando il software sul server web. Per i sistemi UNIX, utilizza il pacchetto OpenSSL. Per Windows c'è una procedura guidata che è accessibile dalla scheda Directory Security delle proprietà del sito web nel gestore IIS. Se stai utilizzano un pannello di controllo, fai riferimento alle specifiche informazioni per quel pannello di controllo.
 
-La génération de la demande de signature de certificat s'accompagnera de la
-création d'une clé privée. Veillez à ne pas la perdre ni à la supprimer ou à la partager. Elle doit rester privée sur le serveur web. Certains utilitaires de génération de demande de signature de certificat offrent aussi la possibilité de créer une
-phrase de passe pour protéger l'accès à la clé privée. Ne faites pas cela, sauf si vous prévoyez de vous connecter au serveur à chaque
-redémarrage du logiciel du serveur web.  Veillez en outre à ne pas appliquer d'expression de demande d'accès (challenge phrase) à la demande de signature de certificat.
+Durante la generazione del CSR, crei una chiave privata. Non perdere, cancellare o condividere la chiave privata. È da mantenere privata sul server web. Alcuni programmi di utilità per la generazione del CSR ti forniscono anche la capacità di creare una passphrase per la chiave privata. Non farlo a meno che non prevedi di accedere al server ogni volta che il software del server web viene riavviato. In aggiunga, non applicare una challenge phrase al CSR.
 
