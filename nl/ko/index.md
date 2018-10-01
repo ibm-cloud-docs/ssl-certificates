@@ -1,13 +1,13 @@
 ---
 copyright:
   years: 2014, 2018
-lastupdated: "2018-02-21"
+lastupdated: "2018-08-15"
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
-# SSL 인증서 시작  
+# 시작하기 튜토리얼  
 
 
 ## 시작하기 전에
