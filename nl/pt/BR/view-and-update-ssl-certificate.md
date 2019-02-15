@@ -22,7 +22,7 @@ Para visualizar e atualizar um certificado SSL, conclua as etapas a seguir.
    **Nota:** detalhes que são inseridos na janela **Importar certificado SSL** devem ser
 inseridos exatamente como fornecidos pela autoridade de certificação, incluindo espaçamento e quebras de linha. Se não, ocorre um erro.
 
-|Detalhes do certificado SSL  | Descrição |
+| Detalhes do certificado SSL     | Descrição |
 | --------------------------- | ----------- |
 |Certificado                  | Detalhes do certificado SSL, fornecidos pela autoridade de certificação. Geralmente é um bloco alfanumérico de texto.|
 |Chave privada                  | Detalhes da chave privada para o certificado, fornecidos pela autoridade de certificação. Geralmente é um bloco alfanumérico de texto.|

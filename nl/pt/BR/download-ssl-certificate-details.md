@@ -23,9 +23,9 @@ certificado. Consulte a tabela a seguir para obter mais informações:
 
 | Opção de Download      | Informações de download |
 | -------------------- | -------------------- |
-| Certificado de download |Faz download somente da parte do certificado e não inclui os detalhes da chave privada, do certificado intermediário, da solicitação de assinatura do certificado ou de notas. |
-| Download de chave         |Faz download somente da chave privada e não inclui os detalhes do certificado, do certificado intermediário, da solicitação de assinatura de certificado ou de notas. |
-| Download do PEM         |Faz download de todos os detalhes associados ao certificado SSL, incluindo os detalhes do certificado, da chave privada, do certificado intermediário, da solicitação de assinatura de certificado e de notas. |
+| Certificado de download | Faz download somente da parte do certificado e não inclui os detalhes da chave privada, do certificado intermediário, da solicitação de assinatura do certificado ou de notas. |
+| Download de chave         | Faz download somente da chave privada e não inclui os detalhes do certificado, do certificado intermediário, da solicitação de assinatura de certificado ou de notas. |
+| Download do PEM         | Faz download de todos os detalhes associados ao certificado SSL, incluindo os detalhes do certificado, da chave privada, do certificado intermediário, da solicitação de assinatura de certificado e de notas. |
 {: caption="Tabela 1. Opções de download" caption-side="top"}
 
 ## Próximas Etapas
