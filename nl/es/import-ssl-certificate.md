@@ -14,7 +14,7 @@ Una vez que se emite un certificado SSL para un sitio web, puede importarse en e
 1. Acceda al [{{site.data.keyword.slportal_full}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/){: new_window} utilizando sus credenciales exclusivas.
 2. En el menú **Seguridad**, seleccione **SSL > Certificados**.
 3. Pulse **Importar certificado SSL**.
-4. Introduzca los **detalles del certificado SSL** en los campos relevantes y pulse **Importar**.
+4. Especifique los **detalles del certificado SSL** en los campos relevantes y pulse **Importar**.
 
    **Nota:** Los detalles que se introducen en la ventana **Importar certificado SSL** deben introducirse exactamente tal como los proporciona la autoridad de certificado, incluidos los espacios y los saltos de líneas. De lo contrario, se produce un error.
 
@@ -22,7 +22,7 @@ Una vez que se emite un certificado SSL para un sitio web, puede importarse en e
 | --------------------------- | ----------- |
 |Certificado                  | Detalles de certificado SSL, proporcionados por la autoridad de certificado. Generalmente, se trata de un bloque de texto alfanumérico.|
 |Clave privada                  | Detalles de Clave privada del certificado, proporcionados por la autoridad de certificado. Generalmente, se trata de un bloque de texto alfanumérico.|
-|Certificado intermedio     | Detalles de certificado intermedio, proporcionados por la autoridad de certificado. Los certificados intermedios no son necesarios. Sin embargo, si la información está disponible para el certificado SSL, debe introducirse..|
+|Certificado intermedio     | Detalles de certificado intermedio, proporcionados por la autoridad de certificado. Los certificados intermedios no son necesarios. Sin embargo, si la información está disponible para el certificado SSL, debe introducirse.|
 |Solicitud de firma de certificado  | Detalles de Solicitud de firma de certificado (CSR), proporcionados por la autoridad de certificado. No son necesarios los detalles de CSR, pero deben proporcionarse si son parte del certificado. **Nota:** no modifique el CSR de ninguna forma. Puede incluirse una clave pública con el CSR y no debería reemplazarse por la Clave privada.|
 |Notas                        | Cualquier nota relacionada con el certificado SSL que pueda ser útil para otros usuarios.|
 {: caption="Tabla 1. Detalles del certificado SSL" caption-side="top"}
