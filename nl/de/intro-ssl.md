@@ -15,7 +15,7 @@ Das SSL-Zertifikat enthält den öffentlichen Schlüssel des Servers, den Gülti
 
 ## SSL-Terminologie
 
-SSL-Zertifikate verwenden eine eindeutige Terminologie. Bei der Arbeit mit SSL-Zertifikaten können Sie daher beispielsweise auf die folgenden Begriffe stoßen: 
+SSL-Zertifikate verwenden eine eindeutige Terminologie. Bei der Arbeit mit SSL-Zertifikaten können Sie daher beispielsweise auf die folgenden Begriffe stoßen:
 
 **Bitgröße:** Verschlüsselungsschlüssel werden anhand ihrer Größe in Bit gemessen. Beispiel: 512 Bit, 1024 Bit, 2048 Bit. In der Regel ist ein längerer Schlüssel zwar sicherer, die Verarbeitung jedoch langsamer. Zum gegenwärtigen Zeitpunkt beträgt die Mindestgröße für in SSL-Zertifikaten verwendete Schlüssel 1024 Bit; für Extended-Validation-Zertifikate (EV) sind jedoch 2048 Bit erforderlich.
 

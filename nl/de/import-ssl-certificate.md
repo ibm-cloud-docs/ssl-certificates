@@ -18,13 +18,13 @@ Nachdem ein SSL-Zertifikat für eine Website ausgestellt wurde, kann es in das {
 
    **Hinweis:** Im Fenster **SSL-Zertifikat importieren** angegebene Details müssen genauso eingegeben werden, wie sie von der Zertifizierungsstelle bereitgestellt werden, einschließlich von Leerzeichen und Zeilenbrüchen. Werden die Details nicht korrekt eingegeben, tritt ein Fehler auf.
 
-| SSL-Zertifikatsdetails      | Beschreibung|
+| SSL-Zertifikatsdetails     | Beschreibung |
 | --------------------------- | ----------- |
-|Zertifikat                   | Von der Zertifizierungsstelle bereitgestellte SSL-Zertifikatsdetails. Hierbei handelt es sich für gewöhnlich um einen alphanumerischen Textblock.|
-|Privater Schlüssel           | Von der Zertifizierungsstelle bereitgestellte Details des privaten Schlüssels für das Zertifikat. Hierbei handelt es sich für gewöhnlich um einen alphanumerischen Textblock.|
-|Zwischenzertifikat           | Von der Zertifizierungsstelle bereitgestellte Details des Zwischenzertifikats. Zwischenzertifikate sind zwar nicht erforderlich, wenn jedoch die Informationen für das SSL-Zertifikat verfügbar sind, sollten diese eingegeben werden.|
-|Zertifikatssignieranforderung| Von der Zertifizierungsstelle bereitgestellte Details der Zertifikatssignieranforderung. Diese Details sind zwar nicht erforderlich, sollten aber bereitgestellt werden, falls sie Teil des Zertifikats sind. **Hinweis:** Die Zertifikatssignieranforderung darf nicht geändert werden. Sie kann einen öffentlichen Schlüssel enthalten, der nicht durch den privaten Schlüssel ersetzt werden darf.|
-|Anmerkungen                  | Anmerkungen in Bezug auf das SSL-Zertifikat, die für andere Benutzer hilfreich sein können.|
+|Zertifikat                  | Von der Zertifizierungsstelle bereitgestellte SSL-Zertifikatsdetails. Hierbei handelt es sich für gewöhnlich um einen alphanumerischen Textblock.|
+|Privater Schlüssel                  | Von der Zertifizierungsstelle bereitgestellte Details des privaten Schlüssels für das Zertifikat. Hierbei handelt es sich für gewöhnlich um einen alphanumerischen Textblock.|
+|Zwischenzertifikat     | Von der Zertifizierungsstelle bereitgestellte Details des Zwischenzertifikats. Zwischenzertifikate sind zwar nicht erforderlich, wenn jedoch die Informationen für das SSL-Zertifikat verfügbar sind, sollten diese eingegeben werden.|
+|Zertifikatssignieranforderung  | Von der Zertifizierungsstelle bereitgestellte Details der Zertifikatssignieranforderung. Diese Details sind zwar nicht erforderlich, sollten aber bereitgestellt werden, falls sie Teil des Zertifikats sind. **Hinweis:** Die Zertifikatssignieranforderung darf nicht geändert werden. Sie kann einen öffentlichen Schlüssel enthalten, der nicht durch den privaten Schlüssel ersetzt werden darf.|
+|Anmerkungen                        | Anmerkungen in Bezug auf das SSL-Zertifikat, die für andere Benutzer hilfreich sein können.|
 {: caption="Tabelle 1. Details des SSL-Zertifikats" caption-side="top"}
 
 ## Nächste Schritte

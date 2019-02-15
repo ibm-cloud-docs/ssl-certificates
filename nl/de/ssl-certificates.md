@@ -11,7 +11,7 @@ lastupdated: "2018-05-16"
 
 {{site.data.keyword.BluSoftlayer_full}} bietet auf jährlicher oder halbjährlicher Basis SSL-Zertifikate für Kunden mit verschiedenen Vorteilen:
 
-* Gull-Authentifizierung für die Verifizierung von Geschäftsidentität und Domänenbesitz
+* Vollständige Authentifizierung für die Verifizierung von Geschäftsidentität und Domänenbesitz
 * 40- bis 256-Bit-Verschlüsselung für alle Onlinetransaktionen
 * Tägliches Scannen der Website auf Malware, damit sowohl Ihre Site als Ihre Kunden geschützt sind
 

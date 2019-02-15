@@ -17,11 +17,11 @@ Führen Sie die folgenden Schritte aus, um die Details für das SSL-Zertifikat h
 2. Wählen Sie im Menü **Sicherheit** die Option **SSL > Zertifikate** aus.
 3. Wählen Sie aus dem Menü **Aktionen** die bevorzugte **Downloadoption** für das Zertifikat aus. Weitere Informationen hierzu finden Sie in der folgenden Tabelle:
 
-| Downloadoption       | Downloadinformationen|
+| Downloadoption      | Downloadinformationen |
 | -------------------- | -------------------- |
 | Zertifikat herunterladen | Lädt nur den Zertifikatsteil herunter und enthält nicht den privaten Schlüssel, das Zwischenzertifikat, die Zertifikatssignieranforderung oder Anmmerkungsdetails. |
-| Schlüssel herunterladen  | Lädt nur den privaten Schlüssel herunter und umfasst nicht das Zertifikat, das Zwischenzertifikat, die Zertifikatssignieranforderung oder Anmerkungsdetails. |
-| PEM herunterladen        | Lädt alle Details zum SSL-Zertifikat herunter, darunter das Zertifikat, der private Schlüssel, das Zwischenzertifikat, die Zertifikatssignieranforderung und Anmerkungen. |
+| Schlüssel herunterladen         | Lädt nur den privaten Schlüssel herunter und umfasst nicht das Zertifikat, das Zwischenzertifikat, die Zertifikatssignieranforderung oder Anmerkungsdetails. |
+| PEM herunterladen         | Lädt alle Details zum SSL-Zertifikat herunter, darunter das Zertifikat, der private Schlüssel, das Zwischenzertifikat, die Zertifikatssignieranforderung und Anmerkungen. |
 {: caption="Tabelle 1. Downloadoptionen" caption-side="top"}
 
 ## Nächste Schritte
