@@ -7,30 +7,33 @@ lastupdated: "2018-08-15"
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
-# Visualizzazione e aggiornamento dei certificati SSL
+# Visualisation et mise à jour des certificats SSL
 
-Dopo che un certificato SSL viene importato nella schermata dei certificati SSL, puoi visualizzarlo e aggiornarlo in qualsiasi momento. Il lavoro di aggiornamento analogo al [processo di importazione](import-ssl-certificate.html), così come tutti i dettagli che vengono aggiornati, devono coincidere esattamente con il certificato originale, inclusi la spaziatura e le interruzioni di linea.
+Une fois qu'un certificat SSL a été importé dans l'écran Certificats SSL, vous pouvez l'afficher et le mettre à jour à tout moment. Les mises à jour fonctionnent de manière similaire au [processus d'importation](import-ssl-certificate.html). Tous les
+détails mis à jour doivent correspondre exactement au certificat d'origine, y compris les espaces et les sauts de ligne.
 
-Per visualizzare e aggiornare un certificato SSL, completa la seguente procedura.
+Pour voir et mettre à jour un certificat SSL, effectuez les étapes suivantes.
 
-1. Accedi alla [{{site.data.keyword.slportal_full}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://control.softlayer.com/){: new_window} utilizzando credenziali univoche.
-2. Dal menu **Sicurezza** seleziona **SSL > Certificati**.
-2. Seleziona **Visualizza/Aggiorna certificato** dall'elenco a discesa **Azioni**.
-3. Aggiorna i **dettagli del certificato SSL** nelle caselle di testo applicabile.
+1. Accédez au portail [{{site.data.keyword.slportal_full}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://control.softlayer.com/){: new_window} en utilisant vos données d'identification uniques.
+2. Dans le menu **Sécurité**, sélectionnez **SSL > Certificats**.
+2. Sélectionnez **Afficher/mettre à jour le certificat** dans la
+liste déroulante **Actions**.
+3. Mettez à jour les **détails du certificat SSL** dans les zones de texte adéquates.
 
-   **Nota:** i dettagli che vengono immessi nella finestra **Importa certificato SSL** devono essere immessi esattamente come vengono forniti dall'autorità di certificazione, inclusi la spaziatura e le interruzioni di linea. Se ciò non accade si verifica un errore.
+   **Remarque :** les détails que vous entrez dans la fenêtre **Importer le certificat SSL** doivent reproduire fidèlement (espaces et sauts de ligne compris) les données qui vous ont été communiquées par l'autorité de certification. Dans le cas contraire, une erreur se produira.
 
-| Dettagli del certificato SSL | Descrizione |
+| Détails d'un certificat SSL     | Description |
 | --------------------------- | ----------- |
-|Certificato                  | I dettagli del certificato SSL, forniti dall'autorità di certificazione. Generalmente sono blocchi di testo alfanumerici.|
-|Chiave privata                  | I dettagli della chiave privata del certificato, forniti dall'autorità di certificazione. Generalmente sono blocchi di testo alfanumerici.|
-|Certificato intermedio     | I dettagli del certificato intermedio, forniti dall'autorità di certificazione. I certificati intermedi non sono necessari, tuttavia, se le informazioni sono disponibili per il certificato SSL, dovrebbero essere immessi.|
-|Richiesta di firma del certificato  | I dettagli di CSR (Certificate Signing Request), forniti dall'autorità di certificazione. I dettagli CSR non sono necessari ma dovrebbero essere forniti se sono parte del certificato. **Nota:** non modificare il CSR in alcun modo. Una chiave pubblica può essere inclusa con il CSR e non deve essere sostituita dalla chiave privata.|
-|Note                        | Ogni nota riguardante il certificato SSL che potrebbe essere utile ad altri utenti.|
-{: caption="Tabella 1. Dettagli del certificato SSL " caption-side="top"}
+|Certificat                  | Détails du certificat SSL fournis par l'autorité de certification. Il s'agit généralement d'un bloc de texte alphanumérique.|
+|Clé privée                  | Détails de la clé privée du certificat SSL fournis par l'autorité de certification. Il s'agit généralement d'un bloc de texte alphanumérique.|
+|Certificat intermédiaire     | Détails du certificat intermédiaire fournis par l'autorité de certification. Les certificats intermédiaires ne sont pas requis. Cependant, si les informations sont disponibles pour le certificat SSL, elles doivent être entrées.|
+|Demande de signature de certificat  | Détails de la demande de signature de certificat (CSR) fournis par l'autorité de certification. Ces détails ne sont pas requis, mais ils doivent être fournis s'ils font partie du certificat. **Remarque :** La demande de signature de certificat ne doit être changée en aucune manière. Une clé publique peut être incluse avec la demande. Elle ne doit pas être remplacée par la clé privée.|
+|Remarques                        | Toutes notes concernant le certificat SSL qui peuvent être utiles aux autres utilisateurs.|
+{: caption="Tableau 1. Détails d'un certificat SSL" caption-side="top"}
 
-Fai clic su **Aggiorna** per aggiornare il certificato SSL o fai clic su **Annulla** per annullare l'azione.
+Cliquez sur **Mettre à jour** pour mettre à jour le certificat SSL ou sur **Annuler** pour annuler l'opération.
 
-## Passi successivi
+## Etapes suivantes
 
-Dopo aver aggiornato i dettagli del certificato SSL, ogni prodotto o servizio che utilizza il certificato non verrà negativamente impattato dalla modifica. Il certificato può essere aggiornato nuovamente ed in ogni momento ripetendo i passi precedenti.
+Une fois les détails du certificat SSL mis à jour, les produits ou services qui utilisaient déjà ce certificat ne sont pas impactés négativement par
+les changements. Vous pouvez à tout moment effectuer une nouvelle mise à jour du certificat en répétant la procédure ci-dessus.

@@ -7,30 +7,35 @@ lastupdated: "2018-08-15"
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
-# Esercitazione introduttiva  
+# Tutoriel Initiation  
 
 
-## Prima di cominciare
+## Avant de commencer
 
-L'introduzione a SSL richiede un po' di pianificazione. Completa i seguenti prerequisiti.
+Pour démarrer avec SSL, il faut un peu de planification. Effectuez les opérations prérequises suivantes.
 
-1. Decidi dove ottenere il certificato
-2. Informati sui tipi di certificati, la lunghezza della chiave e la durata
-3. Scegli un nome comune
-4. Informati sulle regole socket
-5. Genera il CSR
+1. Décidez où vous procurer le certificat
+2. Renseignez-vous sur les types de certificats, la longueur des clés et leur
+durée de validité
+3. Choisissez un nom commun (ou nom usuel)
+4. Découvrez la règle du socket
+5. Générez la demande de signature de certificat
 
-Per ulteriori informazioni, vedi [Pianificazione per i certificati SSL](planning-ahead-ssl.html).
+Pour plus d'informations, consultez [Planification SSL](planning-ahead-ssl.html).
 
-## Ordine dei certificati SSL
+## Commander les certificats SSL
 
-1. Accedi alla [{{site.data.keyword.slportal_full}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://control.softlayer.com/){: new_window} utilizzando credenziali univoche.
-2. Seleziona **Sicurezza > Certificati SSL >** per accedere alla schermata dei certificati SSL.
-3. Devi selezionare il tipo e la durata del certificato, inviare il testo del CSR, immettere alcuni dettagli aggiuntivi e poi confermare il pagamento.
+1. Accédez au portail [{{site.data.keyword.slportal_full}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://control.softlayer.com/){: new_window} en utilisant vos données d'identification uniques.
+2. Sélectionnez **Sécurité > Certificats SSL>** pour accéder à l'écran
+du même nom.
+3. Vous devez sélectionner le type et la durée du certificat, soumettre le texte de la demande de signature de certificat, fournir quelques détails supplémentaires et confirmer le paiement.
 
-## Installazione e verifica
-Dopo che i processi di ordinazione e verifica vengono completati, riceverai un'email dall'autorità di certificazione che include il tuo certificato così come ogni certificato intermedio necessario. Il metodo per l'installazione dipende dal software che stai utilizzando ma il risultato dovrebbe essere lo stesso. Una volta completato, dovresti essere in grado di andare in <http://host.yourdomain.com> e vedere il tuo contenuto mentre vedi anche il lucchetto SSL che i browser utilizzano per indicare una sessione crittografata. Se ottieni un avviso, allora esistono passi che devi eseguire.
+## Installer et tester
+Une fois le processus de commande et de validation terminé, vous recevez un e-mail de l'autorité de certification qui inclut votre certificat ainsi que les éventuels certificats intermédiaires nécessaires. La méthode d'installation dépend du logiciel que vous utilisez, mais le résultat devrait être le même. Une fois l'opération terminée, vous devez être en mesure d'accéder à <http://host.yourdomain.com> et de voir votre contenu, accompagné du cadenas SSL que les navigateurs utilisent pour indiquer une session cryptée. Si vous recevez un avertissement, il y a des mesures à prendre.
 
-## Passi successivi
+## Etapes suivantes
 
-Dopo che la verifica viene eseguita con successo, puoi accedere alla schermata dei certificati SSL, per [aggiornare](view-and-update-ssl-certificate.html), [scaricare](download-ssl-certificate-details.html), [eliminare](delete-ssl-certificate.html), o [importare](import-ssl-certificate.html) certificati SSL esistenti nello strumento.
+Une fois les tests réussis, vous pouvez accéder à l'écran des
+certificats SSL pour [mettre à jour](view-and-update-ssl-certificate.html),
+[télécharger](download-ssl-certificate-details.html), [supprimer](delete-ssl-certificate.html)
+ou [importer](import-ssl-certificate.html) des certificats SSL existants dans l'outil.

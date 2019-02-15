@@ -7,26 +7,29 @@ lastupdated: "2018-06-20"
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
-# Importazione di certificati SSL
+# Importer des certificats SSL
 
-Dopo che un certificato SSL viene emesso per un sito Web, può essere importato in {{site.data.keyword.slportal_full}}. Con l'importazione dei certificati SSL in {{site.data.keyword.slportal}}, i certificati possono essere applicati a prodotto e servizi che potrebbero richiederli, come [SSL Offloading](/docs/infrastructure/local-load-balancer/configure-ssl-offloading-load-balancer.html){:new_window} del programma di bilanciamento del carico. Per impostazione predefinita, i certificati SSL che vengono emessi da {{site.data.keyword.BluSoftlayer_full}} non vengono importati nell'elenco, in quanto sono destinati a essere manipolati solo dal destinatario. Pertanto, qualsiasi certificato SSL da utilizzare con un {{site.data.keyword.BluSoftlayer_notm}} prodotto o servizio deve essere importato manualmente da un utente autorizzato nell'account. Completa la seguente procedura per importare un certificato SSL in {{site.data.keyword.slportal}}.
+Une fois qu'un certificat SSL est émis pour un site web, il peut être importé dans
+le portail {{site.data.keyword.slportal_full}}. En important des certificats SSL dans le portail {{site.data.keyword.slportal}}, vous pouvez
+les appliquer aux produits et services qui peuvent en avoir besoin, tels que la fonction
+de [déchargement SSL](/docs/infrastructure/local-load-balancer/configure-ssl-offloading-load-balancer.html){:new_window} des équilibreurs de charge. Par défaut, les certificats SSL émis par {{site.data.keyword.BluSoftlayer_full}} ne sont pas importés dans la liste, car seul leur destinataire est censé les manipuler. Par conséquent, tout certificat SSL destiné à être utilisé avec un produit ou service {{site.data.keyword.BluSoftlayer_notm}} doit être importé manuellement par un utilisateur autorisé du compte. Pour importer un certificat SSL dans le portail {{site.data.keyword.slportal}}, procédez comme indiqué ci-après.
 
-1. Accedi alla [{{site.data.keyword.slportal_full}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://control.softlayer.com/){: new_window} utilizzando credenziali univoche.
-2. Dal menu **Sicurezza** seleziona **SSL > Certificati**.
-3. Fai clic su **Importa certificato SSL**.
-4. Immetti i **dettagli del certificato SSL** nei campi applicabili e fai clic su **Importa.**
+1. Accédez au portail [{{site.data.keyword.slportal_full}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://control.softlayer.com/){: new_window} en utilisant vos données d'identification uniques.
+2. Dans le menu **Sécurité**, sélectionnez **SSL > Certificats**.
+3. Cliquez sur **Importer le certificat SSL**.
+4. Entrez les **détails du certificat SSL** dans les zones prévues à cet effet et cliquez sur **Importer**.
 
-   **Nota:** i dettagli che vengono immessi nella finestra **Importa certificato SSL** devono essere immessi esattamente come vengono forniti dall'autorità di certificazione, inclusi la spaziatura e le interruzioni di linea. Se ciò non accade si verifica un errore.
+   **Remarque :** les détails que vous entrez dans la fenêtre **Importer le certificat SSL** doivent reproduire fidèlement (espaces et sauts de ligne compris) les données qui vous ont été communiquées par l'autorité de certification. Dans le cas contraire, une erreur se produira.
 
-| Dettagli del certificato SSL | Descrizione |
+| Détails d'un certificat SSL     | Description |
 | --------------------------- | ----------- |
-|Certificato                  | I dettagli del certificato SSL, forniti dall'autorità di certificazione. Generalmente sono blocchi di testo alfanumerici.|
-|Chiave privata                  | I dettagli della chiave privata del certificato, forniti dall'autorità di certificazione. Generalmente sono blocchi di testo alfanumerici.|
-|Certificato intermedio     | I dettagli del certificato intermedio, forniti dall'autorità di certificazione. I certificati intermedi non sono necessari, tuttavia, se le informazioni sono disponibili per il certificato SSL, dovrebbero essere immessi.|
-|Richiesta di firma del certificato  | I dettagli di CSR (Certificate Signing Request), forniti dall'autorità di certificazione. I dettagli CSR non sono necessari ma dovrebbero essere forniti se sono parte del certificato. **Nota:** non modificare il CSR in alcun modo. Una chiave pubblica può essere inclusa con il CSR e non deve essere sostituita dalla chiave privata.|
-|Note                        | Ogni nota riguardante il certificato SSL che potrebbe essere utile ad altri utenti.|
-{: caption="Tabella 1. Dettagli del certificato SSL " caption-side="top"}
+|Certificat                  | Détails du certificat SSL fournis par l'autorité de certification. Il s'agit généralement d'un bloc de texte alphanumérique.|
+|Clé privée                  | Détails de la clé privée du certificat SSL fournis par l'autorité de certification. Il s'agit généralement d'un bloc de texte alphanumérique.|
+|Certificat intermédiaire     | Détails du certificat intermédiaire fournis par l'autorité de certification. Les certificats intermédiaires ne sont pas requis. Cependant, si les informations sont disponibles pour le certificat SSL, elles doivent être entrées.|
+|Demande de signature de certificat  | Détails de la demande de signature de certificat (CSR) fournis par l'autorité de certification. Ces détails ne sont pas requis, mais ils doivent être fournis s'ils font partie du certificat. **Remarque :** La demande de signature de certificat ne doit être changée en aucune manière. Une clé publique peut être incluse avec la demande. Elle ne doit pas être remplacée par la clé privée.|
+|Remarques                        | Toutes notes concernant le certificat SSL qui peuvent être utiles aux autres utilisateurs.|
+{: caption="Tableau 1. Détails d'un certificat SSL" caption-side="top"}
 
-## Passi successivi
+## Etapes suivantes
 
-Dopo che il certificato SSL viene importato in {{site.data.keyword.slportal}}, viene memorizzato nella schermata dei certificati SSL fino a che non venga [eliminato manualmente](delete-ssl-certificate.html). Per tutti i prodotti o i servizio che richiedo i dettagli del certificato SSL, il nuovo certificato SSL appare nell'elenco dei certificati disponibili all'uso quando si interagisce con la funzione SSL del prodotto o servizio desiderato. Il certificato può essere [aggiornato](view-and-update-ssl-certificate.html) ed i dettagli sul certificato possono essere [scaricati in modo sicuro](download-ssl-certificate-details.html) in ogni momento.
+Une fois importé sur le portail {{site.data.keyword.slportal}}, le certificat SSL est stocké et demeure visible dans l'écran Certificats SSL jusqu'à ce qu'il soit [supprimé manuellement](delete-ssl-certificate.html). Il sera proposé dans la liste des certificats SSL disponibles et utilisables, pour tous les produits ou services nécessitant un tel certificat. Vous pouvez le [mettre à jour](view-and-update-ssl-certificate.html) et les détails le concernant peuvent être, à tout moment, [téléchargés en toute sécurité](download-ssl-certificate-details.html).

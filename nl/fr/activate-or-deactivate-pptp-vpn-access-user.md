@@ -7,20 +7,21 @@ lastupdated: "2018-05-17"
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
-# Attivazione o disattivazione dell'accesso VPN PPTP
+# Activer ou désactiver l'accès VPN PPTP
 
-VPN PPTP consente agli utenti di creare un tunnel sicuro sulla {{site.data.keyword.BluSoftlayer_full}} rete privata utilizzando il software client specializzato in esecuzione sul loro desktop o dispositivo dedicato. L'accesso PPTP è progettato per i clienti che devono collegare un intero ufficio o non possono utilizzare la soluzione VPN SSL. Ad ogni cliente è destinata una connessione PPTP con ulteriori connessioni disponibili ma che richiedono supporto per abilitare l'accesso PPTP illimitato, che è disponibile senza costi aggiuntivi. Per attivare o disattivare l'accesso VPN PPTP per un utente, completa la seguente procedura.
+Le VPN PPTP permet aux utilisateurs de bénéficier d'un tunnel d'accès sécurisé au réseau privé {{site.data.keyword.BluSoftlayer_full}} en utilisant un logiciel client spécialisé sur leur ordinateur de bureau ou un appareil dédié. L'accès PPTP est conçu pour les clients qui doivent connecter un bureau entier ou qui ne
+peuvent pas utiliser la solution VPN SSL. Chaque client se voit attribuer une unique connexion PPTP. Il peut obtenir plus de connexions sans frais supplémentaires mais il faut pour cela que le support technique active un accès PPTP illimité. Pour activer ou désactiver un accès VPN PPTP pour un utilisateur, effectuez les étapes suivantes.
 
-1. Accedi alla [{{site.data.keyword.slportal_full}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://control.softlayer.com/){: new_window} utilizzando le tue credenziali univoche da amministratore.
-2. Individua l'utente il cui accesso vuoi modificare e visualizza la colonna **Accesso VPN** per visualizzare il livello di accesso corrente.
-3. Dal menu **Azioni**, seleziona **Modifica accesso VPN**.
-4. Immetti il tipo VPN ed i dettagli di accesso alla sottorete.
+1. Accédez au portail [{{site.data.keyword.slportal_full}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://control.softlayer.com/){: new_window} en utilisant vos données d'identification uniques en tant qu'administrateur.
+2. Localisez l'utilisateur dont vous souhaitez modifier l'accès et déterminez son niveau d'accès actuel en consultant la colonne **Accès au VPN**.
+3. Dans le menu **Actions**, sélectionnez **Modifier accès au VPN**.
+4. Entrez le type de VPN et les détails d'accès au sous-réseau.
 
-|Nome campo  |Opzioni   |
+|Nom de ma zone  |Options   |
 | -----------| ------------ |
-| Tipo VPN   | Nessuno, SSL, PPTP o entrambi (SSL e PPTP) |
-|Accesso alla sottorete | Automatico o Manuale |           
-{: caption="Tabella 1. Dettagli VPN e sottorete" caption-side="top"}   
-5. Fai clic su **Salva** per salvare le modifiche.
+| Type de VPN   | Aucun, SSL, PPTP ou les deux (SSL et PPTP) |
+|Accès au sous-réseau | Auto ou Manuel |           
+{: caption="Tableau 1. Détails du VPN et du sous-réseau" caption-side="top"}   
+5. Cliquez sur **Sauvegarder** pour sauvegarder vos changements.
 
-   **Nota:** l'accesso PPTP deve essere attivato per consentire all'utente di connettersi utilizzando PPTP.
+   **Remarque :** pour qu'un utilisateur puisse se connecter en utilisant PPTP, l'accès PPTP doit être activé.

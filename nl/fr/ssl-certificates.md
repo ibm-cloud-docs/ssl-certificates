@@ -7,16 +7,19 @@ lastupdated: "2018-05-16"
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
-# Informazioni sui certificati SSL
+# A propos des certificats SSL
 
-{{site.data.keyword.BluSoftlayer_full}} offre certificati SSL annuali e biennali ai clienti che offrono diversi vantaggi, tra cui:
+{{site.data.keyword.BluSoftlayer_full}} propose aux clients des certificats
+SSL annuels et biannuels qui offrent divers avantages, dont les suivants :
 
-* Autenticazione Gull per identità aziendali e verifica della proprietà del dominio
-* Crittografia da 40 a 256 bit su tutte le transazioni online
-* Scansione giornaliera dei malware dei siti web per garantire che il tuo sito ed i tuoi clienti siano protetti
+* Authentification complète pour la vérification d'identité de l'entreprise et de
+l'appartenance du domaine
+* Chiffrement sur 40 à 256 bits pour toutes les transactions en ligne
+* Recherche quotidienne de logiciels malveillants sur le site web pour garantir sa protection ainsi que celle de vos clients
 
-Se stai eseguendo più domini, un certificato SSL può essere acquistato per ogni dominio.
+Si vous exploitez plusieurs domaines, vous pouvez acheter un certificat SSL pour chacun d'eux.
 
-In {{site.data.keyword.slportal_full}}, tutti i certificati SSL ordinati tramite {{site.data.keyword.BluSoftlayer_notm}} possono essere gestiti dalla schermata degli ordini SSL. Questa schermata traccia tutti gli ordini, inclusi il nome comune, il tipo di certificato e la data di scadenza del certificato, ma non contiene alcun dettaglio specifico del certificato come il certificato stesso o la chiave privata. Da questa schermata i certificati SSL in corso e scaduti possono essere rinnovati con le loro condizioni preesistenti e le email di adempimento ordine possono essere richieste per ricevere i dettagli del certificato SSL se venissero persi. Tutte le richieste effettuate dalla schermata degli ordini SSL, sono instradate all'autorità di certificazione appropriata per il certificato SSL, che adempie alle richieste come necessario. Dato che {{site.data.keyword.BluSoftlayer_notm}} non possiede i dettagli del certificato SSL, {{site.data.keyword.cloud_notm}} non può fornire alcuna informazione aggiuntiva sul certificato.
+Dans le portail {{site.data.keyword.slportal_full}}, tous les certificats SSL commandés via {{site.data.keyword.BluSoftlayer_notm}} peuvent être gérés depuis l'écran Commandes SSL. Cet écran affiche le suivi de toutes les commandes, notamment le nom commun, le type et la date d'expiration de chaque certificat,
+mais il ne contient aucun détail spécifique tel que le certificat lui-même ou sa clé privée. Chaque certificat, qu'il soit en cours de validité ou périmé, peut être renouvelé selon les mêmes termes que précédemment. Il est aussi possible de demander un nouvel envoi de l'e-mail d'exécution d'un certificat SSL, pour le cas où ses détails ont été perdus. Toutes les demandes formulées depuis l'écran Commandes SSL sont acheminées à l'autorité de certification appropriée, qui y répondra comme il se doit. Comme {{site.data.keyword.BluSoftlayer_notm}} n'est pas en possession des détails du certificat SSL, {{site.data.keyword.cloud_notm}} ne peut pas fournir d'informations supplémentaires le concernant.
 
-Oltre a gestire i certificati SSL ordinati tramite {{site.data.keyword.BluSoftlayer_notm}}, puoi importare i dati del certificato SSL in {{site.data.keyword.slportal}} per utilizzare i dati con i vari prodotti e servizi. Tutte le interazioni con i certificati SSL importati avvengono sulla schermata dei certificati SSL in {{site.data.keyword.slportal}}. Puoi importare manualmente, modificare ed esportare i dettagli del certificato SSL che sono presenti in questa schermata. Inoltre, i certificati SSL possono essere eliminati in qualsiasi momento. Come con la schermata degli ordini SSL, {{site.data.keyword.BluSoftlayer_notm}} non controlla, traccia o registra questa informazione, in quanto è considerata come uno degli elementi di informazione più riservati che i clienti possiedono. I dettagli del certificato SSL che vengono memorizzati in questa schermata sono utilizzati solo con prodotti o servizi dell'account quando verranno impostati dall'utente.
+En plus de gérer les certificats SSL commandés via {{site.data.keyword.BluSoftlayer_notm}}, vous pouvez importer les données de certificats SSL sur le portail {{site.data.keyword.slportal}} afin de les utiliser avec les différents produits et services. Toutes les interactions avec les certificats SSL importés ont lieu sur l'écran des certificats SSL du portail {{site.data.keyword.slportal}}. Vous pouvez importés, édités et exportés manuellement les détails des certificats SSL présents sur cet écran. Vous pouvez également supprimer des certificats SSL à tout moment. Comme avec l'écran Commandes SSL, {{site.data.keyword.BluSoftlayer_notm}} ne contrôle pas ni ne suit ou enregistre ces informations, car elles sont considérées comme les informations les plus confidentielles que les clients possèdent. Les détails des certificats SSL stockés sur cet écran ne sont utilisés que conjointement avec les produits ou services d'un compte, lors de la configuration par l'utilisateur.
