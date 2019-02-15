@@ -13,7 +13,7 @@ SSL 인증서 세부사항을 {{site.data.keyword.slportal_full}}에 가져오�
 
 SSL 인증서를 삭제하려면 다음 단계를 완료하십시오.
 
-1. 고유 신임 정보를 사용하여 [{{site.data.keyword.slportal}} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://control.softlayer.com/){: new_window}에 액세스하십시오.
+1. 고유 인증 정보를 사용하여 [{{site.data.keyword.slportal}} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://control.softlayer.com/){: new_window}에 액세스하십시오.
 2. **보안** 메뉴에서 **SSL > 인증서**를 선택하십시오.
 3. **조치** 메뉴에서 원하는 SSL 인증서에 대해 **삭제**를 선택하십시오.
 

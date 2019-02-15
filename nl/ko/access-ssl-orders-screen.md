@@ -13,7 +13,7 @@ dkSSL 주문 화면에는 계정 히스토리에 대해 {{site.data.keyword.BluS
 
 ## SSL 주문 화면에 액세스
 
-1. 고유 신임 정보를 사용하여 [{{site.data.keyword.slportal_full}} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://control.softlayer.com/){: new_window}에 액세스하십시오.
+1. 고유 인증 정보를 사용하여 [{{site.data.keyword.slportal_full}} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://control.softlayer.com/){: new_window}에 액세스하십시오.
 2. **보안** 메뉴에서 **SSL > 주문**을 선택하십시오.
 
 ## 다음 단계

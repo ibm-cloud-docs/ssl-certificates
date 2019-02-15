@@ -13,7 +13,7 @@ lastupdated: "2018-05-17"
 
 ## SSL 인증서 갱신
 
-1. 고유 신임 정보를 사용하여 [{{site.data.keyword.slportal_full}} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://control.softlayer.com/){: new_window}에 액세스하십시오.
+1. 고유 인증 정보를 사용하여 [{{site.data.keyword.slportal_full}} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://control.softlayer.com/){: new_window}에 액세스하십시오.
 2. **보안** 메뉴에서 **SSL > 주문**을 선택하십시오.
 3. 원하는 SSL 인증서의 **갱신** 열에서 **갱신** 링크를 클릭하십시오.
 

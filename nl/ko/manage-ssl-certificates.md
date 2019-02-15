@@ -11,7 +11,7 @@ lastupdated: "2018-03-01"
 
 {{site.data.keyword.BluSoftlayer_full}}에서는 이제 포털에 인증서를 저장하는 방법을 제공합니다. 인증서 관리 저장소 역할을 수행할 뿐 아니라 인증서를 사용하거나 필요한 서비스를 사용할 때도 필요합니다.
 
-1. 고유 신임 정보를 사용하여 [{{site.data.keyword.slportal_full}} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://control.softlayer.com/){: new_window}에 액세스하십시오.
+1. 고유 인증 정보를 사용하여 [{{site.data.keyword.slportal_full}} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://control.softlayer.com/){: new_window}에 액세스하십시오.
 2. **보안** 메뉴에서 **SSL > 인증서 > 인증서 관리**를 선택하십시오.
 
 현재 인증서 목록과 함께 해당 상태에 대한 정보가 제공됩니다.

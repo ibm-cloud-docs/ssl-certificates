@@ -24,7 +24,7 @@ SSL을 시작하려면 플랜 비트가 필요합니다. 다음 전제조건을 
 
 ## SSL 인증서 주문
 
-1. 고유 신임 정보를 사용하여 [{{site.data.keyword.slportal_full}} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://control.softlayer.com/){: new_window}에 액세스하십시오.
+1. 고유 인증 정보를 사용하여 [{{site.data.keyword.slportal_full}} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://control.softlayer.com/){: new_window}에 액세스하십시오.
 2. **보안 > SSL 인증서 >**를 선택하여 SSL 인증서 화면에 액세스하십시오.
 3. 인증서의 유형과 기간을 선택하고, CSR의 텍스트를 제출한 다음, 추가 세부사항을 입력하고, 결제를 확인해야 합니다.
 
