@@ -14,7 +14,7 @@ lastupdated: "2018-02-22"
 ## Why doesn't the SSL certificate that I ordered automatically show up on the SSL certificates screen?
 {:faq}
 
-SSL certificates are issued by a third-party certificate authority, which sends all of the certificate details directly to you in a confidential email. After receiving that email, you have the option to [import the SSL certificate](import-ssl-certificate.html) to the {{site.data.keyword.slportal_full}} should you choose to use the certificate with {{site.data.keyword.BluSoftlayer_full}} products and services. Because {{site.data.keyword.cloud_notm}} never receives the details for SSL certificate, data cannot be imported automatically.
+SSL certificates are issued by a third-party certificate authority, which sends all of the certificate details directly to you in a confidential email. After receiving that email, you have the option to [import the SSL certificate](/docs/infrastructure/ssl-certificates/import-ssl-certificate.html) to the {{site.data.keyword.slportal_full}} should you choose to use the certificate with {{site.data.keyword.BluSoftlayer_full}} products and services. Because {{site.data.keyword.cloud_notm}} never receives the details for SSL certificate, data cannot be imported automatically.
 
 ## What is an SSL certificate?
 {:faq}

@@ -9,7 +9,7 @@ lastupdated: "2018-08-15"
 
 # Viewing and updating SSL certificates
 
-After an SSL certificate is imported to the SSL certificates screen, you can view and update them at any time. Updates work similar to the [import process](import-ssl-certificate.html), as all details that are updated must match the original certificate exactly, including spacing and line breaks.
+After an SSL certificate is imported to the SSL certificates screen, you can view and update them at any time. Updates work similar to the [import process](/docs/infrastructure/ssl-certificates/import-ssl-certificate.html), as all details that are updated must match the original certificate exactly, including spacing and line breaks.
 
 To view and update an SSL certificate, complete the following steps.
 

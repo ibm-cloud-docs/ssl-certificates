@@ -18,4 +18,4 @@ Within the {{site.data.keyword.slportal_full}}, you can manage and track SSL cer
 
 ## Next Steps
 
-After accessing the SSL certificates screen, you can  [update](view-and-update-ssl-certificate.html), [download](download-ssl-certificate-details.html) or [delete](delete-ssl-certificate.html), or [import](import-ssl-certificate.html) existing SSL certificates into the tool.
+After accessing the SSL certificates screen, you can  [update](/docs/infrastructure/ssl-certificates/view-and-update-ssl-certificate.html), [download](/docs/infrastructure/ssl-certificates/download-ssl-certificate-details.html) or [delete](/docs/infrastructure/ssl-certificates/delete-ssl-certificate.html), or [import](/docs/infrastructure/ssl-certificates/import-ssl-certificate.html) existing SSL certificates into the tool.

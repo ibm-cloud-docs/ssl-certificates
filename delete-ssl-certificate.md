@@ -26,4 +26,4 @@ After deleting an SSL certificate, all services that are linked to the certifica
 
 It is recommended that you update all services that previously used the deleted certificate to be associated with a valid SSL certificate that is associated with the account.
 
-**Note:** At any time, the SSL certificate can be added back to the {{site.data.keyword.slportal}} by using the [import](import-ssl-certificate.html) process.
+**Note:** At any time, the SSL certificate can be added back to the {{site.data.keyword.slportal}} by using the [import](/docs/infrastructure/ssl-certificates/import-ssl-certificate.html) process.

@@ -20,7 +20,7 @@ Getting started with SSL requires a bit of planning. Complete the following prer
 4. Learn about the socket rule
 5. Generate the CSR
 
-For more information, see [Planning for SSL certificates](planning-ahead-ssl.html).
+For more information, see [Planning for SSL certificates](/docs/infrastructure/ssl-certificates/planning-ahead-ssl.html).
 
 ## Ordering SSL certificates
 
@@ -33,4 +33,4 @@ After the ordering and validating process is complete, you receive an email from
 
 ## Next Steps
 
-After testing successfully, you can access the SSL certificates screen, to [update](view-and-update-ssl-certificate.html), [download](download-ssl-certificate-details.html), [delete](delete-ssl-certificate.html), or [import](import-ssl-certificate.html) existing SSL certificates into the tool.
+After testing successfully, you can access the SSL certificates screen, to [update](/docs/infrastructure/ssl-certificates/view-and-update-ssl-certificate.html), [download](/docs/infrastructure/ssl-certificates/download-ssl-certificate-details.html), [delete](/docs/infrastructure/ssl-certificates/delete-ssl-certificate.html), or [import](/docs/infrastructure/ssl-certificates/import-ssl-certificate.html) existing SSL certificates into the tool.

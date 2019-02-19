@@ -20,4 +20,4 @@ After ordering a new SSL certificate through {{site.data.keyword.BluSoftlayer_fu
 
 ## Next Steps
 
-After requesting an additional fulfillment email, the request will be forwarded to the applicable certificate authority for completion. Because SSL certificate details are confidential, {{site.data.keyword.BluSoftlayer_notm}} does not store the SSL certificate data on its system. After receiving the SSL certificate details by email, they can be manually [imported](import-ssl-certificate.html) to the {{site.data.keyword.slportal}}, if necessary.
+After requesting an additional fulfillment email, the request will be forwarded to the applicable certificate authority for completion. Because SSL certificate details are confidential, {{site.data.keyword.BluSoftlayer_notm}} does not store the SSL certificate data on its system. After receiving the SSL certificate details by email, they can be manually [imported](/docs/infrastructure/ssl-certificates/import-ssl-certificate.html) to the {{site.data.keyword.slportal}}, if necessary.
