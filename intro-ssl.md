@@ -1,7 +1,11 @@
 ---
+
 copyright:
   years: 2014, 2018
 lastupdated: "2018-05-17"
+
+subcollection: ssl-certificates
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -41,9 +45,9 @@ In this example, your server certificate is signed by the intermediate certifica
 
 ## SSL at IBM Cloud infrastructure
 
-{{site.data.keyword.BluSoftlayer_full}} resells three types of SSL certificates: Domain Validation, Organization Validation, and Extended Validation. 
+{{site.data.keyword.BluSoftlayer_full}} resells three types of SSL certificates: Domain Validation, Organization Validation, and Extended Validation.
 
-Domain validation (DV) certificates are inexpensive and available quickly. The validation that is done by the certificate authority is limited to sending an email to a specified email address at the domain in question and getting a positive reply. Organization Validation (OV) and Extended Validation (EV) certificates take a couple of days (sometimes a week), cost more, and result in deeper checks by the certificate authority. The EV certificates are coded in such a way that browsers recognize them as EV and display a green bar as part of the address bar. 
+Domain validation (DV) certificates are inexpensive and available quickly. The validation that is done by the certificate authority is limited to sending an email to a specified email address at the domain in question and getting a positive reply. Organization Validation (OV) and Extended Validation (EV) certificates take a couple of days (sometimes a week), cost more, and result in deeper checks by the certificate authority. The EV certificates are coded in such a way that browsers recognize them as EV and display a green bar as part of the address bar.
 
 SSL certificates, like other {{site.data.keyword.cloud_notm}} services, can be managed through the {{site.data.keyword.slportal}}. Go to the **Security** menu and select the **SSL certificates** option to order and manage certificates.  
 

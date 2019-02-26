@@ -1,7 +1,11 @@
 ---
+
 copyright:
   years: 2014, 2018
 lastupdated: "2018-03-01"
+
+subcollection: ssl-certificates
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -44,4 +48,4 @@ To remove a certificate, follow the steps to edit it and select "Confirm certifi
 
 ### API
 
-For an example of editing certificates using the API, see [SSL Management ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://sldn.softlayer.com/article/ssl-management){: new_window}. 
+For an example of editing certificates using the API, see [SSL Management ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://sldn.softlayer.com/article/ssl-management){: new_window}.

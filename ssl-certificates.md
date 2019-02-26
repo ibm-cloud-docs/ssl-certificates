@@ -1,7 +1,11 @@
 ---
+
 copyright:
   years: 2014, 2018
 lastupdated: "2018-05-16"
+
+subcollection: ssl-certificates
+
 ---
 
 {:shortdesc: .shortdesc}

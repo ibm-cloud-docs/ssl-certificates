@@ -1,7 +1,11 @@
 ---
+
 copyright:
   years: 2014, 2018
 lastupdated: "2018-05-16"
+
+subcollection: ssl-certificates
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -54,4 +58,3 @@ You can assign each SSL-enabled website to its own socket by varying the IP addr
 You can generate the Certificate Signing Request by using software on the web server. For UNIX systems, use the OpenSSL package. For Windows, there is a wizard that is accessed from the Directory Security tab of the website properties in IIS Manager. If you are using a control panel, refer to specific information for that control panel.
 
 While generating the CSR, you create a private key. Do not lose, delete, or share the private key. It is to be kept private on the web server. Some CSR generation utilities also give you the ability to create a passphrase for the private key. Do not do this unless you plan to log on to the server any time the web server software is restarted. In addition, do not apply a challenge phrase to the CSR.
-

@@ -1,7 +1,11 @@
 ---
+
 copyright:
   years: 2014, 2018
 lastupdated: "2018-02-22"
+
+subcollection: ssl-certificates
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -18,4 +22,4 @@ The SSL orders screen contains a listing of all SSL certificates that are ordere
 
 ## Next Steps
 
-After accessing the SSL orders screen, all SSL certificates ordered through {{site.data.keyword.BluSoftlayer_notm}} are listed. Certificates are displayed by their expiration date from oldest to newest, meaning that certificates that have already expired are displayed first, by default. From this screen, you can [renew SSL certificates](/docs/infrastructure/ssl-certificates/renew-ssl-certificate.html) and [request that the fulfillment email be resent](/docs/infrastructure/ssl-certificates/request-ssl-certificate-fulfillment-email.html).
+After accessing the SSL orders screen, all SSL certificates ordered through {{site.data.keyword.BluSoftlayer_notm}} are listed. Certificates are displayed by their expiration date from oldest to newest, meaning that certificates that have already expired are displayed first, by default. From this screen, you can [renew SSL certificates](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-renewing-ssl-certificates) and [request that the fulfillment email be resent](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-requesting-an-ssl-certificate-fulfillment-email).
