@@ -4,6 +4,8 @@ copyright:
   years: 2014, 2018
 lastupdated: "2018-08-15"
 
+keywords: types of certificates,SSL certificates, Select Security
+
 subcollection: ssl-certificates
 
 ---
@@ -11,7 +13,8 @@ subcollection: ssl-certificates
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
-# Getting started tutorial  
+# Getting started tutorial
+{: #getting-started-tutorial}
 
 
 ## Before you begin
