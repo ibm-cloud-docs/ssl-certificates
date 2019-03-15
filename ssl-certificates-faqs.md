@@ -4,6 +4,8 @@ copyright:
   years: 2014, 2018
 lastupdated: "2018-02-22"
 
+keywords: SSL certificates FAQ, SSL FAQ
+
 subcollection: ssl-certificates
 
 ---
@@ -14,6 +16,7 @@ subcollection: ssl-certificates
 
 <a name="top"></a>
 # FAQs: SSL certificates
+{: #faqs-ssl-certificates}
 
 ## Why doesn't the SSL certificate that I ordered automatically show up on the SSL certificates screen?
 {:faq}
