@@ -4,6 +4,8 @@ copyright:
   years: 2014, 2018
 lastupdated: "2018-05-16"
 
+keywords: about ssl certificates, about SSL
+
 subcollection: ssl-certificates
 
 ---
@@ -12,6 +14,7 @@ subcollection: ssl-certificates
 {:new_window: target="_blank"}
 
 # About SSL certificates
+{: #about-ssl-certificates}
 
 {{site.data.keyword.BluSoftlayer_full}} offers yearly and bi-yearly SSL certificates for customers that offer various benefits, including:
 
