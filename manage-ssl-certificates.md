@@ -4,6 +4,8 @@ copyright:
   years: 2014, 2018
 lastupdated: "2018-03-01"
 
+keywords: management of certificates, add certificate, managing certificates
+
 subcollection: ssl-certificates
 
 ---
@@ -12,6 +14,7 @@ subcollection: ssl-certificates
 {:new_window: target="_blank"}
 
 # Managing SSL certificates
+{: #managing-ssl-certificates}
 
 {{site.data.keyword.BluSoftlayer_full}} now provides a means of storing certificates within its portal. Not only can this serve as a repository for management of your certificates, it is also necessary when using services that can use or require certificates.
 
