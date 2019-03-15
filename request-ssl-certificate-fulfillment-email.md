@@ -4,6 +4,8 @@ copyright:
   years: 2014, 2018
 lastupdated: "2018-02-22"
 
+keywords: SSL certificate fulfillment email, fulfillment email
+
 subcollection: ssl-certificates
 
 ---
@@ -12,6 +14,7 @@ subcollection: ssl-certificates
 {:new_window: target="_blank"}
 
 # Requesting an SSL certificate fulfillment email
+{: #requesting-an-ssl-certificate-fulfillment-email}
 
 After ordering a new SSL certificate through {{site.data.keyword.BluSoftlayer_full}}, the certificate authority sends a fulfillment email to the domain administrator provided during the ordering process. This email contains all details that are associated with the SSL certificate. At any time, the fulfillment email can be requested again from the SSL Orders screen on the {{site.data.keyword.slportal_full}}. Complete the following steps to request the SSL fulfillment email from the certificate authority.
 
