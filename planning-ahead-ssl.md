@@ -4,6 +4,8 @@ copyright:
   years: 2014, 2018
 lastupdated: "2018-05-16"
 
+keywords: types of certificates, common name, SSL certificates
+
 subcollection: ssl-certificates
 
 ---
@@ -12,6 +14,7 @@ subcollection: ssl-certificates
 {:new_window: target="_blank"}
 
 # Planning for SSL
+{: #planning-for-ssl}
 
 Getting started with SSL requires a bit of planning. Complete the following prerequisites.
 
