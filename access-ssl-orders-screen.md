@@ -4,6 +4,8 @@ copyright:
   years: 2014, 2018
 lastupdated: "2018-02-22"
 
+keywords: SSL orders, SSL orders access
+
 subcollection: ssl-certificates
 
 ---
@@ -12,6 +14,7 @@ subcollection: ssl-certificates
 {:new_window: target="_blank"}
 
 # Accessing SSL orders
+{: #accessing-ssl-orders}
 
 The SSL orders screen contains a listing of all SSL certificates that are ordered through {{site.data.keyword.BluSoftlayer_full}} for the history of the account. Details that are included on this screen include the SSL certificate's Common Name, Certificate Type, and Expiration Date. From this screen, you can renew the certificate or resend the fulfillment email. Any SSL certificates that are stored on the {{site.data.keyword.slportal_full}} that have not been ordered through {{site.data.keyword.BluSoftlayer_notm}} are not available on this screen. Complete the following steps to access the SSL orders screen.
 
