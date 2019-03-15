@@ -4,6 +4,8 @@ copyright:
   years: 2014, 2018
 lastupdated: "2018-02-22"
 
+keywords: SSL certificates delete, SSL delete
+
 subcollection: ssl-certificates
 
 ---
@@ -12,6 +14,7 @@ subcollection: ssl-certificates
 {:new_window: target="_blank"}
 
 # Deleting SSL certificates
+{: #deleting-ssl-certificates}
 
 After an SSL certificate's details are imported into the {{site.data.keyword.slportal_full}}, it can be deleted at any time to remove all data from being saved to the {{site.data.keyword.slportal}}.
 
