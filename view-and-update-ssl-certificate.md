@@ -4,6 +4,8 @@ copyright:
   years: 2014, 2018
 lastupdated: "2018-08-15"
 
+keywords: view SSL certificates, update SSL certificates, original certificates
+
 subcollection: ssl-certificates
 
 ---
@@ -12,6 +14,8 @@ subcollection: ssl-certificates
 {:new_window: target="_blank"}
 
 # Viewing and updating SSL certificates
+{: #viewing-and-updating-ssl-certificates}
+
 
 After an SSL certificate is imported to the SSL certificates screen, you can view and update them at any time. Updates work similar to the [import process](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-importing-ssl-certificates), as all details that are updated must match the original certificate exactly, including spacing and line breaks.
 
