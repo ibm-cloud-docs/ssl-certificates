@@ -4,6 +4,8 @@ copyright:
   years: 2014, 2018
 lastupdated: "2018-05-17"
 
+keywords: SSL certificate, SSL technology, public key
+
 subcollection: ssl-certificates
 
 ---
@@ -12,6 +14,7 @@ subcollection: ssl-certificates
 {:new_window: target="_blank"}
 
 # Introduction to SSL technology
+{: #introduction-to-ssl-technology}
 
 Secure Sockets Layer (SSL) is a technology that encrypts traffic between the client application and the server application. This encryption is accomplished by using a public key/private key system that uses an SSL certificate.
 
