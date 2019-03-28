@@ -1,13 +1,20 @@
 ---
+
 copyright:
   years: 2014, 2018
 lastupdated: "2018-05-16"
+
+keywords: about ssl certificates, about SSL
+
+subcollection: ssl-certificates
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # 關於 SSL 憑證
+{: #about-ssl-certificates}
 
 {{site.data.keyword.BluSoftlayer_full}} 為客戶提供一年期和兩年期的 SSL 憑證，這些憑證提供各種好處，包括：
 

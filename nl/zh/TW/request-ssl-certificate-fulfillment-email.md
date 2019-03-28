@@ -1,13 +1,20 @@
 ---
+
 copyright:
   years: 2014, 2018
 lastupdated: "2018-02-22"
+
+keywords: SSL certificate fulfillment email, fulfillment email
+
+subcollection: ssl-certificates
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # 要求 SSL 憑證履行電子郵件
+{: #requesting-an-ssl-certificate-fulfillment-email}
 
 透過 {{site.data.keyword.BluSoftlayer_full}} 訂購新的 SSL 憑證之後，憑證管理中心會傳送履行電子郵件給訂購程序期間所提供的網域管理者。此電子郵件會包含與 SSL 憑證相關聯的所有詳細資料。您隨時都可以從 {{site.data.keyword.slportal_full}} 的「SSL 訂單」畫面中再次要求履行電子郵件。請完成下列步驟，以要求來自憑證管理中心的 SSL 履行電子郵件。
 
@@ -20,4 +27,4 @@ lastupdated: "2018-02-22"
 
 ## 後續步驟
 
-在要求額外的履行電子郵件之後，該要求會轉遞至適合的憑證管理中心進行完成。由於 SSL 憑證詳細資料是機密，所以 {{site.data.keyword.BluSoftlayer_notm}} 不會將 SSL 憑證資料儲存在它的系統上。透過電子郵件接收 SSL 憑證詳細資料之後，必要的話，可以手動將它們[匯入](import-ssl-certificate.html)至 {{site.data.keyword.slportal}}。
+在要求額外的履行電子郵件之後，該要求會轉遞至適合的憑證管理中心進行完成。由於 SSL 憑證詳細資料是機密，所以 {{site.data.keyword.BluSoftlayer_notm}} 不會將 SSL 憑證資料儲存在它的系統上。透過電子郵件接收 SSL 憑證詳細資料之後，必要的話，可以手動將它們[匯入](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-importing-ssl-certificates)至 {{site.data.keyword.slportal}}。

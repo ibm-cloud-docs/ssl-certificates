@@ -1,13 +1,20 @@
 ---
+
 copyright:
   years: 2014, 2018
 lastupdated: "2018-05-16"
+
+keywords: types of certificates, common name, SSL certificates
+
+subcollection: ssl-certificates
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # 規劃 SSL
+{: #planning-for-ssl}
 
 開始使用 SSL 需要進行一些規劃。請完成下列必要條件。
 
@@ -54,4 +61,3 @@ SSL 憑證受限為每個 Socket 一個憑證。Socket 是 IP 位址和埠的組
 您可以在 Web 伺服器上使用軟體，來產生「憑證簽署要求」。若為 UNIX 系統，請使用 OpenSSL 套件。若為 Windows，可以從 IIS Manager 中網站內容的「目錄安全」標籤，存取一個精靈。如果您是使用控制台，請參閱該控制台的特定資訊。
 
 產生 CSR 時，您會建立私密金鑰。請勿遺失、刪除或分享私密金鑰。它將在 Web 伺服器上保持私密。部分 CSR 產生公用程式也可讓您建立私密金鑰的通行詞組。除非您打算每當重新啟動 Web 伺服器軟體時便登入伺服器，否則請勿執行此動作。此外，也請勿將盤查詞組套用至 CSR。
-

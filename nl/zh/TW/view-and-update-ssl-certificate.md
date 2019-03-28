@@ -1,15 +1,23 @@
 ---
+
 copyright:
   years: 2014, 2018
 lastupdated: "2018-08-15"
+
+keywords: view SSL certificates, update SSL certificates, original certificates
+
+subcollection: ssl-certificates
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # 檢視及更新 SSL 憑證
+{: #viewing-and-updating-ssl-certificates}
 
-將 SSL 憑證匯入到 SSL 憑證畫面之後，您可以隨時檢視及更新它們。更新的運作類似於[匯入程序](import-ssl-certificate.html)，因為所有更新的詳細資料都必須與原始憑證完全相符，包括間距和換行。
+
+將 SSL 憑證匯入到 SSL 憑證畫面之後，您可以隨時檢視及更新它們。更新的運作類似於[匯入程序](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-importing-ssl-certificates)，因為所有更新的詳細資料都必須與原始憑證完全相符，包括間距和換行。
 
 若要檢視及更新 SSL 憑證，請完成下列步驟。
 

@@ -1,13 +1,20 @@
 ---
+
 copyright:
   years: 2014, 2018
 lastupdated: "2018-03-01"
+
+keywords: management of certificates, add certificate, managing certificates
+
+subcollection: ssl-certificates
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # 管理 SSL 憑證
+{: #managing-ssl-certificates}
 
 {{site.data.keyword.BluSoftlayer_full}} 現在提供在其入口網站內儲存憑證的方法。這不僅可作為憑證的管理儲存庫，當您使用能夠使用或需要憑證的服務時也需要它。
 
@@ -44,4 +51,4 @@ lastupdated: "2018-03-01"
 
 ### API
 
-如需使用 API 編輯憑證的範例，請參閱 [SSL Management ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](http://sldn.softlayer.com/article/ssl-management){: new_window}。 
+如需使用 API 編輯憑證的範例，請參閱 [SSL Management ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](http://sldn.softlayer.com/article/ssl-management){: new_window}。

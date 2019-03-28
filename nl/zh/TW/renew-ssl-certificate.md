@@ -1,13 +1,20 @@
 ---
+
 copyright:
   years: 2014, 2018
 lastupdated: "2018-05-17"
+
+keywords:  renewing SSL certificates, renewal SSL, SSL certificate renewal process, renewing, renewal
+
+subcollection: ssl-certificates
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # 更新 SSL 憑證
+{: #renewing-ssl-certificates}
 
 透過 {{site.data.keyword.BluSoftlayer_full}} 訂購 SSL 憑證之後，可以隨時更新它。在更新程序期間，{{site.data.keyword.BluSoftlayer_notm}} 會作為客戶（您）與憑證管理中心之間的引導者，且不會看到或控制涉及 SSL 憑證詳細資料的更新程序的任何部分。SSL 憑證會根據訂購它們的相同條款來更新，因此無法變更「更新詳細資料」（憑證類型及管理中心、有效性月份、伺服器平台等等）。憑證可以在過期之前或之後更新，不過為了維護 SSL 憑證的有效性，請在到期日之前更新憑證。請完成下列步驟，更新 SSL 憑證。
 

@@ -1,15 +1,22 @@
 ---
+
 copyright:
   years: 2014, 2018
 lastupdated: "2018-06-20"
+
+keywords: importing SSL certificates,SSL import, SSL certificate details
+
+subcollection: ssl-certificates
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # 匯入 SSL 憑證
+{: #importing-ssl-certificates}
 
-發出網站的 SSL 憑證之後，它可以匯入到 {{site.data.keyword.slportal_full}} 中。透過將 SSL 憑證匯入到 {{site.data.keyword.slportal}}，憑證可以套用至可能需要它們的產品和服務，例如負載平衡器的 [SSL 卸載](/docs/infrastructure/local-load-balancer/configure-ssl-offloading-load-balancer.html){:new_window}。依預設，{{site.data.keyword.BluSoftlayer_full}} 所發出的 SSL 憑證不會匯入到清單中，因為它們只供收件者操作之用。因此，必須由帳戶上的授權使用者手動匯入要與 {{site.data.keyword.BluSoftlayer_notm}} 產品或服務搭配使用的任何 SSL 憑證。請完成下列步驟，將 SSL 憑證匯入到 {{site.data.keyword.slportal}} 中。
+發出網站的 SSL 憑證之後，它可以匯入到 {{site.data.keyword.slportal_full}} 中。透過將 SSL 憑證匯入到 {{site.data.keyword.slportal}}，憑證可以套用至可能需要它們的產品和服務，例如負載平衡器的 [SSL 卸載](/docs/infrastructure/local-load-balancer?topic=local-load-balancer-configuring-ssl-offloading-on-a-load-balancer)。依預設，{{site.data.keyword.BluSoftlayer_full}} 所發出的 SSL 憑證不會匯入到清單中，因為它們只供收件者操作之用。因此，必須由帳戶上的授權使用者手動匯入要與 {{site.data.keyword.BluSoftlayer_notm}} 產品或服務搭配使用的任何 SSL 憑證。請完成下列步驟，將 SSL 憑證匯入到 {{site.data.keyword.slportal}} 中。
 
 1. 使用您的唯一認證來存取 [{{site.data.keyword.slportal_full}} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://control.softlayer.com/){: new_window}。
 2. 從**安全**功能表，選取 **SSL > 憑證**。
@@ -29,4 +36,4 @@ lastupdated: "2018-06-20"
 
 ## 後續步驟
 
-SSL 憑證匯入到 {{site.data.keyword.slportal}} 之後，它會儲存在 SSL 憑證畫面中，直到[手動刪除](delete-ssl-certificate.html)為止。對於所有需要 SSL 憑證詳細資料的產品或服務，新的 SSL 憑證會出現在可用的憑證清單裡，以便與想要的產品或服務的 SSL 特性互動時使用。憑證可以隨時[更新](view-and-update-ssl-certificate.html)，而有關憑證的詳細資料可以隨時[安全地下載](download-ssl-certificate-details.html)。
+SSL 憑證匯入到 {{site.data.keyword.slportal}} 之後，它會儲存在 SSL 憑證畫面中，直到[手動刪除](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-deleting-ssl-certificates)為止。對於所有需要 SSL 憑證詳細資料的產品或服務，新的 SSL 憑證會出現在可用的憑證清單裡，以便與想要的產品或服務的 SSL 特性互動時使用。憑證可以隨時[更新](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-viewing-and-updating-ssl-certificates)，而有關憑證的詳細資料可以隨時[安全地下載](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-downloading-ssl-certificate-details)。

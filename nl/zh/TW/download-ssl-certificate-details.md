@@ -1,13 +1,21 @@
 ---
+
+
 copyright:
   years: 2014, 2018
 lastupdated: "2018-05-17"
+
+keywords: SSL certificate details, preferred Download Option, SSL certificate download details
+
+subcollection: ssl-certificates
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # 下載 SSL 憑證詳細資料
+{: #downloading-ssl-certificate-details}
 
 將 SSL 憑證新增至 {{site.data.keyword.slportal_full}} 之後，即可隨時下載其詳細資料。下載可包括憑證、金鑰或 PEM，其中包括所有與 SSL 憑證相關聯的可用詳細資料。SSL 憑證詳細資料會安全地下載，因此透過此方法擷取詳細資料不會有相關聯的風險。
 

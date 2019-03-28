@@ -1,13 +1,20 @@
 ---
+
 copyright:
   years: 2014, 2018
 lastupdated: "2018-08-15"
+
+keywords: types of certificates,SSL certificates, Select Security
+
+subcollection: ssl-certificates
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
-# 入門指導教學  
+# 入門指導教學
+{: #getting-started-tutorial}
 
 
 ## 開始之前
@@ -20,7 +27,7 @@ lastupdated: "2018-08-15"
 4. 瞭解 Socket 規則
 5. 產生 CSR
 
-如需相關資訊，請參閱[規劃 SSL 憑證](planning-ahead-ssl.html)。
+如需相關資訊，請參閱[規劃 SSL 憑證](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-planning-for-ssl)。
 
 ## 訂購 SSL 憑證
 
@@ -33,4 +40,4 @@ lastupdated: "2018-08-15"
 
 ## 後續步驟
 
-在順利測試之後，您可以存取 SSL 憑證畫面，以[更新](view-and-update-ssl-certificate.html)、[下載](download-ssl-certificate-details.html)或[刪除](delete-ssl-certificate.html)現有的 SSL 憑證，或將現有的 SSL 憑證[匯入](import-ssl-certificate.html)到工具中。
+在順利測試之後，您可以存取 SSL 憑證畫面，以[更新](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-viewing-and-updating-ssl-certificates)、[下載](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-downloading-ssl-certificate-details)或[刪除](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-deleting-ssl-certificates)現有的 SSL 憑證，或將現有的 SSL 憑證[匯入](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-importing-ssl-certificates)到工具中。

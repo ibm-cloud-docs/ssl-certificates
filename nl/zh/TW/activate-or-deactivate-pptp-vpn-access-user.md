@@ -1,13 +1,20 @@
 ---
+
 copyright:
   years: 2014, 2018
 lastupdated: "2018-05-17"
+
+keywords: PPTP VPN access, PPTP VPN, PPTP access
+
+subcollection: ssl-certificates
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # 啟動或取消啟動 PPTP VPN 存取
+{: #activating-or-deactivating-pptp-vpn-access}
 
 PPTP VPN 可讓使用者利用在桌上型電腦或專用裝置上執行的特殊化用戶端軟體，來形成與 {{site.data.keyword.BluSoftlayer_full}} 專用網路的安全通道。PPTP 存取是針對需要連接整個辦公室或無法使用 SSL VPN 解決方案的客戶而設計的。每一位客戶會分配到一條 PPTP 連線，並且可以使用額外的連線，但需要要求支援才能啟用無限制的 PPTP 存取（不需另外付費）。若要啟動或取消啟動使用者的 PPTP VPN 存取，請完成下列步驟。
 

@@ -1,13 +1,20 @@
 ---
+
 copyright:
   years: 2014, 2018
 lastupdated: "2018-05-17"
+
+keywords: SSL certificate, SSL technology, public key
+
+subcollection: ssl-certificates
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # SSL 技術簡介
+{: #introduction-to-ssl-technology}
 
 Secure Sockets Layer (SSL) 是一種可加密用戶端應用程式與伺服器應用程式之間資料流量的技術。借助使用 SSL 憑證的公開金鑰/私密金鑰系統，即可完成此加密。
 
@@ -41,9 +48,9 @@ SSL 憑證有獨特的術語。使用 SSL 憑證時，您可能會遇到下列�
 
 ## IBM Cloud 基礎架構的 SSL
 
-{{site.data.keyword.BluSoftlayer_full}} 會轉售三種類型的 SSL 憑證：「網域驗證」、「組織驗證」及「延伸驗證」。 
+{{site.data.keyword.BluSoftlayer_full}} 會轉售三種類型的 SSL 憑證：「網域驗證」、「組織驗證」及「延伸驗證」。
 
-網域驗證 (DV) 憑證不貴，且快速可用。「憑證管理中心」所完成的驗證，僅限於傳送電子郵件至討論中網域的指定電子郵件位址，然後取得正面的回覆。組織驗證 (OV) 與延伸驗證 (EV) 憑證需要幾天（有時候是一週）的時間、成本較貴，並且會由「憑證管理中心」進行更深入的檢查。EV 憑證的編碼方式，會讓瀏覽器將它們辨識為 EV，且會在位址列中顯示為綠色的列。 
+網域驗證 (DV) 憑證不貴，且快速可用。「憑證管理中心」所完成的驗證，僅限於傳送電子郵件至討論中網域的指定電子郵件位址，然後取得正面的回覆。組織驗證 (OV) 與延伸驗證 (EV) 憑證需要幾天（有時候是一週）的時間、成本較貴，並且會由「憑證管理中心」進行更深入的檢查。EV 憑證的編碼方式，會讓瀏覽器將它們辨識為 EV，且會在位址列中顯示為綠色的列。
 
 SSL 憑證（如其他 {{site.data.keyword.cloud_notm}} 服務）可以透過 {{site.data.keyword.slportal}} 來管理。請移至**安全**功能表，然後選取 **SSL 憑證**選項，以訂購和管理憑證。  
 

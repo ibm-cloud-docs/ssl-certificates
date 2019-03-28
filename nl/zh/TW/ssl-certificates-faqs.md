@@ -1,7 +1,13 @@
 ---
+
 copyright:
   years: 2014, 2018
 lastupdated: "2018-02-22"
+
+keywords: SSL certificates FAQ, SSL FAQ
+
+subcollection: ssl-certificates
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -10,11 +16,12 @@ lastupdated: "2018-02-22"
 
 <a name="top"></a>
 # 常見問題：SSL 憑證
+{: #faqs-ssl-certificates}
 
 ## 我訂購的 SSL 憑證為何未自動顯示在 SSL 憑證畫面上？
 {:faq}
 
-SSL 憑證由第三方憑證管理中心核發，該單位會以機密電子郵件，將所有憑證詳細資料直接傳送給您。收到該封電子郵件之後，您可以選擇[將 SSL 憑證匯入](import-ssl-certificate.html)至 {{site.data.keyword.slportal_full}}（如果您選擇使用憑證搭配 {{site.data.keyword.BluSoftlayer_full}} 產品及服務的話）。因為 {{site.data.keyword.cloud_notm}} 絕不會收到 SSL 憑證的詳細資料，所以無法自動匯入資料。
+SSL 憑證由第三方憑證管理中心核發，該單位會以機密電子郵件，將所有憑證詳細資料直接傳送給您。收到該封電子郵件之後，您可以選擇[將 SSL 憑證匯入](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-importing-ssl-certificates)至 {{site.data.keyword.slportal_full}}（如果您選擇使用憑證搭配 {{site.data.keyword.BluSoftlayer_full}} 產品及服務的話）。因為 {{site.data.keyword.cloud_notm}} 絕不會收到 SSL 憑證的詳細資料，所以無法自動匯入資料。
 
 ## 何謂 SSL 憑證？
 {:faq}

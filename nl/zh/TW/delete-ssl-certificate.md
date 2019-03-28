@@ -1,13 +1,20 @@
 ---
+
 copyright:
   years: 2014, 2018
 lastupdated: "2018-02-22"
+
+keywords: SSL certificates delete, SSL delete
+
+subcollection: ssl-certificates
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # 刪除 SSL 憑證
+{: #deleting-ssl-certificates}
 
 將 SSL 憑證的詳細資料匯入到 {{site.data.keyword.slportal_full}} 之後，您可以隨時刪除它，以避免將所有資料儲存至 {{site.data.keyword.slportal}}。
 
@@ -26,4 +33,4 @@ lastupdated: "2018-02-22"
 
 建議您更新先前使用被刪除之憑證的所有服務，以建立服務和與帳戶相關聯之有效 SSL 憑證之間的關聯。
 
-**附註：**隨時都可以利用[匯入](import-ssl-certificate.html)程序，將 SSL 憑證新增回 {{site.data.keyword.slportal}}。
+**附註：**隨時都可以利用[匯入](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-importing-ssl-certificates)程序，將 SSL 憑證新增回 {{site.data.keyword.slportal}}。
