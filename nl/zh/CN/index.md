@@ -1,13 +1,20 @@
 ---
+
 copyright:
   years: 2014, 2018
 lastupdated: "2018-08-15"
+
+keywords: types of certificates,SSL certificates, Select Security
+
+subcollection: ssl-certificates
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
-# 入门教程  
+# 入门教程
+{: #getting-started-tutorial}
 
 
 ## 开始之前
@@ -20,7 +27,7 @@ lastupdated: "2018-08-15"
 4. 了解套接字规则
 5. 生成 CSR
 
-有关更多信息，请参阅[规划 SSL 证书](planning-ahead-ssl.html)。
+有关更多信息，请参阅[规划 SSL 证书](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-planning-for-ssl)。
 
 ## 订购 SSL 证书
 
@@ -33,4 +40,4 @@ lastupdated: "2018-08-15"
 
 ## 后续步骤
 
-测试成功后，您可以访问 SSL 证书屏幕，以[更新](view-and-update-ssl-certificate.html)、[下载](download-ssl-certificate-details.html)、[删除](delete-ssl-certificate.html)现有 SSL 证书，或者将这些证书[导入](import-ssl-certificate.html)到工具中。
+测试成功后，您可以访问 SSL 证书屏幕，以[更新](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-viewing-and-updating-ssl-certificates)、[下载](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-downloading-ssl-certificate-details)、[删除](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-deleting-ssl-certificates)现有 SSL 证书，或者将这些证书[导入](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-importing-ssl-certificates)到工具中。

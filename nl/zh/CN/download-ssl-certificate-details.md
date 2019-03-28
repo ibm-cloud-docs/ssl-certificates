@@ -1,13 +1,21 @@
 ---
+
+
 copyright:
   years: 2014, 2018
 lastupdated: "2018-05-17"
+
+keywords: SSL certificate details, preferred Download Option, SSL certificate download details
+
+subcollection: ssl-certificates
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # 下载 SSL 证书详细信息
+{: #downloading-ssl-certificate-details}
 
 将 SSL 证书添加到 {{site.data.keyword.slportal_full}} 后，可随时下载其详细信息。下载可能包含证书、密钥或 PEM，其中包括与 SSL 证书相关联的所有可用详细信息。SSL 证书详细信息将安全下载，因此通过此方法检索详细信息不会带来风险。
 

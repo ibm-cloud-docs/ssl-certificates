@@ -1,15 +1,23 @@
 ---
+
 copyright:
   years: 2014, 2018
 lastupdated: "2018-08-15"
+
+keywords: view SSL certificates, update SSL certificates, original certificates
+
+subcollection: ssl-certificates
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # 查看和更新 SSL 证书
+{: #viewing-and-updating-ssl-certificates}
 
-在将 SSL 证书导入到 SSL 证书屏幕后，您可以随时查看和更新 SSL 证书。更新的运作方式与[导入过程](import-ssl-certificate.html)类似，因为所有更新的详细信息都必须与原始证书完全匹配，包括间隔和换行。
+
+在将 SSL 证书导入到 SSL 证书屏幕后，您可以随时查看和更新 SSL 证书。更新的运作方式与[导入过程](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-importing-ssl-certificates)类似，因为所有更新的详细信息都必须与原始证书完全匹配，包括间隔和换行。
 
 要查看和更新 SSL 证书，请完成以下步骤。
 

@@ -1,13 +1,20 @@
 ---
+
 copyright:
   years: 2014, 2018
 lastupdated: "2018-05-17"
+
+keywords: PPTP VPN access, PPTP VPN, PPTP access
+
+subcollection: ssl-certificates
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # 激活或取消激活 PPTP VPN 访问权
+{: #activating-or-deactivating-pptp-vpn-access}
 
 PPTP VPN 允许用户通过使用在其桌面或专用设备上运行的专用客户机软件，构成 {{site.data.keyword.BluSoftlayer_full}} 专用网络的安全通道。PPTP 访问权专为需要连接整个办公室或无法使用 SSL VPN 解决方案的客户而设计。每个客户都将分配一个 PPTP 连接，其中包含更多可用连接，但会请求支持，以启用不受限的 PPTP 访问权，而无需额外收费。要激活或取消激活用户的 PPTP VPN 访问权，请完成以下步骤。
 

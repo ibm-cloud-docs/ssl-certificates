@@ -1,13 +1,20 @@
 ---
+
 copyright:
   years: 2014, 2018
 lastupdated: "2018-05-16"
+
+keywords: types of certificates, common name, SSL certificates
+
+subcollection: ssl-certificates
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # 规划 SSL
+{: #planning-for-ssl}
 
 开始使用 SSL 时需要进行一些规划。请完成以下先决条件。
 
@@ -54,4 +61,3 @@ SSL 证书限制为每个套接字只能有一个证书。套接字是 IP 地址
 您可以通过在 Web 服务器上使用软件来生成证书签名请求。对于 UNIX 系统，请使用 OpenSSL 软件包。对于 Windows，有一个向导，可从 IIS 管理器中的 Web 站点属性的“目录安全性”选项卡访问该向导。如果正在使用控制面板，请参阅该控制面板的特定信息。
 
 生成 CSR 时，您将创建专用密钥。请勿丢失、删除或共享专用密钥。请在 Web 服务器上私密保有该密钥。某些 CSR 生成实用程序还使您能够为专用密钥创建口令。除非您计划在 Web 服务器软件重新启动时随时登录服务器，否则请勿执行此操作。此外，请勿向 CSR 应用质询短语。
-

@@ -1,13 +1,20 @@
 ---
+
 copyright:
   years: 2014, 2018
 lastupdated: "2018-05-16"
+
+keywords: about ssl certificates, about SSL
+
+subcollection: ssl-certificates
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # 关于 SSL 证书
+{: #about-ssl-certificates}
 
 {{site.data.keyword.BluSoftlayer_full}} 为客户提供年度和双年度 SSL 证书，从而提供各种好处，包括：
 

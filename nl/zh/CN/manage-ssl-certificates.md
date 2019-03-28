@@ -1,13 +1,20 @@
 ---
+
 copyright:
   years: 2014, 2018
 lastupdated: "2018-03-01"
+
+keywords: management of certificates, add certificate, managing certificates
+
+subcollection: ssl-certificates
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # 管理 SSL 证书
+{: #managing-ssl-certificates}
 
 {{site.data.keyword.BluSoftlayer_full}} 现在提供了一种在其门户网站中存储证书的方法。这种方法不仅可作为存储库来管理证书，而且在使用可利用或需要证书的服务时也是必需的。
 
@@ -44,4 +51,4 @@ lastupdated: "2018-03-01"
 
 ### API
 
-有关使用 API 编辑证书的示例，请参阅 [SSL Management ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](http://sldn.softlayer.com/article/ssl-management){: new_window}。 
+有关使用 API 编辑证书的示例，请参阅 [SSL Management ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](http://sldn.softlayer.com/article/ssl-management){: new_window}。

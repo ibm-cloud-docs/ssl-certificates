@@ -1,13 +1,20 @@
 ---
+
 copyright:
   years: 2014, 2018
 lastupdated: "2018-05-17"
+
+keywords: SSL certificate, SSL technology, public key
+
+subcollection: ssl-certificates
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # SSL 技术简介
+{: #introduction-to-ssl-technology}
 
 安全套接字层 (SSL) 是一种技术，用于对客户机应用程序与服务器应用程序之间的流量进行加密。此加密通过一种使用 SSL 证书的公用密钥/专用密钥系统来完成。
 
@@ -42,9 +49,9 @@ SSL 证书具有独特术语。使用 SSL 证书时，您可能会遇到以下�
 
 ## IBM Cloud 基础架构的 SSL
 
-{{site.data.keyword.BluSoftlayer_full}} 重新销售三种类型的 SSL 证书：域验证、组织验证和扩展验证。 
+{{site.data.keyword.BluSoftlayer_full}} 重新销售三种类型的 SSL 证书：域验证、组织验证和扩展验证。
 
-域验证 (DV) 证书既便宜又可快速使用。由认证中心执行的验证局限于在所讨论的域向指定电子邮件地址发送电子邮件，并获得肯定回复。组织验证 (OV) 和扩展验证 (EV) 证书需要几天时间（有时是一周），成本更高，并需要认证中心进行更深入的检查。EV 证书以特定方式进行编码，使浏览器可将证书识别为 EV 并在地址栏中显示绿色条。 
+域验证 (DV) 证书既便宜又可快速使用。由认证中心执行的验证局限于在所讨论的域向指定电子邮件地址发送电子邮件，并获得肯定回复。组织验证 (OV) 和扩展验证 (EV) 证书需要几天时间（有时是一周），成本更高，并需要认证中心进行更深入的检查。EV 证书以特定方式进行编码，使浏览器可将证书识别为 EV 并在地址栏中显示绿色条。
 
 像其他 {{site.data.keyword.cloud_notm}} 服务一样，可以通过 {{site.data.keyword.slportal}} 来管理 SSL 证书。转至**安全性**菜单并选择 **SSL 证书**选项，以订购和管理证书。  
 

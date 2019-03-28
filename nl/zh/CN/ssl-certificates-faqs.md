@@ -1,7 +1,13 @@
 ---
+
 copyright:
   years: 2014, 2018
 lastupdated: "2018-02-22"
+
+keywords: SSL certificates FAQ, SSL FAQ
+
+subcollection: ssl-certificates
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -10,11 +16,12 @@ lastupdated: "2018-02-22"
 
 <a name="top"></a>
 # 常见问题：SSL 证书
+{: #faqs-ssl-certificates}
 
 ## 为什么我所订购的 SSL 证书不会自动显示在 SSL 证书屏幕上？
 {:faq}
 
-SSL 证书由第三方认证中心颁发，该认证中心会通过机密电子邮件将所有证书详细信息直接发送给您。接收到该电子邮件后，您可以选择[将 SSL 证书导入](import-ssl-certificate.html)到 {{site.data.keyword.slportal_full}}（如果您选择将证书用于 {{site.data.keyword.BluSoftlayer_full}} 产品和服务的话）。由于 {{site.data.keyword.cloud_notm}} 从不接收 SSL 证书的详细信息，因此无法自动导入数据。
+SSL 证书由第三方认证中心颁发，该认证中心会通过机密电子邮件将所有证书详细信息直接发送给您。接收到该电子邮件后，您可以选择[将 SSL 证书导入](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-importing-ssl-certificates)到 {{site.data.keyword.slportal_full}}（如果您选择将证书用于 {{site.data.keyword.BluSoftlayer_full}} 产品和服务的话）。由于 {{site.data.keyword.cloud_notm}} 从不接收 SSL 证书的详细信息，因此无法自动导入数据。
 
 ## 什么是 SSL 证书？
 {:faq}

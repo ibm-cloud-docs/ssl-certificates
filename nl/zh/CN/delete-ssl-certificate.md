@@ -1,13 +1,20 @@
 ---
+
 copyright:
   years: 2014, 2018
 lastupdated: "2018-02-22"
+
+keywords: SSL certificates delete, SSL delete
+
+subcollection: ssl-certificates
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # 删除 SSL 证书
+{: #deleting-ssl-certificates}
 
 在将 SSL 证书的详细信息导入到 {{site.data.keyword.slportal_full}} 中之后，可以随时将其删除，以防止将所有数据保存到 {{site.data.keyword.slportal}}中。
 
@@ -26,4 +33,4 @@ lastupdated: "2018-02-22"
 
 建议您将先前使用已删除证书的所有服务更新为与帐户关联的有效 SSL 证书相关联。
 
-**注：**您可以随时使用[导入](import-ssl-certificate.html)过程将 SSL 证书添加回 {{site.data.keyword.slportal}}。
+**注：**您可以随时使用[导入](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-importing-ssl-certificates)过程将 SSL 证书添加回 {{site.data.keyword.slportal}}。
