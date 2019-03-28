@@ -1,15 +1,22 @@
 ---
+
 copyright:
   years: 2014, 2018
 lastupdated: "2018-06-20"
+
+keywords: importing SSL certificates,SSL import, SSL certificate details
+
+subcollection: ssl-certificates
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # SSL 証明書のインポート
+{: #importing-ssl-certificates}
 
-Web サイトに対して SSL 証明書が発行された後、その証明書を {{site.data.keyword.slportal_full}} にインポートできます。 SSL 証明書を {{site.data.keyword.slportal}} にインポートすると、証明書を必要とする可能性がある製品やサービス (ロード・バランサーの [SSL オフロード](/docs/infrastructure/local-load-balancer/configure-ssl-offloading-load-balancer.html){:new_window}など) に適用できます。 デフォルトでは、{{site.data.keyword.BluSoftlayer_full}} で発行された SSL 証明書は、受信者による操作のみを意図しているため、リストにインポートされません。 そのため、{{site.data.keyword.BluSoftlayer_notm}} 製品やサービスで使用する SSL 証明書は、アカウント上で権限のあるユーザーが手動でインポートする必要があります。 以下の手順を実行して、{{site.data.keyword.slportal}} に SSL 証明書をインポートします。
+Web サイトに対して SSL 証明書が発行された後、その証明書を {{site.data.keyword.slportal_full}} にインポートできます。 SSL 証明書を {{site.data.keyword.slportal}} にインポートすると、証明書を必要とする可能性がある製品やサービス (ロード・バランサーの [SSL オフロード](/docs/infrastructure/local-load-balancer?topic=local-load-balancer-configuring-ssl-offloading-on-a-load-balancer)など) に適用できます。 デフォルトでは、{{site.data.keyword.BluSoftlayer_full}} で発行された SSL 証明書は、受信者による操作のみを意図しているため、リストにインポートされません。 そのため、{{site.data.keyword.BluSoftlayer_notm}} 製品やサービスで使用する SSL 証明書は、アカウント上で権限のあるユーザーが手動でインポートする必要があります。 以下の手順を実行して、{{site.data.keyword.slportal}} に SSL 証明書をインポートします。
 
 1. ユーザー固有の資格情報を使用して、[{{site.data.keyword.slportal_full}} ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://control.softlayer.com/){: new_window} にアクセスします。
 2. **「セキュリティー」**メニューで、**「SSL」>「証明書」**を選択します。
@@ -29,4 +36,4 @@ Web サイトに対して SSL 証明書が発行された後、その証明書�
 
 ## 次のステップ
 
-SSL 証明書が {{site.data.keyword.slportal}} にインポートされた後、その証明書は[手動で削除](delete-ssl-certificate.html)されるまで、SSL 証明書画面に保管されます。 SSL 証明書の詳細を必要とするすべての製品やサービスのために、新しい SSL 証明書は、使用可能な証明書のリストに表示され、必要な製品やサービスの SSL 機能との対話に使用されます。 いつでも、証明書を[更新](view-and-update-ssl-certificate.html)し、証明書に関する詳細を[安全にダウンロード](download-ssl-certificate-details.html)できます。
+SSL 証明書が {{site.data.keyword.slportal}} にインポートされた後、その証明書は[手動で削除](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-deleting-ssl-certificates)されるまで、SSL 証明書画面に保管されます。 SSL 証明書の詳細を必要とするすべての製品やサービスのために、新しい SSL 証明書は、使用可能な証明書のリストに表示され、必要な製品やサービスの SSL 機能との対話に使用されます。 いつでも、証明書を[更新](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-viewing-and-updating-ssl-certificates)し、証明書に関する詳細を[安全にダウンロード](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-downloading-ssl-certificate-details)できます。

@@ -1,15 +1,23 @@
 ---
+
 copyright:
   years: 2014, 2018
 lastupdated: "2018-08-15"
+
+keywords: view SSL certificates, update SSL certificates, original certificates
+
+subcollection: ssl-certificates
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # SSL 証明書の表示と更新
+{: #viewing-and-updating-ssl-certificates}
 
-SSL 証明書を SSL 証明書画面にインポートした後は、いつでも表示および更新できます。 更新作業は[インポート処理](import-ssl-certificate.html)に似ています。インポートの場合と同様に、更新される詳細は、スペーシングや改行を含めて、すべて元の証明書と正確に一致していなければなりません。
+
+SSL 証明書を SSL 証明書画面にインポートした後は、いつでも表示および更新できます。 更新作業は[インポート処理](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-importing-ssl-certificates)に似ています。インポートの場合と同様に、更新される詳細は、スペーシングや改行を含めて、すべて元の証明書と正確に一致していなければなりません。
 
 SSL 証明書を表示および更新するには、以下の手順を実行します。
 

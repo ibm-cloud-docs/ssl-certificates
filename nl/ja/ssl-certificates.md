@@ -1,13 +1,20 @@
 ---
+
 copyright:
   years: 2014, 2018
 lastupdated: "2018-05-16"
+
+keywords: about ssl certificates, about SSL
+
+subcollection: ssl-certificates
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # SSL 証明書について
+{: #about-ssl-certificates}
 
 {{site.data.keyword.BluSoftlayer_full}} では、お客様向けに 1 年ごとおよび 2 年ごとの SSL 証明書を用意し、以下のようなさまざまな利点を提供しています。
 

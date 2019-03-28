@@ -1,7 +1,13 @@
 ---
+
 copyright:
   years: 2014, 2018
 lastupdated: "2018-02-22"
+
+keywords: SSL certificates FAQ, SSL FAQ
+
+subcollection: ssl-certificates
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -10,11 +16,12 @@ lastupdated: "2018-02-22"
 
 <a name="top"></a>
 # FAQ: SSL 証明書
+{: #faqs-ssl-certificates}
 
 ## 注文した SSL 証明書が自動的に SSL 証明書画面に表示されないのはなぜですか
 {:faq}
 
-SSL 証明書は、サード・パーティーの認証局によって発行されます。認証局はすべての証明書の詳細を、機密 E メールでユーザーに直接送信します。 その E メールを受信した後、証明書を {{site.data.keyword.BluSoftlayer_full}} の製品やサービスで使用したい場合は、{{site.data.keyword.slportal_full}} に [SSL 証明書をインポート](import-ssl-certificate.html)することを選択できます。 {{site.data.keyword.cloud_notm}} は SSL 証明書の詳細を受け取ることはないため、データを自動的にインポートすることはできません。
+SSL 証明書は、サード・パーティーの認証局によって発行されます。認証局はすべての証明書の詳細を、機密 E メールでユーザーに直接送信します。 その E メールを受信した後、証明書を {{site.data.keyword.BluSoftlayer_full}} の製品やサービスで使用したい場合は、{{site.data.keyword.slportal_full}} に [SSL 証明書をインポート](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-importing-ssl-certificates)することを選択できます。 {{site.data.keyword.cloud_notm}} は SSL 証明書の詳細を受け取ることはないため、データを自動的にインポートすることはできません。
 
 ## SSL 証明書とは何ですか
 {:faq}

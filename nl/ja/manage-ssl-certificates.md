@@ -1,13 +1,20 @@
 ---
+
 copyright:
   years: 2014, 2018
 lastupdated: "2018-03-01"
+
+keywords: management of certificates, add certificate, managing certificates
+
+subcollection: ssl-certificates
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # SSL 証明書の管理
+{: #managing-ssl-certificates}
 
 {{site.data.keyword.BluSoftlayer_full}} では、ポータル内に証明書を保管する手段を提供するようになりました。 これは、証明書を管理するためのリポジトリーとして機能するだけでなく、証明書を使用または必要とする可能性があるサービスを使用する際にも必要です。
 
@@ -44,4 +51,4 @@ lastupdated: "2018-03-01"
 
 ### API
 
-API を使用して証明書を編集する例については、[SSL Management ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](http://sldn.softlayer.com/article/ssl-management){: new_window}を参照してください。 
+API を使用して証明書を編集する例については、[SSL Management ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](http://sldn.softlayer.com/article/ssl-management){: new_window}を参照してください。

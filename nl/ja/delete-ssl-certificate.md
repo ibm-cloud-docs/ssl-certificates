@@ -1,13 +1,20 @@
 ---
+
 copyright:
   years: 2014, 2018
 lastupdated: "2018-02-22"
+
+keywords: SSL certificates delete, SSL delete
+
+subcollection: ssl-certificates
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # SSL 証明書の削除
+{: #deleting-ssl-certificates}
 
 SSL 証明書の詳細を {{site.data.keyword.slportal_full}} にインポートした後、いつでもそれを削除して、すべてのデータが {{site.data.keyword.slportal}} に保存されないようにすることができます。
 
@@ -26,4 +33,4 @@ SSL 証明書を削除すると、その証明書にリンクされていたす�
 
 削除された証明書を以前に使用していたすべてのサービスを更新して、アカウントに関連付けられている有効な SSL 証明書に関連付けることをお勧めします。
 
-**注:** いつでも、[インポート](import-ssl-certificate.html)処理を使用して、SSL 証明書を {{site.data.keyword.slportal}} に再度追加することができます。
+**注:** いつでも、[インポート](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-importing-ssl-certificates)処理を使用して、SSL 証明書を {{site.data.keyword.slportal}} に再度追加することができます。

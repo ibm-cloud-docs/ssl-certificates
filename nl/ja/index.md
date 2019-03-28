@@ -1,13 +1,20 @@
 ---
+
 copyright:
   years: 2014, 2018
 lastupdated: "2018-08-15"
+
+keywords: types of certificates,SSL certificates, Select Security
+
+subcollection: ssl-certificates
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
-# 入門チュートリアル  
+# 入門チュートリアル
+{: #getting-started-tutorial}
 
 
 ## 始める前に
@@ -20,7 +27,7 @@ SSL を開始するには、多少の計画が必要です。 以下の前提条
 4. ソケット・ルールについて学習する
 5. CSR を生成する
 
-詳しくは、[SSL 証明書の計画](planning-ahead-ssl.html)を参照してください。
+詳しくは、[SSL 証明書の計画](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-planning-for-ssl)を参照してください。
 
 ## SSL 証明書の注文
 
@@ -33,4 +40,4 @@ SSL を開始するには、多少の計画が必要です。 以下の前提条
 
 ## 次のステップ
 
-テストに成功した後、SSL 証明書画面にアクセスして、[更新](view-and-update-ssl-certificate.html)、[ダウンロード](download-ssl-certificate-details.html)、[削除](delete-ssl-certificate.html)、またはツールへの既存の SSL 証明書の[インポート](import-ssl-certificate.html)を行うことができます。
+テストに成功した後、SSL 証明書画面にアクセスして、[更新](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-viewing-and-updating-ssl-certificates)、[ダウンロード](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-downloading-ssl-certificate-details)、[削除](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-deleting-ssl-certificates)、またはツールへの既存の SSL 証明書の[インポート](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-importing-ssl-certificates)を行うことができます。

@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="ssl-certificates" audience="compute" arm="3662780" href="/docs/infrastructure/ssl-certificates/index.html" path="infrastructure/ssl-certificates"}
+{: .toc subcollection="ssl-certificates" audience="compute" arm="3662780" href="/docs/infrastructure/ssl-certificates?topic=ssl-certificates-getting-started-tutorial" path="infrastructure/ssl-certificates"}
 SSL 証明書
 
     {: .navgroup id="learn"}

@@ -1,13 +1,21 @@
 ---
+
+
 copyright:
   years: 2014, 2018
 lastupdated: "2018-05-17"
+
+keywords: SSL certificate details, preferred Download Option, SSL certificate download details
+
+subcollection: ssl-certificates
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # SSL 証明書の詳細のダウンロード
+{: #downloading-ssl-certificate-details}
 
 SSL 証明書が {{site.data.keyword.slportal_full}} に追加された後、その詳細をいつでもダウンロードできます。 ダウンロードには、証明書、鍵、または PEM (SSL 証明書に関連したすべての使用可能な詳細が入っている) を含めることができます。 SSL 証明書の詳細は安全にダウンロードされるため、この方法での詳細の取得に関連したリスクはありません。
 
