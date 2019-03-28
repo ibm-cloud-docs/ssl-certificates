@@ -1,13 +1,20 @@
 ---
+
 copyright:
   years: 2014, 2018
 lastupdated: "2018-05-17"
+
+keywords: SSL certificate, SSL technology, public key
+
+subcollection: ssl-certificates
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # Introduction à la technologie SSL
+{: #introduction-to-ssl-technology}
 
 SSL (Secure Sockets Layer) est une technologie qui chiffre le trafic entre l'application client et le serveur d'applications. Ce chiffrement est réalisé avec un système de clé publique/clé privée utilisant un certificat SSL.
 
@@ -48,10 +55,10 @@ l'authenticité du certificat.
 ## SSL dans l'infrastructure IBM Cloud
 
 {{site.data.keyword.BluSoftlayer_full}} revend trois types de certificats SSL : validation du domaine,
-validation de l'organisation et validation étendue. 
+validation de l'organisation et validation étendue.
 
 Les certificats à validation du domaine (DV, Domain Validation) sont à la fois peu coûteux et
-rapidement disponibles. La validation effectuée par l'autorité de certification se limite à l'envoi d'un e-mail à une adresse spécifiée sur le domaine concerné et à la réception d'une réponse positive. Les certificats à validation de l'organisation (OV, Organization Validation) et à validation étendue (EV, Extended Validation) s'obtiennent en quelques jours (parfois en une semaine), sont plus coûteux et entraînent des contrôles plus approfondis de la part de l'autorité de certification. Les certificats EV sont codés de telle manière que les navigateurs les reconnaissent comme tels et affichent une barre verte dans la barre d'adresse. 
+rapidement disponibles. La validation effectuée par l'autorité de certification se limite à l'envoi d'un e-mail à une adresse spécifiée sur le domaine concerné et à la réception d'une réponse positive. Les certificats à validation de l'organisation (OV, Organization Validation) et à validation étendue (EV, Extended Validation) s'obtiennent en quelques jours (parfois en une semaine), sont plus coûteux et entraînent des contrôles plus approfondis de la part de l'autorité de certification. Les certificats EV sont codés de telle manière que les navigateurs les reconnaissent comme tels et affichent une barre verte dans la barre d'adresse.
 
 Les certificats SSL, comme les autres services {{site.data.keyword.cloud_notm}}, peuvent être
 gérés via le portail {{site.data.keyword.slportal}}. Accédez au menu **Sécurité** et sélectionnez l'option **Certificats SSL** pour commander et gérer vos certificats.  

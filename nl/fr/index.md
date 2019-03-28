@@ -1,13 +1,20 @@
 ---
+
 copyright:
   years: 2014, 2018
 lastupdated: "2018-08-15"
+
+keywords: types of certificates,SSL certificates, Select Security
+
+subcollection: ssl-certificates
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
-# Tutoriel Initiation  
+# Tutoriel Initiation
+{: #getting-started-tutorial}
 
 
 ## Avant de commencer
@@ -21,7 +28,7 @@ durée de validité
 4. Découvrez la règle du socket
 5. Générez la demande de signature de certificat
 
-Pour plus d'informations, consultez [Planification SSL](planning-ahead-ssl.html).
+Pour plus d'informations, consultez [Planification SSL](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-planning-for-ssl).
 
 ## Commander les certificats SSL
 
@@ -36,6 +43,6 @@ Une fois le processus de commande et de validation terminé, vous recevez un e-m
 ## Etapes suivantes
 
 Une fois les tests réussis, vous pouvez accéder à l'écran des
-certificats SSL pour [mettre à jour](view-and-update-ssl-certificate.html),
-[télécharger](download-ssl-certificate-details.html), [supprimer](delete-ssl-certificate.html)
-ou [importer](import-ssl-certificate.html) des certificats SSL existants dans l'outil.
+certificats SSL pour [mettre à jour](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-viewing-and-updating-ssl-certificates),
+[télécharger](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-downloading-ssl-certificate-details), [supprimer](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-deleting-ssl-certificates)
+ou [importer](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-importing-ssl-certificates) des certificats SSL existants dans l'outil.

@@ -1,13 +1,20 @@
 ---
+
 copyright:
   years: 2014, 2018
 lastupdated: "2018-05-17"
+
+keywords:  renewing SSL certificates, renewal SSL, SSL certificate renewal process, renewing, renewal
+
+subcollection: ssl-certificates
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # Renouveler des certificats SSL
+{: #renewing-ssl-certificates}
 
 Une fois qu'un certificat SSL a été commandé via {{site.data.keyword.BluSoftlayer_full}}, il est possible de le renouveler à tout moment. {{site.data.keyword.BluSoftlayer_notm}} agit en tant que facilitateur entre le client (vous) et l'autorité de certification, et ne voit ni ne contrôle aucune partie du processus de renouvellement qui implique les détails du certificat SSL. Les certificats SSL sont renouvelés selon les mêmes termes que dans leur commande
 précédente, de sorte qu'aucun changement ne peut être apporté aux détails du renouvellement (type de certificat et autorité de certification, mois de validité, plateforme serveur, etc.). Un certificat peut être renouvelé avant ou après son expiration. Cependant, pour qu'un certificat SSL soit valide sans interruption, pensez à le renouvelez avant sa date d'expiration. Pour renouveler un certificat SSL, procédez comme indiqué ci-après.

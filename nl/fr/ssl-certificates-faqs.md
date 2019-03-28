@@ -1,7 +1,13 @@
 ---
+
 copyright:
   years: 2014, 2018
 lastupdated: "2018-02-22"
+
+keywords: SSL certificates FAQ, SSL FAQ
+
+subcollection: ssl-certificates
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -10,11 +16,12 @@ lastupdated: "2018-02-22"
 
 <a name="top"></a>
 # Foire aux questions : certificats SSL
+{: #faqs-ssl-certificates}
 
 ## Pourquoi le certificat SSL que j'ai commandé n'apparaît-il pas automatiquement sur l'écran des certificats SSL ?
 {:faq}
 
-Les certificats SSL sont délivrés par une autorité de certification tierce, qui vous envoie tous les détails du certificat directement dans un e-mail confidentiel. Après avoir reçu cet e-mail, vous avez la possibilité d'[importer le certificat SSL](import-ssl-certificate.html) sur le
+Les certificats SSL sont délivrés par une autorité de certification tierce, qui vous envoie tous les détails du certificat directement dans un e-mail confidentiel. Après avoir reçu cet e-mail, vous avez la possibilité d'[importer le certificat SSL](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-importing-ssl-certificates) sur le
 portail {{site.data.keyword.slportal_full}}
 si vous choisissez d'utiliser le certificat avec les produits et services {{site.data.keyword.BluSoftlayer_full}}. Etant donné que {{site.data.keyword.cloud_notm}} ne reçoit jamais les détails du certificat SSL, les données ne peuvent pas être importées automatiquement.
 

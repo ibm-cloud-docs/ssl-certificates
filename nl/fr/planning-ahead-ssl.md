@@ -1,13 +1,20 @@
 ---
+
 copyright:
   years: 2014, 2018
 lastupdated: "2018-05-16"
+
+keywords: types of certificates, common name, SSL certificates
+
+subcollection: ssl-certificates
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # Planification SSL
+{: #planning-for-ssl}
 
 Pour démarrer avec SSL, il faut un peu de planification. Effectuez les opérations prérequises suivantes.
 
@@ -65,4 +72,3 @@ reportez-vous aux informations spécifiques de ce panneau.
 La génération de la demande de signature de certificat s'accompagne de la création d'une clé privée. Veillez à ne pas la perdre ni à la supprimer ou à la partager. Elle doit rester privée sur le serveur web. Certains utilitaires de génération de demande de signature de certificat offrent aussi la possibilité de créer une
 phrase de passe pour protéger l'accès à la clé privée. Ne faites pas cela, sauf si vous prévoyez de vous connecter au serveur à chaque
 redémarrage du logiciel du serveur web. Veillez en outre à ne pas appliquer d'expression de demande d'accès (challenge phrase) à la demande de signature de certificat.
-
