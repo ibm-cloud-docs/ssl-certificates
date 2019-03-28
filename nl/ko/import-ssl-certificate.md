@@ -1,15 +1,22 @@
 ---
+
 copyright:
   years: 2014, 2018
 lastupdated: "2018-06-20"
+
+keywords: importing SSL certificates,SSL import, SSL certificate details
+
+subcollection: ssl-certificates
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # SSL 인증서 가져오기
+{: #importing-ssl-certificates}
 
-웹 사이트의 SSL 인증서를 발생한 다음 {{site.data.keyword.slportal_full}}로 가져올 수 있습니다. SSL 인증서를 {{site.data.keyword.slportal}}에 가져와서 인증서가 필요한 제품과 서비스에 적용할 수 있습니다(예: 로드 밸런서의 [SSL 오프로딩](/docs/infrastructure/local-load-balancer/configure-ssl-offloading-load-balancer.html){:new_window}). 기본적으로 {{site.data.keyword.BluSoftlayer_full}}에서 발행한 SSL 인증서는 수신인만 조작할 수 있으므로 목록에 가져오지 않습니다. 따라서 {{site.data.keyword.BluSoftlayer_notm}} 제품 또는 서비스와 함께 사용할 SSL 인증서는 계정에 대해 인증된 사용자가 수동으로 가져와야 합니다. 다음 단계를 완료하여 SSL 인증서를 {{site.data.keyword.slportal}}에 가져오십시오.
+웹 사이트의 SSL 인증서를 발생한 다음 {{site.data.keyword.slportal_full}}로 가져올 수 있습니다. SSL 인증서를 {{site.data.keyword.slportal}}에 가져와서 인증서가 필요한 제품과 서비스에 적용할 수 있습니다(예: 로드 밸런서의 [SSL 오프로딩](/docs/infrastructure/local-load-balancer?topic=local-load-balancer-configuring-ssl-offloading-on-a-load-balancer)). 기본적으로 {{site.data.keyword.BluSoftlayer_full}}에서 발행한 SSL 인증서는 수신인만 조작할 수 있으므로 목록에 가져오지 않습니다. 따라서 {{site.data.keyword.BluSoftlayer_notm}} 제품 또는 서비스와 함께 사용할 SSL 인증서는 계정에 대해 인증된 사용자가 수동으로 가져와야 합니다. 다음 단계를 완료하여 SSL 인증서를 {{site.data.keyword.slportal}}에 가져오십시오.
 
 1. 고유 인증 정보를 사용하여 [{{site.data.keyword.slportal_full}} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://control.softlayer.com/){: new_window}에 액세스하십시오.
 2. **보안** 메뉴에서 **SSL > 인증서**를 선택하십시오.
@@ -29,4 +36,4 @@ lastupdated: "2018-06-20"
 
 ## 다음 단계
 
-SSL 인증서를 {{site.data.keyword.slportal}}에 가져오고 나면 [수동으로 삭제](delete-ssl-certificate.html)할 때까지 SSL 인증서 화면에 저장됩니다. SSL 인증서 세부사항이 필요한 모든 제품 또는 서비스의 경우 원하는 제품 또는 서비스를 위해 SSL 기능과 상호작용할 때 사용할 수 있는 인증서 목록에 새로운 SSL 인증서가 표시됩니다. 인증서는 [업데이트](view-and-update-ssl-certificate.html)할 수 있으며 인증서에 대한 세부사항은 언제든 [안전하게 다운로드](download-ssl-certificate-details.html)할 수 있습니다.
+SSL 인증서를 {{site.data.keyword.slportal}}에 가져오고 나면 [수동으로 삭제](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-deleting-ssl-certificates)할 때까지 SSL 인증서 화면에 저장됩니다. SSL 인증서 세부사항이 필요한 모든 제품 또는 서비스의 경우 원하는 제품 또는 서비스를 위해 SSL 기능과 상호작용할 때 사용할 수 있는 인증서 목록에 새로운 SSL 인증서가 표시됩니다. 인증서는 [업데이트](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-viewing-and-updating-ssl-certificates)할 수 있으며 인증서에 대한 세부사항은 언제든 [안전하게 다운로드](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-downloading-ssl-certificate-details)할 수 있습니다.

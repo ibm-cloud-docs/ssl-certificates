@@ -1,13 +1,20 @@
 ---
+
 copyright:
   years: 2014, 2018
 lastupdated: "2018-05-16"
+
+keywords: types of certificates, common name, SSL certificates
+
+subcollection: ssl-certificates
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # SSL 플랜
+{: #planning-for-ssl}
 
 SSL을 시작하려면 플랜 비트가 필요합니다. 다음 전제조건을 완료하십시오.
 
@@ -54,4 +61,3 @@ IP 주소를 변경하거나 포트를 변경하여 각각의 SSL 사용 웹 사
 웹 서버에서 소프트웨어를 사용하여 인증서 서명 요청을 생성할 수 있습니다. UNIX 시스템의 경우 OpenSSL 패키지를 사용하십시오. Windows의 경우에는 IIS Manager의 웹 사이트 특성의 디렉토리 보안 탭에서 액세스되는 마법사가 있습니다. 제어판을 사용하는 경우 해당 제어판의 특정 정보를 참조하십시오.
 
 CSR 생성 중에 사용자는 개인 키를 작성합니다. 개인 키를 손실, 삭제 또는 공유하지 마십시오. 웹 서버에서 개인용으로 보관해야 합니다. 일부 CSR 생성 유틸리티에서는 개인 키의 비밀번호 문구를 작성하는 기능도 제공합니다. 웹 서버 소프트웨어를 다시 시작할 때마다 서버에 로그인할 계획이 아니면 이 작업을 수행하지 마십시오. 또한 CSR에 인증 확인 문구를 적용하지 마십시오.
-

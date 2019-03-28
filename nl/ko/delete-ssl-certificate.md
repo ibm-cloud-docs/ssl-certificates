@@ -1,13 +1,20 @@
 ---
+
 copyright:
   years: 2014, 2018
 lastupdated: "2018-02-22"
+
+keywords: SSL certificates delete, SSL delete
+
+subcollection: ssl-certificates
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # SSL 인증서 삭제
+{: #deleting-ssl-certificates}
 
 SSL 인증서 세부사항을 {{site.data.keyword.slportal_full}}에 가져오고 나면 {{site.data.keyword.slportal}}에 저장된 모든 데이터를 제거하기 위해 언제든 해당 세부사항을 삭제할 수 있습니다.
 
@@ -26,4 +33,4 @@ SSL 인증서를 삭제하고 나면 인증서에 연결된 모든 서비스가 
 
 삭제된 인증서를 이전에 사용한 모든 서비스가 계정과 연관된 올바른 SSL 인증서와 연관되도록 모든 서비스를 업데이트하는 것이 좋습니다.
 
-**참고:** [가져오기](import-ssl-certificate.html) 프로세스를 사용하여 언제든 SSL 인증서를 {{site.data.keyword.slportal}}에 다시 추가할 수 있습니다.
+**참고:** [가져오기](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-importing-ssl-certificates) 프로세스를 사용하여 언제든 SSL 인증서를 {{site.data.keyword.slportal}}에 다시 추가할 수 있습니다.

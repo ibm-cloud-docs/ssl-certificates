@@ -1,13 +1,20 @@
 ---
+
 copyright:
   years: 2014, 2018
 lastupdated: "2018-08-15"
+
+keywords: types of certificates,SSL certificates, Select Security
+
+subcollection: ssl-certificates
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
-# 시작하기 튜토리얼  
+# 시작하기 튜토리얼
+{: #getting-started-tutorial}
 
 
 ## 시작하기 전에
@@ -20,7 +27,7 @@ SSL을 시작하려면 플랜 비트가 필요합니다. 다음 전제조건을 
 4. 소켓 규칙 학습
 5. CSR 생성
 
-자세한 정보는 [SSL 인증서 플랜](planning-ahead-ssl.html)을 참조하십시오.
+자세한 정보는 [SSL 인증서 플랜](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-planning-for-ssl)을 참조하십시오.
 
 ## SSL 인증서 주문
 
@@ -33,4 +40,4 @@ SSL을 시작하려면 플랜 비트가 필요합니다. 다음 전제조건을 
 
 ## 다음 단계
 
-성공적으로 테스트하고 나면 SSL 인증서 화면에 액세스하여 기존 SSL 인증서를 [업데이트](view-and-update-ssl-certificate.html), [다운로드](download-ssl-certificate-details.html), [삭제](delete-ssl-certificate.html) 또는 도구에 [가져오기](import-ssl-certificate.html)를 수행할 수 있습니다.
+성공적으로 테스트하고 나면 SSL 인증서 화면에 액세스하여 기존 SSL 인증서를 [업데이트](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-viewing-and-updating-ssl-certificates), [다운로드](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-downloading-ssl-certificate-details), [삭제](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-deleting-ssl-certificates) 또는 도구에 [가져오기](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-importing-ssl-certificates)를 수행할 수 있습니다.

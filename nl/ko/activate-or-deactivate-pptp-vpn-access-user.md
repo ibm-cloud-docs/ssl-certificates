@@ -1,13 +1,20 @@
 ---
+
 copyright:
   years: 2014, 2018
 lastupdated: "2018-05-17"
+
+keywords: PPTP VPN access, PPTP VPN, PPTP access
+
+subcollection: ssl-certificates
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # PPTP VPN 액세스 활성화 또는 비활성화
+{: #activating-or-deactivating-pptp-vpn-access}
 
 PPTP VPN을 사용하면 데스크탑 또는 전용 디바이스에서 실행 중인 특수 클라이언트 소프트웨어를 사용하여 {{site.data.keyword.BluSoftlayer_full}} 사설 네트워크에 대한 보안 터널을 형성할 수 있습니다. PPTP 액세스는 전체 사무실에 연결해야 하거나 SSL VPN 솔루션을 사용할 수 없는 고객용으로 설계되었습니다. 각 고객에게는 추가로 연결이 사용 가능하지만 무제한 PPTP 액세스(추가 비용 없이 사용 가능함)를 사용하려면 지원이 필요한 하나의 PPTP 연결이 할당됩니다. 사용자의 PPTP VPN 액세스를 활성화하거나 비활성화하려면 다음 단계를 완료하십시오.
 

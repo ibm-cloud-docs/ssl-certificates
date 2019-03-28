@@ -1,13 +1,21 @@
 ---
+
+
 copyright:
   years: 2014, 2018
 lastupdated: "2018-05-17"
+
+keywords: SSL certificate details, preferred Download Option, SSL certificate download details
+
+subcollection: ssl-certificates
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # SSL 인증서 세부사항 다운로드
+{: #downloading-ssl-certificate-details}
 
 {{site.data.keyword.slportal_full}}에 SSL 인증서를 추가하고 나면 해당 세부사항을 언제든 다운로드할 수 있습니다. 다운로드에는 SSL 인증서와 연관된 사용 가능한 세부사항을 모두 포함하는 PEM, 키 또는 인증서가 포함될 수 있습니다. SSL 인증서 세부사항은 안전하게 다운로드할 수 있으므로 이 방법을 통해 세부사항을 검색하는 데 관련된 위험이 없습니다.
 

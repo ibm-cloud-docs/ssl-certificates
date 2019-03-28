@@ -1,13 +1,20 @@
 ---
+
 copyright:
   years: 2014, 2018
 lastupdated: "2018-05-16"
+
+keywords: about ssl certificates, about SSL
+
+subcollection: ssl-certificates
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # SSL 인증서 정보
+{: #about-ssl-certificates}
 
 {{site.data.keyword.BluSoftlayer_full}}에서는 고객을 위해 다음과 같은 다양한 이점을 제공하는 SSL 인증서를 매년 및 격년마다 제공합니다.
 

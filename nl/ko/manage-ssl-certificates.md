@@ -1,13 +1,20 @@
 ---
+
 copyright:
   years: 2014, 2018
 lastupdated: "2018-03-01"
+
+keywords: management of certificates, add certificate, managing certificates
+
+subcollection: ssl-certificates
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # SSL 인증서 관리
+{: #managing-ssl-certificates}
 
 {{site.data.keyword.BluSoftlayer_full}}에서는 이제 포털에 인증서를 저장하는 방법을 제공합니다. 인증서 관리 저장소 역할을 수행할 뿐 아니라 인증서를 사용하거나 필요한 서비스를 사용할 때도 필요합니다.
 
@@ -44,4 +51,4 @@ lastupdated: "2018-03-01"
 
 ### API
 
-API를 사용하여 인증서를 편집하는 예는 [SSL Management ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](http://sldn.softlayer.com/article/ssl-management){: new_window}를 참조하십시오. 
+API를 사용하여 인증서를 편집하는 예는 [SSL Management ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](http://sldn.softlayer.com/article/ssl-management){: new_window}를 참조하십시오.

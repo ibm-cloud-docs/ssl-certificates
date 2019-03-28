@@ -1,15 +1,23 @@
 ---
+
 copyright:
   years: 2014, 2018
 lastupdated: "2018-08-15"
+
+keywords: view SSL certificates, update SSL certificates, original certificates
+
+subcollection: ssl-certificates
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # SSL 인증서 보기 및 업데이트
+{: #viewing-and-updating-ssl-certificates}
 
-SSL 인증서를 SSL 인증서 화면에 가져오고 나면 언제든 해당 인증서를 보고 업데이트할 수 있습니다. 업데이트한 모든 세부사항은 간격과 행 바꾸기를 포함하여 원본 인증서와 정확히 일치해야 하므로 업데이트는 [가져오기 프로세스](import-ssl-certificate.html)와 비슷하게 작동합니다.
+
+SSL 인증서를 SSL 인증서 화면에 가져오고 나면 언제든 해당 인증서를 보고 업데이트할 수 있습니다. 업데이트한 모든 세부사항은 간격과 행 바꾸기를 포함하여 원본 인증서와 정확히 일치해야 하므로 업데이트는 [가져오기 프로세스](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-importing-ssl-certificates)와 비슷하게 작동합니다.
 
 SSL 인증서를 보고 업데이트하려면 다음 단계를 완료하십시오.
 
