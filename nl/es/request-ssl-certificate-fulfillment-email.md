@@ -1,13 +1,20 @@
 ---
+
 copyright:
   years: 2014, 2018
 lastupdated: "2018-02-22"
+
+keywords: SSL certificate fulfillment email, fulfillment email
+
+subcollection: ssl-certificates
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # Solicitud de un correo electrónico de tramitación del certificado SSL
+{: #requesting-an-ssl-certificate-fulfillment-email}
 
 Tras solicitar un nuevo certificado SSL mediante {{site.data.keyword.BluSoftlayer_full}}, la autoridad de certificado envía un correo electrónico de tramitación al administrador de dominio proporcionado durante el proceso de solicitud. Este correo electrónico contiene todos los detalles asociados con el certificado SSL. El correo electrónico de tramitación puede volver a solicitarse en cualquier momento desde la pantalla Pedidos SSL en {{site.data.keyword.slportal_full}}. Lleve a cabo los pasos siguientes para solicitar el correo electrónico de tramitación de SSL desde la autoridad de certificado.
 
@@ -20,4 +27,4 @@ Tras solicitar un nuevo certificado SSL mediante {{site.data.keyword.BluSoftlaye
 
 ## Pasos siguientes
 
-Tras solicitar un correo electrónico de tramitación adicional, la solicitud se reenviará a la autoridad de certificado correspondiente para su finalización. Dado que los detalles del certificado SSL son confidenciales, {{site.data.keyword.BluSoftlayer_notm}} no almacena los datos del certificado SSL en el sistema. Una vez recibidos los detalles del certificado SSL por correo electrónico, puede [importarlos](import-ssl-certificate.html) manualmente al {{site.data.keyword.slportal}} si es necesario.
+Tras solicitar un correo electrónico de tramitación adicional, la solicitud se reenviará a la autoridad de certificado correspondiente para su finalización. Dado que los detalles del certificado SSL son confidenciales, {{site.data.keyword.BluSoftlayer_notm}} no almacena los datos del certificado SSL en el sistema. Una vez recibidos los detalles del certificado SSL por correo electrónico, puede [importarlos](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-importing-ssl-certificates) manualmente al {{site.data.keyword.slportal}} si es necesario.

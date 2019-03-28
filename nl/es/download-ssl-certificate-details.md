@@ -1,13 +1,21 @@
 ---
+
+
 copyright:
   years: 2014, 2018
 lastupdated: "2018-05-17"
+
+keywords: SSL certificate details, preferred Download Option, SSL certificate download details
+
+subcollection: ssl-certificates
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # Descarga de los detalles del certificado SSL
+{: #downloading-ssl-certificate-details}
 
 Una vez que se ha añadido el certificado SSL a {{site.data.keyword.slportal_full}}, pueden descargarse los detalles en cualquier momento. Las descargas pueden incluir el certificado, la clave o el PEM, que incluyen todos los detalles disponibles asociados con el certificado SSL. Los detalles del certificado SSL se descargan de forma segura, por lo que no hay ningún riesgo asociado con la recuperación de los detalles mediante este método.
 

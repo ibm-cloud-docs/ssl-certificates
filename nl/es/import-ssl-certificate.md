@@ -1,15 +1,22 @@
 ---
+
 copyright:
   years: 2014, 2018
 lastupdated: "2018-06-20"
+
+keywords: importing SSL certificates,SSL import, SSL certificate details
+
+subcollection: ssl-certificates
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # Importación de certificados SSL
+{: #importing-ssl-certificates}
 
-Una vez que se emite un certificado SSL para un sitio web, puede importarse en el {{site.data.keyword.slportal_full}}. Al importar certificados SSL al {{site.data.keyword.slportal}}, dichos certificados pueden aplicarse a productos y servicios que puedan requerirlos, como la [Descarga SSL](/docs/infrastructure/local-load-balancer/configure-ssl-offloading-load-balancer.html){:new_window} del Equilibrador de carga. De forma predeterminada, los certificados SSL emitidos por {{site.data.keyword.BluSoftlayer_full}} no se importan a la lista, ya que están pensados para que solo los manipule el destinatario. Así pues, un usuario autorizado de la cuenta debe importar los certificados SSL que se vayan a utilizar con un producto o servicio de {{site.data.keyword.BluSoftlayer_notm}}. Complete los pasos siguientes para importar un certificado SSL al {{site.data.keyword.slportal}}.
+Una vez que se emite un certificado SSL para un sitio web, puede importarse en el {{site.data.keyword.slportal_full}}. Al importar certificados SSL al {{site.data.keyword.slportal}}, dichos certificados pueden aplicarse a productos y servicios que puedan requerirlos, como la [Descarga SSL](/docs/infrastructure/local-load-balancer?topic=local-load-balancer-configuring-ssl-offloading-on-a-load-balancer) del Equilibrador de carga. De forma predeterminada, los certificados SSL emitidos por {{site.data.keyword.BluSoftlayer_full}} no se importan a la lista, ya que están pensados para que solo los manipule el destinatario. Así pues, un usuario autorizado de la cuenta debe importar los certificados SSL que se vayan a utilizar con un producto o servicio de {{site.data.keyword.BluSoftlayer_notm}}. Complete los pasos siguientes para importar un certificado SSL al {{site.data.keyword.slportal}}.
 
 1. Acceda al [{{site.data.keyword.slportal_full}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/){: new_window} utilizando sus credenciales exclusivas.
 2. En el menú **Seguridad**, seleccione **SSL > Certificados**.
@@ -29,4 +36,4 @@ Una vez que se emite un certificado SSL para un sitio web, puede importarse en e
 
 ## Pasos siguientes
 
-Una vez que se ha importado el certificado SSL al {{site.data.keyword.slportal}}, se almacena en la pantalla de certificados SSL hasta que se [suprima manualmente](delete-ssl-certificate.html). Para los productos o servicios que requieran los detalles del certificado SSL, el nuevo certificado SSL aparece en la lista de certificados disponibles para utilizarlo al interactuar con la característica SSL para el producto o servicio deseado. El certificado puede [actualizarse](view-and-update-ssl-certificate.html) y los detalles del certificado pueden [descargarse de forma segura](download-ssl-certificate-details.html) en cualquier momento.
+Una vez que se ha importado el certificado SSL al {{site.data.keyword.slportal}}, se almacena en la pantalla de certificados SSL hasta que se [suprima manualmente](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-deleting-ssl-certificates). Para los productos o servicios que requieran los detalles del certificado SSL, el nuevo certificado SSL aparece en la lista de certificados disponibles para utilizarlo al interactuar con la característica SSL para el producto o servicio deseado. El certificado puede [actualizarse](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-viewing-and-updating-ssl-certificates) y los detalles del certificado pueden [descargarse de forma segura](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-downloading-ssl-certificate-details) en cualquier momento.

@@ -1,15 +1,23 @@
 ---
+
 copyright:
   years: 2014, 2018
 lastupdated: "2018-08-15"
+
+keywords: view SSL certificates, update SSL certificates, original certificates
+
+subcollection: ssl-certificates
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # Visualización y actualización de certificados SSL
+{: #viewing-and-updating-ssl-certificates}
 
-Una vez que se ha importado un certificado SSL a la pantalla de certificados SSL, puede verlo y actualizarlo en cualquier momento. Las actualizaciones funcionan de forma similar al [proceso de importación](import-ssl-certificate.html), ya que todos los detalles que se actualizan deben coincidir exactamente con los certificados originales, incluidos los espacios y los saltos de línea.
+
+Una vez que se ha importado un certificado SSL a la pantalla de certificados SSL, puede verlo y actualizarlo en cualquier momento. Las actualizaciones funcionan de forma similar al [proceso de importación](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-importing-ssl-certificates), ya que todos los detalles que se actualizan deben coincidir exactamente con los certificados originales, incluidos los espacios y los saltos de línea.
 
 Para ver y actualizar un certificado SSL, lleve a cabo los pasos siguientes.
 

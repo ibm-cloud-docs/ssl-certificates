@@ -1,13 +1,20 @@
 ---
+
 copyright:
   years: 2014, 2018
 lastupdated: "2018-05-17"
+
+keywords: SSL certificate, SSL technology, public key
+
+subcollection: ssl-certificates
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # Introducción a la tecnología SSL
+{: #introduction-to-ssl-technology}
 
 La capa de sockets seguros (SSL) es una tecnología que cifra el tráfico entre la aplicación del cliente y la del servidor. El cifrado se logra mediante el uso de un sistema de clave pública/clave privada que utiliza un certificado SSL.
 
@@ -41,9 +48,9 @@ En este ejemplo, el certificado de servidor lo firma el certificado intermedio, 
 
 ## SSL en la infraestructura de IBM Cloud
 
-{{site.data.keyword.BluSoftlayer_full}} revende tres tipos de certificados de SSL: Validación de dominio, Validación de organización, Validación ampliada. 
+{{site.data.keyword.BluSoftlayer_full}} revende tres tipos de certificados de SSL: Validación de dominio, Validación de organización, Validación ampliada.
 
-Los certificados de Validación de dominio (DV) son baratos y están disponibles rápidamente. La validación que realiza la autoridad de certificación se limita a enviar un correo electrónico a una dirección de correo electrónico concreta en el dominio en cuestión y a obtener una respuesta positiva. Los certificados de Validación de organización (OV) y la Validación ampliada (EV) tardan dos días (a veces más), cuestan más y suponen más comprobaciones por parte de la autoridad de certificación. Los certificados de EV se codifican de manera que los navegadores los reconocen como EV y muestran una barra verde como parte de la barra de direcciones. 
+Los certificados de Validación de dominio (DV) son baratos y están disponibles rápidamente. La validación que realiza la autoridad de certificación se limita a enviar un correo electrónico a una dirección de correo electrónico concreta en el dominio en cuestión y a obtener una respuesta positiva. Los certificados de Validación de organización (OV) y la Validación ampliada (EV) tardan dos días (a veces más), cuestan más y suponen más comprobaciones por parte de la autoridad de certificación. Los certificados de EV se codifican de manera que los navegadores los reconocen como EV y muestran una barra verde como parte de la barra de direcciones.
 
 Los certificados SSL, igual que otros servicios de {{site.data.keyword.cloud_notm}}, se pueden gestionar a través de {{site.data.keyword.slportal}}. Vaya al menú **Seguridad** y seleccione la opción **Certificados SSL** para solicitar y gestionar certificados.  
 

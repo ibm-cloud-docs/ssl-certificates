@@ -1,13 +1,20 @@
 ---
+
 copyright:
   years: 2014, 2018
 lastupdated: "2018-05-16"
+
+keywords: types of certificates, common name, SSL certificates
+
+subcollection: ssl-certificates
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # Planificación para SSL
+{: #planning-for-ssl}
 
 Iniciarse en SSL requiere algo de planificación. Lleve a cabo los siguientes requisitos previos.
 
@@ -54,4 +61,3 @@ Puede asignar cada sitio web habilitado para SSL a su propio socket variando la 
 Puede generar la Solicitud de firma de certificado mediante el software del servidor web. Para sistemas UNIX, utilice el paquete OpenSSL. Para Windows, hay un asistente al cual se accede desde el separador Seguridad del directorio de las propiedades del sitio web en el Gestor IIS. Si utiliza un panel de control, consulte la información concreta sobre este panel de control.
 
 Durante la creación del CSR, cree una clave privada. No pierda, borre ni comparta la clave privada. Debe mantenerse privada en el servidor web. Algunas utilidades de la generación CSR también le ofrecen la posibilidad de crear una contraseña para la clave privada. No la crea a menos que planee iniciar sesión en el servidor cada vez que el software del servidor web se reinicie. No aplique tampoco una frase de desafío al CSR.
-
