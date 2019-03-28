@@ -1,13 +1,20 @@
 ---
+
 copyright:
   years: 2014, 2018
 lastupdated: "2018-02-22"
+
+keywords: SSL certificates delete, SSL delete
+
+subcollection: ssl-certificates
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # SSL-Zertifikate löschen
+{: #deleting-ssl-certificates}
 
 Nachdem die Details eines SSL-Zertifikats in das {{site.data.keyword.slportal_full}} importiert wurden, kann es jederzeit gelöscht werden, um alle gespeicherten Daten aus dem {{site.data.keyword.slportal}} zu entfernen.
 
@@ -26,4 +33,4 @@ Nach dem Löschen des SSL-Zertifikats können alle Services, die mit diesem Zert
 
 Es wird empfohlen, alle Services, die das gelöschte Zertifikat bisher verwendet haben, einem gültigen SSL-Zertifikat zuzuordnen, das dem Konto zugewiesen ist.
 
-**Hinweis:** Das SSL-Zertifikat kann jederzeit mithilfe des [Importprozesses](import-ssl-certificate.html) wieder zum {{site.data.keyword.slportal}} hinzugefügt werden.
+**Hinweis:** Das SSL-Zertifikat kann jederzeit mithilfe des [Importprozesses](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-importing-ssl-certificates) wieder zum {{site.data.keyword.slportal}} hinzugefügt werden.

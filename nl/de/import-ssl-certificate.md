@@ -1,15 +1,22 @@
 ---
+
 copyright:
   years: 2014, 2018
 lastupdated: "2018-06-20"
+
+keywords: importing SSL certificates,SSL import, SSL certificate details
+
+subcollection: ssl-certificates
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # SSL-Zertifikate importieren
+{: #importing-ssl-certificates}
 
-Nachdem ein SSL-Zertifikat für eine Website ausgestellt wurde, kann es in das {{site.data.keyword.slportal_full}} importiert werden. Durch den Import von SSL-Zertifikaten in das {{site.data.keyword.slportal}} können diese Zertifikate auf Produkte und Services angewendet werden, für die solche Zertifikate erforderlich sind, beispielsweise die [SSL-Auslagerung](/docs/infrastructure/local-load-balancer/configure-ssl-offloading-load-balancer.html){:new_window} der Lastausgleichsfunktion. Standardmäßig werden von {{site.data.keyword.BluSoftlayer_full}} ausgestellte SSL-Zertifikate nicht in die Liste importiert, da sie nur vom Empfänger selbst bearbeitet werden sollen. Daher müssen SSL-Zertifikate, die mit einem {{site.data.keyword.BluSoftlayer_notm}}-Produkt oder -Service verwendet werden sollen, manuell durch einen berechtigten Benutzer für das Konto importiert werden. Führen Sie die nachfolgenden Schritte aus, um ein SSL-Zertifikat in das {{site.data.keyword.slportal}} zu importieren.
+Nachdem ein SSL-Zertifikat für eine Website ausgestellt wurde, kann es in das {{site.data.keyword.slportal_full}} importiert werden. Durch den Import von SSL-Zertifikaten in das {{site.data.keyword.slportal}} können diese Zertifikate auf Produkte und Services angewendet werden, für die solche Zertifikate erforderlich sind, beispielsweise die [SSL-Auslagerung](/docs/infrastructure/local-load-balancer?topic=local-load-balancer-configuring-ssl-offloading-on-a-load-balancer) der Lastausgleichsfunktion. Standardmäßig werden von {{site.data.keyword.BluSoftlayer_full}} ausgestellte SSL-Zertifikate nicht in die Liste importiert, da sie nur vom Empfänger selbst bearbeitet werden sollen. Daher müssen SSL-Zertifikate, die mit einem {{site.data.keyword.BluSoftlayer_notm}}-Produkt oder -Service verwendet werden sollen, manuell durch einen berechtigten Benutzer für das Konto importiert werden. Führen Sie die nachfolgenden Schritte aus, um ein SSL-Zertifikat in das {{site.data.keyword.slportal}} zu importieren.
 
 1. Greifen Sie mit Ihren eindeutigen Berechtigungsnachweisen auf das [{{site.data.keyword.slportal_full}} ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://control.softlayer.com/){: new_window} zu.
 2. Wählen Sie im Menü **Sicherheit** die Option **SSL > Zertifikate** aus.
@@ -29,4 +36,4 @@ Nachdem ein SSL-Zertifikat für eine Website ausgestellt wurde, kann es in das {
 
 ## Nächste Schritte
 
-Nachdem das SSL-Zertifikat in das {{site.data.keyword.slportal}} importiert wurde, wird es so lange in der Anzeige mit den SSL-Zertifikaten gespeichert, bis es [manuell gelöscht](delete-ssl-certificate.html) wird. Für alle Produkte und Services, für die SSL-Zertifikatsdetails erforderlich sind, wird das neue SSL-Zertifikat bei der Interaktion mit dem SSL-Feature für das gewünschte Produkt oder den gewünschten Service in der Liste der verfügbaren Zertifikate angezeigt. Das Zertifikat kann jederzeit [aktualisiert](view-and-update-ssl-certificate.html) und Details zum Zertifikat [sicher heruntergeladen](download-ssl-certificate-details.html) werden.
+Nachdem das SSL-Zertifikat in das {{site.data.keyword.slportal}} importiert wurde, wird es so lange in der Anzeige mit den SSL-Zertifikaten gespeichert, bis es [manuell gelöscht](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-deleting-ssl-certificates) wird. Für alle Produkte und Services, für die SSL-Zertifikatsdetails erforderlich sind, wird das neue SSL-Zertifikat bei der Interaktion mit dem SSL-Feature für das gewünschte Produkt oder den gewünschten Service in der Liste der verfügbaren Zertifikate angezeigt. Das Zertifikat kann jederzeit [aktualisiert](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-viewing-and-updating-ssl-certificates) und Details zum Zertifikat [sicher heruntergeladen](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-downloading-ssl-certificate-details) werden.

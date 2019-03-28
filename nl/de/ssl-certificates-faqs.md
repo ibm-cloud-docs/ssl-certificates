@@ -1,7 +1,13 @@
 ---
+
 copyright:
   years: 2014, 2018
 lastupdated: "2018-02-22"
+
+keywords: SSL certificates FAQ, SSL FAQ
+
+subcollection: ssl-certificates
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -10,11 +16,12 @@ lastupdated: "2018-02-22"
 
 <a name="top"></a>
 # Häufig gestellte Fragen: SSL-Zertifikate
+{: #faqs-ssl-certificates}
 
 ## Warum wird das von mir bestellte SSL-Zertifikat nicht automatisch in der Anzeige mit den SSL-Zertifikaten angezeigt?
 {:faq}
 
-SSL-Zertifikate werden von einer unabhängigen Zertifizierungsstelle ausgestellt, die Ihnen alle Zertifikatsdetails direkt in einer vertraulichen E-Mail zukommen lässt. Nach dem Erhalt dieser E-Mail können Sie das SSL-Zertifikat in das {{site.data.keyword.slportal_full}} [importieren](import-ssl-certificate.html), falls Sie das Zertifikat mit {{site.data.keyword.BluSoftlayer_full}}-Produkten und -Services verwenden möchten. Da {{site.data.keyword.cloud_notm}} nie die SSL-Zertifikatsdetails erhält, können Daten nicht automatisch importiert werden.
+SSL-Zertifikate werden von einer unabhängigen Zertifizierungsstelle ausgestellt, die Ihnen alle Zertifikatsdetails direkt in einer vertraulichen E-Mail zukommen lässt. Nach dem Erhalt dieser E-Mail können Sie das SSL-Zertifikat in das {{site.data.keyword.slportal_full}} [importieren](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-importing-ssl-certificates), falls Sie das Zertifikat mit {{site.data.keyword.BluSoftlayer_full}}-Produkten und -Services verwenden möchten. Da {{site.data.keyword.cloud_notm}} nie die SSL-Zertifikatsdetails erhält, können Daten nicht automatisch importiert werden.
 
 ## Was ist ein SSL-Zertifikat?
 {:faq}

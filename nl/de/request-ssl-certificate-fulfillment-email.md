@@ -1,13 +1,20 @@
 ---
+
 copyright:
   years: 2014, 2018
 lastupdated: "2018-02-22"
+
+keywords: SSL certificate fulfillment email, fulfillment email
+
+subcollection: ssl-certificates
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # Auftragserfüllungs-E-Mail für SSL-Zertifikat anfordern
+{: #requesting-an-ssl-certificate-fulfillment-email}
 
 Nach dem Bestellen eines neuen SSL-Zertifikats über {{site.data.keyword.BluSoftlayer_full}} sendet die Zertifizierungsstelle eine Auftragserfüllungs-E-Mail an den während des Bestellprozesses angegebenen Domänenadministrator. Diese E-Mail enthält alles Details zu dem SSL-Zertifikat. Die Auftragsbetätigungs-E-Mail kann jederzeit erneut über die Anzeige mit den SSL-Bestellungen im {{site.data.keyword.slportal_full}} angefordert werden. Führen Sie die nachfolgenden Schritte aus, um die SSL-Auftragserfüllungs-E-Mail von der Zertifizierungsstelle anzufordern.
 
@@ -20,4 +27,4 @@ Nach dem Bestellen eines neuen SSL-Zertifikats über {{site.data.keyword.BluSoft
 
 ## Nächste Schritte
 
-Nach dem Anfordern einer zusätzlichen Auftragserfüllungs-E-Mail wird die Anforderung zum Abschließen an die entsprechende Zertifizierungsstelle gesendet. Da die Details eines SSL-Zertifikats vertraulich sind, speichert {{site.data.keyword.BluSoftlayer_notm}} die Daten des SSL-Zertifikats nicht in seinem System. Nach dem Erhalt der SSL-Zertifikatsdetails per E-Mail können diese bei Bedarf manuell in das {{site.data.keyword.slportal}} [importiert](import-ssl-certificate.html) werden.
+Nach dem Anfordern einer zusätzlichen Auftragserfüllungs-E-Mail wird die Anforderung zum Abschließen an die entsprechende Zertifizierungsstelle gesendet. Da die Details eines SSL-Zertifikats vertraulich sind, speichert {{site.data.keyword.BluSoftlayer_notm}} die Daten des SSL-Zertifikats nicht in seinem System. Nach dem Erhalt der SSL-Zertifikatsdetails per E-Mail können diese bei Bedarf manuell in das {{site.data.keyword.slportal}} [importiert](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-importing-ssl-certificates) werden.

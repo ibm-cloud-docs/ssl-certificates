@@ -1,13 +1,20 @@
 ---
+
 copyright:
   years: 2014, 2018
 lastupdated: "2018-05-17"
+
+keywords: SSL certificate, SSL technology, public key
+
+subcollection: ssl-certificates
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # Einführung in die SSL-Technologie
+{: #introduction-to-ssl-technology}
 
 Secure Sockets Layer (SSL) ist eine Technologie, mit der Datenverkehr zwischen der Clientanwendung und der Serveranwendung verschlüsselt wird. Die Verschlüsselung erfolgt durch die Verwendung eines Systems für öffentliche/private Schlüssel, das ein SSL-Zertifikat verwendet.
 
@@ -41,9 +48,9 @@ In diesem Beispiel wird das Serverzertifikat vom Zwischenzertifikat signiert, we
 
 ## SSL bei IBM Cloud Infrastructure
 
-{{site.data.keyword.BluSoftlayer_full}} verkauft drei Typen von SSL-Zertifikaten: Domain-Validation (DV), Organization-Validation (OV) und Extended-Validation (EV). 
+{{site.data.keyword.BluSoftlayer_full}} verkauft drei Typen von SSL-Zertifikaten: Domain-Validation (DV), Organization-Validation (OV) und Extended-Validation (EV).
 
-Domain-Validation-Zertifikate (DV-Zertifikate) sind kosteneffizient und schnell verfügbar. Die von der Zertifizierungsstelle durchgeführte Validierung beschränkt sich auf das Senden einer E-Mail an eine angegebene E-Mail-Adresse in der betreffenden Domäne und dem Erhalt einer positiven Antwort auf diese E-Mail. Für die Bereitstellung von Organization-Validation- (OV) und Extended-Validation-Zertifikaten (EV) werden einige Tage (manchmal eine Woche) benötigt, sie kosten mehr und werden von der Zertifizierungsstelle eingehender überprüft. Die EV-Zertifikate sind so codiert, dass Browser sie als EV-Zertifikate erkennen und sie einen grünen Balken als Teil der Adressleiste aufweisen. 
+Domain-Validation-Zertifikate (DV-Zertifikate) sind kosteneffizient und schnell verfügbar. Die von der Zertifizierungsstelle durchgeführte Validierung beschränkt sich auf das Senden einer E-Mail an eine angegebene E-Mail-Adresse in der betreffenden Domäne und dem Erhalt einer positiven Antwort auf diese E-Mail. Für die Bereitstellung von Organization-Validation- (OV) und Extended-Validation-Zertifikaten (EV) werden einige Tage (manchmal eine Woche) benötigt, sie kosten mehr und werden von der Zertifizierungsstelle eingehender überprüft. Die EV-Zertifikate sind so codiert, dass Browser sie als EV-Zertifikate erkennen und sie einen grünen Balken als Teil der Adressleiste aufweisen.
 
 Wie andere {{site.data.keyword.cloud_notm}}-Services auch können SSL-Zertifikate über das {{site.data.keyword.slportal}} verwaltet werden. Rufen Sie das Menü **Sicherheit** auf und wählen Sie die Option **SSL-Zertifikate** auf, um Zertifikate zu bestellen und zu verwalten.  
 

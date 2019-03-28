@@ -1,13 +1,20 @@
 ---
+
 copyright:
   years: 2014, 2018
 lastupdated: "2018-05-17"
+
+keywords:  renewing SSL certificates, renewal SSL, SSL certificate renewal process, renewing, renewal
+
+subcollection: ssl-certificates
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # SSL-Zertifikate verlängern
+{: #renewing-ssl-certificates}
 
 Nachdem ein SSL-Zertifikat über {{site.data.keyword.BluSoftlayer_full}} angefordert wurde, kann es jederzeit verlängert werden. Während des Verlängerungsvorgangs fungiert {{site.data.keyword.BluSoftlayer_notm}} als eine Art Vermittler zwischen dem Kunden (Ihnen) und der Zertifizierungsstelle und kommt während dieses Vorgangs mit keinen Details des SSL-Zertifikats in Berührung. SSL-Zertifikate werden unter denselben Bedingungen wie bei ihrer Anforderung verlängert, daher müssen keine Änderungen an den Details für die Verlängerung (Zertifikatstyp und Zertifizierungsstelle, Gültigkeit, Serverplattform usw.) vorgenommen werden. Zertifikate können vor und nach ihrem Ablauf verlängert werden; um jedoch die Gültigkeit des SSL-Zertifikats zu gewährleisten, verlängern Sie das Zertifikat vor dessen Ablaufdatum. Führen Sie die nachfolgenden Schritte aus, um ein SSL-Zertifikat zu verlängern.
 

@@ -1,13 +1,20 @@
 ---
+
 copyright:
   years: 2014, 2018
 lastupdated: "2018-05-16"
+
+keywords: about ssl certificates, about SSL
+
+subcollection: ssl-certificates
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # Informationen zu SSL-Zertifikaten
+{: #about-ssl-certificates}
 
 {{site.data.keyword.BluSoftlayer_full}} bietet auf jährlicher oder halbjährlicher Basis SSL-Zertifikate für Kunden mit verschiedenen Vorteilen:
 

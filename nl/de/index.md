@@ -1,13 +1,20 @@
 ---
+
 copyright:
   years: 2014, 2018
 lastupdated: "2018-08-15"
+
+keywords: types of certificates,SSL certificates, Select Security
+
+subcollection: ssl-certificates
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
-# Lernprogramm 'Einführung'  
+# Lernprogramm 'Einführung'
+{: #getting-started-tutorial}
 
 
 ## Vorbereitung
@@ -20,7 +27,7 @@ Für die ersten Schritte bei der Verwendung von SSL-Zertifikaten ist eine gewiss
 4. Machen Sie sich mit der Socketregel vertraut.
 5. Generieren Sie die Zertifikatssignieranforderung.
 
-Weitere Informationen finden Sie in [Planung für SSL-Zertifikate](planning-ahead-ssl.html).
+Weitere Informationen finden Sie in [Planung für SSL-Zertifikate](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-planning-for-ssl).
 
 ## SSL-Zertifikate bestellen
 
@@ -33,4 +40,4 @@ Nachdem der Bestell- und Validierungsprozess abgeschlossen ist, erhalten Sie von
 
 ## Nächste Schritte
 
-Nach einem erfolgreichen Test können Sie auf die Anzeige mit den SSL-Zertifikaten zugreifen, um vorhandene Zertifikate zu [aktualisieren](view-and-update-ssl-certificate.html), [herunterzuladen](download-ssl-certificate-details.html), zu [löschen](delete-ssl-certificate.html) oder in das Tool zu [importieren](import-ssl-certificate.html).
+Nach einem erfolgreichen Test können Sie auf die Anzeige mit den SSL-Zertifikaten zugreifen, um vorhandene Zertifikate zu [aktualisieren](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-viewing-and-updating-ssl-certificates), [herunterzuladen](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-downloading-ssl-certificate-details), zu [löschen](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-deleting-ssl-certificates) oder in das Tool zu [importieren](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-importing-ssl-certificates).

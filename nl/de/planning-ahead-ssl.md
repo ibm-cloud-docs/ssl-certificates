@@ -1,13 +1,20 @@
 ---
+
 copyright:
   years: 2014, 2018
 lastupdated: "2018-05-16"
+
+keywords: types of certificates, common name, SSL certificates
+
+subcollection: ssl-certificates
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # Planung für SSL
+{: #planning-for-ssl}
 
 Für die ersten Schritte bei der Verwendung von SSL-Zertifikaten ist eine gewisse Planung erforderlich. Schaffen Sie dazu folgende Voraussetzungen.
 
@@ -54,4 +61,3 @@ Sie können jede SSL-fähige Website einem eigenen Socket zuweisen, indem Sie di
 Sie können die Zertifikatssignieranforderung mithilfe einer bestimmten Software auf dem Web-Server generieren. Verwenden Sie für UNIX-Systeme das OpenSSL-Paket. Unter Windows wird ein Assistent bereitgestellt, auf den Sie über die Registerkarte 'Verzeichnissicherheit' der Websiteeigenschaften in IIS Manager zugreifen können. Wenn Sie die Systemsteuerung verwenden, sind die durchzuführenden Schritte je nach Betriebssystem etwas anders.
 
 Beim Generieren der Zertifikatssignieranforderung wird ein privater Schlüssel erstellt. Verlieren, löschen oder teilen Sie diesen privaten Schlüssel nicht. Er muss als vertraulich auf dem Web-Server gespeichert werden. Mit einigen Dienstprogrammen zur Generierung der Zertifikatssignieranforderung können Sie auch eine Kennphrase für den privaten Schlüssel erstellen. Nutzen Sie diese Möglichkeit nur dann, wenn Sie sich jedes Mal beim Neustart der Web-Server-Software wieder beim Server anmelden möchten. Wenden Sie außerdem keine Sicherheitsabfrage auf die Zertifikatssignieranforderung an.
-

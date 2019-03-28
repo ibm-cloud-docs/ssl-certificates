@@ -1,13 +1,20 @@
 ---
+
 copyright:
   years: 2014, 2018
 lastupdated: "2018-03-01"
+
+keywords: management of certificates, add certificate, managing certificates
+
+subcollection: ssl-certificates
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # SSL-Zertifikate verwalten
+{: #managing-ssl-certificates}
 
 {{site.data.keyword.BluSoftlayer_full}} bietet jetzt die Möglichkeit zum Speichern von Zertifikaten im eigenen Portal. Dieses kann nicht nur als Repository für die Verwaltung der Zertifikate dienen, sondern ist auch bei der Nutzung von Services und beim Anfordern von Zertifikaten erforderlich.
 
@@ -44,4 +51,4 @@ Um ein Zertifikat zu entfernen, befolgen Sie die Schritte zum Bearbeiten des Zer
 
 ### API
 
-Ein Beispiel für die Bearbeitung von Zertifikaten mithilfe der API finden Sie in [SSL-Verwaltung ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](http://sldn.softlayer.com/article/ssl-management){: new_window}. 
+Ein Beispiel für die Bearbeitung von Zertifikaten mithilfe der API finden Sie in [SSL-Verwaltung ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](http://sldn.softlayer.com/article/ssl-management){: new_window}.
