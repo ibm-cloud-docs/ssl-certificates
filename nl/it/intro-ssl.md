@@ -1,13 +1,20 @@
 ---
+
 copyright:
   years: 2014, 2018
 lastupdated: "2018-05-17"
+
+keywords: SSL certificate, SSL technology, public key
+
+subcollection: ssl-certificates
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # Introduzione alla tecnologia SSL
+{: #introduction-to-ssl-technology}
 
 Secure Sockets Layer (SSL) è una tecnologia che crittografa il traffico tra l'applicazione client e il server delle applicazioni. Questa crittografia viene eseguita utilizzando una chiave pubblica/chiave privata di sistema che utilizza un certificato SSL.
 
@@ -41,9 +48,9 @@ In questo esempio, il certificato del server viene firmato dal certificato inter
 
 ## SSL nell'infrastruttura IBM Cloud
 
-{{site.data.keyword.BluSoftlayer_full}} rivende tre tipi di certificati SSL: convalida del dominio, convalida dell'organizzazione e convalida estesa. 
+{{site.data.keyword.BluSoftlayer_full}} rivende tre tipi di certificati SSL: convalida del dominio, convalida dell'organizzazione e convalida estesa.
 
-I certificati di convalida del dominio (DV) sono economici e disponibili velocemente. La convalida che viene eseguita dall'autorità di certificazione è limitata a inviare un'email ad un indirizzo email specificato nel dominio in questione e ottenere una risposta positiva. I certificati di convalida dell'organizzazione (OV) e di convalida estesa (EV) impiegano un paio di giorni (a volte una settimana), costano di più e comportano controlli più approfonditi dall'autorità di certificazione. I certificati EV sono codificati in modo che i browser li riconoscono come EV e visualizzano una barra verde come parte della barra dell'indirizzo. 
+I certificati di convalida del dominio (DV) sono economici e disponibili velocemente. La convalida che viene eseguita dall'autorità di certificazione è limitata a inviare un'email ad un indirizzo email specificato nel dominio in questione e ottenere una risposta positiva. I certificati di convalida dell'organizzazione (OV) e di convalida estesa (EV) impiegano un paio di giorni (a volte una settimana), costano di più e comportano controlli più approfonditi dall'autorità di certificazione. I certificati EV sono codificati in modo che i browser li riconoscono come EV e visualizzano una barra verde come parte della barra dell'indirizzo.
 
 I certificati SSL, come altri servizi {{site.data.keyword.cloud_notm}}, possono essere gestiti tramite {{site.data.keyword.slportal}}. Vai al menu **Sicurezza** e seleziona l'opzione **Certificati SSL** per ordinare e gestire i certificati.  
 

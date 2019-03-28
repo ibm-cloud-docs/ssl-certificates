@@ -1,13 +1,20 @@
 ---
+
 copyright:
   years: 2014, 2018
 lastupdated: "2018-03-01"
+
+keywords: management of certificates, add certificate, managing certificates
+
+subcollection: ssl-certificates
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # Gestione dei certificati SSL
+{: #managing-ssl-certificates}
 
 {{site.data.keyword.BluSoftlayer_full}} ora fornisce un modo per memorizzare i certificati nel portale. Non solo questo può servire come un repository per la gestione dei tuoi certificati, ma è anche necessario quando si utilizzano i servizi che possono utilizzare o richiedere certificati.
 
@@ -44,4 +51,4 @@ Per rimuovere un certificato, segui i passi per modificarlo, seleziona "Conferma
 
 ### API
 
-Per un esempio di modifica dei certificati utilizzando l'API, consulta [Gestione SSL ![Icona collegamento esterno](../../icons/launch-glyph.svg "Icona collegamento esterno")](http://sldn.softlayer.com/article/ssl-management){: new_window}. 
+Per un esempio di modifica dei certificati utilizzando l'API, consulta [Gestione SSL ![Icona collegamento esterno](../../icons/launch-glyph.svg "Icona collegamento esterno")](http://sldn.softlayer.com/article/ssl-management){: new_window}.

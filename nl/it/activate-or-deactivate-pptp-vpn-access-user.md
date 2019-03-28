@@ -1,13 +1,20 @@
 ---
+
 copyright:
   years: 2014, 2018
 lastupdated: "2018-05-17"
+
+keywords: PPTP VPN access, PPTP VPN, PPTP access
+
+subcollection: ssl-certificates
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # Attivazione o disattivazione dell'accesso VPN PPTP
+{: #activating-or-deactivating-pptp-vpn-access}
 
 VPN PPTP consente agli utenti di creare un tunnel sicuro sulla {{site.data.keyword.BluSoftlayer_full}} rete privata utilizzando il software client specializzato in esecuzione sul loro desktop o dispositivo dedicato. L'accesso PPTP è progettato per i clienti che devono collegare un intero ufficio o non possono utilizzare la soluzione VPN SSL. Ad ogni cliente è destinata una connessione PPTP con ulteriori connessioni disponibili ma che richiedono supporto per abilitare l'accesso PPTP illimitato, che è disponibile senza costi aggiuntivi. Per attivare o disattivare l'accesso VPN PPTP per un utente, completa la seguente procedura.
 
