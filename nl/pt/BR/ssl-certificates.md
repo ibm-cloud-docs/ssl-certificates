@@ -1,13 +1,20 @@
 ---
+
 copyright:
   years: 2014, 2018
 lastupdated: "2018-05-16"
+
+keywords: about ssl certificates, about SSL
+
+subcollection: ssl-certificates
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # Sobre certificados SSL
+{: #about-ssl-certificates}
 
 O {{site.data.keyword.BluSoftlayer_full}} oferece certificados SSL anualmente e a cada dois anos para clientes que oferecem vários benefícios, incluindo:
 

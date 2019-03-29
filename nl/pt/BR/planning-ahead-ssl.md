@@ -1,13 +1,20 @@
 ---
+
 copyright:
   years: 2014, 2018
 lastupdated: "2018-05-16"
+
+keywords: types of certificates, common name, SSL certificates
+
+subcollection: ssl-certificates
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # Planejamento para SSL
+{: #planning-for-ssl}
 
 A introdução ao SSL requer um pouco de planejamento. Conclua os pré-requisitos a seguir.
 
@@ -54,4 +61,3 @@ Hospedagem virtual é o método pelo qual você pode hospedar 20, 30, 100 websit
 É possível gerar a Solicitação de Assinatura de Certificado usando software no servidor da web. Para sistemas UNIX, use o pacote OpenSSL. Para o Windows, há um assistente que é acessado na guia Segurança de diretório das propriedades do site em IIS Manager. Se você estiver usando um painel de controle, consulte as informações específicas sobre ele.
 
 Ao gerar o CSR, você criará uma chave privada. Não perca, exclua ou compartilhe a chave privada. Ela deve ser mantida privada no servidor da web. Alguns utilitários de geração de CSR também fornecem a capacidade de criar uma passphrase para a chave privada. Não faça isso, a menos que você planeje efetuar logon no servidor sempre que o software do servidor web for reiniciado. Além disso, não aplique uma frase desafio para o CSR.
-

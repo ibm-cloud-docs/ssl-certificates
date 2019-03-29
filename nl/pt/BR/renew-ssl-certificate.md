@@ -1,13 +1,20 @@
 ---
+
 copyright:
   years: 2014, 2018
 lastupdated: "2018-05-17"
+
+keywords:  renewing SSL certificates, renewal SSL, SSL certificate renewal process, renewing, renewal
+
+subcollection: ssl-certificates
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # Renovando certificados SSL
+{: #renewing-ssl-certificates}
 
 Após o pedido de um certificado SSL por meio do {{site.data.keyword.BluSoftlayer_full}}, ele pode ser
 renovado a qualquer momento. Durante o processo de renovação, o {{site.data.keyword.BluSoftlayer_notm}} age como facilitador entre o cliente (você) e a autoridade de certificação e não vê nem controla nenhuma parte do processo de renovação que envolve os detalhes do certificado SSL. Certificados SSL são renovados sob os mesmos termos em que foram pedidos, assim, nenhuma mudança nos detalhes de renovação (tipo

@@ -1,7 +1,13 @@
 ---
+
 copyright:
   years: 2014, 2018
 lastupdated: "2018-02-22"
+
+keywords: SSL certificates FAQ, SSL FAQ
+
+subcollection: ssl-certificates
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -10,12 +16,13 @@ lastupdated: "2018-02-22"
 
 <a name="top"></a>
 # Perguntas frequentes: certificados SSL
+{: #faqs-ssl-certificates}
 
 ## Por que o certificado SSL que eu solicitei não aparece automaticamente na tela de certificados SSL?
 {:faq}
 
 Certificados SSL são emitidos por uma autoridade de certificado de empresa terceirizada, que envia todos os detalhes do
-certificado diretamente para você em um e-mail confidencial. Depois de receber o e-mail, você tem a opção de[importar o certificado SSL](import-ssl-certificate.html) para o {{site.data.keyword.slportal_full}}. É necessário escolher usar o certificado com produtos e serviços {{site.data.keyword.BluSoftlayer_full}}. Como {{site.data.keyword.cloud_notm}} nunca recebe os detalhes para o certificado SSL, os dados não podem ser importados automaticamente.
+certificado diretamente para você em um e-mail confidencial. Depois de receber o e-mail, você tem a opção de[importar o certificado SSL](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-importing-ssl-certificates) para o {{site.data.keyword.slportal_full}}. É necessário escolher usar o certificado com produtos e serviços {{site.data.keyword.BluSoftlayer_full}}. Como {{site.data.keyword.cloud_notm}} nunca recebe os detalhes para o certificado SSL, os dados não podem ser importados automaticamente.
 
 ## O que é um certificado SSL?
 {:faq}

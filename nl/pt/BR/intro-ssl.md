@@ -1,13 +1,20 @@
 ---
+
 copyright:
   years: 2014, 2018
 lastupdated: "2018-05-17"
+
+keywords: SSL certificate, SSL technology, public key
+
+subcollection: ssl-certificates
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # Introdução à tecnologia de SSL
+{: #introduction-to-ssl-technology}
 
 Secure Sockets Layer (SSL) é uma tecnologia que criptografa o tráfego entre o aplicativo cliente e o aplicativo do servidor. Essa criptografia é realizada usando um sistema de chave pública/chave privada que usa um certificado SSL.
 
@@ -54,13 +61,13 @@ certificação. Essa assinatura, quando rastreada de volta para um certificado r
 
 ## SSL na infraestrutura do IBM Cloud
 
-O {{site.data.keyword.BluSoftlayer_full}} revende três tipos de certificados SSL: a Validação de domínio, a Validação de organização e a Validação estendida. 
+O {{site.data.keyword.BluSoftlayer_full}} revende três tipos de certificados SSL: a Validação de domínio, a Validação de organização e a Validação estendida.
 
 Os certificados de Validação de Domínio (DV) são baratos e disponíveis rapidamente. A validação que é feita pela autoridade de
 certificação está limitada ao envio de um e-mail para um endereço de e-mail especificado no domínio em questão e ao recebimento de
 uma resposta positiva. Os certificados de validação de organização (OV) e validação estendida (EV) demoram alguns dias
 (às vezes, uma semana), custam mais e resultam em verificações mais detalhadas pela autoridade de certificação. Os certificados EV
-são codificados de forma que os navegadores os reconheçam como EV e exibam uma barra verde como parte da barra de endereços. 
+são codificados de forma que os navegadores os reconheçam como EV e exibam uma barra verde como parte da barra de endereços.
 
 Os certificados SSL, como outros serviços do {{site.data.keyword.cloud_notm}}, podem ser gerenciados por meio do {{site.data.keyword.slportal}}. Acesse o menu **Segurança** e selecione a opção **Certificados SSL** para pedir e gerenciar certificados.  
 

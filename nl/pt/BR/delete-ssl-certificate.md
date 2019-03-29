@@ -1,13 +1,20 @@
 ---
+
 copyright:
   years: 2014, 2018
 lastupdated: "2018-02-22"
+
+keywords: SSL certificates delete, SSL delete
+
+subcollection: ssl-certificates
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # Excluindo certificados SSL
+{: #deleting-ssl-certificates}
 
 Após a importação dos detalhes de um certificado SSL para o {{site.data.keyword.slportal_full}}, ele
 poderá ser excluído a qualquer momento para evitar que todos os dados sejam salvos no {{site.data.keyword.slportal}}.
@@ -28,4 +35,4 @@ Depois de excluir um certificado SSL, nenhum serviço vinculado a ele usará mai
 Recomenda-se que você atualize todos os serviços que anteriormente usaram o certificado excluído para serem associados a um certificado SSL válido associado à conta.
 
 **Nota:** a qualquer momento, o certificado SSL pode ser incluído de volta no
-{{site.data.keyword.slportal}} usando o processo de [importação](import-ssl-certificate.html).
+{{site.data.keyword.slportal}} usando o processo de [importação](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-importing-ssl-certificates).

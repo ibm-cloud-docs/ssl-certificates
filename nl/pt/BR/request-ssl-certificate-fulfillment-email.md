@@ -1,13 +1,20 @@
 ---
+
 copyright:
   years: 2014, 2018
 lastupdated: "2018-02-22"
+
+keywords: SSL certificate fulfillment email, fulfillment email
+
+subcollection: ssl-certificates
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # Solicitando um e-mail de preenchimento de certificado SSL
+{: #requesting-an-ssl-certificate-fulfillment-email}
 
 Depois de pedir um novo certificado SSL por meio do {{site.data.keyword.BluSoftlayer_full}}, a autoridade de certificação envia um e-mail de preenchimento para o administrador de domínio fornecido durante o processo de pedido. Esse e-mail contém todos os detalhes que estão associados com o certificado SSL. A qualquer momento, o e-mail de cumprimento pode
 ser solicitado novamente na tela Pedidos SSL no {{site.data.keyword.slportal_full}}. Conclua as etapas a seguir para
@@ -26,4 +33,4 @@ da autoridade de certificação.  Ou, clique em **Cancelar** para cancelar a aç
 
 Depois de solicitar um e-mail de preenchimento adicional, a solicitação será encaminhada para a autoridade de certificação aplicável para conclusão. Como os detalhes do certificado SSL são confidenciais, o {{site.data.keyword.BluSoftlayer_notm}} não armazena os dados do
 certificado SSL em seu sistema. Depois de receber os detalhes do certificado SSL por e-mail, eles podem ser manualmente
-[importados](import-ssl-certificate.html) para o {{site.data.keyword.slportal}}, se necessário.
+[importados](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-importing-ssl-certificates) para o {{site.data.keyword.slportal}}, se necessário.

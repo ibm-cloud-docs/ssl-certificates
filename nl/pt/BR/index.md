@@ -1,13 +1,20 @@
 ---
+
 copyright:
   years: 2014, 2018
 lastupdated: "2018-08-15"
+
+keywords: types of certificates,SSL certificates, Select Security
+
+subcollection: ssl-certificates
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
-# Tutorial de Introdução  
+# Tutorial de Introdução
+{: #getting-started-tutorial}
 
 
 ## Antes
@@ -21,7 +28,7 @@ A introdução ao SSL requer um pouco de planejamento. Conclua os pré-requisito
 4. Saiba mais sobre a regra do soquete
 5. Gere o CSR
 
-Para obter mais informações, consulte [Planejando para certificados SSL](planning-ahead-ssl.html).
+Para obter mais informações, consulte [Planejando para certificados SSL](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-planning-for-ssl).
 
 ## Solicitando certificados SSL
 
@@ -38,4 +45,4 @@ você está usando, mas o resultado deve ser o mesmo. Quando terminado, você se
 
 ## Próximas Etapas
 
-Após testar com sucesso, é possível acessar a tela de certificados SSL, para [atualizar](view-and-update-ssl-certificate.html), [fazer download](download-ssl-certificate-details.html), [excluir](delete-ssl-certificate.html) ou [importar](import-ssl-certificate.html) certificados SSL existentes na ferramenta.
+Após testar com sucesso, é possível acessar a tela de certificados SSL, para [atualizar](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-viewing-and-updating-ssl-certificates), [fazer download](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-downloading-ssl-certificate-details), [excluir](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-deleting-ssl-certificates) ou [importar](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-importing-ssl-certificates) certificados SSL existentes na ferramenta.
