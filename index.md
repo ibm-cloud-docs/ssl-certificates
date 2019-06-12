@@ -30,7 +30,7 @@ For more information, see [Planning for SSL certificates](/docs/infrastructure/s
 
 ## Ordering SSL certificates
 
-1. Navigate to your console's security menu. For more information, see [Navigating to devices].
+1. Navigate to your console's security menu. For more information, see [Navigating to devices](/docs/infrastructure/ssl-certificates?topic=virtual-servers-navigating-devices).
 2. From the **Security** menu, select **Security > SSL > Certificates**.
 3. Select **Order SSL Certificate**.
 3. Select the type and duration of certificate, submit the text of the CSR, select your server platform, and then confirm payment.
