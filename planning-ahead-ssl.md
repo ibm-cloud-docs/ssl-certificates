@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2014, 2018
-lastupdated: "2018-05-16"
+  years: 2014, 2019
+lastupdated: "2019-06-11"
 
 keywords: types of certificates, common name, SSL certificates
 
@@ -54,10 +54,11 @@ SSL certificates are limited to one certificate per socket. A socket is an IP ad
 
 Virtual hosting is the method by which you can host 20, 30, 100 websites on one IP address. Virtual hosting works because modern browsers pass a field that is called the host reader as part of their request. This field looks like “Host: web1.mydomain.com” and tells the web server which site you are trying to access. In the case of HTTPS (HTTP over SSL), the web server must select the SSL certificate to send to the client before seeing the host header, which is why a socket can have only one certificate.
 
-You can assign each SSL-enabled website to its own socket by varying the IP address or varying the port. Keep in mind if you change the port from 443/tcp, users must include the port number in their URL like https://web1.mydomain.com:444.
+You can assign each SSL-enabled website to its own socket by varying the IP address or varying the port. Keep in mind if you change the port from 443/tcp, users must include the port number in their URL like `https://web1.mydomain.com:444`.
 
 ## Generate the CSR
 
-You can generate the Certificate Signing Request by using software on the web server. For UNIX systems, use the OpenSSL package. For Windows, there is a wizard that is accessed from the Directory Security tab of the website properties in IIS Manager. If you are using a control panel, refer to specific information for that control panel.
+You can generate the certificate signing request (CSR) by using software on the web server. For UNIX systems, use the OpenSSL package. For Windows, there is a wizard that is accessed from the Directory Security tab of the website properties in IIS Manager. If you are using a control panel, refer to specific information for that control panel.
 
 While generating the CSR, you create a private key. Do not lose, delete, or share the private key. It is to be kept private on the web server. Some CSR generation utilities also give you the ability to create a passphrase for the private key. Do not do this unless you plan to log on to the server any time the web server software is restarted. In addition, do not apply a challenge phrase to the CSR.
+
