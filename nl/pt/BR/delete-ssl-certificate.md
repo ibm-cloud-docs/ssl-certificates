@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2014, 2018
-lastupdated: "2018-02-22"
+  years: 2014, 2019
+lastupdated: "2019-06-12"
 
 keywords: SSL certificates delete, SSL delete
 
@@ -10,29 +10,27 @@ subcollection: ssl-certificates
 
 ---
 
+{:note: .note}
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # Excluindo certificados SSL
 {: #deleting-ssl-certificates}
 
-Após a importação dos detalhes de um certificado SSL para o {{site.data.keyword.slportal_full}}, ele
-poderá ser excluído a qualquer momento para evitar que todos os dados sejam salvos no {{site.data.keyword.slportal}}.
+Depois que os detalhes de um certificado SSL são importados para o console do {{site.data.keyword.cloud}}, ele pode ser excluído a qualquer momento para remover todos os dados que seriam salvos no console do {{site.data.keyword.cloud_notm}}.
 
 Para excluir um certificado SSL, conclua as etapas a seguir.
 
-1. Acesse o [{{site.data.keyword.slportal}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://control.softlayer.com/){: new_window} usando suas credenciais exclusivas.
+1. Navegue até o menu de segurança de seu console. Para obter mais informações, consulte [Navegando para dispositivos](/docs/infrastructure/ssl-certificates?topic=virtual-servers-navigating-devices).
 2. No menu **Segurança**, selecione **SSL > Certificados**.
 3. No menu **Ações**, selecione **Excluir** para o certificado SSL desejado.
+4. Clique em **Sim** para excluir o certificado SSL.
 
-  **Observação:** uma janela é exibida para confirmar a exclusão.
-4. Clique em **Sim** para excluir o certificado SSL ou clique em **Não** para cancelar a ação.
+## Etapas seguintes
 
-## Próximas Etapas
+Depois de excluir um certificado SSL, nenhum serviço vinculado a ele usará mais suas informações. O certificado não aparece mais na tela Certificados SSL no console do {{site.data.keyword.cloud_notm}}.
 
-Depois de excluir um certificado SSL, nenhum serviço vinculado a ele usará mais suas informações. O certificado não aparece mais na tela de certificados SSL no {{site.data.keyword.slportal}}.
+Atualize todos os serviços que anteriormente usavam o certificado excluído para que sejam associados a um certificado SSL válido associado à conta.
 
-Recomenda-se que você atualize todos os serviços que anteriormente usaram o certificado excluído para serem associados a um certificado SSL válido associado à conta.
-
-**Nota:** a qualquer momento, o certificado SSL pode ser incluído de volta no
-{{site.data.keyword.slportal}} usando o processo de [importação](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-importing-ssl-certificates).
+A qualquer momento, o certificado SSL pode ser incluído de volta no console do {{site.data.keyword.cloud_notm}} usando o processo de [importação](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-importing-ssl-certificates#importing-ssl-certificates).
+{:note}

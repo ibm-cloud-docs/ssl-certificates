@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2014, 2018
-lastupdated: "2018-08-15"
+  years: 2014, 2019
+lastupdated: "2019-06-11"
 
 keywords: types of certificates,SSL certificates, Select Security
 
@@ -16,7 +16,6 @@ subcollection: ssl-certificates
 # Tutorial de Introdução
 {: #getting-started-tutorial}
 
-
 ## Antes
 de Começar
 
@@ -28,21 +27,20 @@ A introdução ao SSL requer um pouco de planejamento. Conclua os pré-requisito
 4. Saiba mais sobre a regra do soquete
 5. Gere o CSR
 
-Para obter mais informações, consulte [Planejando para certificados SSL](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-planning-for-ssl).
+Para obter mais informações, consulte [Planejando para certificados SSL](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-planning-for-ssl#planning-for-ssl).
 
 ## Solicitando certificados SSL
 
-1. Acesse o [{{site.data.keyword.slportal_full}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://control.softlayer.com/){: new_window} usando suas credenciais exclusivas.
-2. Selecione **Segurança > Certificados SSL >** para acessar a tela de certificados SSL.
-3. Deve-se selecionar o tipo e a duração de certificado, enviar o texto do CSR, inserir alguns detalhes adicionais e,
-em seguida, confirmar o pagamento.
+1. Navegue até o menu de segurança de seu console. Para obter mais informações, consulte [Navegando para dispositivos](/docs/infrastructure/ssl-certificates?topic=virtual-servers-navigating-devices).
+2. No menu **Segurança**, selecione **Segurança > SSL > Certificados**.
+3. Selecione **Pedir certificado SSL**.
+3. Selecione o tipo e a duração de certificado, envie o texto da CSR, selecione a plataforma do servidor e, em seguida, confirme o pagamento.
 
 ## Instalando e testando
 Após a conclusão do processo de pedido e de validação, você receberá um e-mail da autoridade de certificação que
 inclui seu certificado, bem como todos os certificados intermediários necessários. O método para instalação depende do software que
-você está usando, mas o resultado deve ser o mesmo. Quando terminado, você será capaz de acessar o
-<http://host.yourdomain.com> e ver seu conteúdo, além de ver o cadeado SSL que os navegadores usam para denotar uma sessão criptografada. Se você receber um aviso, deverá executar algumas etapas.
+você está usando, mas o resultado deve ser o mesmo. Quando terminar, você deverá ser capaz de acessar `http://host.yourdomain.com` e ver seu conteúdo e o cadeado de SSL que os navegadores usam para denotar uma sessão criptografada. Se você receber um aviso, deverá executar algumas etapas.
 
-## Próximas Etapas
+## Etapas seguintes
 
-Após testar com sucesso, é possível acessar a tela de certificados SSL, para [atualizar](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-viewing-and-updating-ssl-certificates), [fazer download](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-downloading-ssl-certificate-details), [excluir](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-deleting-ssl-certificates) ou [importar](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-importing-ssl-certificates) certificados SSL existentes na ferramenta.
+Após o teste bem-sucedido, é possível acessar os certificados SSL no console do {{site.data.keyword.cloud_notm}} para [atualizar](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-viewing-and-updating-ssl-certificates#viewing-and-updating-ssl-certificates), [fazer download](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-downloading-ssl-certificate-details#downloading-ssl-certificate-details), [excluir](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-deleting-ssl-certificates#deleting-ssl-certificates) ou [importar](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-importing-ssl-certificates#importing-ssl-certificates) certificados SSL existentes no conjunto.

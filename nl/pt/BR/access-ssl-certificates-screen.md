@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2014, 2018
-lastupdated: "2018-02-21"
+  years: 2014, 2019
+lastupdated: "2019-06-12"
 
 keywords: SSL certificates access
 
@@ -16,14 +16,16 @@ subcollection: ssl-certificates
 # Acessando certificados SSL
 {: #accessing-ssl-certificates}
 
-No {{site.data.keyword.slportal_full}}, é possível gerenciar e controlar certificados SSL que foram pedidos pelo
-{{site.data.keyword.BluSoftlayer_full}} e por outras empresas de terceiros. Os certificados SSL são necessários para ativar recursos em alguns produtos, mais popularmente os [Load Balancers](/docs/infrastructure/local-load-balancer?topic=local-load-balancer-getting-started-with-local-load-balancer) e seus dados devem ser armazenados dentro do {{site.data.keyword.slportal}} para ativar esses recursos. Todas as interações com certificados SSL, incluindo a importação, a edição e a exportação, são executadas na tela de certificados SSL no {{site.data.keyword.slportal}}. Conclua as etapas a seguir para acessar a tela de certificados SSL.
+No console do {{site.data.keyword.cloud}}, é possível gerenciar e rastrear os certificados SSL que são pedidos por meio do {{site.data.keyword.cloud_notm}} e de outras empresas de terceiros. Os certificados SSL são necessários para ativar recursos em alguns produtos, como os [Load Balancers](/docs/infrastructure/local-load-balancer?topic=local-load-balancer-about-load-balancing#about-load-balancing), e seus dados devem ser armazenados dentro do console do {{site.data.keyword.cloud_notm}} para ativar esses recursos. Todas as interações com certificados SSL, incluindo importação, edição e exportação, são executadas na tela Certificados SSL no console do {{site.data.keyword.cloud_notm}}.
+{:shortdesc}
 
-## Acessando a tela de certificados SSL
+## Acessando a tela Certificados SSL
+Conclua as etapas a seguir para acessar os certificados SSL.
 
-1. Acesse o [{{site.data.keyword.slportal_full}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://control.softlayer.com/){: new_window} usando suas credenciais exclusivas.
+1. Navegue até o menu de segurança de seu console. Para obter mais informações, consulte [Navegando para dispositivos](/docs/infrastructure/ssl-certificates?topic=virtual-servers-navigating-devices).
 2. No menu **Segurança**, selecione **SSL > Certificados**.
 
-## Próximas Etapas
+## Etapas seguintes
 
-Após acessar a tela de certificados SSL, é possível [atualizar](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-viewing-and-updating-ssl-certificates), [fazer download](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-downloading-ssl-certificate-details) ou [excluir](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-deleting-ssl-certificates) ou [importar](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-importing-ssl-certificates) certificados SSL existentes na ferramenta.
+Após acessar a tela de certificados SSL, é possível [atualizar](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-viewing-and-updating-ssl-certificates#viewing-and-updating-ssl-certificates), [fazer download](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-downloading-ssl-certificate-details) ou [excluir](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-deleting-ssl-certificates) ou [importar](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-importing-ssl-certificates) certificados SSL existentes na ferramenta.
+

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2014, 2018
-lastupdated: "2018-05-17"
+  years: 2014, 2019
+lastupdated: "2019-06-12"
 
 keywords: PPTP VPN access, PPTP VPN, PPTP access
 
@@ -10,24 +10,27 @@ subcollection: ssl-certificates
 
 ---
 
+{:note: .note}
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
+{:external: target="_blank" .external}
 
 # Ativando ou desativando o acesso VPN PPTP
 {: #activating-or-deactivating-pptp-vpn-access}
 
-A VPN PPTP permite que os usuários formem um túnel seguro para a rede privada do {{site.data.keyword.BluSoftlayer_full}} usando software cliente especializado que é executado em sua área de trabalho ou dispositivo dedicado. O acesso PPTP é projetado para clientes que precisam conectar um escritório inteiro ou que não podem usar a solução VPN SSL. Cada cliente recebe uma conexão PPTP com mais conexões disponíveis, que exigem suporte para ativar o acesso PPTP ilimitado, disponível sem custo adicional. Para ativar ou desativar o acesso VPN PPTP para um usuário, conclua as etapas a seguir.
+A VPN PPTP permite que você forme um túnel seguro até a rede privada do {{site.data.keyword.cloud}} usando um software cliente especializado que é executado em sua área de trabalho ou em seu dispositivo dedicado. O acesso PPTP será projetado se você precisar conectar um escritório inteiro ou não puder usar a solução VPN SSL. Uma conexão PPTP com mais conexões disponíveis é alocada para você e é possível solicitar suporte para ativar o acesso PPTP ilimitado, que está disponível sem encargo adicional. Para ativar ou desativar o acesso VPN PPTP para um usuário, conclua as etapas a seguir.
+{:shortdesc}
 
-1. Acesse o [{{site.data.keyword.slportal_full}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://control.softlayer.com/){: new_window} usando suas credenciais exclusivas como um administrador.
+1. Efetue login na página [Acesso (IAM)](https://cloud.ibm.com/iam/overview){: external} no console do {{site.data.keyword.cloud_notm}}.
 2. Localize o usuário cujo acesso você gostaria de modificar e visualize a coluna **Acesso VPN** para visualizar seu nível atual de acesso.
 3. No menu **Ações**, selecione **Editar acesso VPN**.
-4. Insira o tipo VPN e os detalhes de acesso de sub-rede.
+4. Insira os detalhes de tipo de VPN e de acesso de sub-rede e clique em **Salvar** para salvar suas mudanças. Consulte a tabela a seguir para obter informações adicionais.
 
 |Nome de Campo  |Opções   |
 | -----------| ------------ |
 | Tipo de VPN   | Nenhum, SSL, PPTP ou ambos (SSL e PPTP) |
-|Acesso à sub-rede | Automático ou manual |           
+| Acesso à sub-rede | Automático ou manual |           
 {: caption="Tabela 1. Detalhes da VPN e da sub-rede" caption-side="top"}   
-5. Clique em **Salvar** para salvar suas mudanças.
 
-   **Nota:** o acesso PPTP deve ser ativado para que um usuário se conecte usando PPTP.
+O acesso PPTP deve ser ativado para que um usuário se conecte usando PPTP.
+{:note}
