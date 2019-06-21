@@ -12,6 +12,7 @@ Certificats SSL
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
+    /vsi/virtual-servers-navigating-devices
     access-ssl-orders-screen.md
     import-ssl-certificate.md
     access-ssl-certificates-screen.md

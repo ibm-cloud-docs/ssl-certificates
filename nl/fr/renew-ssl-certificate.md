@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2014, 2018
-lastupdated: "2018-05-17"
+  years: 2014, 2019
+lastupdated: "2019-06-12"
 
 keywords:  renewing SSL certificates, renewal SSL, SSL certificate renewal process, renewing, renewal
 
@@ -16,24 +16,24 @@ subcollection: ssl-certificates
 # Renouveler des certificats SSL
 {: #renewing-ssl-certificates}
 
-Une fois qu'un certificat SSL a été commandé via {{site.data.keyword.BluSoftlayer_full}}, il est possible de le renouveler à tout moment. {{site.data.keyword.BluSoftlayer_notm}} agit en tant que facilitateur entre le client (vous) et l'autorité de certification, et ne voit ni ne contrôle aucune partie du processus de renouvellement qui implique les détails du certificat SSL. Les certificats SSL sont renouvelés selon les mêmes termes que dans leur commande
-précédente, de sorte qu'aucun changement ne peut être apporté aux détails du renouvellement (type de certificat et autorité de certification, mois de validité, plateforme serveur, etc.). Un certificat peut être renouvelé avant ou après son expiration. Cependant, pour qu'un certificat SSL soit valide sans interruption, pensez à le renouvelez avant sa date d'expiration. Pour renouveler un certificat SSL, procédez comme indiqué ci-après.
+Une fois qu'un certificat SSL a été commandé via {{site.data.keyword.cloud}}, il est possible de le renouveler à tout moment. {{site.data.keyword.cloud_notm}} agit en tant que facilitateur entre l'autorité de certification et vous-même, et ne voit ni ne contrôle aucune partie du processus de renouvellement qui implique les détails du certificat SSL. Les certificats SSL sont renouvelés selon les mêmes termes que dans leur commande précédente, de sorte qu'aucun changement ne peut être apporté aux détails du renouvellement (type de certificat et autorité de certification, mois de validité, plateforme serveur, etc.). Un certificat peut être renouvelé avant ou après son expiration. Cependant, pour qu'un certificat SSL soit valide sans interruption, pensez à le renouvelez avant sa date d'expiration.
+{:shortdesc}
 
 ## Renouveler un certificat SSL
+Pour renouveler un certificat SSL, procédez comme indiqué ci-après.
 
-1. Accédez au portail [{{site.data.keyword.slportal_full}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://control.softlayer.com/){: new_window} en utilisant vos données d'identification uniques.
+1. Accédez au menu de sécurité de votre console. Pour plus d'informations, consultez la rubrique relative à [l'accès aux appareils](/docs/infrastructure/ssl-certificates?topic=virtual-servers-navigating-devices). 
 2. Dans le menu **Sécurité**, sélectionnez **SSL > Commandes**.
-3. Cliquez sur le lien **Renouveler** dans la colonne **Renouveler**, sur la ligne du certificat SSL voulu.
+3. Cliquez sur **Renouveler** dans la colonne **Renouveler**, sur la ligne du certificat SSL voulu.
+4. Déterminez si tous les détails du renouvellement et de la demande de signature de certificat sont corrects avant de renouveler le certificat SSL. Pour plus d'informations, reportez-vous au tableau ci-dessous.   
 
-   **Remarque :** une fenêtre apparaîtra pour vous permettre de compléter votre demande.  
-   * Déterminez si tous les détails du renouvellement et de la demande de signature de certificat sont corrects :<br /><br /><table border="1"><caption>Tableau 1. Détails du renouvellement et de la demande de signature de certificat</caption><tr><th>Si...</th><th>Alors...</th></tr><tr><td>Tous les détails du renouvellement et de la demande de signature de certificat sont corrects</td><td>Passez à l'étape suivante.</td></tr><tr><td>Les détails du renouvellement sont incorrects</td><td><ul><li>Cliquez sur le lien <strong>achetez un nouveau certificat SSL</strong> pour être redirigé
-vers l'écran d'achat.<br /><blockquote><strong>Remarque :</strong> étant donné qu'il n'est pas possible de changer les détails d'un certificat renouvelé,
-en particulier son type, l'autorité de certification et l'adresse e-mail du valideur, le seul moyen de
-changer les détails du certificat SSL d'un site web est de commander un nouveau certificat.</blockquote></li><li>Complétez les écrans de la page Commande avec les informations souhaitées pour le certificat SSL. Aucune autre action de cette procédure n'est nécessaire (puisque vous n'êtes plus dans le cas d'un renouvellement).</li></ul></td></tr><tr><td>Les détails de la demande de signature de certificat sont incorrects</td><td><ul><li>Cliquez sur le
-bouton **Modifier demande de signature de certificat**.</li><li>Entrez les **nouveaux détails de la demande de signature de certificat** dans la
-zone de texte **CSR**.</li><li>Cliquez sur le bouton **Restaurer demande de signature de certificat**.</li></ul></td></tr></table>
-4. Cliquez sur le bouton **Renouveler** pour renouveler le certificat SSL ou sur **Annuler** pour annuler l'opération.
+| Détails                         | Action  |
+| ------------------------------- | ------- |
+| Détails du renouvellement et de la demande de signature de certificat corrects | Sélectionnez **Renouveler** pour renouveler le certificat SSL. |
+| Détails du renouvellement incorrects       | Sélectionnez **Achetez un nouveau certificat SS** pour commander un nouveau certificat. Les détails d'un certificat renouvelé, en particulier son type, l'autorité de certification et l'adresse e-mail du valideur, ne pouvant pas être modifiés, le seul moyen de changer les détails du certificat SSL d'un site Web consiste à commander un nouveau certificat. |
+| Détails de la demande de signature de certificat corrects           | Sélectionnez **Modifier demande de signature de certificat**, entrez les détails de la nouvelle demande de signature de certificat dans la **zone de texte CSR**, puis sélectionnez **Restaurer demande de signature de certificat**. |
+{: caption="Tableau 1. Détails du renouvellement et de la demande de signature de certificat" caption-side="top"}
 
 ## Etapes suivantes
 
-Une fois que vous avez demandé le renouvellement d'un certificat SSL, {{site.data.keyword.BluSoftlayer_notm}} transfère votre demande à l'autorité de certification afin qu'elle effectue les vérifications du site Web nécessaires au renouvellement. Une fois le certificat renouvelé, sa nouvelle date d'expiration s'affiche dans la zone correspondante.
+Une fois que vous avez demandé le renouvellement d'un certificat SSL, {{site.data.keyword.cloud_notm}} transfère votre demande à l'autorité de certification afin qu'elle effectue les vérifications du site Web nécessaires au renouvellement. Une fois que le certificat a été renouvelé, sa nouvelle date d'expiration s'affiche dans la zone **Expiration**. 

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2014, 2018
-lastupdated: "2018-05-16"
+  years: 2014, 2019
+lastupdated: "2019-06-11"
 
 keywords: types of certificates, common name, SSL certificates
 
@@ -62,13 +62,14 @@ Les certificats SSL sont limités à un certificat par socket. Un socket est la 
 L'hébergement virtuel est la méthode par laquelle il est possible d'héberger 20, 30 ou même 100 sites sur une même
 adresse IP. Il tire parti d'une caractéristique particulière des navigateurs modernes, qui est celle de passer dans leur demande une zone appelée en-tête d'hôte. Cette zone, qui se présente sensiblement sous la forme “Host: web1.mondomaine.com”, indique au serveur Web à quel site vous tentez d'accéder. Dans le cas de HTTPS (HTTP sur SSL), le serveur Web doit sélectionner le certificat SSL à envoyer au client avant de voir l'en-tête d'hôte. C'est la raison pour laquelle un socket ne peut avoir qu'un seul certificat.
 
-Vous pouvez affecter chaque site Web accessible sur SSL à son propre socket en variant l'adresse IP ou le numéro de port. Notez cependant que si vous utilisez un autre port que le port TCP standard 443, les utilisateurs doivent inclure explicitement le numéro de port dans l'URL (par exemple, https://web1.mondomaine.com:444).
+Vous pouvez affecter chaque site Web accessible sur SSL à son propre socket en variant l'adresse IP ou le numéro de port. Notez cependant que si vous utilisez un autre port que le port TCP standard 443, les utilisateurs doivent inclure explicitement le numéro de port dans l'URL (par exemple, `https://web1.mydomain.com:444`). 
 
 ## Générez la demande de signature de certificat
 
-Vous pouvez générer la demande de signature de certificat en utilisant un logiciel sur le serveur web. Pour les systèmes UNIX, utilisez le package OpenSSL. Pour Windows, un assistant est accessible à partir de l'onglet Sécurité du répertoire des propriétés du site web, dans Gestionnaire des services Internet (IIS). Si vous utilisez un panneau de contrôle,
+Vous pouvez générer la demande de signature de certificat en utilisant un logiciel sur le serveur Web. Pour les systèmes UNIX, utilisez le package OpenSSL. Pour Windows, un assistant est accessible à partir de l'onglet Sécurité du répertoire des propriétés du site web, dans Gestionnaire des services Internet (IIS). Si vous utilisez un panneau de contrôle,
 reportez-vous aux informations spécifiques de ce panneau.
 
 La génération de la demande de signature de certificat s'accompagne de la création d'une clé privée. Veillez à ne pas la perdre ni à la supprimer ou à la partager. Elle doit rester privée sur le serveur web. Certains utilitaires de génération de demande de signature de certificat offrent aussi la possibilité de créer une
 phrase de passe pour protéger l'accès à la clé privée. Ne faites pas cela, sauf si vous prévoyez de vous connecter au serveur à chaque
 redémarrage du logiciel du serveur web. Veillez en outre à ne pas appliquer d'expression de demande d'accès (challenge phrase) à la demande de signature de certificat.
+

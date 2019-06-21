@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2014, 2018
-lastupdated: "2018-08-15"
+  years: 2014, 2019
+lastupdated: "2019-06-11"
 
 keywords: types of certificates,SSL certificates, Select Security
 
@@ -16,7 +16,6 @@ subcollection: ssl-certificates
 # Tutoriel Initiation
 {: #getting-started-tutorial}
 
-
 ## Avant de commencer
 
 Pour démarrer avec SSL, il faut un peu de planification. Effectuez les opérations prérequises suivantes.
@@ -28,21 +27,18 @@ durée de validité
 4. Découvrez la règle du socket
 5. Générez la demande de signature de certificat
 
-Pour plus d'informations, consultez [Planification SSL](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-planning-for-ssl).
+Pour plus d'informations, consultez [Planification SSL](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-planning-for-ssl#planning-for-ssl).
 
 ## Commander les certificats SSL
 
-1. Accédez au portail [{{site.data.keyword.slportal_full}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://control.softlayer.com/){: new_window} en utilisant vos données d'identification uniques.
-2. Sélectionnez **Sécurité > Certificats SSL>** pour accéder à l'écran
-du même nom.
-3. Vous devez sélectionner le type et la durée du certificat, soumettre le texte de la demande de signature de certificat, fournir quelques détails supplémentaires et confirmer le paiement.
+1. Accédez au menu de sécurité de votre console. Pour plus d'informations, consultez la rubrique relative à [l'accès aux appareils](/docs/infrastructure/ssl-certificates?topic=virtual-servers-navigating-devices). 
+2. Dans le menu **Sécurité**, sélectionnez **Sécurité > SSL > Certificats**.
+3. Sélectionnez **Commander le certificat SSL**. 
+3. Sélectionnez le type et la durée du certificat, soumettez le texte de la demande de signature de certificat, sélectionnez votre plateforme de serveur et confirmez le paiement. 
 
 ## Installer et tester
-Une fois le processus de commande et de validation terminé, vous recevez un e-mail de l'autorité de certification qui inclut votre certificat ainsi que les éventuels certificats intermédiaires nécessaires. La méthode d'installation dépend du logiciel que vous utilisez, mais le résultat devrait être le même. Une fois l'opération terminée, vous devez être en mesure d'accéder à <http://host.yourdomain.com> et de voir votre contenu, accompagné du cadenas SSL que les navigateurs utilisent pour indiquer une session cryptée. Si vous recevez un avertissement, il y a des mesures à prendre.
+Une fois le processus de commande et de validation terminé, vous recevez un e-mail de l'autorité de certification qui inclut votre certificat ainsi que les éventuels certificats intermédiaires nécessaires. La méthode d'installation dépend du logiciel que vous utilisez, mais le résultat devrait être le même. Une fois l'opération terminée, vous devez être en mesure d'accéder à `http://host.yourdomain.com` et de voir votre contenu, accompagné du cadenas SSL que les navigateurs utilisent pour indiquer une session cryptée. Si vous recevez un avertissement, il y a des mesures à prendre.
 
 ## Etapes suivantes
 
-Une fois les tests réussis, vous pouvez accéder à l'écran des
-certificats SSL pour [mettre à jour](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-viewing-and-updating-ssl-certificates),
-[télécharger](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-downloading-ssl-certificate-details), [supprimer](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-deleting-ssl-certificates)
-ou [importer](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-importing-ssl-certificates) des certificats SSL existants dans l'outil.
+Une fois les tests réussis, vous pouvez accéder à vos certificats SSL dans la console {{site.data.keyword.cloud_notm}} pour [mettre à jour](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-viewing-and-updating-ssl-certificates#viewing-and-updating-ssl-certificates), [télécharger](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-downloading-ssl-certificate-details#downloading-ssl-certificate-details), [supprimer](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-deleting-ssl-certificates#deleting-ssl-certificates) ou [importer](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-importing-ssl-certificates#importing-ssl-certificates) des certificats SSL existants dans l'outil. 
