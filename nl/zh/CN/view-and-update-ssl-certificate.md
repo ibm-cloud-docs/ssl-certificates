@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2014, 2018
-lastupdated: "2018-08-15"
+  years: 2014, 2019
+lastupdated: "2019-06-12"
 
 keywords: view SSL certificates, update SSL certificates, original certificates
 
@@ -10,25 +10,27 @@ subcollection: ssl-certificates
 
 ---
 
+{:note: .note}
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # 查看和更新 SSL 证书
 {: #viewing-and-updating-ssl-certificates}
 
-
-在将 SSL 证书导入到 SSL 证书屏幕后，您可以随时查看和更新 SSL 证书。更新的运作方式与[导入过程](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-importing-ssl-certificates)类似，因为所有更新的详细信息都必须与原始证书完全匹配，包括间隔和换行。
+在将 SSL 证书导入到“SSL 证书”屏幕后，您可以随时查看和更新该证书。更新的运作方式与[导入过程](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-importing-ssl-certificates#importing-ssl-certificates)类似，因为所有更新的详细信息都必须与原始证书完全匹配，包括间隔和换行。
+{:shortdesc}
 
 要查看和更新 SSL 证书，请完成以下步骤。
 
-1. 使用您的唯一凭证访问 [{{site.data.keyword.slportal_full}} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://control.softlayer.com/){: new_window}。
+1. 导航至控制台的安全性菜单。有关更多信息，请参阅[导航至设备](/docs/infrastructure/ssl-certificates?topic=virtual-servers-navigating-devices)。
 2. 从**安全性**菜单中，选择 **SSL > 证书**。
-2. 从**操作**下拉列表中选择**查看/更新证书**。
-3. 在适当的文本框中更新 **SSL 证书详细信息**。
+3. 从**操作**下拉列表中选择**查看/更新证书**。
+4. 在适用文本框中更新 **SSL 证书详细信息**，然后单击**更新**以应用更改。请参阅下表以了解更多信息。
 
-   **注：**在**导入 SSL 证书**窗口中输入的详细信息必须严格按照认证中心提供的方式输入，包括间隔和换行情况。否则，将发生错误。
+   在**导入 SSL 证书**窗口中输入的详细信息必须严格按照认证中心提供的方式输入，包括间隔和换行情况。否则，将发生错误。
+   {:note}
 
-| SSL 证书详细信息     | 描述 |
+|SSL 证书详细信息      | 描述 |
 | --------------------------- | ----------- |
 |证书|SSL 证书详细信息，由认证中心提供。这通常是字母数字的文本块。|
 |专用密钥|证书的专用密钥详细信息，由认证中心提供。这通常是字母数字的文本块。|
@@ -36,11 +38,6 @@ subcollection: ssl-certificates
 |证书签名请求|证书签名请求 (CSR) 详细信息，由认证中心提供。CSR 详细信息不是必需的，但如果是证书的一部分，那么应提供这些信息。**注：**请勿以任何方式更改 CSR。公用密钥可能随附于 CSR 中，不应由专用密钥替换。|
 |注释|可能对其他用户有帮助的有关 SSL 证书的任何注释。|
 {: caption="表 1. SSL 证书详细信息" caption-side="top"}
-
-单击**更新**以更新 SSL 证书，或者单击**取消**以取消操作。
-
-
-
 
 ## 后续步骤
 

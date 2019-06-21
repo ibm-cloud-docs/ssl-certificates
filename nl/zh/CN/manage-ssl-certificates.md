@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2014, 2018
-lastupdated: "2018-03-01"
+  years: 2014, 2019
+lastupdated: "2019-06-12"
 
 keywords: management of certificates, add certificate, managing certificates
 
@@ -10,16 +10,18 @@ subcollection: ssl-certificates
 
 ---
 
+{:note: .note}
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # 管理 SSL 证书
 {: #managing-ssl-certificates}
 
-{{site.data.keyword.BluSoftlayer_full}} 现在提供了一种在其门户网站中存储证书的方法。这种方法不仅可作为存储库来管理证书，而且在使用可利用或需要证书的服务时也是必需的。
+您可以在 {{site.data.keyword.cloud}} 控制台中管理 SSL 证书。这种方法不仅可作为存储库来管理证书，而且在使用可利用或需要证书的服务时也是必需的。
 
-1. 使用您的唯一凭证访问 [{{site.data.keyword.slportal_full}} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://control.softlayer.com/){: new_window}。
+1. 导航至控制台的安全性菜单。有关更多信息，请参阅[导航至设备](/docs/infrastructure/ssl-certificates?topic=virtual-servers-navigating-devices)。
 2. 从**安全性**菜单中，选择 **SSL > 证书 > 管理证书**。
+
 
 系统将向您显示当前证书的列表，其中包含其状态信息。
 
@@ -29,7 +31,8 @@ subcollection: ssl-certificates
 
 当您准备好添加证书时，请在子导航菜单或“证书列表”标题中选择**添加证书**。您仅需要提供证书及其专用密钥。但是，如果颁发者提供了中间证书，而您却未提供该中间证书，那么可能会导致证书链损坏，并且会对用户或关联服务进行不正确的验证。
 
-注：无法存储需要口令的专用密钥。
+无法存储需要口令的专用密钥。
+{:note}
 
 添加后，将直接从证书派生以下字段：
 
@@ -41,14 +44,12 @@ subcollection: ssl-certificates
 
 激活证书左侧的三角形将显示完整的证书部分。这还允许编辑证书部分。可以添加注释，并且在必要时可以除去证书。同时列出了当前正在使用该证书的服务的列表。
 
-**注**：只有未与服务关联的证书可以更新其“专用密钥”、“证书”或“中间证书”部分。也不能除去该证书。
-
-您可以随时修改注释。
+只有未与服务关联的证书可以更新其“专用密钥”、“证书”或“中间证书”部分。也不能除去该证书。您可以随时修改注释。
 
 ## 除去证书
 
 要除去证书，请执行相应的步骤来编辑证书，然后选中“确认除去证书”并保存。
 
-### API
+## 使用 API
 
 有关使用 API 编辑证书的示例，请参阅 [SSL Management ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](http://sldn.softlayer.com/article/ssl-management){: new_window}。
