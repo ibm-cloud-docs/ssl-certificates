@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2014, 2018
-lastupdated: "2018-05-16"
+  years: 2014, 2019
+lastupdated: "2019-06-11"
 
 keywords: types of certificates, common name, SSL certificates
 
@@ -54,10 +54,11 @@ I certificati SSL sono limitati a un certificato per socket. Un socket è un ind
 
 L'host virtuale è il metodo per cui puoi ospitare 20, 30, 100 siti web in un indirizzo IP. L'hosting virtuale funziona perché i browser moderni superano un campo chiamato il lettore host come parte delle loro richieste. Questo campo assomiglia a “Host: web1.mydomain.com” e indica il server web del sito al quale stai cercando di accedere. Nel caso di HTTPS (HTTP over SSL), il server web deve selezionare il certificato SSL da inviare al client prima di vedere l'intestazione dell'host, che è il motivo per cui un socket può avere solo un certificato.
 
-Puoi assegnare ogni sito web abilitato SSL al proprio socket variando l'indirizzo IP o la porta. Tieni a mente che se modifichi la porta da 443/tcp, gli utenti devono includere il numero di porta nel loro URL, come https://web1.mydomain.com:444.
+Puoi assegnare ogni sito web abilitato SSL al proprio socket variando l'indirizzo IP o la porta. Tieni a mente che se modifichi la porta da 443/tcp, gli utenti devono includere il numero di porta nel loro URL, come `https://web1.mydomain.com:444`.
 
 ## Genera il CSR
 
-Puoi generare il CSR (Certificate Signing Request) utilizzando il software sul server web. Per i sistemi UNIX, utilizza il pacchetto OpenSSL. Per Windows c'è una procedura guidata che è accessibile dalla scheda Directory Security delle proprietà del sito web nel gestore IIS. Se stai utilizzano un pannello di controllo, fai riferimento alle specifiche informazioni per quel pannello di controllo.
+Puoi generare il CSR (certificate signing request) utilizzando il software sul server web. Per i sistemi UNIX, utilizza il pacchetto OpenSSL. Per Windows c'è una procedura guidata che è accessibile dalla scheda Directory Security delle proprietà del sito web nel gestore IIS. Se stai utilizzano un pannello di controllo, fai riferimento alle specifiche informazioni per quel pannello di controllo.
 
 Durante la generazione del CSR, crei una chiave privata. Non perdere, cancellare o condividere la chiave privata. È da mantenere privata sul server web. Alcuni programmi di utilità per la generazione del CSR ti forniscono anche la capacità di creare una passphrase per la chiave privata. Non farlo a meno che non prevedi di accedere al server ogni volta che il software del server web viene riavviato. In aggiunga, non applicare una challenge phrase al CSR.
+
