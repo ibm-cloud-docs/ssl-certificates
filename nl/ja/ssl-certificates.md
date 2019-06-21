@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2014, 2018
-lastupdated: "2018-05-16"
+  years: 2014, 2019
+lastupdated: "2019-06-11"
 
 keywords: about ssl certificates, about SSL
 
@@ -16,7 +16,7 @@ subcollection: ssl-certificates
 # SSL 証明書について
 {: #about-ssl-certificates}
 
-{{site.data.keyword.BluSoftlayer_full}} では、お客様向けに 1 年ごとおよび 2 年ごとの SSL 証明書を用意し、以下のようなさまざまな利点を提供しています。
+{{site.data.keyword.cloud}} では、お客様向けに 1 年ごとおよび 2 年ごとの SSL 証明書を用意し、以下のようなさまざまな利点を提供しています。
 
 * ビジネス ID およびドメイン所有権の検証のための完全認証
 * すべてのオンライン・トランザクションに対する 40 ビットから 256 ビットの暗号化
@@ -24,6 +24,7 @@ subcollection: ssl-certificates
 
 複数のドメインを稼働している場合は、ドメインごとに SSL 証明書を購入できます。
 
-{{site.data.keyword.slportal_full}} 内で、{{site.data.keyword.BluSoftlayer_notm}} を通じて注文されたすべての SSL 証明書を「SSL 注文」画面から管理できます。 この画面では、共通名、証明書タイプ、証明書の有効期限など、すべての注文を追跡しますが、証明書自体や秘密鍵などの証明書固有の詳細は含まれません。 この画面から、現行および期限切れの SSL 証明書を既存のご利用条件に基づいて更新したり、SSL 証明書の詳細が失われた場合は、完了 E メールを要求して詳細を受け取ったりできます。 「SSL 注文」画面で行われた要求はすべて、SSL 証明書の当該認証局に送信され、認証局は、必要に応じて要求を履行します。 {{site.data.keyword.BluSoftlayer_notm}} では SSL 証明書の詳細を保有していないため、{{site.data.keyword.cloud_notm}} は証明書に関する追加情報を提供できません。
+{{site.data.keyword.cloud_notm}} コンソール内で、{{site.data.keyword.cloud_notm}} を通じて注文されたすべての SSL 証明書を「SSL 注文」画面から管理できます。この画面では、共通名、証明書タイプ、証明書の有効期限など、すべての注文を追跡しますが、証明書自体や秘密鍵などの証明書固有の詳細は含まれません。 この画面から、現行および期限切れの SSL 証明書を既存のご利用条件に基づいて更新したり、SSL 証明書の詳細が失われた場合は、完了 E メールを要求して詳細を受け取ったりできます。「SSL 注文」画面で行われた要求はすべて、SSL 証明書の当該認証局に送信され、認証局は、必要に応じて要求を履行します。 {{site.data.keyword.cloud_notm}} では SSL 証明書の詳細を保有していないため、{{site.data.keyword.cloud_notm}} は証明書に関する追加情報を提供できません。
 
-{{site.data.keyword.BluSoftlayer_notm}} から注文された SSL 証明書の管理に加えて、SSL 証明書データを {{site.data.keyword.slportal}} にインポートし、そのデータを各種の製品やサービスで使用できます。 インポートされた SSL 証明書との対話は、すべて {{site.data.keyword.slportal}} 内の SSL 証明書画面で行われます。 この画面に表示されている SSL 証明書の詳細は、手動でインポート、編集、およびエクスポートできます。 また、いつでも SSL 証明書を削除できます。 この情報は、お客様が所有する最も機密性の高い情報の 1 つと見なされているため、「SSL 注文」画面と同様に、{{site.data.keyword.BluSoftlayer_notm}} はこの情報を制御、追跡、および記録しません。 この画面に保管されている SSL 証明書の詳細は、ユーザーによってセットアップされた場合にのみ、アカウントの製品やサービスで使用されます。
+{{site.data.keyword.cloud_notm}} から注文された SSL 証明書の管理に加えて、SSL 証明書データを {{site.data.keyword.cloud_notm}} コンソールにインポートし、そのデータを各種の製品やサービスで使用できます。インポートされた SSL 証明書との対話は、すべて {{site.data.keyword.cloud_notm}} コンソール内の SSL 証明書画面で行われます。この画面に表示されている SSL 証明書の詳細は、手動でインポート、編集、およびエクスポートできます。 また、いつでも SSL 証明書を削除できます。 この情報は、ユーザーが所有する最も機密性の高い情報の 1 つと見なされているため、「SSL 注文」画面と同様に、{{site.data.keyword.cloud_notm}} はこの情報を制御、追跡、および記録しません。この画面に保管されている SSL 証明書の詳細は、ユーザーによってセットアップされた場合にのみ、アカウントの製品やサービスで使用されます。
+
