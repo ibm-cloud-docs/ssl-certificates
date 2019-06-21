@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2014, 2018
-lastupdated: "2018-03-01"
+  years: 2014, 2019
+lastupdated: "2019-06-12"
 
 keywords: management of certificates, add certificate, managing certificates
 
@@ -10,16 +10,18 @@ subcollection: ssl-certificates
 
 ---
 
+{:note: .note}
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # 管理 SSL 憑證
 {: #managing-ssl-certificates}
 
-{{site.data.keyword.BluSoftlayer_full}} 現在提供在其入口網站內儲存憑證的方法。這不僅可作為憑證的管理儲存庫，當您使用能夠使用或需要憑證的服務時也需要它。
+您可以在 {{site.data.keyword.cloud}} 主控台中管理 SSL 憑證。這不僅可作為憑證的管理儲存庫，當您使用能夠使用或需要憑證的服務時也需要它。
 
-1. 使用您的唯一認證來存取 [{{site.data.keyword.slportal_full}} ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://control.softlayer.com/){: new_window}。
+1. 導覽至主控台的安全功能表。如需相關資訊，請參閱[導覽至裝置](/docs/infrastructure/ssl-certificates?topic=virtual-servers-navigating-devices)。
 2. 從**安全**功能表，選取 **SSL > 憑證 > 管理憑證**。
+
 
 您會看到現行憑證的清單，以及其狀態的相關資訊。
 
@@ -29,7 +31,8 @@ subcollection: ssl-certificates
 
 當您準備好新增憑證時，請在子導覽功能表或「憑證清單」標題中，選取**新增憑證**。您只需要提供憑證及其私密金鑰。不過，當您的發證者提供中繼憑證，而您不提供時，可能導致憑證鏈岔斷，且導致使用者或相關聯的服務驗證不當。
 
-附註：無法儲存需要通行詞組的私密金鑰。
+無法儲存需要通行詞組的私密金鑰。
+{:note}
 
 新增之後，下列欄位會直接衍生自您的憑證：
 
@@ -41,14 +44,12 @@ subcollection: ssl-certificates
 
 啟動憑證左側的三角形會完整顯示憑證各部分。這也容許編輯憑證部分。可以新增附註，且在必要時可以移除憑證。同時也會列出目前使用憑證的服務清單。
 
-**附註**：只有不與服務相關聯的憑證才可更新其「私密金鑰」、「憑證」或「中繼憑證」等部分。也無法移除憑證。
-
-您可以隨時修改附註。
+只有不與服務相關聯的憑證才可更新其私密金鑰、憑證或中繼憑證等部分。也無法移除憑證。您可以隨時修改附註。
 
 ## 移除憑證
 
 若要移除憑證，請遵循步驟來編輯它、選取「確認移除憑證」，然後儲存。
 
-### API
+## 使用 API
 
 如需使用 API 編輯憑證的範例，請參閱 [SSL Management ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](http://sldn.softlayer.com/article/ssl-management){: new_window}。
