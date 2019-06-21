@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2014, 2018
-lastupdated: "2018-05-16"
+  years: 2014, 2019
+lastupdated: "2019-06-11"
 
 keywords: types of certificates, common name, SSL certificates
 
@@ -22,7 +22,7 @@ Iniciarse en SSL requiere algo de planificación. Lleve a cabo los siguientes re
 2. Obtenga información sobre los tipos de certificados, la longitud de las claves y la duración
 3. Seleccione un nombre común
 4. Obtenga información sobre la regla de sockets
-5. Genere el CSR
+5. Genere la CSR
 
 ## Decida de dónde obtener el certificado
 
@@ -54,10 +54,11 @@ Los certificados SSL están limitados a un certificado por socket. Un socket es 
 
 El alojamiento virtual es el método mediante el cual puede alojar 20, 30, 100 sitios web en una dirección IP. El alojamiento virtual funciona porque los navegadores modernos pasan un campo llamado lector de host como parte de su solicitud. Este campo tiene el aspecto “Host: web1.mydomain.com” e informa al servidor web sobre el sitio al cual intenta acceder. En el caso de HTTPS (HTTP sobre SSL), el servidor web debe seleccionar el certificado SSL para enviar al cliente antes de ver la cabecera de host, motivo por el cual un socket solo puede tener un certificado.
 
-Puede asignar cada sitio web habilitado para SSL a su propio socket variando la dirección IP o variando el puerto. Recuerde que, si cambia el puerto de 443/tcp, los usuarios deben incluir el número de puerto en su URL como https://web1.mydomain.com:444.
+Puede asignar cada sitio web habilitado para SSL a su propio socket variando la dirección IP o variando el puerto. Recuerde que, si cambia el puerto de 443/tcp, los usuarios deben incluir el número de puerto en su URL como `https://web1.mydomain.com:444`.
 
-## Genere el CSR
+## Genere la CSR
 
-Puede generar la Solicitud de firma de certificado mediante el software del servidor web. Para sistemas UNIX, utilice el paquete OpenSSL. Para Windows, hay un asistente al cual se accede desde el separador Seguridad del directorio de las propiedades del sitio web en el Gestor IIS. Si utiliza un panel de control, consulte la información concreta sobre este panel de control.
+Puede generar la solicitud de firma de certificado mediante el software del servidor web. Para sistemas UNIX, utilice el paquete OpenSSL. Para Windows, hay un asistente al cual se accede desde el separador Seguridad del directorio de las propiedades del sitio web en el Gestor IIS. Si utiliza un panel de control, consulte la información concreta sobre este panel de control.
 
-Durante la creación del CSR, cree una clave privada. No pierda, borre ni comparta la clave privada. Debe mantenerse privada en el servidor web. Algunas utilidades de la generación CSR también le ofrecen la posibilidad de crear una contraseña para la clave privada. No la crea a menos que planee iniciar sesión en el servidor cada vez que el software del servidor web se reinicie. No aplique tampoco una frase de desafío al CSR.
+Durante la creación de la CSR, cree una clave privada. No pierda, borre ni comparta la clave privada. Debe mantenerse privada en el servidor web. Algunas utilidades de la generación de CSR también le ofrecen la posibilidad de crear una contraseña para la clave privada. No la crea a menos que planee iniciar sesión en el servidor cada vez que el software del servidor web se reinicie. No aplique tampoco una frase de desafío a la CSR.
+
