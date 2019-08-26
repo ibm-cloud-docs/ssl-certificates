@@ -2,7 +2,7 @@
 
 copyright:
   years: 2014, 2019
-lastupdated: "2019-06-12"
+lastupdated: "2019-08-26"
 
 keywords: SSL certificate fulfillment email, fulfillment email
 
@@ -33,5 +33,6 @@ Complete the following steps to request the SSL fulfillment email from the certi
 4. Click **Resend Email** to confirm the selection and request an additional fulfillment email from the certificate authority.
 
 ## Next steps
+{: #ns-requesting-an-ssl-certificate-fulfillment-email}
 
 After requesting an additional fulfillment email, the request will be forwarded to the applicable certificate authority for completion. Because SSL certificate details are confidential, {{site.data.keyword.cloud_notm}} does not store the SSL certificate data on its system. After receiving the SSL certificate details by email, they can be manually [imported](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-importing-ssl-certificates#importing-ssl-certificates) to the {{site.data.keyword.cloud_notm}} console, if necessary.
