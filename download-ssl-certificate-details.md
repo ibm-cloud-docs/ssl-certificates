@@ -2,7 +2,7 @@
 
 copyright:
   years: 2014, 2019
-lastupdated: "2019-06-12"
+lastupdated: "2019-08-26"
 
 keywords: SSL certificate details, preferred Download Option, SSL certificate download details
 
@@ -33,6 +33,7 @@ To download details for the SSL certificate, complete the following steps.
 {: caption="Table 1. Download options" caption-side="top"}
 
 ## Next steps
+{: #ns-downloading-ssl-certificate-details}
 
 After requesting the SSL certificate details for download, they are automatically downloaded in the web browser. Select the download to open the file. The file can also be saved to your workstation for future reference; however, data for any SSL certificate present on the SSL certificates screen can be downloaded automatically at any time by repeating the previous steps.
 
