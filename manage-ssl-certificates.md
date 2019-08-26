@@ -2,7 +2,7 @@
 
 copyright:
   years: 2014, 2019
-lastupdated: "2019-06-12"
+lastupdated: "2019-08-26"
 
 keywords: management of certificates, add certificate, managing certificates
 
@@ -48,7 +48,7 @@ Only certificates that are not associated with services can have their private k
 
 ## Removing a certificate
 
-To remove a certificate, follow the steps to edit it and select "Confirm certificate removal" and save.
+To remove a certificate, follow the steps to edit it and select **Confirm certificate removal** and save.
 
 ## Using the API
 
