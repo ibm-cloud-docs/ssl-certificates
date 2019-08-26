@@ -2,7 +2,7 @@
 
 copyright:
   years: 2014, 2019
-lastupdated: "2019-06-12"
+lastupdated: "2019-08-26"
 
 keywords: view SSL certificates, update SSL certificates, original certificates
 
@@ -40,5 +40,6 @@ To view and update an SSL certificate, complete the following steps.
 {: caption="Table 1. SSL certificate details" caption-side="top"}
 
 ## Next steps
+{: #ns-viewing-and-updating-ssl-certificates}
 
 After updating the details for the SSL certificate, any products or services that use the certificate will not be negatively impacted by the change. The certificate can be updated again at any time by repeating the previous steps.
