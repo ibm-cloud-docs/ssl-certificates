@@ -2,7 +2,7 @@
 
 copyright:
   years: 2014, 2019
-lastupdated: "2019-06-12"
+lastupdated: "2019-08-26"
 
 keywords:  renewing SSL certificates, renewal SSL, SSL certificate renewal process, renewing, renewal
 
@@ -35,5 +35,6 @@ Complete the following steps to renew an SSL certificate.
 {: caption="Table 1. Renewal and CSR details" caption-side="top"}
 
 ## Next steps
+{: #ns-renewing-ssl-certificates}
 
 After requesting an SSL certificate's renewal, {{site.data.keyword.cloud_notm}} forwards the request to the certificate authority in order to complete the website verification required for renewal. Upon renewal of the certificate, the new expiration date appears in the **Expires** field.
