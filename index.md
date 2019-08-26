@@ -2,7 +2,7 @@
 
 copyright:
   years: 2014, 2019
-lastupdated: "2019-06-11"
+lastupdated: "2019-08-26"
 
 keywords: types of certificates,SSL certificates, Select Security
 
@@ -37,7 +37,7 @@ For more information, see [Planning for SSL certificates](/docs/infrastructure/s
 3. Select the type and duration of certificate, submit the text of the CSR, select your server platform, and then confirm payment.
 
 ## Installing and testing
-After the ordering and validating process is complete, you receive an email from the certificate authority that includes your certificate, as well as any necessary intermediate certificates. The method for installation depends on the software you are using but the result should be the same. You should, when done, be able to go to `http://host.yourdomain.com` and see your content while also seeing the SSL padlock that browsers use to denote an encrypted session. If you get a warning, then there are steps that you must take.
+After the ordering and validating process is complete, you receive an email from the certificate authority that includes your certificate, as well as any necessary intermediate certificates. The method for installation depends on the software you are using. After you complete the installation, to go to `http://host.yourdomain.com` to confirm the presence of the SSL padlock in the browser address bar that signals an encrypted session. If you get a warning, take any indicated steps to resolve it.
 
 ## Next steps
 {: #ns-getting-started-tutorial}
