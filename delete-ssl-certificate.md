@@ -2,7 +2,7 @@
 
 copyright:
   years: 2014, 2019
-lastupdated: "2019-06-12"
+lastupdated: "2019-08-26"
 
 keywords: SSL certificates delete, SSL delete
 
@@ -27,6 +27,7 @@ To delete an SSL certificate, complete the following steps.
 4. Click **Yes** to delete the SSL certificate..
 
 ## Next steps
+{: #ns-deleting-ssl-certificates}
 
 After deleting an SSL certificate, all services that are linked to the certificate no longer use its information. The certificate no longer appears on the SSL certificates screen within the {{site.data.keyword.cloud_notm}} console.
 
