@@ -2,7 +2,7 @@
 
 copyright:
   years: 2014, 2019
-lastupdated: "2019-06-11"
+lastupdated: "2019-08-26"
 
 keywords: SSL orders, SSL orders access
 
@@ -26,5 +26,6 @@ Complete the following steps to access SSL orders.
 2. From the **Security** menu, select **SSL > Orders**.
 
 ## Next steps
+{: #ns-accessing-ssl-orders}
 
 After accessing the SSL orders screen, all SSL certificates ordered through {{site.data.keyword.cloud_notm}} are listed. Certificates are displayed by their expiration date from oldest to newest, meaning that certificates that have already expired are displayed first, by default. From this screen, you can [renew SSL certificates](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-renewing-ssl-certificates#renewing-an-ssl-certificate) and [request that the fulfillment email be resent](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-requesting-an-ssl-certificate-fulfillment-email).
