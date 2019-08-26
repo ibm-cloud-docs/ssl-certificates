@@ -2,7 +2,7 @@
 
 copyright:
   years: 2014, 2019
-lastupdated: "2019-06-12"
+lastupdated: "2019-08-26"
 
 keywords: SSL certificates access
 
@@ -20,12 +20,15 @@ Within the {{site.data.keyword.cloud}} console, you can manage and track SSL cer
 {:shortdesc}
 
 ## Accessing the SSL Certificates screen
+{: #accessing-ssl-certificates-screen}
+
 Complete the following steps to access the SSL certificates.
 
 1. Navigate to your console's security menu. For more information, see [Navigating to devices](/docs/infrastructure/ssl-certificates?topic=virtual-servers-navigating-devices).
 2. From the **Security** menu, select **SSL > Certificates**.
 
 ## Next steps
+{: #ns-accessing-ssl-certificates}
 
 After accessing the SSL certificates screen, you can  [update](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-viewing-and-updating-ssl-certificates#viewing-and-updating-ssl-certificates), [download](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-downloading-ssl-certificate-details) or [delete](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-deleting-ssl-certificates), or [import](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-importing-ssl-certificates) existing SSL certificates into the tool.
 
