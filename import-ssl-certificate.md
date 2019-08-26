@@ -2,7 +2,7 @@
 
 copyright:
   years: 2014, 2019
-lastupdated: "2019-06-12"
+lastupdated: "2019-08-26"
 
 keywords: importing SSL certificates,SSL import, SSL certificate details
 
@@ -21,6 +21,7 @@ After an SSL certificate is issued for a website, it can be imported into the {{
 {:shortdesc}
 
 ## Importing SSL certificates
+{: #importing-ssl-certificates-steps}
 
 Complete the following steps to import an SSL certificate.
 
@@ -42,5 +43,6 @@ Complete the following steps to import an SSL certificate.
 {: caption="Table 1. SSL certificate details" caption-side="top"}
 
 ## Next steps
+{: #ns-importing-ssl-certificates}
 
 After the SSL certificate is imported to the {{site.data.keyword.cloud_notm}} console, it is stored on the SSL certificates screen until it is [manually deleted](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-deleting-ssl-certificates#deleting-ssl-certificates). For all products or services requiring SSL certificate details, the new SSL certificate appears in the list of available certificates for use when interacting with the SSL feature for the wanted product or service. The certificate can be [updated](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-viewing-and-updating-ssl-certificates) and details about the certificate can be [securely downloaded](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-downloading-ssl-certificate-details) at any time.
