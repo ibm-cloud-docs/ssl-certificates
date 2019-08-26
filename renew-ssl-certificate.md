@@ -16,7 +16,7 @@ subcollection: ssl-certificates
 # Renewing SSL certificates
 {: #renewing-ssl-certificates}
 
-After an SSL certificate is ordered through {{site.data.keyword.cloud}}, it can be renewed at any time. During the renewal process, {{site.data.keyword.cloud_notm}} acts as the facilitator between the you and the certificate authority, and does not see or control any part of the renewal process that involves the details of the SSL certificate. SSL certificates are renewed under the same terms in which they were ordered, so no changes to the renewal details (certificate type and authority, validity month, server platform, and so on) can be made. Certificates can be renewed before or after they expire; however, to maintain the validity of the SSL certificate, renew the certificate before its expiration date.
+After an SSL certificate is ordered through {{site.data.keyword.cloud}}, it can be renewed at any time. During the renewal process, {{site.data.keyword.cloud_notm}} acts as the facilitator between you and the certificate authority, and does not see or control any part of the renewal process that involves the details of the SSL certificate. SSL certificates are renewed under the same terms under which they were ordered, so you can't change any renewal details (certificate type and authority, validity month, server platform, and so on). Certificates can be renewed before or after they expire; however, to maintain the validity of the SSL certificate, renew the certificate before its expiration date.
 {:shortdesc}
 
 ## Renewing an SSL certificate
@@ -25,7 +25,7 @@ Complete the following steps to renew an SSL certificate.
 1. Navigate to your console's security menu. For more information, see [Navigating to devices](/docs/infrastructure/ssl-certificates?topic=virtual-servers-navigating-devices).
 2. From the **Security** menu, select **SSL > Orders**.
 3. Click **Renew** in the **Renew** column for the desired SSL certificate.
-4. Determine if all renewal and CSR details are correct before you renew the SSL certificate. See the following table for more information.  
+4. Determine whether all renewal and CSR details are correct before you renew the SSL certificate. See the following table for more information.  
 
 | Details                         | Action  |
 | ------------------------------- | ------- |
