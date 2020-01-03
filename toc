@@ -22,7 +22,6 @@ SSL Certificates
     request-ssl-certificate-fulfillment-email.md
     manage-ssl-certificates.md
     delete-ssl-certificate.md
-    activate-or-deactivate-pptp-vpn-access-user.md
     {: .navgroup-end}
 
     {: .navgroup id="help"}
