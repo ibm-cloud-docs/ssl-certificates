@@ -2,7 +2,7 @@
 
 copyright:
   years: 2014, 2019
-lastupdated: "2019-08-26"
+lastupdated: "2020-01-17"
 
 keywords:  renewing SSL certificates, renewal SSL, SSL certificate renewal process, renewing, renewal
 
@@ -37,4 +37,4 @@ Complete the following steps to renew an SSL certificate.
 ## Next steps
 {: #ns-renewing-ssl-certificates}
 
-After requesting an SSL certificate's renewal, {{site.data.keyword.cloud_notm}} forwards the request to the certificate authority in order to complete the website verification required for renewal. Upon renewal of the certificate, the new expiration date appears in the **Expires** field.
+After requesting an SSL certificate's renewal, {{site.data.keyword.cloud_notm}} forwards the request to the certificate authority in order to complete the website verification required for renewal. Upon renewal of the certificate, the new expiration date appears in the **Expires** field. Notice that after the ordering and validating process is complete, you receive an fulfillment email from the certificate authority that includes all the details that are associated with the SSL certificate. The certificate authority sends a fulfillment email to the domain administrator provided during the ordering process. The fulfillment email can be requested again from the SSL Orders screen, as described [here](https://cloud.ibm.com/docs/infrastructure/ssl-certificates?topic=ssl-certificates-requesting-an-ssl-certificate-fulfillment-email).
