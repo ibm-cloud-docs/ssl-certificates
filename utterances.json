@@ -1,0 +1,37 @@
+{
+    "why-doesn-t-the-ssl-certificate-that-i-ordered-automatically-show-up-on-the-ssl-certificates-screen-": [
+        "ssl cert does not appear",
+        "can not find SSL Certificate",
+        "don't see ssl certificate",
+        "can't find my ordered SSL certificate",
+        "ssl cert not in list",
+        "ssl cert not listed",
+        "where is ssl certificate ordered",
+        "don't view my ssl certificate",
+        "unable to view ssl certificates",
+        "is ssl cert imported automatically"
+    ],
+    "what-is-an-ssl-certificate-": [
+        "what is ssl cert",
+        "how does ssl certificate protect data",
+        "whats a ssl certificate",
+        "use ssl certiciate for confidential data",
+        "how is ssl cert used",
+        "whats ssl cert for",
+        "how to use ssl certiciates",
+        "use ssl cert for confidential data",
+        "does https use ssl certificate"
+    ],
+    "how-can-i-order-an-sha2-ssl-": [
+        "error ssl cert sha-1 not sha-2",
+        "wrong version sha ssl cert",
+        "order sha-2 ssl certificates",
+        "incorrect version for sha ssl cert",
+        "ordering a sha-2 ssl cert",
+        "switch ssl certificate sha-1-sha-2",
+        "change from sha-1 to sha-2 in ssl cert",
+        "sha-2 upgrade ssl cert",
+        "sha-2 ssl certificate ordering",
+        "error that the SSL certificate is using SHA-1"
+    ]
+}
