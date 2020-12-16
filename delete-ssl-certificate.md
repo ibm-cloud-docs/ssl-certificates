@@ -12,12 +12,16 @@ subcollection: ssl-certificates
 
 {:note: .note}
 {:shortdesc: .shortdesc}
+{:important: .important}
 {:new_window: target="_blank"}
 
 # Deleting SSL certificates
 {: #deleting-ssl-certificates}
 
 After an SSL certificate's details are imported into the {{site.data.keyword.cloud}} console, it can be deleted at any time to remove all data from being saved to the {{site.data.keyword.cloud_notm}} console.
+
+If an SSL certificate has an attached service, that service must be removed first, otherwise **Delete** is not an available action.
+{: important}
 
 To delete an SSL certificate, complete the following steps.
 
