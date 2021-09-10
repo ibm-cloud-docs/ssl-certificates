@@ -13,6 +13,9 @@ subcollection: ssl-certificates
 {:note: .note}
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
+{:codeblock: .codeblock}
+{:pre: .pre}
+{:screen: .screen}
 
 # Introduction to SSL technology
 {: #introduction-to-ssl-technology}
