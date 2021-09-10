@@ -18,7 +18,7 @@ subcollection: ssl-certificates
 {: #introduction-to-ssl-technology}
 
 Secure Sockets Layer (SSL) is a technology that encrypts traffic between the client application and the server application. This encryption is accomplished by using a public key/private key system that uses an SSL certificate. The SSL certificate contains the server’s public key, dates for which the certificate is valid, a host name for which the certificate is valid, and a signature from the certificate authority that issued it.
-{:shortdesc}
+{: shortdesc}
 
 ## SSL terminology
 
@@ -43,7 +43,7 @@ The certificate signing request (CSR) is a document that you generate on the ser
 The common name (CN) is the host name for which the certificate is valid (for example, www.domain.com).  
 
  www.domain.com, smtp.domain.com, and mail.domain.com are three different host names and the same SSL certificate is not valid for all three of them (unless you are using a wildcard certificate but currently {{site.data.keyword.cloud}} does not offer those).
- {:note}
+ {: note}
 
 ### Private/Public key
 SSL uses a technique called public key cryptography. In this form of cryptography, you have two keys: the public and the private. The public key is distributed far and wide. No one sees your private key. People who want to communicate securely with you encrypt their communication by using your public key. Public key cryptography is based on the assertion that bits encrypted with a given public key can be decrypted only by using the corresponding private key and conversely.
@@ -63,7 +63,7 @@ Domain validation (DV) certificates are inexpensive and available quickly. The v
 SSL certificates, like other {{site.data.keyword.cloud_notm}} services, can be managed through the {{site.data.keyword.cloud_notm}} console. Go to the **Security** menu and select the **SSL** option to order and manage certificates.  
 
 SSL certificates ordered through {{site.data.keyword.cloud_notm}} do not have to be used on an {{site.data.keyword.cloud_notm}} server. In addition, certificates ordered elsewhere can be used on your servers that are hosted here.
-{:note}
+{: note}
 
 SSL certificates enhance the security of the transactions and give your users a sense of security. In addition to SSL certificates, Daemon security, physical security, coding practices, and certificate handling all combine to form the overall security profile of the solution.
 

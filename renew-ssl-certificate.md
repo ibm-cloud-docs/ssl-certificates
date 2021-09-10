@@ -17,7 +17,7 @@ subcollection: ssl-certificates
 {: #renewing-ssl-certificates}
 
 After an SSL certificate is ordered through {{site.data.keyword.cloud}}, it can be renewed at any time. During the renewal process, {{site.data.keyword.cloud_notm}} acts as the facilitator between you and the certificate authority, and does not see or control any part of the renewal process that involves the details of the SSL certificate. SSL certificates are renewed under the same terms under which they were ordered, so you can't change any renewal details (certificate type and authority, validity month, server platform, and so on). Certificates can be renewed before or after they expire; however, to maintain the validity of the SSL certificate, renew the certificate before its expiration date.
-{:shortdesc}
+{: shortdesc}
 
 ## Renewing an SSL certificate
 Complete the following steps to renew an SSL certificate.

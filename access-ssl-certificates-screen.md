@@ -17,7 +17,7 @@ subcollection: ssl-certificates
 {: #accessing-ssl-certificates}
 
 Within the {{site.data.keyword.cloud}} console, you can manage and track SSL certificates that are ordered from both {{site.data.keyword.cloud_notm}} and other third-party companies. SSL certificates are required to enable features on some products, such as [Load Balancers](/docs/infrastructure/local-load-balancer?topic=local-load-balancer-about-load-balancing#about-load-balancing), and their data must be stored within the {{site.data.keyword.cloud_notm}} console to enable those features. All interactions with SSL certificates, including importing, editing, and exporting, are performed on the SSL certificates screen within the {{site.data.keyword.cloud_notm}} console.
-{:shortdesc}
+{: shortdesc}
 
 ## Accessing the SSL Certificates screen
 {: #accessing-ssl-certificates-screen}

@@ -17,7 +17,7 @@ subcollection: ssl-certificates
 {: #downloading-ssl-certificate-details}
 
 After an SSL certificate is added to the {{site.data.keyword.cloud}} console, its details can be downloaded at any time. Downloads can include the certificate, key or PEM, which includes all available details that are associated with the SSL certificate. SSL certificate details are downloaded securely, so there is no risk that is associated with retrieving the details through this method.
-{:shortdesc}
+{: shortdesc}
 
 To download details for the SSL certificate, complete the following steps.
 

@@ -18,7 +18,7 @@ subcollection: ssl-certificates
 {: #requesting-an-ssl-certificate-fulfillment-email}
 
 After ordering a new SSL certificate through {{site.data.keyword.cloud}}, the certificate authority sends a fulfillment email to the domain administrator provided during the ordering process. This email contains all details that are associated with the SSL certificate. At any time, the fulfillment email can be requested again from the SSL Orders screen on the {{site.data.keyword.cloud_notm}} console.
-{:shortdesc}
+{: shortdesc}
 
 ## Requesting a fulfillment email
 Complete the following steps to request the SSL fulfillment email from the certificate authority.
@@ -28,7 +28,7 @@ Complete the following steps to request the SSL fulfillment email from the certi
 3. Click **Send** in the **Email** column for the SSL certificate that you want.
 
   A pop-up window appears to confirm the request. This window contains the email address for the domain administrator that was provided when the SSL certificate was requested.
-  {:note}
+  {: note}
 
 4. Click **Resend Email** to confirm the selection and request an additional fulfillment email from the certificate authority.
 

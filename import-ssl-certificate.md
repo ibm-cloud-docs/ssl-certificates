@@ -18,7 +18,7 @@ subcollection: ssl-certificates
 {: #importing-ssl-certificates}
 
 After an SSL certificate is issued for a website, it can be imported into the {{site.data.keyword.cloud}} console. By importing SSL certificates into the {{site.data.keyword.cloud_notm}} console, the certificates can be applied to products and services that might require them, such as Load Balancer's [SSL offloading](/docs/infrastructure/local-load-balancer?topic=local-load-balancer-configuring-ssl-offloading-on-a-load-balancer). By default, SSL certificates that are issued by {{site.data.keyword.cloud_notm}} are not imported into the list, as they are intended to be manipulated by the recipient only. Therefore, any SSL certificate used with an {{site.data.keyword.cloud_notm}} product or service must be manually imported by an authorized user on the account.
-{:shortdesc}
+{: shortdesc}
 
 ## Importing SSL certificates
 {: #importing-ssl-certificates-steps}
@@ -31,7 +31,7 @@ Complete the following steps to import an SSL certificate.
 4. Enter the **SSL certificate details** in the applicable fields and click **Import.** See the following table for more information.
 
    Details that are entered in the **Import SSL Certificate** window must be entered exactly as provided by the certificate authority, including spacing and line breaks. If not, an error occurs.
-   {:note}
+   {: note}
 
 | SSL Certificate Details     | Description |
 | --------------------------- | ----------- |

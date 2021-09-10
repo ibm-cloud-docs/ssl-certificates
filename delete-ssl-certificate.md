@@ -38,4 +38,4 @@ After deleting an SSL certificate, all services that are linked to the certifica
 Update all services that previously used the deleted certificate to be associated with a valid SSL certificate that is associated with the account.
 
 At any time, the SSL certificate can be added back to the {{site.data.keyword.cloud_notm}} console by using the [import](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-importing-ssl-certificates#importing-ssl-certificates) process.
-{:note}
+{: note}

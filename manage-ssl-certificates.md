@@ -32,7 +32,7 @@ You can search, download parts of a certificate or a PEM formatted version, or r
 When you are ready to add a certificate, select **Add Certificate** in the sub-navigation menu or within the Certificate List title. You are only required to supply the certificate and its private key. However, not providing an intermediate certificate when your issuer provides one can result in a broken certificate chain and improper validation for users or associated services.
 
 Private keys that require a passphrase cannot be stored.
-{:note}
+{: note}
 
 Once added, the following fields are derived from your certificates directly:
 

@@ -18,7 +18,7 @@ subcollection: ssl-certificates
 {: #viewing-and-updating-ssl-certificates}
 
 After an SSL certificate is imported to the SSL certificates screen, you can view and update it at any time. Updates work similar to the [import process](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-importing-ssl-certificates#importing-ssl-certificates), as all details that are updated must match the original certificate exactly, including spacing and line breaks.
-{:shortdesc}
+{: shortdesc}
 
 To view and update an SSL certificate, complete the following steps.
 
@@ -28,7 +28,7 @@ To view and update an SSL certificate, complete the following steps.
 4. Update the **SSL certificate details** in the applicable text boxes, and click **Update** to apply your changes. See the following table for more information.
 
    Details that are entered in the **Import SSL certificate** window must be entered exactly as provided by the certificate authority, including spacing and line breaks. If not, an error occurs.
-   {:note}
+   {: note}
 
 | SSL Certificate Details     | Description |
 | --------------------------- | ----------- |
