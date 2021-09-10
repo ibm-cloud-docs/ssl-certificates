@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2014, 2019
-lastupdated: "2019-06-11"
+  years: 2014, 2021
+lastupdated: "2021-09-10"
 
 keywords: SSL certificate, SSL technology, public key
 
@@ -30,9 +30,12 @@ Encryption keys are measured by their size in bits. For example, 512 bit, 1024 b
 ### Certificate chain
 SSL certificates are not generally used alone. In most implementations, you deal with a certificate chain. For example:
 
-    Root > intermediate1 > server cert.
+```
+Root > intermediate1 > server cert.
 
-    \> Intermediate2 > server2 cert
+\> Intermediate2 > server2 cert
+```
+{: screen}
 
 In this example, your server certificate is signed by the intermediate certificate, which is in turn signed by the root certificate. Chaining in this fashion can make SSL more secure because it means that the root certificate is not used (and exposed to risk) so often. If `intermediate1` was compromised, then `server cert` might be in danger, but `server2 cert` would be fine because they are part of different chains.
 
@@ -42,8 +45,8 @@ The certificate signing request (CSR) is a document that you generate on the ser
 ### Common name
 The common name (CN) is the host name for which the certificate is valid (for example, www.domain.com).  
 
- www.domain.com, smtp.domain.com, and mail.domain.com are three different host names and the same SSL certificate is not valid for all three of them (unless you are using a wildcard certificate but currently {{site.data.keyword.cloud}} does not offer those).
- {: note}
+www.domain.com, smtp.domain.com, and mail.domain.com are three different host names and the same SSL certificate is not valid for all three of them (unless you are using a wildcard certificate but currently {{site.data.keyword.cloud}} does not offer those).
+{: note}
 
 ### Private/Public key
 SSL uses a technique called public key cryptography. In this form of cryptography, you have two keys: the public and the private. The public key is distributed far and wide. No one sees your private key. People who want to communicate securely with you encrypt their communication by using your public key. Public key cryptography is based on the assertion that bits encrypted with a given public key can be decrypted only by using the corresponding private key and conversely.
