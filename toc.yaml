@@ -15,13 +15,10 @@ toc:
   - navgroup: 
       id: learn
       topics:
-      - topicgroup: 
-          label: Learn
-          topics:
-          - index.md
-          - ssl-certificates.md
-          - planning-ahead-ssl.md
-          - intro-ssl.md
+      - index.md
+      - ssl-certificates.md
+      - planning-ahead-ssl.md
+      - intro-ssl.md
           
   - navgroup: 
       id: howto
