@@ -3,7 +3,7 @@ toc:
   properties:
     subcollection: ssl-certificates
     version: 2
-    category: compute_classic
+    category: security
     audience: service
     href: /docs/ssl-certificates
     console-page: "/classic"
