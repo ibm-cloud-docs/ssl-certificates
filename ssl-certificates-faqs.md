@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2014, 2019, 2020
-lastupdated: "2020-03-23"
+  years: 2014, 2022
+lastupdated: "2022-02-14"
 
 keywords: SSL certificates FAQ, SSL FAQ
 
@@ -37,3 +37,16 @@ SSL certificates are enabled by websites as a security measure to protect the us
 If you already ordered an SSL and it is showing errors that the SSL certificate is using SHA-1 instead of SHA-2, you need to request that the SSL is re-issued. You can do this by submitting a ticket.
 
 If you have not yet ordered an SSL from {{site.data.keyword.cloud_notm}} and need to order one with SHA-2, submit a ticket to manually order an SSL for the domain in question. {{site.data.keyword.cloud_notm}} console still automatically creates SSL certificates using SHA-1, so if you do this, you will then need to have it re-issued.
+
+
+## Why do I need to choose an email? 
+{: faq}
+{: support}
+
+To create an SSL certificate, you need to verify that you own the domain where you are requesting the SSL certificate. You can verify that you own the domain in one of two ways: 
+
+1. If you have an email connected to the domain, such as *admin@your_domain*, you can verify using that email address. Just choose the email address that you use from the list provided, and you receive a verification email at the chosen address. 
+
+2. If you do not have an email connected to the domain, you must contact support to use DNS TXT verification. Just open a case, and the Support team will walk you through what to do. Using email verification is generally preferred. 
+
+Either way, you verify that the domain is yours to use, and then receive an SSL certificate. 
