@@ -35,7 +35,7 @@ For more information, see [Planning for SSL certificates](/docs/infrastructure/s
 2. From the **Security** menu, select **Security > SSL > Certificates**.
 3. Select **Order SSL Certificate**.
 4. Select the type and duration of certificate, submit the text of the CSR, and select your server platform. 
-5. You must verify that you own the domain by choosing an email that is connected to the domain. See [Why do I need to choose an email?](/docs/ssl-certificates?topic=ssl-certificates-faqs-ssl-certificates#why-do-i-need-to-choose-an-email) for more details on verifying domain ownership. 
+5. You must verify that you own the domain by choosing an email that is connected to the domain. See [Why do I need to choose an email?](/docs/ssl-certificates?topic=ssl-certificates-faqs-ssl-certificates#faq-ssl-cert-4) for more details on verifying domain ownership. 
 6. Confirm payment. 
 7. Wait for a verification email. The email is delivered to the address that you entered in step 5. Click the link in the email to verify domain ownership. 
 8. After confirming domain ownership, the SSL Certificate is delivered to the email address that is connected to your account. 
