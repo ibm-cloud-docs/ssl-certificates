@@ -50,6 +50,12 @@ To create an SSL certificate, you need to verify that you own the domain where y
 
 Either way, you verify that the domain is yours to use, and then receive an SSL certificate. 
 
+## Why can't I order a wildcard SSL certificate? 
+{:  #faq-ssl-cert-6}
+{: support}
+
+Wildcard SSL certificates are not available in {{site.data.keyword.cloud_notm}}. 
+
 ## How do I request SSL-VPN logs?
 {: #faq-ssl-cert-5}
 {: support}
