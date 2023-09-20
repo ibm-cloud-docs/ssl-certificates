@@ -11,19 +11,19 @@ toc:
     path: ssl-certificates
     label: SSL Certificates
 #  List your getting started tutorial (getting-started.md) as the first item in the Get started nav group. See https://test.cloud.ibm.com/docs/writing?topic=writing-navigation for more details on the toc design.
-  entries: 
-  - navgroup: 
+  entries:
+  - navgroup:
       id: learn
       topics:
       - index.md
       - ssl-certificates.md
       - planning-ahead-ssl.md
       - intro-ssl.md
-          
-  - navgroup: 
+
+  - navgroup:
       id: howto
       topics:
-      - /virtual-servers/virtual-servers-navigating-devices
+      - include: ../virtual-servers/logging-in-to-console.md
       - access-ssl-orders-screen.md
       - import-ssl-certificate.md
       - access-ssl-certificates-screen.md
@@ -35,6 +35,5 @@ toc:
 
   - navgroup:
       id: help
-      topics: 
+      topics:
       - ssl-certificates-faqs.md
-      
