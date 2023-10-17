@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2014, 2019
-lastupdated: "2022-06-06"
+  years: 2014, 2023
+lastupdated: "2023-10-16"
 
 keywords: types of certificates,SSL certificates, Select Security
 
@@ -28,10 +28,13 @@ Getting started with SSL requires a bit of planning. Complete the following prer
 
 For more information, see [Planning for SSL certificates](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-planning-for-ssl#planning-for-ssl).
 
+If you are ordering a Microsoft certificate, by default the Federal Common Policy CA G2 root certificate is issued. If you need a Federal Common Policy CA G1 root certificate, you must create a support case. For more information, see [Using the Support Center](/docs/get-support?topic=get-support-using-avatar). 
+{: important}
+
 ## Ordering SSL certificates
 {: #ordering-ssl-certificates}
 
-1. Navigate to your console's security menu. For more information, see [Navigating to devices](/docs/infrastructure/ssl-certificates?topic=virtual-servers-navigating-devices).
+1. Navigate to your console's security menu. For more information, see [Navigating to devices](/docs/ssl-certificates?topic=ssl-certificates-navigating-devices).
 2. From the **Security** menu, select **Security > SSL > Certificates**.
 3. Select **Order SSL Certificate**.
 4. Select the type and duration of certificate, submit the text of the CSR, and select your server platform. 
