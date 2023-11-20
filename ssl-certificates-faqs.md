@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2014, 2022
-lastupdated: "2022-06-06"
+  years: 2014, 2023
+lastupdated: "2023-11-20"
 
 keywords: SSL certificates FAQ, SSL FAQ
 
@@ -60,9 +60,4 @@ Wildcard SSL certificates are not available in {{site.data.keyword.cloud_notm}}.
 {: #faq-ssl-cert-5}
 {: support}
 
-Requesting SSL-VPN audit logs requires that you open a support case to ensure proper protocol, security, and policies are followed. For security reasons, only the primary account holder can make the request for SSL-VPN audit logs. VPN logs are not available in real time as there can be a delay in availability. Due to the sensitive nature of the content, sometimes not all information can be shared. Please provide the following items for the request:
-
-1) VPN username or IP address
-2) Date (range is preferable)
-3) Suggested times including time-zone
-4) VPN endpoint (if known)
+For information about requesting SSL-VPN audit logs, see [How do I request SSL-VPN logs](/docs/iaas-vpn?topic=iaas-vpn-vpn-ssl-faq) in the [SSL VPN FAQs](/docs/iaas-vpn?topic=iaas-vpn-vpn-ssl-faq).
