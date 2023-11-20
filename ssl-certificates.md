@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2014, 2019
-lastupdated: "2019-06-11"
+  years: 2014, 2023
+lastupdated: "2023-11-20"
 
 keywords: about ssl certificates, about SSL
 
