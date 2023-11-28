@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2014, 2019
-lastupdated: "2019-08-26"
+  years: 2014, 2023
+lastupdated: "2023-11-28"
 
 keywords: view SSL certificates, update SSL certificates, original certificates
 
@@ -10,14 +10,12 @@ subcollection: ssl-certificates
 
 ---
 
-{:note: .note}
-{:shortdesc: .shortdesc}
-{:new_window: target="_blank"}
+{{site.data.keyword.attribute-definition-list}}
 
 # Viewing and updating SSL certificates
 {: #viewing-and-updating-ssl-certificates}
 
-After an SSL certificate is imported to the SSL certificates screen, you can view and update it at any time. Updates work similar to the [import process](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-importing-ssl-certificates#importing-ssl-certificates), as all details that are updated must match the original certificate exactly, including spacing and line breaks.
+After an SSL certificate is imported to the SSL certificates screen, you can view and update it at any time if the certificates are not associated with any services, such as load balancers in the {{site.data.keyword.cloud_notm}} console. Updates work similar to the [import process](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-importing-ssl-certificates#importing-ssl-certificates), as all details that are updated must match the original certificate exactly, including spacing and line breaks.
 {: shortdesc}
 
 To view and update an SSL certificate, complete the following steps.
