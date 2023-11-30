@@ -2,7 +2,7 @@
 
 copyright:
   years: 2014, 2023
-lastupdated: "2023-11-20"
+lastupdated: "2023-11-30"
 
 keywords: about ssl certificates, about SSL
 
@@ -15,6 +15,8 @@ subcollection: ssl-certificates
 
 # About SSL certificates
 {: #about-ssl-certificates}
+
+**End of Marketing (EOM): 15 April 2024** After this date, [SSL Certificate Order](/classic/?orderType=sslCertificatesOrder) is not longer available for purchase. For more information, see [Migrating SSL certificates](/docs/ssl-certificates?topic=ssl-certificates-migrating-ssl-certificates).
 
 {{site.data.keyword.cloud}} offers yearly and bi-yearly SSL certificates for customers that offer various benefits, including:
 
