@@ -2,7 +2,7 @@
 
 copyright:
   years: 2014, 2023
-lastupdated: "2023-11-20"
+lastupdated: "2023-11-30"
 
 keywords: SSL certificates FAQ, SSL FAQ
 
@@ -61,3 +61,14 @@ Wildcard SSL certificates are not available in {{site.data.keyword.cloud_notm}}.
 {: support}
 
 For information about requesting SSL-VPN audit logs, see [How do I request SSL-VPN logs](/docs/iaas-vpn?topic=iaas-vpn-vpn-ssl-faq) in the [SSL VPN FAQs](/docs/iaas-vpn?topic=iaas-vpn-vpn-ssl-faq).
+
+## What happens to my SSL certificates after SSL Certificate Order is no longer available for purchase?
+{: #faq-ssl-cert-7}
+{: support}
+
+**End of Marketing (EOM): 15 April 2024** After this date, [SSL Certificate Order](/classic/?orderType=sslCertificatesOrder) is no longer available for purchase. For more information, see [Migrating SSL certificates](/docs/ssl-certificates?topic=ssl-certificates-migrating-ssl-certificates).
+
+After the EOM date, you can't order any new SSL certificates by using the SSL Certificate Order portal. 
+
+If your SSL certificate is close to expiration and you don’t reorder a new SSL certificate by the EOM date, you must migrate to either {{site.data.keyword.secrets-manager_full}} or DigiCert to order new certificates. For more information regarding the options for your SSL certificates, see [Migrating SSL certificates](/docs/ssl-certificates?topic=ssl-certificates-migrating-ssl-certificates). 
+
