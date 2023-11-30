@@ -2,7 +2,7 @@
 
 copyright:
   years: 2014, 2023
-lastupdated: "2023-10-16"
+lastupdated: "2023-11-30"
 
 keywords: types of certificates,SSL certificates, Select Security
 
@@ -14,6 +14,8 @@ subcollection: ssl-certificates
 
 # Getting started tutorial
 {: #getting-started-tutorial}
+
+**End of Marketing (EOM): 15 April 2024** After this date, [SSL Certificate Order](/classic/?orderType=sslCertificatesOrder) is not longer available for purchase. For more information, see [Migrating SSL certificates](/docs/ssl-certificates?topic=ssl-certificates-migrating-ssl-certificates).
 
 ## Before you begin
 {: #byb-getting-started-tutorial}
