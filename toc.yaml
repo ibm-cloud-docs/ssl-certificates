@@ -24,6 +24,7 @@ toc:
       id: howto
       topics:
       - include: ../virtual-servers/logging-in-to-console.md
+      - migrate-ssl-certificates.md
       - access-ssl-orders-screen.md
       - import-ssl-certificate.md
       - access-ssl-certificates-screen.md
