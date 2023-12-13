@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2014, 2019
-lastupdated: "2019-08-26"
+  years: 2014, 2023
+lastupdated: "2023-12-15"
 
 keywords: SSL certificates delete, SSL delete
 
@@ -10,13 +10,13 @@ subcollection: ssl-certificates
 
 ---
 
-{:note: .note}
-{:shortdesc: .shortdesc}
-{:important: .important}
-{:new_window: target="_blank"}
+{{site.data.keyword.attribute-definition-list}}
 
 # Deleting SSL certificates
 {: #deleting-ssl-certificates}
+
+SSL Certificate Order is deprecated. As of 15 April 2024, SSL Certificate Order is no longer available for purchase. As of 15 December 2024,  SSL Certificate Order is no longer supported for new orders or reorders. Only existing certificates that are not expired are still available for you to download, reissue, or revoke. For more information, see [Deprecation of SSL Certificates](/docs/ssl-certificates?topic=ssl-certificates-deprecation-ssl-certificates).
+{: deprecated}
 
 After an SSL certificate's details are imported into the {{site.data.keyword.cloud}} console, it can be deleted at any time to remove all data from being saved to the {{site.data.keyword.cloud_notm}} console.
 
