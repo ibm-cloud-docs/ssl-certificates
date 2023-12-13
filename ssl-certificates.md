@@ -2,7 +2,7 @@
 
 copyright:
   years: 2014, 2023
-lastupdated: "2023-11-30"
+lastupdated: "2023-12-15"
 
 keywords: about ssl certificates, about SSL
 
@@ -10,13 +10,13 @@ subcollection: ssl-certificates
 
 ---
 
-{:shortdesc: .shortdesc}
-{:new_window: target="_blank"}
+{{site.data.keyword.attribute-definition-list}}
 
 # About SSL certificates
 {: #about-ssl-certificates}
 
-**End of Marketing (EOM): 15 April 2024** After this date, [SSL Certificate Order](/classic/?orderType=sslCertificatesOrder) is not longer available for purchase. For more information, see [Migrating SSL certificates](/docs/ssl-certificates?topic=ssl-certificates-migrating-ssl-certificates).
+SSL Certificate Order is deprecated. As of 15 April 2024, SSL Certificate Order is no longer available for purchase. As of 15 December 2024,  SSL Certificate Order is no longer supported for new orders or reorders. Only existing certificates that are not expired are still available for you to download, reissue, or revoke. For more information, see [Deprecation of SSL Certificates](/docs/ssl-certificates?topic=ssl-certificates-deprecation-ssl-certificates).
+{: deprecated}
 
 {{site.data.keyword.cloud}} offers yearly and bi-yearly SSL certificates for customers that offer various benefits, including:
 
