@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2014, 2021
-lastupdated: "2021-09-10"
+  years: 2014, 2023
+lastupdated: "2023-12-15"
 
 keywords: SSL certificate, SSL technology, public key
 
@@ -10,15 +10,13 @@ subcollection: ssl-certificates
 
 ---
 
-{:note: .note}
-{:shortdesc: .shortdesc}
-{:new_window: target="_blank"}
-{:codeblock: .codeblock}
-{:pre: .pre}
-{:screen: .screen}
+{{site.data.keyword.attribute-definition-list}}
 
 # Introduction to SSL technology
 {: #introduction-to-ssl-technology}
+
+SSL Certificate Order is deprecated. As of 15 April 2024, SSL Certificate Order is no longer available for purchase. As of 15 December 2024,  SSL Certificate Order is no longer supported for new orders or reorders. Only existing certificates that are not expired are still available for you to download, reissue, or revoke. For more information, see [Deprecation of SSL Certificates](/docs/ssl-certificates?topic=ssl-certificates-deprecation-ssl-certificates).
+{: deprecated}
 
 Secure Sockets Layer (SSL) is a technology that encrypts traffic between the client application and the server application. This encryption is accomplished by using a public key/private key system that uses an SSL certificate. The SSL certificate contains the server’s public key, dates for which the certificate is valid, a host name for which the certificate is valid, and a signature from the certificate authority that issued it.
 {: shortdesc}
