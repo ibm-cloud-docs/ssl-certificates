@@ -2,7 +2,7 @@
 
 copyright:
   years: 2014, 2023
-lastupdated: "2023-11-28"
+lastupdated: "2023-12-15"
 
 keywords: view SSL certificates, update SSL certificates, original certificates
 
@@ -15,8 +15,8 @@ subcollection: ssl-certificates
 # Viewing and updating SSL certificates
 {: #viewing-and-updating-ssl-certificates}
 
-After an SSL certificate is imported to the SSL certificates screen, you can view and update it at any time if the certificates are not associated with any services, such as load balancers in the {{site.data.keyword.cloud_notm}} console. Updates work similar to the [import process](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-importing-ssl-certificates#importing-ssl-certificates), as all details that are updated must match the original certificate exactly, including spacing and line breaks.
-{: shortdesc}
+SSL Certificate Order is deprecated. As of 15 April 2024, SSL Certificate Order is no longer available for purchase. As of 15 December 2024,  SSL Certificate Order is no longer supported for new orders or reorders. Only existing certificates that are not expired are still available for you to download, reissue, or revoke. For more information, see [Deprecation of SSL Certificates](/docs/ssl-certificates?topic=ssl-certificates-deprecation-ssl-certificates).
+{: deprecated}
 
 To view and update an SSL certificate, complete the following steps.
 
