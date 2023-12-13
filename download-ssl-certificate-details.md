@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2014, 2019
-lastupdated: "2019-08-26"
+  years: 2014, 2023
+lastupdated: "2023-12-15"
 
 keywords: SSL certificate details, preferred Download Option, SSL certificate download details
 
@@ -15,6 +15,9 @@ subcollection: ssl-certificates
 
 # Downloading SSL certificate details
 {: #downloading-ssl-certificate-details}
+
+SSL Certificate Order is deprecated. As of 15 April 2024, SSL Certificate Order is no longer available for purchase. As of 15 December 2024,  SSL Certificate Order is no longer supported for new orders or reorders. Only existing certificates that are not expired are still available for you to download, reissue, or revoke. For more information, see [Deprecation of SSL Certificates](/docs/ssl-certificates?topic=ssl-certificates-deprecation-ssl-certificates).
+{: deprecated}
 
 After an SSL certificate is added to the {{site.data.keyword.cloud}} console, its details can be downloaded at any time. Downloads can include the certificate, key or PEM, which includes all available details that are associated with the SSL certificate. SSL certificate details are downloaded securely, so there is no risk that is associated with retrieving the details through this method.
 {: shortdesc}
