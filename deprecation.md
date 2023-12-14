@@ -27,9 +27,9 @@ The following table describes the details of the deprecation, timeline, and extr
 | --- | --- | --- |
 | 15 December 2023 | Deprecation announcement (SoftLayer notification) | Announcement of the SSL Certificate Order deprecation. All current SSL Certificate Order users receive an announcement email with information about the deprecation. |
 | 17 January 2024 | Deprecation announcement ({{site.data.keyword.cloud}} Announcement) | Announcement of the SSL Certificate Order deprecation through {{site.data.keyword.cloud}} Announcement. Notification details are put into the console and related screens. |
-| 15 April 2024 | End of Marketing (EOM) | SSL Certificate Order end of marketing. After this date, SSL Certificate Order is no longer available for purchase. For more information, see [Deprecation details](/docs/ssl-certificates?topic=ssl-certificates-deprecation#deprecation-details#deprecation_details). |
+| 15 April 2024 | End of Marketing (EOM) | SSL Certificate Order end of marketing. After this date, SSL Certificate Order is no longer available for purchase. For more information, see [Deprecation details](/docs/ssl-certificates?topic=ssl-certificates-deprecation#deprecation-details). |
 | Ongoing | Reminders | Periodic reminders are sent to remaining SSL Certificate users that the end of support date is coming.|
-| 15 December 2024 | End of Support (EOS) | SSL Certificate Order end of support. For more information, see [Deprecation details](/docs/ssl-certificates?topic=ssl-certificates-deprecation#deprecation-details#deprecation_details). |
+| 15 December 2024 | End of Support (EOS) | SSL Certificate Order end of support. For more information, see [Deprecation details](/docs/ssl-certificates?topic=ssl-certificates-deprecation#deprecation-details). |
 {: caption="Table 1. Deprecation timeline" caption-side="bottom"}
 
 ## Deprecation details
