@@ -2,7 +2,7 @@
 
 copyright:
   years: 2014, 2023
-lastupdated: "2023-11-20"
+lastupdated: "2023-12-15"
 
 keywords: SSL certificates FAQ, SSL FAQ
 
@@ -17,6 +17,8 @@ content-type: faq
 # FAQs: SSL certificates
 {: #faqs-ssl-certificates}
 
+SSL Certificate Order is deprecated. As of 15 April 2024, SSL Certificate Order is no longer available for purchase. As of 15 December 2024,  SSL Certificate Order is no longer supported for new orders or reorders. Only existing certificates that are not expired are still available for you to download, reissue, or revoke. For more information, see [Deprecation of SSL Certificates](/docs/ssl-certificates?topic=ssl-certificates-deprecation-ssl-certificates).
+{: deprecated}
 
 ## Why doesn't the SSL certificate that I ordered automatically show up on the SSL certificates screen?
 {: #faq-ssl-cert-1}
@@ -61,3 +63,16 @@ Wildcard SSL certificates are not available in {{site.data.keyword.cloud_notm}}.
 {: support}
 
 For information about requesting SSL-VPN audit logs, see [How do I request SSL-VPN logs](/docs/iaas-vpn?topic=iaas-vpn-vpn-ssl-faq) in the [SSL VPN FAQs](/docs/iaas-vpn?topic=iaas-vpn-vpn-ssl-faq).
+
+## What happens to my SSL certificates after SSL Certificate Order is no longer available for purchase?
+{: #faq-ssl-cert-7}
+{: support}
+
+**End of Marketing (EOM): 15 April 2024** After this date, SSL Certificate Order is no longer available for purchase. 
+
+After the EOM date, you can't order any new SSL certificates by using the SSL Certificate Order portal. 
+
+If your SSL certificate is close to expiration and you don’t reorder a new SSL certificate by the EOM date, you must migrate to either {{site.data.keyword.secrets-manager_full}} or DigiCert to order new certificates. 
+
+For more information regarding the options for your SSL certificates, see [Deprecation of SSL Certificates](/docs/ssl-certificates?topic=ssl-certificates-deprecation-ssl-certificates).
+
