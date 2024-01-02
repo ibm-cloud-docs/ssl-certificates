@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2014, 2023
-lastupdated: "2023-12-15"
+  years: 2014, 2024
+lastupdated: "2024-01-02"
 
 keywords: importing SSL certificates,SSL import, SSL certificate details
 
@@ -15,7 +15,7 @@ subcollection: ssl-certificates
 # Importing SSL certificates
 {: #importing-ssl-certificates}
 
-SSL Certificate Order is deprecated. As of 15 April 2024, SSL Certificate Order is no longer available for purchase. As of 15 December 2024,  SSL Certificate Order is no longer supported for new orders or reorders. Only existing certificates that are not expired are still available for you to download, reissue, or revoke. For more information, see [Deprecation of SSL Certificates](/docs/ssl-certificates?topic=ssl-certificates-deprecation-ssl-certificates).
+SSL Certificate Order is deprecated. As of 15 April 2024, SSL Certificate Order is no longer available for purchase. As of 15 December 2024,  SSL Certificate Order is no longer supported for new orders or reorders. Only existing certificates that are not expired are still available for you to download, reissue, or revoke. For more information, see [Deprecation of SSL Certificates](/docs/ssl-certificates?topic=ssl-certificates-deprecation).
 {: deprecated}
 
 After an SSL certificate is issued for a website, it can be imported into the {{site.data.keyword.cloud}} console. By importing SSL certificates into the {{site.data.keyword.cloud_notm}} console, the certificates can be applied to products and services that might require them, such as Load Balancer's [SSL offloading](/docs/infrastructure/local-load-balancer?topic=local-load-balancer-configuring-ssl-offloading-on-a-load-balancer). By default, SSL certificates that are issued by {{site.data.keyword.cloud_notm}} are not imported into the list, as they are intended to be manipulated by the recipient only. Therefore, any SSL certificate used with an {{site.data.keyword.cloud_notm}} product or service must be manually imported by an authorized user on the account.

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2014, 2023
-lastupdated: "2023-12-15"
+  years: 2014, 2024
+lastupdated: "2024-01-02"
 
 keywords: SSL certificate fulfillment email, fulfillment email
 
@@ -15,7 +15,7 @@ subcollection: ssl-certificates
 # Requesting an SSL certificate fulfillment email
 {: #requesting-an-ssl-certificate-fulfillment-email}
 
-SSL Certificate Order is deprecated. As of 15 April 2024, SSL Certificate Order is no longer available for purchase. As of 15 December 2024,  SSL Certificate Order is no longer supported for new orders or reorders. Only existing certificates that are not expired are still available for you to download, reissue, or revoke. For more information, see [Deprecation of SSL Certificates](/docs/ssl-certificates?topic=ssl-certificates-deprecation-ssl-certificates).
+SSL Certificate Order is deprecated. As of 15 April 2024, SSL Certificate Order is no longer available for purchase. As of 15 December 2024,  SSL Certificate Order is no longer supported for new orders or reorders. Only existing certificates that are not expired are still available for you to download, reissue, or revoke. For more information, see [Deprecation of SSL Certificates](/docs/ssl-certificates?topic=ssl-certificates-deprecation).
 {: deprecated}
 
 After ordering a new SSL certificate through {{site.data.keyword.cloud}}, the certificate authority sends a fulfillment email to the domain administrator provided during the ordering process. This email contains all details that are associated with the SSL certificate. At any time, the fulfillment email can be requested again from the SSL Orders screen on the {{site.data.keyword.cloud_notm}} console.
