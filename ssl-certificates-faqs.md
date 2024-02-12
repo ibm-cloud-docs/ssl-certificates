@@ -74,5 +74,5 @@ After the EOM date, you can't order any new SSL certificates by using the SSL Ce
 
 If your SSL certificate is close to expiration and you don’t reorder a new SSL certificate by the EOM date, you must migrate to either {{site.data.keyword.secrets-manager_full}} or DigiCert to order new certificates. 
 
-For more information regarding the options for your SSL certificates, see [Deprecation of SSL Certificates](/docs/ssl-certificates?topic=ssl-certificates-deprecation-ssl-certificates).
+For more information regarding the options for your SSL certificates, see [Deprecation of SSL Certificates](/docs/ssl-certificates?topic=ssl-certificates-deprecation).
 
