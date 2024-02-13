@@ -3,7 +3,6 @@
 copyright:
   years: 2014, 2024
 lastupdated: "2024-01-02"
-
 keywords: importing SSL certificates,SSL import, SSL certificate details
 
 subcollection: ssl-certificates
@@ -18,7 +17,7 @@ subcollection: ssl-certificates
 SSL Certificate Order is deprecated. As of 15 April 2024, SSL Certificate Order is no longer available for purchase. As of 15 December 2024,  SSL Certificate Order is no longer supported for new orders or reorders. Only existing certificates that are not expired are still available for you to download, reissue, or revoke. For more information, see [Deprecation of SSL Certificates](/docs/ssl-certificates?topic=ssl-certificates-deprecation).
 {: deprecated}
 
-After an SSL certificate is issued for a website, it can be imported into the {{site.data.keyword.cloud}} console. By importing SSL certificates into the {{site.data.keyword.cloud_notm}} console, the certificates can be applied to products and services that might require them, such as Load Balancer's [SSL offloading](/docs/infrastructure/local-load-balancer?topic=local-load-balancer-configuring-ssl-offloading-on-a-load-balancer). By default, SSL certificates that are issued by {{site.data.keyword.cloud_notm}} are not imported into the list, as they are intended to be manipulated by the recipient only. Therefore, any SSL certificate used with an {{site.data.keyword.cloud_notm}} product or service must be manually imported by an authorized user on the account.
+After an SSL certificate is issued for a website, it can be imported into the {{site.data.keyword.cloud}} console. By importing SSL certificates into the {{site.data.keyword.cloud_notm}} console, the certificates can be applied to products and services that might require them, such as Load Balancer's [SSL offloading](/docs/local-load-balancer?topic=local-load-balancer-configuring-ssl-offloading-on-a-load-balancer). By default, SSL certificates that are issued by {{site.data.keyword.cloud_notm}} are not imported into the list, as they are intended to be manipulated by the recipient only. Therefore, any SSL certificate used with an {{site.data.keyword.cloud_notm}} product or service must be manually imported by an authorized user on the account.
 {: shortdesc}
 
 ## Importing SSL certificates
@@ -26,7 +25,7 @@ After an SSL certificate is issued for a website, it can be imported into the {{
 
 Complete the following steps to import an SSL certificate.
 
-1. Navigate to your console's security menu. For more information, see [Navigating to devices](/docs/infrastructure/ssl-certificates?topic=virtual-servers-navigating-devices).
+1. Navigate to your console's security menu. For more information, see [Navigating to devices](/docs/ssl-certificates?topic=virtual-servers-navigating-devices).
 2. From the **Security** menu, select **SSL > Certificates**.
 3. Click **Import SSL Certificate**.
 4. Enter the **SSL certificate details** in the applicable fields and click **Import.** See the following table for more information.
@@ -46,4 +45,4 @@ Complete the following steps to import an SSL certificate.
 ## Next steps
 {: #ns-importing-ssl-certificates}
 
-After the SSL certificate is imported to the {{site.data.keyword.cloud_notm}} console, it is stored on the SSL certificates screen until it is [manually deleted](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-deleting-ssl-certificates#deleting-ssl-certificates). For all products or services requiring SSL certificate details, the new SSL certificate appears in the list of available certificates for use when interacting with the SSL feature for the wanted product or service. The certificate can be [updated](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-viewing-and-updating-ssl-certificates) and details about the certificate can be [securely downloaded](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-downloading-ssl-certificate-details) at any time.
+After the SSL certificate is imported to the {{site.data.keyword.cloud_notm}} console, it is stored on the SSL certificates screen until it is [manually deleted](/docs/ssl-certificates?topic=ssl-certificates-deleting-ssl-certificates#deleting-ssl-certificates). For all products or services requiring SSL certificate details, the new SSL certificate appears in the list of available certificates for use when interacting with the SSL feature for the wanted product or service. The certificate can be [updated](/docs/ssl-certificates?topic=ssl-certificates-viewing-and-updating-ssl-certificates) and details about the certificate can be [securely downloaded](/docs/ssl-certificates?topic=ssl-certificates-downloading-ssl-certificate-details) at any time.
