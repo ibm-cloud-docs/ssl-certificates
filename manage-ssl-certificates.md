@@ -20,7 +20,7 @@ SSL Certificate Order is deprecated. As of 15 April 2024, SSL Certificate Order 
 
 You can manage your SSL certificates in the {{site.data.keyword.cloud}} console. Not only can this serve as a repository for management of your certificates, it is also necessary when using services that can use or require certificates.
 
-1. Navigate to your console's security menu. For more information, see [Navigating to devices](/docs/infrastructure/ssl-certificates?topic=virtual-servers-navigating-devices).
+1. Navigate to your console's security menu. For more information, see [Navigating to devices](/docs/ssl-certificates?topic=virtual-servers-navigating-devices).
 2. From the **Security** menu, select **SSL > Certificates > Manage Certificates**.
 
 
