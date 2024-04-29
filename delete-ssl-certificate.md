@@ -9,7 +9,6 @@ keywords: SSL certificates delete, SSL delete
 subcollection: ssl-certificates
 
 ---
-
 {{site.data.keyword.attribute-definition-list}}
 
 # Deleting SSL certificates
@@ -25,7 +24,7 @@ If an SSL certificate has an attached service, that service must be removed firs
 
 To delete an SSL certificate, complete the following steps.
 
-1. Navigate to your console's security menu. For more information, see [Navigating to devices](/docs/infrastructure/ssl-certificates?topic=virtual-servers-navigating-devices).
+1. Navigate to your console's security menu. For more information, see [Navigating to devices](/docs/ssl-certificates?topic=ssl-certificates-navigating-devices).
 2. From the **Security** menu, select **SSL > Certificates**.
 3. From the **Actions** menu, select **Delete** for the desired SSL certificate.
 4. Click **Yes** to delete the SSL certificate..
@@ -37,5 +36,5 @@ After deleting an SSL certificate, all services that are linked to the certifica
 
 Update all services that previously used the deleted certificate to be associated with a valid SSL certificate that is associated with the account.
 
-At any time, the SSL certificate can be added back to the {{site.data.keyword.cloud_notm}} console by using the [import](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-importing-ssl-certificates#importing-ssl-certificates) process.
+At any time, the SSL certificate can be added back to the {{site.data.keyword.cloud_notm}} console by using the [import](/docs/ssl-certificates?topic=ssl-certificates-importing-ssl-certificates) process.
 {: note}
