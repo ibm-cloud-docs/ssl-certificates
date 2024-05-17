@@ -2,7 +2,7 @@
 
 copyright:
   years: 2014, 2024
-lastupdated: "2024-01-02"
+lastupdated: "2024-05-17"
 
 keywords: types of certificates,SSL certificates, Select Security
 
@@ -29,7 +29,7 @@ Getting started with SSL requires a bit of planning. Complete the following prer
 4. Learn about the socket rule
 5. Generate the CSR
 
-For more information, see [Planning for SSL certificates](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-planning-for-ssl#planning-for-ssl).
+For more information, see [Planning for SSL certificates](/docs/ssl-certificates?topic=ssl-certificates-planning-for-ssl).
 
 If you are ordering a Microsoft certificate, by default the Federal Common Policy CA G2 root certificate is issued. If you need a Federal Common Policy CA G1 root certificate, you must create a support case. For more information, see [Using the Support Center](/docs/get-support?topic=get-support-using-avatar).
 {: important}
@@ -55,4 +55,4 @@ After the ordering and validating process is complete, you receive an email from
 ## Next steps
 {: #ns-getting-started-tutorial}
 
-After testing successfully, you can access your SSL certificates in the {{site.data.keyword.cloud_notm}} console to [update](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-viewing-and-updating-ssl-certificates#viewing-and-updating-ssl-certificates), [download](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-downloading-ssl-certificate-details#downloading-ssl-certificate-details), [delete](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-deleting-ssl-certificates#deleting-ssl-certificates), or [import](/docs/infrastructure/ssl-certificates?topic=ssl-certificates-importing-ssl-certificates#importing-ssl-certificates) existing SSL certificates into the tool.
+After testing successfully, you can [manage your SSL certificates](/docs/ssl-certificates?topic=ssl-certificates-managing-ssl-certificates).
