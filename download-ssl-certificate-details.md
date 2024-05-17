@@ -2,7 +2,7 @@
 
 copyright:
   years: 2014, 2024
-lastupdated: "2024-01-02"
+lastupdated: "2024-05-17"
 
 keywords: SSL certificate details, preferred Download Option, SSL certificate download details
 
@@ -23,7 +23,7 @@ After an SSL certificate is added to the {{site.data.keyword.cloud}} console, it
 
 To download details for the SSL certificate, complete the following steps.
 
-1. Navigate to your console's security menu. For more information, see [Navigating to devices](/docs/infrastructure/ssl-certificates?topic=virtual-servers-navigating-devices).
+1. Go to your console's security menu. For more information, see [Navigating to devices](/docs/ssl-certificates?topic=ssl-certificates-navigating-devices).
 2. From the **Security** menu, select **SSL > Certificates**.
 3. From the **Actions** menu, select the preferred **Download Option** for the certificate. Refer to the following table for more information:
 
