@@ -22,7 +22,7 @@ After an SSL certificate is imported to the SSL certificates screen, you can vie
 
 To view and update an SSL certificate, complete the following steps.
 
-1. Navigate to your console's security menu. For more information, see [Navigating to devices](/docs/ssl-certificates?topic=virtual-servers-navigating-devices).
+1. Navigate to your console's security menu. For more information, see [Navigating to devices](/docs/ssl-certificates?topic=ssl-certificates-navigating-devices).
 2. From the **Security** menu, select **SSL > Certificates**.
 3. Select **View/Update certificate** from the **Actions** drop down list.
 4. Update the **SSL certificate details** in the applicable text boxes, and click **Update** to apply your changes. See the following table for more information.
