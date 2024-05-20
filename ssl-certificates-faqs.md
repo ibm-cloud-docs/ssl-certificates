@@ -2,7 +2,7 @@
 
 copyright:
   years: 2014, 2024
-lastupdated: "2024-01-02"
+lastupdated: "2024-05-20"
 
 keywords: SSL certificates FAQ, SSL FAQ
 
@@ -24,7 +24,7 @@ SSL Certificate Order is deprecated. As of 15 April 2024, SSL Certificate Order 
 {: #faq-ssl-cert-1}
 {: support}
 
-SSL certificates are issued by a third-party certificate authority, which sends all of the certificate details directly to you in a confidential email. After receiving that email, you have the option to [import the SSL certificate](/docs/ssl-certificates?topic=ssl-certificates-importing-ssl-certificates#importing-ssl-certificates) to the {{site.data.keyword.cloud}} console should you choose to use the certificate with {{site.data.keyword.cloud_notm}} products and services. Because {{site.data.keyword.cloud_notm}} never receives the details for SSL certificate, data cannot be imported automatically.
+SSL certificates are issued by a third-party certificate authority, which sends all of the certificate details directly to you in a confidential email. After receiving that email, you have the option to [import the SSL certificate](/docs/ssl-certificates?topic=ssl-certificates-importing-ssl-certificates) to the {{site.data.keyword.cloud}} console should you choose to use the certificate with {{site.data.keyword.cloud_notm}} products and services. Because {{site.data.keyword.cloud_notm}} never receives the details for SSL certificate, data cannot be imported automatically.
 
 ## What is an SSL certificate?
 {: #faq-ssl-cert-2}
@@ -40,23 +40,23 @@ If you already ordered an SSL and it is showing errors that the SSL certificate 
 
 If you have not yet ordered an SSL from {{site.data.keyword.cloud_notm}} and need to order one with SHA-2, submit a ticket to manually order an SSL for the domain in question. {{site.data.keyword.cloud_notm}} console still automatically creates SSL certificates using SHA-1, so if you do this, you will then need to have it re-issued.
 
-## Why do I need to choose an email? 
+## Why do I need to choose an email?
 {: #faq-ssl-cert-4}
 {: support}
 
-To create an SSL certificate, you need to verify that you own the domain where you are requesting the SSL certificate. You can verify that you own the domain in one of two ways: 
+To create an SSL certificate, you need to verify that you own the domain where you are requesting the SSL certificate. You can verify that you own the domain in one of two ways:
 
-1. If you have an email connected to the domain, such as *admin@your_domain*, you can verify using that email address. Just choose the email address that you use from the list provided, and you receive a verification email at the chosen address. 
+1. If you have an email connected to the domain, such as *admin@your_domain*, you can verify using that email address. Just choose the email address that you use from the list provided, and you receive a verification email at the chosen address.
 
-2. If you do not have an email connected to the domain, you must contact support to use DNS TXT verification. Just open a case, and the Support team will walk you through what to do. Using email verification is generally preferred. 
+2. If you do not have an email connected to the domain, you must contact support to use DNS TXT verification. Just open a case, and the Support team will walk you through what to do. Using email verification is generally preferred.
 
-Either way, you verify that the domain is yours to use, and then receive an SSL certificate. 
+Either way, you verify that the domain is yours to use, and then receive an SSL certificate.
 
-## Why can't I order a wildcard SSL certificate? 
+## Why can't I order a wildcard SSL certificate?
 {:  #faq-ssl-cert-6}
 {: support}
 
-Wildcard SSL certificates are not available in {{site.data.keyword.cloud_notm}}. 
+Wildcard SSL certificates are not available in {{site.data.keyword.cloud_notm}}.
 
 ## How do I request SSL-VPN logs?
 {: #faq-ssl-cert-5}
@@ -68,11 +68,10 @@ For information about requesting SSL-VPN audit logs, see [How do I request SSL-V
 {: #faq-ssl-cert-7}
 {: support}
 
-**End of Marketing (EOM): 15 April 2024** After this date, SSL Certificate Order is no longer available for purchase. 
+**End of Marketing (EOM): 15 April 2024** After this date, SSL Certificate Order is no longer available for purchase.
 
-After the EOM date, you can't order any new SSL certificates by using the SSL Certificate Order portal. 
+After the EOM date, you can't order any new SSL certificates by using the SSL Certificate Order portal.
 
-If your SSL certificate is close to expiration and you don’t reorder a new SSL certificate by the EOM date, you must migrate to either {{site.data.keyword.secrets-manager_full}} or DigiCert to order new certificates. 
+If your SSL certificate is close to expiration and you don’t reorder a new SSL certificate by the EOM date, you must migrate to either {{site.data.keyword.secrets-manager_full}} or DigiCert to order new certificates.
 
 For more information regarding the options for your SSL certificates, see [Deprecation of SSL Certificates](/docs/ssl-certificates?topic=ssl-certificates-deprecation).
-
