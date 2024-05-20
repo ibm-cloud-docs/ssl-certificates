@@ -17,7 +17,6 @@ toc:
       id: learn
       topics:
       - deprecation.md
-      - index.md
       - ssl-certificates.md
       - planning-ahead-ssl.md
       - intro-ssl.md
