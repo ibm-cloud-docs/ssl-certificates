@@ -25,7 +25,7 @@ The SSL orders screen contains a listing of all SSL certificates that are ordere
 
 Complete the following steps to access SSL orders.
 
-1. Navigate to your console's security menu. For more information, see [Navigating to devices](/docs/ssl-certificates?topic=ssl-certificates-navigating-devices).
+1. Navigate to your console's security menu. 
 2. From the **Security** menu, select **SSL > Orders**.
 
 ## Next steps
