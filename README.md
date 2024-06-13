@@ -1,1 +1,9 @@
-# ssl-certificates
+
+# SSL certificates documentation repo README file
+
+You can submit suggested changes to any existing documentation page by using the "Edit topic" button at the end of each page. By following that link and editing the page, you can submit updates in a pull request (PR). See [Submitting pull requests](https://test.cloud.ibm.com/docs/writing?topic=writing-pr) for more information. Make sure any PRs are created in the Review branch.
+
+## SSL certificates documentation areas and contacts
+
+* Classic infrastructure: Sterling Milstead
+* Compute: Gudrun Wolfgram, Anna Matetic, and Keith Merchant
