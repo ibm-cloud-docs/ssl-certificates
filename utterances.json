@@ -1,11 +1,11 @@
 {
     "why-doesn-t-the-ssl-certificate-that-i-ordered-automatically-show-up-on-the-ssl-certificates-screen-": [
-        "ssl cert does not appear",
-        "can't find my ordered SSL certificate",
-        "don't see ssl certificate",
-        "order an SSL certificate but it does not appear",
-        "where is ssl certificate ordered",
-        "unable to view ssl certificates",       
+		"ssl cert does not appear",
+		"can't find my ordered SSL certificate",
+		"don't see ssl certificate"
+		"order an SSL certificate but it does not appear",
+		"where is ssl certificate ordered",
+		"unable to view ssl certificates screen",
         "is ssl cert imported automatically"
     ],
     "what-is-an-ssl-certificate-": [

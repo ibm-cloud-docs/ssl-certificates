@@ -70,4 +70,3 @@ SSL certificates ordered through {{site.data.keyword.cloud_notm}} do not have to
 {: note}
 
 SSL certificates enhance the security of the transactions and give your users a sense of security. In addition to SSL certificates, Daemon security, physical security, coding practices, and certificate handling all combine to form the overall security profile of the solution.
-
