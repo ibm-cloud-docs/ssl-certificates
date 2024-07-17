@@ -2,7 +2,7 @@
 
 copyright:
   years: 2014, 2024
-lastupdated: "2024-01-02"
+lastupdated: "2024-07-17"
 
 keywords: SSL certificate, SSL technology, public key
 
