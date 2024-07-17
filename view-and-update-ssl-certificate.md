@@ -42,4 +42,4 @@ To view and update an SSL certificate, complete the following steps.
 ## Next steps
 {: #ns-viewing-and-updating-ssl-certificates}
 
-After you update the details for the SSL certificate, any products or services that use the certificate are not negatively impacted by the change. The certificate can be updated again at any time by repeating the previous steps.
+After you update the details for the SSL certificate, any products or services that use the certificate are not negatively impacted by the change. You can update the certificate at any time by repeating the previous steps.
