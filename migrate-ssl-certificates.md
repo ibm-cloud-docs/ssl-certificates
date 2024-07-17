@@ -24,10 +24,10 @@ SSL Certificate Order is deprecated. As of 15 April 2024, SSL Certificate Order 
 
  Depending on various migration scenarios and the expiration dates of your certificates, you might have one of the following options to migrate your SSL certificates.
 
-## Ordering new certificates before EOM
+## Ordering certificates before EOM
 {: #order-new-ssl-certificates-before-eom}
 
-Before the EOM date, you can still order a new certificate or reorder your existing certificate. For more information, see [Ordering SSL certificates](/docs/ssl-certificates?topic=ssl-certificates-getting-started-tutorial#ordering-ssl-certificates).
+Before the EOM date, you can still order a certificate or reorder your existing certificate. For more information, see [Ordering SSL certificates](/docs/ssl-certificates?topic=ssl-certificates-getting-started-tutorial#ordering-ssl-certificates).
 
 ## Managing your existing certificates
 {: #migratng-existing-ssl-certificates}
@@ -38,7 +38,7 @@ If you have an existing SSL certificate that is not expired, do the following ac
 - Import your existing certificate to the [SSL Certificates](/classic-gen1/sslcerts) page for management. For more information about importing certificates, see [Importing SSL Certificates](/docs/ssl-certificates?topic=ssl-certificates-importing-ssl-certificates).
 - Before the SSL certificate expires, you can still view or update your SSL certificates on the [SSL Certificates](/classic-gen1/sslcerts) page. For more information, see [Viewing and updating SSL certificates](/docs/ssl-certificates?topic=ssl-certificates-viewing-and-updating-ssl-certificates).
 
-You can also migrate to {{site.data.keyword.cloud}}'s strategic offering, {{site.data.keyword.secrets-manager_full}} for enhanced security and advanced features. See [Migrating to Secrets Manager to create new certificates](#migrating-ssl-secrets-manager-new-cert) and [Migrating to Secrets Manager for certificate lifecycle management](#migrating-ssl-secret-manager-lifecycle) for more details.
+You can also migrate to {{site.data.keyword.cloud}}'s strategic offering, {{site.data.keyword.secrets-manager_full}} for enhanced security and advanced features. See [Migrating to Secrets Manager to create certificates](#migrating-ssl-secrets-manager-new-cert) and [Migrating to Secrets Manager for certificate lifecycle management](#migrating-ssl-secret-manager-lifecycle) for more details.
 
 ## Migrating to Secrets Manager to create certificates
 {: #migrating-ssl-secrets-manager-new-cert}
@@ -57,9 +57,9 @@ If you want to manage your SSL certificate lifecycle after EOM, Secrets Manager 
 
 For more information, see [Importing SSL/TLS certificates](/docs/secrets-manager?topic=secrets-manager-certificates).
 
-## Migrating to DigiCert to order new DigiCert certificates
+## Migrating to DigiCert to order DigiCert certificates
 {: #migrating-ssl-digi-cert-lifecycle}
 
-If you have a preference on using DigiCert certificates or your certificates need renewed after the EOM date, you can migrate to DigiCert by creating a DigiCert account. You can contact DigiCert sales (sales@digicert.com) to set up a new account with an assigned account manager.
+If you have a preference on using DigiCert certificates or your certificates need renewed after the EOM date, you can migrate to DigiCert by creating a DigiCert account. You can contact DigiCert sales (sales@digicert.com) to set up an account with an assigned account manager.
 
 For more information about getting started with DigiCert, see [DigiCert CertCentral documentation](https://docs.digicert.com/en/certcentral.html){:external}.
