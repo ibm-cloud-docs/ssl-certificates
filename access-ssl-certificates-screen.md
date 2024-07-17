@@ -2,7 +2,7 @@
 
 copyright:
   years: 2014, 2024
-lastupdated: "2024-05-17"
+lastupdated: "2024-07-17"
 
 keywords: SSL certificates access
 
