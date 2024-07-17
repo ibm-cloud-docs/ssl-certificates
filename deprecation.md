@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2024
-lastupdated: "2024-05-22"
+lastupdated: "2024-07-17"
 
 keywords:
 
@@ -46,7 +46,7 @@ Review the following details about the SSL Certificates Order deprecation:
 
 If you have an existing SSL certificate that is not expired, do the following actions:
 
-- Before the EOM date and before the SSL certificate expires, reorder the certificate from the SSL orders screen to extend the SSL certificate expiration date for another year. 
+- Before the EOM date and before the SSL certificate expires, reorder the certificate from the SSL orders screen to extend the SSL certificate expiration date for another year.
 - Import your existing certificate to the SSL Certificates screen for management. For more information about importing certificates, see [Importing SSL Certificates](/docs/ssl-certificates?topic=ssl-certificates-importing-ssl-certificates).
 - Before the SSL certificate expires, you can still view or update your SSL certificates on the SSL Certificates screen. For more information, see [Viewing and updating SSL certificates](/docs/ssl-certificates?topic=ssl-certificates-viewing-and-updating-ssl-certificates).
 

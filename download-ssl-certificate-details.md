@@ -2,7 +2,7 @@
 
 copyright:
   years: 2014, 2024
-lastupdated: "2024-05-17"
+lastupdated: "2024-07-17"
 
 keywords: SSL certificate details, preferred Download Option, SSL certificate download details
 
@@ -15,10 +15,10 @@ subcollection: ssl-certificates
 # Downloading SSL certificate details
 {: #downloading-ssl-certificate-details}
 
-SSL Certificate Order is deprecated. As of 15 April 2024, SSL Certificate Order is no longer available for purchase. As of 15 December 2024,  SSL Certificate Order is no longer supported for new orders or reorders. Only existing certificates that are not expired are still available for you to download, reissue, or revoke. For more information, see [Deprecation of SSL Certificates](/docs/ssl-certificates?topic=ssl-certificates-deprecation).
+SSL Certificate Order is deprecated. As of 15 April 2024, SSL Certificate Order is no longer available for purchase. As of 15 December 2024, SSL Certificate Order is no longer supported for new orders or reorders. Only existing certificates that are not expired are still available for you to download, reissue, or revoke. For more information, see [Deprecation of SSL Certificates](/docs/ssl-certificates?topic=ssl-certificates-deprecation).
 {: deprecated}
 
-After an SSL certificate is added to the {{site.data.keyword.cloud}} console, its details can be downloaded at any time. Downloads can include the certificate, key or PEM, which includes all available details that are associated with the SSL certificate. SSL certificate details are downloaded securely, so there is no risk that is associated with retrieving the details through this method.
+After an SSL certificate is added to the {{site.data.keyword.cloud}} console, its details can be downloaded at any time. Downloads can include the certificate, key, or PEM, which includes all available details that are associated with the SSL certificate. SSL certificate details are downloaded securely so that no risk is associated with retrieving the details through this method.
 {: shortdesc}
 
 To download details for the SSL certificate, complete the following steps.
@@ -37,5 +37,4 @@ To download details for the SSL certificate, complete the following steps.
 ## Next steps
 {: #ns-downloading-ssl-certificate-details}
 
-After requesting the SSL certificate details for download, they are automatically downloaded in the web browser. Select the download to open the file. The file can also be saved to your workstation for future reference; however, data for any SSL certificate present on the SSL certificates screen can be downloaded automatically at any time by repeating the previous steps.
-
+After you request the SSL certificate details for download, they are automatically downloaded in the web browser. Select the download to open the file. The file can also be saved to your workstation for future reference; however, data for any SSL certificate present on the SSL certificates screen can be downloaded automatically at any time by repeating the previous steps.
