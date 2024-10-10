@@ -37,7 +37,7 @@ To view and update an SSL certificate, complete the following steps.
 |Intermediate certificate     | Intermediate certificate details that are provided by the certificate authority. Intermediate certificates are not required. However, if the information is available for the SSL certificate, it must be entered.|
 |Certificate signing request  | Certificate signing request (CSR) details that are provided by the certificate authority. CSR details are not required, but must be provided if they are part of the certificate. **Note:** Do not change the CSR in any way. A public key can be included with the CSR and must not be replaced by the private key.|
 |Notes                        | Any notes about the SSL certificate that might be helpful to other users.|
-{: caption="Table 1. SSL certificate details" caption-side="top"}
+{: caption="SSL certificate details" caption-side="top"}
 
 ## Next steps
 {: #ns-viewing-and-updating-ssl-certificates}

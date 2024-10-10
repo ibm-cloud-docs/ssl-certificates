@@ -32,7 +32,7 @@ To download details for the SSL certificate, complete the following steps.
 | Download certificate | Downloads only the certificate portion, and does not include the private key, intermediate certificate, certificate signing request, or notes details. |
 | Download key         | Downloads only the private key, and does not include the certificate, intermediate certificate, certificate signing request, or notes details. |
 | Download PEM         | Downloads all details that are associated with the SSL certificate, including the certificate, private key, intermediate certificate, certificate signing request, and notes details. |
-{: caption="Table 1. Download options" caption-side="top"}
+{: caption="Download options" caption-side="top"}
 
 ## Next steps
 {: #ns-downloading-ssl-certificate-details}
