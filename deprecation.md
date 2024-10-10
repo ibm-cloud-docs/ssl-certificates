@@ -30,7 +30,7 @@ The following table describes the details of the deprecation, timeline, and extr
 | 15 April 2024 | End of Marketing (EOM) | SSL Certificate Order end of marketing. After this date, SSL Certificate Order is no longer available for purchase. For more information, see [Deprecation details](/docs/ssl-certificates?topic=ssl-certificates-deprecation#deprecation-details). |
 | Ongoing | Reminders | Periodic reminders are sent to remaining SSL Certificate users that the end of support date is coming.|
 | 15 December 2024 | End of Support (EOS) | SSL Certificate Order end of support. For more information, see [Deprecation details](/docs/ssl-certificates?topic=ssl-certificates-deprecation#deprecation-details). |
-{: caption="Table 1. Deprecation timeline" caption-side="bottom"}
+{: caption="Deprecation timeline" caption-side="bottom"}
 
 ## Deprecation details
 {: #deprecation-details}

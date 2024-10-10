@@ -43,7 +43,7 @@ After you decide where to get your certificate, review the following options for
 |Domain Validation (DV)                   | Quickly available                 | 1024 bit or 2048 bit       | 1 or 2 years             |
 |Organization Validation (OV)             | 2-3 days or up to a week          | 1024 bit or 2048 bit       | 1 or 2 years             |
 |Extended Validation (EV)                 | 2-3 days or up to a week          | 2048 bit only              | 1 or 2 years             |
-{: caption="Table 1. Certificate types" caption-side="top"}
+{: caption="Certificate types" caption-side="top"}
 
 
 ## Choose a common name
